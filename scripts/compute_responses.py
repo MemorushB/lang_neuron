@@ -113,6 +113,7 @@ if __name__ == "__main__":
             "The models are fetched the HuggingFace Transformers repository. "
             "The data is tokenized with the appropriate tokenization technique, "
             "and the responses are maxpooled in the temporal dimension, being "
+            "in tokyo u paper the responses are average-pooled"
             "agnostic to the sentence length. The obtained responses are saved, "
             "at batch level, as a dict `{layer_name: response_tensor}`."
         ),
@@ -181,7 +182,7 @@ if __name__ == "__main__":
     )
     #parser.add_argument("--inf-batch-size", type=int, help="Inference batch size", default=2)
     parser.add_argument("--inf-batch-size", type=int, help="Inference batch size. This should always 1. Refer to cache_responses function in response.py", default=1, choices=[1])
-    parser.add_argument("--device", type=str, help="Device to use")
+    parser.add_argument("--device", type=str, help="Device to use", default="cpu")
 
     args = parser.parse_args()
 

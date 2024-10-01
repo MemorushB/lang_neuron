@@ -21,7 +21,7 @@ MAX_LENGTH: int = 10000  # Hardcoded max length to avoid infinite loop
 EOT_TOKEN = "<|endoftext|>"
 
 
-def set_seed(seed, gpu: bool):
+def set_seed(seed, gpu: bool, mps: bool = False):
     """Set all seeds to make results reproducible (deterministic mode).
     When seed is a false-y value or not supplied, disables deterministic mode."""
     if seed:
@@ -31,6 +31,8 @@ def set_seed(seed, gpu: bool):
             torch.cuda.manual_seed_all(seed)
             torch.backends.cudnn.deterministic = True  # type: ignore
             torch.backends.cudnn.benchmark = False  # type: ignore
+        if mps:
+            torch.manual_seed(seed)
         np.random.seed(seed)
         random.seed(seed)
 
@@ -73,10 +75,11 @@ def top_k_top_p_filtering(
     return logits
 
 
-def decode_sentence(token_ids: t.Sequence[torch.Tensor], tokenizer: PreTrainedTokenizer) -> str:
-    sentence = tokenizer.decode(
-        token_ids, clean_up_tokenization_spaces=True, skip_special_tokens=True
-    )
+def decode_sentence(out_list, tokenizer):
+    print("Original out_list:", out_list)
+    valid_out_list = [token_id for token_id in out_list if 0 <= token_id < tokenizer.vocab_size]
+    print("Filtered valid_out_list:", valid_out_list)
+    sentence = tokenizer.decode(valid_out_list, skip_special_tokens=True)
     return sentence
 
 
@@ -91,8 +94,9 @@ def sample_sequence(
     tokenizer=None,
     verbose: bool = False,
 ) -> torch.Tensor:
-    # inputs = {k: v.to(device) for k, v in inputs.items()}
-    inputs = {k: v.to(torch.device('cuda', 0)) for k, v in inputs.items()}
+    if device is None:
+        device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+    inputs = {k: v.to(device) for k, v in inputs.items()}
 
     past = None
     last_token = None
@@ -106,18 +110,17 @@ def sample_sequence(
             inputs["past_key_values"] = past
             if last_token is not None:
                 inputs["input_ids"] = last_token.unsqueeze(0)
-                inputs["attention_mask"] = torch.cat((inputs["attention_mask"], torch.tensor([1]).unsqueeze(-1).to(torch.device('cuda', 0))), dim=1)#device=device)
+                inputs["attention_mask"] = torch.cat((inputs["attention_mask"], torch.tensor([1]).unsqueeze(-1).to(device)), dim=1)
 
             # Run inference
             outputs = model(**inputs)
             past = outputs.past_key_values
             if temperature == 0.0:
-	            next_token_logits = outputs.logits[0, -1, :]
-	            last_token = torch.argmax(next_token_logits.float(), dim=-1).unsqueeze(-1)
+                next_token_logits = outputs.logits[0, -1, :]
+                last_token = torch.argmax(next_token_logits.float(), dim=-1).unsqueeze(-1)
             else:
-	            next_token_logits = outputs.logits[0, -1, :] / temperature
-	            # filtered_logits = top_k_top_p_filtering(next_token_logits, top_k=top_k, top_p=top_p)
-	            last_token = torch.multinomial(F.softmax(next_token_logits.float(), dim=-1), num_samples=1)
+                next_token_logits = outputs.logits[0, -1, :] / temperature
+                last_token = torch.multinomial(F.softmax(next_token_logits.float(), dim=-1), num_samples=1)
             generated = torch.cat((generated, last_token.unsqueeze(0).cpu()), dim=1)
 
             if i % 3 == 0 and tokenizer is not None and verbose:
@@ -148,6 +151,9 @@ def perplexity(
         mean and std of the perplexity of ``sentences``
 
     """
+    if device is None:
+        device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+
     # calculate perplexity
     with torch.no_grad():
         ppl = []
@@ -156,7 +162,7 @@ def perplexity(
             full_tensor_input = tokenizer.encode(
                 sos_token + sentence.replace(EOT_TOKEN, " ").strip(),
                 return_tensors="pt",
-            ).to(torch.device('cuda', 0))
+            ).to(device)
             full_loss = model(full_tensor_input, labels=full_tensor_input)[0].mean()
             ppl.append(torch.exp(full_loss).flatten().cpu().item())
     return float(np.mean(ppl)), float(np.std(ppl))

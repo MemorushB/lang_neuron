@@ -150,10 +150,15 @@ class TorchModel:
         # batch_size of 2 in case of batchnorm
         fixed_shaped_list: t.List[int] = [2]
 
+        if torch.backends.mps.is_available():
+            device = torch.device("mps")
+        else:
+            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
         x = {
             input_name: torch.rand(tuple(fixed_shaped_list + [*self._input_size[input_name]]))
             .type(self._input_types[input_name])
-            .to(torch.device('cuda', 0))
+            .to(device)
             for input_name in arg_names
         }
 
@@ -244,8 +249,11 @@ class TorchModel:
         a_key = list(inputs.keys())[0]
         torch_inputs: t.MutableMapping[str, torch.Tensor] = {}
         if isinstance(inputs[a_key][0], torch.Tensor):
-            #torch_inputs = {k: v.to(device=self._device) for k, v in inputs.items()}
-            torch_inputs = {k: v.to(torch.device('cuda', 0)) for k, v in inputs.items()}
+            if torch.backends.mps.is_available():
+                device = torch.device("mps")
+            else:
+                device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            torch_inputs = {k: v.to(device) for k, v in inputs.items()}
 
         response_dict: t.Dict[str, t.Any] = {}
 
@@ -389,10 +397,11 @@ def transformers_class_from_name(
 
     """
     try:
-        free_in_GB = int(torch.cuda.mem_get_info()[0] / 1024**3)
-        max_memory = f"{free_in_GB-2}GB"
-        n_gpus = torch.cuda.device_count()
-        max_memory = {i: max_memory for i in range(n_gpus)}
+        if torch.backends.mps.is_available():
+            device = torch.device("mps")
+        else:
+            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
         if rand_weights:
             config = AutoConfig.from_pretrained(model_name)
             m = AutoModelForPreTraining.from_config(config)
@@ -400,34 +409,18 @@ def transformers_class_from_name(
             if 'Llama-2' in model_name:
                 m = AutoModelForCausalLM.from_pretrained(model_name,
                                                          trust_remote_code=True,
-                                                         #load_in_8bit=True,
-                                                         #torch_dtype=torch.float16,
-                                                         #offload_folder="offload",
                                                          cache_dir=cache_dir,
                                                          device_map="auto"
-                                                         )
+                                                         ).to(device)
             elif 'xglm' in model_name:
                 m = XGLMForCausalLM.from_pretrained(model_name, 
-                                                    #trust_remote_code=True,
-                                                    #load_in_8bit=True,
-                                                    #torch_dtype=torch.float16,
-                                                    #offload_folder="offload",
-                                                    cache_dir=cache_dir, 
-                                                    #device_map="auto",
-                                                    #device_map = 0,
-                                                   ).to("cuda")
+                                                    cache_dir=cache_dir
+                                                   ).to(device)
             elif 'bloom' in model_name:
                 m = BloomForCausalLM.from_pretrained(model_name, 
-                                                     #trust_remote_code=True,
-                                                     #load_in_8bit=True,
-                                                     #torch_dtype=torch.float16,
-                                                     #offload_folder="offload",
-                                                     cache_dir=cache_dir, 
-                                                     #device_map="auto",
-                                                     #device_map = 0,
-                                                    ).to("cuda")
+                                                     cache_dir=cache_dir
+                                                    ).to(device)
             else:
-                #m = AutoModelForPreTraining.from_pretrained(model_name, cache_dir=cache_dir, device_map="auto")
                 raise ValueError("error! model_name is not properly defined.")
             
             try:
