@@ -33,13 +33,14 @@ echo ${translation_task}
 echo ${prompt_format_id_for_translation}
 
 # LOGIN CONDA VENV
-source ~/.bashrc
+source ~/.bash_profile
 conda activate lang_neuron
 
 # MODULE LOAD
-module load gcc/8.3.1 gcc/8.5.0 cuda/11.7/11.7.1 cudnn/8.8/8.8.1
+`module load gcc/8.3.1 gcc/8.5.0 cuda/11.7/11.7.1 cudnn/8.8/8.8.1`
 
 # Path setting
+export PYTHONPATH="/Users/runsheng/Documents/Master Thesis/lang_neuron/selfcond:$PYTHONPATH"
 model_path="set_appropriate_path_1/"
 base_path="set_appropriate_path_2/"
 

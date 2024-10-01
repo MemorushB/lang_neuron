@@ -8,3 +8,8 @@ selfcond/.ipynb_checkpoints/
 *.ipynb
 main_test_env.sh
 text_*.txt
+*.pkl
+set_appropriate_path_2/
+path_to_save_responses/
+datasets/
+.DS_Store
