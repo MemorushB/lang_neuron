@@ -34,6 +34,7 @@ echo ${prompt_format_id_for_translation}
 
 # LOGIN CONDA VENV
 source ~/.bash_profile
+conda init
 conda activate lang_neuron
 
 # MODULE LOAD
@@ -41,8 +42,8 @@ conda activate lang_neuron
 
 # Path setting
 export PYTHONPATH="/Users/runsheng/Documents/Master Thesis/lang_neuron/selfcond:$PYTHONPATH"
-model_path="set_appropriate_path_1/"
-base_path="set_appropriate_path_2/"
+model_path="models/"
+base_path="mid_output/"
 
 # BOS setting
 # xglms: </s> is automatically set.

@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def make_limited_expert(model_name, language, threshold, base_path='/Users/runsheng/Documents/Master Thesis/lang_neuron/set_appropriate_path_2/Language/'):
+def make_limited_expert(model_name, language, threshold, base_path='mid_output/Relation/'):
 
     # file name
     top_file = f'{base_path}{model_name}/sense/{language}/expertise/expertise_limited_{int(threshold/2)}_top.csv'
