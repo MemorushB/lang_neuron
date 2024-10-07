@@ -189,7 +189,7 @@ if __name__ == "__main__":
     )
     #parser.add_argument("--inf-batch-size", type=int, help="Inference batch size", default=2)
     parser.add_argument("--inf-batch-size", type=int, help="Inference batch size. This should always 1. Refer to cache_responses function in response.py", default=1, choices=[1])
-    parser.add_argument("--device", type=str, help="Device to use", default="cpu", choices=["cuda", "cpu"])
+    parser.add_argument("--device", type=str, help="Device to use", default="cuda", choices=["cuda", "cpu"])
 
     args = parser.parse_args()
 

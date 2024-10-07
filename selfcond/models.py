@@ -82,7 +82,7 @@ class TorchModel:
         if device is not None:
             self._device = torch.device(device)
         else:
-            self._device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            self._device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
         # Move the model to the specified device
         self._pytorch_module = module.to(self._device).eval()
@@ -149,7 +149,7 @@ class TorchModel:
         # batch_size of 2 in case of batchnorm
         fixed_shaped_list: t.List[int] = [2]
 
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
         x = {
             input_name: torch.rand(tuple(fixed_shaped_list + [*self._input_size[input_name]]))
@@ -264,7 +264,7 @@ class TorchModel:
         a_key = list(inputs.keys())[0]
         torch_inputs: t.MutableMapping[str, torch.Tensor] = {}
         if isinstance(inputs[a_key][0], torch.Tensor):
-            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
             torch_inputs = {k: v.to(device) for k, v in inputs.items()}
 
         response_dict: t.Dict[str, t.Any] = {}
@@ -403,7 +403,7 @@ def transformers_class_from_name(
 
     """
     try:
-        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
         if rand_weights:
             config = AutoConfig.from_pretrained(model_name)
