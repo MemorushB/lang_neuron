@@ -6,6 +6,7 @@
 import pathlib
 import pickle
 import typing as t
+import logging
 
 import numpy as np
 import torch
@@ -20,6 +21,8 @@ from selfcond.models import (
     LABELS_FIELD,
 )
 
+# Replace print statements with logging
+logging.basicConfig(level=logging.INFO)
 
 def save_batch(batch: t.Dict[str, np.ndarray], batch_index: int, save_path: pathlib.Path) -> None:
     with (save_path / f"{batch_index:05d}.pkl").open("wb") as fp:
@@ -44,6 +47,7 @@ def cache_responses(
         batch_size: The inference batch size.
         save_path: Where to save the responses.
     """
+    assert batch_size == 1, "Batch size should always be 1."
 
     def _concatenate_data(x):
         new_batch = dict()
@@ -62,55 +66,32 @@ def cache_responses(
     )
     for i, batch in tqdm(enumerate(data_loader), desc="Caching inference"):
         input_batch = {k: v for k, v in batch.items() if k in MODEL_INPUT_FIELDS}
-        # Added 2023/10/06
-        # As a premise, batch size should always be 1.
-        print("========test========")
+        
         num_effective_token = torch.sum(input_batch["attention_mask"][0])
         num_effective_token = num_effective_token.detach().cpu().item()
-        print(num_effective_token)
-        print(input_batch["attention_mask"].shape)
-        print(input_batch["input_ids"].shape)
+        
         input_batch["attention_mask"] = input_batch["attention_mask"][:, :num_effective_token]
         input_batch["input_ids"] = input_batch["input_ids"][:, :num_effective_token]
-        print(input_batch["attention_mask"].shape)
-        print(input_batch["input_ids"].shape)
-        # Until here
         
-        # Modified 2024/10/07
-        # Added keyword check for the input_ids
         generated_texts = model.generate_output(inputs=input_batch)
+        keywords = batch['keywords']
         
-        # Get the corresponding keywords
-        keywords = batch['keywords']  # List of keywords
+        should_save = [keyword.lower() in text.lower() for text, keyword in zip(generated_texts, keywords)]
         
-        # Check if generated texts contain the keywords
-        should_save = []
-        for text, keyword in zip(generated_texts, keywords):
-            if keyword.lower() in text.lower():
-                should_save.append(True)
-            else:
-                should_save.append(False)
-                
-        # If none of the outputs contain the keyword, skip saving
         if not any(should_save):
             continue
         
-        # Run inference to get responses
         response_batch = model.run_inference(
             inputs=input_batch, outputs={ri.name for ri in response_infos}
         )
         
-        # Filter the responses based on should_save
         for key in response_batch.keys():
             response_batch[key] = response_batch[key][should_save]
             
-        # Filter labels if needed
         if LABELS_FIELD in batch:
             response_batch[LABELS_FIELD] = batch[LABELS_FIELD][should_save].detach().cpu().numpy()
             
-        # Save the filtered batch
         save_batch(batch=response_batch, batch_index=i, save_path=save_path)
-        
         
 
 
