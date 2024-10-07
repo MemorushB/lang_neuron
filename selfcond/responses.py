@@ -75,13 +75,43 @@ def cache_responses(
         print(input_batch["attention_mask"].shape)
         print(input_batch["input_ids"].shape)
         # Until here
+        
+        # Modified 2024/10/07
+        # Added keyword check for the input_ids
+        generated_texts = model.generate_output(inputs=input_batch)
+        
+        # Get the corresponding keywords
+        keywords = batch['keywords']  # List of keywords
+        
+        # Check if generated texts contain the keywords
+        should_save = []
+        for text, keyword in zip(generated_texts, keywords):
+            if keyword.lower() in text.lower():
+                should_save.append(True)
+            else:
+                should_save.append(False)
+                
+        # If none of the outputs contain the keyword, skip saving
+        if not any(should_save):
+            continue
+        
+        # Run inference to get responses
         response_batch = model.run_inference(
             inputs=input_batch, outputs={ri.name for ri in response_infos}
         )
-        for process_fn in process_fn_list:
-            response_batch = process_fn(response_batch)
-        response_batch[LABELS_FIELD] = batch[LABELS_FIELD].detach().cpu().numpy()
+        
+        # Filter the responses based on should_save
+        for key in response_batch.keys():
+            response_batch[key] = response_batch[key][should_save]
+            
+        # Filter labels if needed
+        if LABELS_FIELD in batch:
+            response_batch[LABELS_FIELD] = batch[LABELS_FIELD][should_save].detach().cpu().numpy()
+            
+        # Save the filtered batch
         save_batch(batch=response_batch, batch_index=i, save_path=save_path)
+        
+        
 
 
 def read_responses_from_cached(

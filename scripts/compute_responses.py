@@ -86,13 +86,20 @@ def compute_and_save_responses(
     save_path.mkdir(parents=True, exist_ok=True)
 
     # Load the model
+    # Initialize the model with the specified parameters
     tm_model = PytorchTransformersModel(
-        model_name, seq_len=dataset.seq_len, cache_dir=model_cache_dir, device=device
+        model_name=model_name,
+        seq_len=dataset.seq_len,
+        cache_dir=model_cache_dir,
+        device=device,
+        tokenizer=tokenizer._tokenizer,  # Pass the underlying tokenizer
     )
     
     # Select responses
     responses_info_interm = collect_responses_info(model_name=model_name, model=tm_model)
 
+    # A temporary print statement to check the methods available in the PytorchTransformersModel instance.
+    print("Available methods in tm_model:", dir(tm_model))
     # Construct a response generator
     cache_responses(
         model=tm_model,
@@ -178,11 +185,11 @@ if __name__ == "__main__":
         "--num-per-concept",
         type=int,
         help="Max number of sentences per concept, per label",
-        default=10000,
+        default=50000,
     )
     #parser.add_argument("--inf-batch-size", type=int, help="Inference batch size", default=2)
     parser.add_argument("--inf-batch-size", type=int, help="Inference batch size. This should always 1. Refer to cache_responses function in response.py", default=1, choices=[1])
-    parser.add_argument("--device", type=str, help="Device to use", default="cpu")
+    parser.add_argument("--device", type=str, help="Device to use", default="cpu", choices=["cuda", "cpu"])
 
     args = parser.parse_args()
 

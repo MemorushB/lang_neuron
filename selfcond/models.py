@@ -64,7 +64,7 @@ class TorchModel:
         input_type: t.Mapping[str, torch.dtype],
         name: str,
         device: str = None,
-
+        tokenizer=None,  # Add tokenizer parameter
     ) -> None:
         """
         Wraps a pytorch module to enable reading intermediate responses.
@@ -75,18 +75,17 @@ class TorchModel:
             name: The model name according to Huggingface Transformers.
             device: A string that indicates where the model should run (cpu, cuda:0, etc...)
         """
+        self.tokenizer = tokenizer  # Store the tokenizer
         self.name = name
-        """
-        device = accelerator.device
-        self._device = device
-        if device is None:
-            self._device = "cuda:0" if torch.cuda.is_available() else "cpu"
-        
-        print(f"Model to {self._device}")
-        """
-        # self._pytorch_module = module.to(self._device).float().eval()
-        # self._pytorch_module = module.float().eval()
-        self._pytorch_module = module.eval()
+
+        # Set the device
+        if device is not None:
+            self._device = torch.device(device)
+        else:
+            self._device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+        # Move the model to the specified device
+        self._pytorch_module = module.to(self._device).eval()
 
         if set(input_size.keys()) != set(input_type.keys()):
             raise RuntimeError(
@@ -150,10 +149,7 @@ class TorchModel:
         # batch_size of 2 in case of batchnorm
         fixed_shaped_list: t.List[int] = [2]
 
-        if torch.backends.mps.is_available():
-            device = torch.device("mps")
-        else:
-            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         x = {
             input_name: torch.rand(tuple(fixed_shaped_list + [*self._input_size[input_name]]))
@@ -165,6 +161,27 @@ class TorchModel:
         # make a forward pass
         with torch.no_grad():  # type: ignore
             self._pytorch_module(**x)
+        
+    def generate_output(self, inputs: t.Mapping[str, torch.Tensor], max_length: int = None) -> t.List[str]:
+        # Move inputs to the correct device
+        torch_inputs = {k: v.to(self._device) for k, v in inputs.items()}
+
+        # Prepare input IDs and attention mask
+        input_ids = torch_inputs['input_ids']
+        attention_mask = torch_inputs.get('attention_mask', None)
+
+        # Generate outputs
+        with torch.no_grad():
+            generated_ids = self._pytorch_module.generate(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                max_length=max_length or input_ids.shape[1] + 50,
+                do_sample=False
+            )
+
+        # Decode outputs
+        generated_texts = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+        return generated_texts
 
     def get_response_infos(self) -> t.Iterable[ResponseInfo]:
         """
@@ -187,10 +204,8 @@ class TorchModel:
         def forward_hook(module, input, output):
             # Modify the output of the layer.
             if only_last_token:
-                # output[:, -1, units] = values.to(output.device)
                 output[:, -1, units] = values.to(output.device)
             else:
-                #output[:, :, units] = values.to(output.device)
                 output[:, :, units] = values.to(output.device)
             return output
 
@@ -249,10 +264,7 @@ class TorchModel:
         a_key = list(inputs.keys())[0]
         torch_inputs: t.MutableMapping[str, torch.Tensor] = {}
         if isinstance(inputs[a_key][0], torch.Tensor):
-            if torch.backends.mps.is_available():
-                device = torch.device("mps")
-            else:
-                device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
             torch_inputs = {k: v.to(device) for k, v in inputs.items()}
 
         response_dict: t.Dict[str, t.Any] = {}
@@ -317,27 +329,21 @@ class PytorchTransformersModel(TorchModel):
         cache_dir: t.Optional[pathlib.Path],
         seq_len: int,
         device: str = None,
-        #clm: str = False,
-        #bit: str = False,
+        tokenizer=None,
     ) -> None:
-        """
-        Loads a HuggingFace Transformers given its name.
+        # Load the model
+        config = AutoConfig.from_pretrained(model_name, cache_dir=cache_dir)
+        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, cache_dir=cache_dir)
 
-        Args:
-            model_name: The model name
-            cache_dir: Local dir where the model is fetched/saved
-            seq_len: Input sequence length considered.
-        """
-        torch_model = transformers_class_from_name(model_name, cache_dir=cache_dir) #, clm=clm, bit=bit)
-        #torch_model = accelerator.prepare(torch_model)
+        # Initialize the parent class
         super().__init__(
-            module=torch_model,
-            input_size={input_name: (seq_len,) for input_name in MODEL_INPUT_FIELDS},
-            input_type={input_name: torch.long for input_name in MODEL_INPUT_FIELDS},
+            module=model,
+            input_size={"input_ids": (seq_len,), "attention_mask": (seq_len,)},
+            input_type={"input_ids": torch.long, "attention_mask": torch.long},
             name=model_name,
             device=device,
+            tokenizer=tokenizer,
         )
-
 
 def transformers_model_name_to_family(model_name: str) -> str:
     """
@@ -397,10 +403,7 @@ def transformers_class_from_name(
 
     """
     try:
-        if torch.backends.mps.is_available():
-            device = torch.device("mps")
-        else:
-            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
         if rand_weights:
             config = AutoConfig.from_pretrained(model_name)

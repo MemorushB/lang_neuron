@@ -172,6 +172,24 @@ class PytorchTransformersTokenizer:
     @property
     def model_name(self) -> str:
         return self._model_name
+    
+    def batch_decode(self, sequences, skip_special_tokens=True, **kwargs):
+        """
+        Decodes a list of token ID sequences back into text strings.
+
+        Args:
+            sequences: List of token ID sequences.
+            skip_special_tokens: Whether to remove special tokens during decoding.
+            **kwargs: Additional keyword arguments for the tokenizer's batch_decode method.
+
+        Returns:
+            List of decoded text strings.
+        """
+        return self._tokenizer.batch_decode(
+            sequences,
+            skip_special_tokens=skip_special_tokens,
+            **kwargs
+        )
 
 
 class DatasetForSeqModels(Dataset):
@@ -187,16 +205,6 @@ class DatasetForSeqModels(Dataset):
         num_per_concept: int = None,
         random_seed: int = None,
     ) -> None:
-        """
-        A dataset of sentences for sequence models. Data can be accessed as a dictionary using the self.data property.
-
-        Args:
-            path: Path to data, duly formatted. The loading of the data is to be implemented in self._load_data()
-            seq_len: Sequence length to be considered. Longer sentences are dropped.
-            tokenizer: The `PytorchTransformersTokenizer` to be used.
-            num_per_concept: Number of sentences per concept to consider, randomly sampled.
-            random_seed: Random seed.
-        """
         super().__init__()
         self._data: Dict[str, List] = {}
         self._model_input_fields: List[str] = []
@@ -204,31 +212,32 @@ class DatasetForSeqModels(Dataset):
         self._num_per_concept = num_per_concept
         self._tokenizer = tokenizer
 
-        unprocessed_data, self._labels = self._load_data(
+        # Modify to unpack keywords
+        unprocessed_data, self._labels, self._keywords = self._load_data(
             path=path,
             seq_len=seq_len,
             random_seed=random_seed,
             num_per_concept=num_per_concept,
         )
 
-        # Preprocess data (tokenize, basically)
+        # Preprocess data (tokenize)
         preprocessed_named_data = self._tokenizer.preprocess_dataset(
             sentence_list=unprocessed_data,
             min_num_tokens=self.seq_len,
         )
 
-        # self._model_input_fields = list(preprocessed_data.keys())
         self._model_input_fields = list(preprocessed_named_data.keys())
 
-        # Add all the data of interest to the main data structure
-        self._data["data"] = unprocessed_data  # ndarray
-        self._data["labels"] = self._labels
-        self._data.update(preprocessed_named_data)  # Lists of ints
+        # Add all the data to the main data structure
+        self._data["data"] = unprocessed_data  # List[str]
+        self._data["labels"] = self._labels    # List[int]
+        self._data["keywords"] = self._keywords  # List[str] (new field)
+        self._data.update(preprocessed_named_data)  # Dict[str, List]
 
-        # Remove too long sequences
+        # Remove sequences that are too long
         self._remove_too_long_data()
 
-        # Check that the main data structure is well formed
+        # Verify data integrity
         self._verify_data_integrity()
 
     def __str__(self) -> str:
@@ -297,7 +306,7 @@ class DatasetForSeqModels(Dataset):
 
     def __getitem__(self, idx):
         batch_data = {k: self.data[k][idx] for k in self.data.keys()}
-        return batch_data
+        return batch_data  # This now includes 'keywords'
 
 
 class ConceptDataset(DatasetForSeqModels):
@@ -351,34 +360,44 @@ class ConceptDataset(DatasetForSeqModels):
         seq_len: int = 1000,
         num_per_concept: int = None,
         random_seed: int = None,
-    ) -> Tuple[List[str], List[int]]:
+    ) -> Tuple[List[str], List[int], List[str]]:
         random_state = np.random.RandomState(random_seed)
 
         label_map = {"positive": 1, "negative": 0}
 
-        with path.open("r") as fp:
+        with path.open("r", encoding='utf-8') as fp:
             json_data = json.load(fp)
 
         json_sentences = json_data["sentences"]
 
-        # for TEXT
-        #json_sentences = {d:json_sentences[d][:1] for d in json_sentences}
-        
         unique_labels = sorted(list(json_sentences.keys()))
 
-        # Reduce amount of data to required.
+        # Initialize lists to store sentences, labels, and keywords
         sentences: List[str] = []
         labels: List[int] = []
+        keywords: List[str] = []
+
+        # Iterate over each label (positive/negative)
         for label in unique_labels:
-            if num_per_concept is not None and num_per_concept < len(json_sentences[label]):
-                idx = random_state.choice(
-                    len(json_sentences[label]), num_per_concept, replace=False
-                )
+            data_list = json_sentences[label]
+            if num_per_concept is not None and num_per_concept < len(data_list):
+                idx = random_state.choice(len(data_list), num_per_concept, replace=False)
             else:
-                idx = np.arange(len(json_sentences[label]))
-            sentences += [json_sentences[label][i] for i in idx]
-            labels += [label_map[label]] * len(idx)
-        return sentences, labels
+                idx = np.arange(len(data_list))
+
+            for i in idx:
+                data_item = data_list[i]
+                if isinstance(data_item, dict):
+                    sentence = data_item['sentence']
+                    keyword = data_item.get('keyword', self._concept)
+                else:
+                    sentence = data_item
+                    keyword = self._concept  # Default to concept if keyword not provided
+                sentences.append(sentence)
+                labels.append(label_map[label])
+                keywords.append(keyword)
+
+        return sentences, labels, keywords
 
     @property
     def concept(self) -> str:
