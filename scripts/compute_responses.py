@@ -18,6 +18,7 @@ from selfcond.data import (
 )
 from selfcond.responses import cache_responses
 from selfcond.models import collect_responses_info, PytorchTransformersModel
+from transformers import AutoTokenizer
 
 logging.basicConfig(level=logging.WARNING)
 
@@ -28,7 +29,7 @@ def compute_and_save_responses(
     data_path: pathlib.Path,
     concept_group: str,
     concept: str,
-    tokenizer: PytorchTransformersTokenizer,
+    tokenizer: AutoTokenizer,
     batch_size: int,
     response_save_path: pathlib.Path,
     num_per_concept: int,
@@ -57,12 +58,11 @@ def compute_and_save_responses(
     model_short_name = model_name.rstrip("/").split("/")[-1]
     local_data_file = data_path / concept_group / f"{concept}.json"
     if not local_data_file.exists():
-        print(f"Skipping {local_data_file}, file not found.")
+        logging.warning(f"Skipping {local_data_file}, file not found.")
         return
 
     if (response_save_path / model_short_name / concept_group / concept / "responses").exists():
-        print(response_save_path / model_short_name / concept_group / concept / "responses")
-        print(f"Skipping, already computed responses {local_data_file}")
+        logging.warning(f"Skipping, already computed responses {local_data_file}")
         return
 
     random_seed = 1234
@@ -77,11 +77,11 @@ def compute_and_save_responses(
 
     save_path = response_save_path / model_short_name / dataset.concept_group / dataset.concept
     if (save_path / "responses").exists():
-        print(f"Skipping {dataset.concept_group}/{dataset.concept}")
+        logging.warning(f"Skipping {dataset.concept_group}/{dataset.concept}")
         return
 
     if verbose:
-        print(dataset, flush=True)
+        logging.info(dataset)
 
     save_path.mkdir(parents=True, exist_ok=True)
 
@@ -92,14 +92,14 @@ def compute_and_save_responses(
         seq_len=dataset.seq_len,
         cache_dir=model_cache_dir,
         device=device,
-        tokenizer=tokenizer._tokenizer,  # Pass the underlying tokenizer
+        tokenizer=tokenizer,
     )
     
     # Select responses
     responses_info_interm = collect_responses_info(model_name=model_name, model=tm_model)
 
-    # A temporary print statement to check the methods available in the PytorchTransformersModel instance.
-    print("Available methods in tm_model:", dir(tm_model))
+    logging.info("Available methods in tm_model: %s", dir(tm_model))
+    
     # Construct a response generator
     cache_responses(
         model=tm_model,
@@ -212,7 +212,7 @@ if __name__ == "__main__":
     concept_df = concept_list_to_df(concepts_requested)
 
     # Load a tokenizer for sentence pre-processing
-    tokenizer = PytorchTransformersTokenizer(args.model_name_or_path, tok_cache)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, cache_dir=tok_cache)
 
     # Read responses for all concepts in concept_df
     print("TEST")

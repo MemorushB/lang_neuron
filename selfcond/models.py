@@ -12,7 +12,7 @@ import torch
 from torch import nn
 from torch.utils.hooks import RemovableHandle
 from dataclasses import dataclass
-from transformers import AutoModelForCausalLM, AutoModelForPreTraining, AutoConfig, LlamaForCausalLM, XGLMForCausalLM, BloomForCausalLM
+from transformers import AutoModelForCausalLM, AutoModelForPreTraining, AutoConfig, LlamaForCausalLM, XGLMForCausalLM, BloomForCausalLM, AutoTokenizer
 
 MODEL_INPUT_FIELDS = ["input_ids", "attention_mask"]
 LABELS_FIELD = "labels"
@@ -331,18 +331,13 @@ class PytorchTransformersModel(TorchModel):
         device: str = None,
         tokenizer=None,
     ) -> None:
-        # Load the model
-        config = AutoConfig.from_pretrained(model_name, cache_dir=cache_dir)
-        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, cache_dir=cache_dir)
-
-        # Initialize the parent class
         super().__init__(
-            module=model,
+            module=transformers_class_from_name(model_name, cache_dir),
             input_size={"input_ids": (seq_len,), "attention_mask": (seq_len,)},
             input_type={"input_ids": torch.long, "attention_mask": torch.long},
             name=model_name,
             device=device,
-            tokenizer=tokenizer,
+            tokenizer=tokenizer or AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir),
         )
 
 def transformers_model_name_to_family(model_name: str) -> str:
