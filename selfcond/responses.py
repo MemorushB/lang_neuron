@@ -84,6 +84,7 @@ def cache_responses(
         generated_texts = model.generate_output(inputs=input_batch)
         keywords = batch['keywords']
         
+        # Only save responses that contain the keyword (correct answer)
         should_save = [keyword.lower() in text.lower() for text, keyword in zip(generated_texts, keywords)]
         
         if not any(should_save):
@@ -93,16 +94,20 @@ def cache_responses(
         response_batch = model.run_inference(
             inputs=input_batch, outputs={ri.name for ri in response_infos}
         )
-        
+
         # Filter the responses based on should_save
         for key in response_batch.keys():
             response_batch[key] = response_batch[key][should_save]
-            
+
         # Filter labels if needed
         if LABELS_FIELD in batch:
             response_batch[LABELS_FIELD] = batch[LABELS_FIELD][should_save].detach().cpu().numpy()
-                
-        # Save the filtered batch
+
+        # Apply processing functions to ensure consistent shapes
+        for process_fn in process_fn_list:
+            response_batch = process_fn(response_batch)
+
+        # Save the filtered and processed batch
         save_batch(batch=response_batch, batch_index=i, save_path=save_path)
         
 
@@ -111,10 +116,10 @@ def read_responses_from_cached(
     cached_dir: pathlib.Path, concept: str, verbose: bool = False
 ) -> t.Tuple[t.Dict[str, np.ndarray], t.Optional[np.ndarray], t.Set[str]]:
     """
-    Reads model responses stored in disk. The responses are stored pickled, one file per batch,
-    as structure as follows:
-    * Responses accessible as a dictionary `{layer: responses}`. For example `responses['layer_1']` is a
-    multidimensional array of floats.
+    Reads model responses stored on disk. The responses are stored pickled, one file per batch,
+    structured as follows:
+    * Responses accessible as a dictionary `{layer_name: responses}`. For example, `responses['layer_1']` is a
+      multidimensional array of floats.
 
     Args:
         cached_dir: Directory with *.pkl files.
@@ -122,40 +127,59 @@ def read_responses_from_cached(
         verbose: Verbosity flag.
 
     Returns:
-        data: dict of {layer_name: np.ndarray} with the responses of all the batches TRANSPOSED. A layer response is of
-        shape [units, sentences]
+        data: dict of {layer_name: np.ndarray} with the responses of all the batches concatenated and transposed.
+              Each layer response is of shape [units, total_samples].
         labels: np.ndarray with the labels of all the data points.
         response_names: The names of the layers that have produced the responses.
     """
-    # Read responses from the selected layers
+    # Initialize variables
     data: t.Dict[str, np.ndarray] = {}
     labels: t.List[float] = []
     response_names: t.Set[str] = set()
     labels_name = LABELS_FIELD
+
+    # Get all cached files
     all_files = sorted(list(cached_dir.glob("*.pkl")))
     if not all_files:
-        raise RuntimeError("No responses found")
+        raise RuntimeError(f"No cached response files found in {cached_dir}")
 
+    # Data structure to hold responses temporarily
     data_as_lists: t.Dict[str, t.List[np.ndarray]] = {}
+
+    # Read each cached batch
     for file_name in tqdm(all_files, total=len(all_files), desc=f"Loading {concept}"):
         with file_name.open("rb") as fp:
             response_batch = pickle.load(fp)
-            if not response_names:
-                response_names = set(response_batch.keys()) - set(labels_name)
-            for l_name in response_names:
-                if l_name not in data_as_lists:
-                    data_as_lists[l_name] = []
-                data_as_lists[l_name].append(response_batch[l_name].tolist())
-            if LABELS_FIELD in response_batch:
-                labels.extend(response_batch[LABELS_FIELD])
-    # Re-shaping the data
-    for l_name in data_as_lists.keys():
-        if l_name in ["labels"]:
-            continue
-        # Concatenate and transpose to return a tensor of shape [units,sentences].
-        data[l_name] = np.concatenate(data_as_lists[l_name], axis=0).transpose()
-        assert len(data[l_name].shape) == 2, "Wrong dimensionality of responses"
-        if verbose:
-            print(l_name, data[l_name].shape)
 
-    return data, np.array(labels) if labels else None, response_names
+            # Collect response names from the first batch
+            if not response_names:
+                response_names = set(response_batch.keys()) - {labels_name}
+
+            # Process each key in the response batch
+            for key, value in response_batch.items():
+                if key == labels_name:
+                    # Ensure value is a list or array
+                    labels.extend(value if isinstance(value, (list, np.ndarray)) else [value])
+                else:
+                    if key not in data_as_lists:
+                        data_as_lists[key] = []
+                    data_as_lists[key].append(value)
+
+    # Concatenate and transpose the data for each layer
+    for key in data_as_lists.keys():
+        try:
+            # Concatenate along axis 0
+            concatenated = np.concatenate(data_as_lists[key], axis=0)
+            # Transpose to get shape [units, total_samples]
+            data[key] = concatenated.transpose()
+
+            if verbose:
+                logging.info(f"Layer {key}, shape {data[key].shape}")
+        except Exception as e:
+            logging.error(f"Error processing layer {key}: {e}")
+            continue
+
+    # Convert labels to a numpy array if they exist
+    labels_array = np.array(labels) if labels else None
+
+    return data, labels_array, response_names

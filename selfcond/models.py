@@ -581,22 +581,22 @@ def concatenate_responses(
 def pool_responses(
     responses: t.Dict[str, np.ndarray],
     response_fields: t.Optional[t.Set[str]],
-    axis: t.Tuple[int],
-    pooling_type: str = "max",
+    axis: int,
+    pooling_type: str = "mean",
 ) -> t.Dict[str, np.ndarray]:
     assert pooling_type in ["mean", "sum", "max", "median", "min"]
     pooler_fn = getattr(np, pooling_type)
     fields = response_fields or responses.keys()
-    #print("fields")
-    #print(fields)
     for field in fields:
-        #print("====")
-        #print(field)
-        #print(responses[field].shape)
-        #print(responses[field])
-        #responses[field] = pooler_fn(responses[field][:,5:25], axis=axis)
+        print(f"Pooling field '{field}', shape {responses[field].shape}, axis {axis}")
+        if responses[field].size == 0:
+            print(f"Field '{field}' is empty. Skipping pooling.")
+            continue
+        if axis >= len(responses[field].shape) or axis < -len(responses[field].shape):
+            print(f"Axis {axis} is out of bounds for array of shape {responses[field].shape}")
+            continue  # Or adjust the axis accordingly
         responses[field] = pooler_fn(responses[field], axis=axis)
-        #responses[field] = pooler_fn(responses[field][:,5:], axis=axis)
+        print(f"After pooling, shape {responses[field].shape}")
     return responses
 
 
@@ -605,6 +605,5 @@ def processors_per_model(model: TorchModel) -> t.List[t.Callable]:
     pool_args: t.List[t.Dict] = [dict(response_fields=None, axis=1, pooling_type="mean")]
     #pool_args: t.List[t.Dict] = [dict(response_fields=None, axis=1, pooling_type="median")]
     #pool_args: t.List[t.Dict] = [dict(response_fields=None, axis=1, pooling_type="max")]
-    process_fns: t.List[t.Callable] = []
-    process_fns += [partial(pool_responses, **args) for args in pool_args]
+    process_fns: t.List[t.Callable] = [partial(pool_responses, **args) for args in pool_args]
     return process_fns

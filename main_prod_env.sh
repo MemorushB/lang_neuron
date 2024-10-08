@@ -34,7 +34,6 @@ echo ${prompt_format_id_for_translation}
 
 # LOGIN CONDA VENV
 source ~/.bash_profile
-conda init
 conda activate lang_neuron
 
 # MODULE LOAD
