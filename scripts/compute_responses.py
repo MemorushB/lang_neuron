@@ -18,7 +18,6 @@ from selfcond.data import (
 )
 from selfcond.responses import cache_responses
 from selfcond.models import collect_responses_info, PytorchTransformersModel
-from transformers import AutoTokenizer
 
 logging.basicConfig(level=logging.WARNING)
 
@@ -29,7 +28,7 @@ def compute_and_save_responses(
     data_path: pathlib.Path,
     concept_group: str,
     concept: str,
-    tokenizer: AutoTokenizer,
+    tokenizer: PytorchTransformersTokenizer,
     batch_size: int,
     response_save_path: pathlib.Path,
     num_per_concept: int,
@@ -212,7 +211,7 @@ if __name__ == "__main__":
     concept_df = concept_list_to_df(concepts_requested)
 
     # Load a tokenizer for sentence pre-processing
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, cache_dir=tok_cache)
+    tokenizer = PytorchTransformersTokenizer(args.model_name_or_path, tok_cache)
 
     # Read responses for all concepts in concept_df
     print("TEST")

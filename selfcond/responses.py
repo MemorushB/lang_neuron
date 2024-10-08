@@ -67,11 +67,19 @@ def cache_responses(
     for i, batch in tqdm(enumerate(data_loader), desc="Caching inference"):
         input_batch = {k: v for k, v in batch.items() if k in MODEL_INPUT_FIELDS}
         
+        print("========test========")
         num_effective_token = torch.sum(input_batch["attention_mask"][0])
         num_effective_token = num_effective_token.detach().cpu().item()
-        
+        print(num_effective_token)
+        print(input_batch["attention_mask"].shape)
+        print(input_batch["input_ids"].shape)
+
         input_batch["attention_mask"] = input_batch["attention_mask"][:, :num_effective_token]
         input_batch["input_ids"] = input_batch["input_ids"][:, :num_effective_token]
+        print(input_batch["attention_mask"].shape)
+        print(input_batch["input_ids"].shape)
+        # Until here
+
         
         generated_texts = model.generate_output(inputs=input_batch)
         keywords = batch['keywords']
@@ -81,16 +89,20 @@ def cache_responses(
         if not any(should_save):
             continue
         
+        # Run inference to get responses
         response_batch = model.run_inference(
             inputs=input_batch, outputs={ri.name for ri in response_infos}
         )
         
+        # Filter the responses based on should_save
         for key in response_batch.keys():
             response_batch[key] = response_batch[key][should_save]
             
+        # Filter labels if needed
         if LABELS_FIELD in batch:
             response_batch[LABELS_FIELD] = batch[LABELS_FIELD][should_save].detach().cpu().numpy()
-            
+                
+        # Save the filtered batch
         save_batch(batch=response_batch, batch_index=i, save_path=save_path)
         
 
