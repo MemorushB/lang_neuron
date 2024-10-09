@@ -151,9 +151,12 @@ if __name__ == "__main__":
         if file.endswith("prompts.json"):
             files.append([file, file.replace("_prompts.json", "_answers.json")])
             
+    print(f"Files found: {files}\n")
+            
     for f in files:
         prompts_path, answers_path = f
         # Build the JSON
+        print(f"Building JSON for {prompts_path.replace('_prompts.json', '')}")
         file_path = build_json(prompts_path==prompts_path, answers_path==answers_path)
 
         output_paths = json_process(file_path, limit=1000)
