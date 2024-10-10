@@ -57,11 +57,12 @@ def compute_and_save_responses(
     model_short_name = model_name.rstrip("/").split("/")[-1]
     local_data_file = data_path / concept_group / f"{concept}.json"
     if not local_data_file.exists():
-        logging.warning(f"Skipping {local_data_file}, file not found.")
+        print(f"Skipping {local_data_file}, file not found.")
         return
 
     if (response_save_path / model_short_name / concept_group / concept / "responses").exists():
-        logging.warning(f"Skipping, already computed responses {local_data_file}")
+        print(response_save_path / model_short_name / concept_group / concept / "responses")
+        print(f"Skipping, already computed responses {local_data_file}")
         return
 
     random_seed = 1234
@@ -76,29 +77,22 @@ def compute_and_save_responses(
 
     save_path = response_save_path / model_short_name / dataset.concept_group / dataset.concept
     if (save_path / "responses").exists():
-        logging.warning(f"Skipping {dataset.concept_group}/{dataset.concept}")
+        print(f"Skipping {dataset.concept_group}/{dataset.concept}")
         return
 
     if verbose:
-        logging.info(dataset)
+        print(dataset, flush=True)
 
     save_path.mkdir(parents=True, exist_ok=True)
 
     # Load the model
-    # Initialize the model with the specified parameters
     tm_model = PytorchTransformersModel(
-        model_name=model_name,
-        seq_len=dataset.seq_len,
-        cache_dir=model_cache_dir,
-        device=device,
-        tokenizer=tokenizer,
+        model_name, seq_len=dataset.seq_len, cache_dir=model_cache_dir, device=device
     )
     
     # Select responses
     responses_info_interm = collect_responses_info(model_name=model_name, model=tm_model)
 
-    logging.info("Available methods in tm_model: %s", dir(tm_model))
-    
     # Construct a response generator
     cache_responses(
         model=tm_model,
@@ -119,7 +113,6 @@ if __name__ == "__main__":
             "The models are fetched the HuggingFace Transformers repository. "
             "The data is tokenized with the appropriate tokenization technique, "
             "and the responses are maxpooled in the temporal dimension, being "
-            "in tokyo u paper the responses are average-pooled"
             "agnostic to the sentence length. The obtained responses are saved, "
             "at batch level, as a dict `{layer_name: response_tensor}`."
         ),
@@ -184,11 +177,11 @@ if __name__ == "__main__":
         "--num-per-concept",
         type=int,
         help="Max number of sentences per concept, per label",
-        default=50000,
+        default=10000,
     )
     #parser.add_argument("--inf-batch-size", type=int, help="Inference batch size", default=2)
     parser.add_argument("--inf-batch-size", type=int, help="Inference batch size. This should always 1. Refer to cache_responses function in response.py", default=1, choices=[1])
-    parser.add_argument("--device", type=str, help="Device to use", default="cuda", choices=["cuda", "cpu"])
+    parser.add_argument("--device", type=str, help="Device to use")
 
     args = parser.parse_args()
 
