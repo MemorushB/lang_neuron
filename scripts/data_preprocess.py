@@ -157,7 +157,7 @@ if __name__ == "__main__":
         prompts_path, answers_path = f
         # Build the JSON
         print(f"Building JSON for {prompts_path.replace('_prompts.json', '')}")
-        file_path = build_json(prompts_path==prompts_path, answers_path==answers_path)
+        file_path = build_json(prompts_path=prompts_path, answers_path=answers_path)
 
         output_paths = json_process(file_path, limit=1000)
         
