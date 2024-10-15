@@ -52,7 +52,7 @@ Model Support:
 Run the following script to collect responses from a model when specified texts are entered into the model.
 
 ```
-bash main_prod_env.sh "xglm-564M compute_responses Relation Antonym 2000 on_p50 expertise_limited_2000_both"
+bash main_prod_env.sh "xglm-564M compute_responses Relation Antonym 6000 on_p50 expertise_limited_6000_both"
 ```
 
 The responses will be saved inside `path_to_save_responses/{model_name}/sense/[concept]/responses`.
@@ -62,7 +62,7 @@ The responses will be saved inside `path_to_save_responses/{model_name}/sense/[c
 The expertise is defined as the Average Precision (AP) achieved by a unit when its responses are considered prediction scores for the sentences.
 
 ```
-bash main_prod_env.sh "xglm-564M compute_expertise Relation Antonym 2000 on_p50 expertise_limited_2000_both"
+bash main_prod_env.sh "xglm-564M compute_expertise Relation Antonym 6000 on_p50 expertise_limited_6000_both"
 ```
 
 The expertise results are saved as a CSV file in `path_to_save_responses/{model_name}/sense/[concept]/expertise`.
@@ -73,7 +73,7 @@ Column `ap` contains the expertise measured for each model unit and column `on_p
 Run the following script to to limit expertise to only Top-N and Bottom-N neurons.
 
 ```
-bash main_prod_env.sh "xglm-564M limit_expertise Relation Antonym 2000 on_p50 expertise_limited_2000_both"
+bash main_prod_env.sh "xglm-564M limit_expertise Relation Antonym 6000 on_p50 expertise_limited_6000_both"
 ```
 
 ## 2. Controlling Language-Specific Neurons

@@ -16,7 +16,7 @@ def argument_parser():
     )
     parser.add_argument(
         "--num-units",
-        default=None,
+        default=2000,
         type=int,
     )
     return parser.parse_args()

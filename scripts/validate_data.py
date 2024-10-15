@@ -8,6 +8,8 @@ import torch
 import argparse
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+SYSTEM_PROMPT = "Please take a deep breathe, and answer the following question correctly.\n"
+
 def load_json_dataset(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -22,27 +24,52 @@ def get_model(model_name):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     
+    if device.type == "cuda":
+        model.half()
+    
     return tokenizer, model, device
 
-def generate_response(tokenizer, model, device, prompt, max_length=50):
-    # Encode the prompt
-    input_ids = tokenizer.encode(prompt, return_tensors='pt').to(device)
+def generate_response(tokenizer, model, device, prompt, max_length=200):
+    # Optionally, adjust the prompt formatting
+    prompt = SYSTEM_PROMPT + prompt.strip() + "\nAnswer:"
+    
+    # Ensure the prompt does not contain the eos token
+    if tokenizer.eos_token in prompt:
+        prompt = prompt.replace(tokenizer.eos_token, '')
+    
+    # Encode the prompt without adding special tokens
+    input_ids = tokenizer.encode(prompt, return_tensors='pt', add_special_tokens=False).to(device)
     
     # Generate a response
-    output_ids = model.generate(
-        input_ids,
-        max_length=input_ids.shape[1] + max_length,
-        pad_token_id=tokenizer.eos_token_id,
-        do_sample=True,
-        top_k=50,
-        top_p=0.95,
-        temperature=0.7,
-        num_return_sequences=1,
-        eos_token_id=tokenizer.eos_token_id
-    )
+    try:
+        output_ids = model.generate(
+            input_ids,
+            max_new_tokens=max_length,
+            min_length=5,
+            pad_token_id=tokenizer.eos_token_id,
+            do_sample=True,
+            top_k=50,
+            top_p=0.95,
+            temperature=0.9,
+            num_return_sequences=1
+            # Removed eos_token_id
+        )
+    except Exception as e:
+        print(f"An error occurred during generation: {e}")
+        return ""
+    
+    # Extract the generated tokens
+    generated_ids = output_ids[0][input_ids.shape[1]:]
+    if len(generated_ids) == 0:
+        print("Warning: No new tokens generated.")
+        return ""
     
     # Decode the response
-    response = tokenizer.decode(output_ids[0][input_ids.shape[1]:], skip_special_tokens=True)
+    response = tokenizer.decode(generated_ids, skip_special_tokens=True)
+    if not response.strip():
+        print("Warning: Decoded response is empty.")
+        return ""
+    
     return response.strip()
 
 def is_correct_answer(model_response, expected_answer):
