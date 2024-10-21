@@ -17,16 +17,29 @@ def reformat_prompts(prompt_templates):
 def generate_prompt(subject, expected_answer, qa_templates):
     prompts = []
     for template in qa_templates:
+        # Build the question using the template and subject
         # Count the number of '{}' placeholders in the template
         num_placeholders = template.count('{}')
 
-        # Format the template with the appropriate number of arguments
-        if num_placeholders == 1:
-            prompt = template.format(subject)
+        # Format the question with the appropriate number of arguments
+        if num_placeholders == 0:
+            # Template doesn't have placeholders, so assume it is a question itself
+            question = template
+        elif num_placeholders == 1:
+            # Template expects one placeholder, fill with subject
+            question = template.format(subject)
         elif num_placeholders == 2:
-            prompt = template.format(subject, expected_answer)
+            # Template expects two placeholders, fill with subject and expected_answer
+            question = template.format(subject, expected_answer)
         else:
             raise ValueError(f"Unexpected number of placeholders in template: {template}")
+
+        # Ensure question ends with '?'
+        if not question.endswith('?'):
+            question += '?'
+
+        # Construct the prompt in the desired format
+        prompt = f"Question: {question} Answer:"
 
         prompts.append(prompt)
     return prompts
@@ -147,7 +160,14 @@ def main(args):
 
     # Initialize the vLLM engine
     start_time = time.time()
-    llm_engine = LLM(model=args.model_name, tokenizer=args.model_name, trust_remote_code=True)
+    llm_engine = LLM(
+        model=args.model_name, 
+        tokenizer=args.model_name, 
+        trust_remote_code=True,
+        #quantization="aqlm"
+        max_model_len = 1024,
+        gpu_memory_utilization=0.9,
+        )
     end_time = time.time()
     print(f"vLLM engine initialized in {end_time - start_time:.2f} seconds.")
 
