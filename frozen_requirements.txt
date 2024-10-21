@@ -20,4 +20,5 @@ accelerate==0.23.0
 #bitsandbytes==0.41.2.post2
 sentencepiece==0.1.99
 protobuf==4.24.3
-#.
+vllm==0.6.3.post1
+.
