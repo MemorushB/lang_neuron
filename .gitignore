@@ -9,6 +9,7 @@ set_appropriate_path_2/
 path_to_save_responses/
 datasets/
 mid_output/
+.cache/
 
 # Files
 *.ipynb
