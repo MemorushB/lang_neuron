@@ -1,16 +1,21 @@
+# Directories
 old_eacl2024/
 fasttext/
 logs/
-.ipynb_checkpoints/
 scripts/.ipynb_checkpoints/
 scripts/__pycache__/
 selfcond/.ipynb_checkpoints/
+set_appropriate_path_2/
+path_to_save_responses/
+datasets/
+mid_output/
+
+# Files
 *.ipynb
 main_test_env.sh
 text_*.txt
 *.pkl
-set_appropriate_path_2/
-path_to_save_responses/
-datasets/
 .DS_Store
-mid_output/
+
+# IDE specific
+.idea/
