@@ -2,6 +2,7 @@ import json
 import torch
 import argparse
 import time
+import re
 from vllm import LLM, SamplingParams
 
 def load_json_data(file_path):
@@ -15,6 +16,7 @@ def reformat_prompts(prompt_templates):
     return qa_templates
 
 def generate_prompt(subject, expected_answer, qa_templates):
+    # Generate QA prompts for each template
     prompts = []
     for template in qa_templates:
         # Build the question using the template and subject
@@ -30,53 +32,79 @@ def generate_prompt(subject, expected_answer, qa_templates):
             question = template.format(subject)
         elif num_placeholders == 2:
             # Template expects two placeholders, fill with subject and expected_answer
-            question = template.format(subject, expected_answer)
+            question = template.format(subject, '___')
         else:
             raise ValueError(f"Unexpected number of placeholders in template: {template}")
 
         # Ensure question ends with '?'
         if not question.endswith('?'):
             question += '?'
-
         # Construct the prompt in the desired format
         prompt = f"Question: {question} Answer:"
-
         prompts.append(prompt)
     return prompts
 
 def generate_few_shot_prompt(subject, expected_answer, few_shot_examples, template):
     # Construct a few-shot prompt
     prompt = ""
-    for example in few_shot_examples:
-        example_prompt = template.format(example['subject'], example['object'])
+    for idx, example in enumerate(few_shot_examples):
+        example_prompt = f"Example {idx}: {example['subject']} was created by: {example['object']}"
+        print(f"Example Prompt:\n{example_prompt}\n")
         prompt += f"{example_prompt}\n\n"
     # Add the actual question
     actual_prompt = template.format(subject, expected_answer)
     prompt += f"{actual_prompt}"
     return prompt
 
+def generate_few_shot_and_question_prompts(subject, expected_answer, few_shot_examples, qa_templates):
+    # Generate question prompts and combine with the few-shot prompt
+    combined_prompts = []
+    for template in qa_templates:
+        # Construct the few-shot prompt
+        few_shot_prompt = ""
+        for idx, example in enumerate(few_shot_examples):
+            example_subject = example['subject']
+            example_object = example['object']
+            # Format the question using the template and the example's subject
+            question = template.format(example_subject)
+            # Ensure the question ends with '?'
+            if not question.endswith('?'):
+                question += '?'
+            # Construct the example prompt
+            example_prompt = f"Example {idx+1}: Question: {question} Answer: {example_object}"
+            few_shot_prompt += f"{example_prompt}\n\n"
+        # Add the actual question
+        actual_prompt = generate_prompt(subject, expected_answer, [template])[0]
+        combined_prompts.append(f"{few_shot_prompt}\n{actual_prompt}")
+        
+    return combined_prompts
+
 def generate_response(prompt, llm_engine, max_new_tokens=50):
     # Prepare the prompt for Llama 2
-    system_prompt = "You are a helpful assistant."
+    system_prompt = "You are a helpful assistant to answer the following questions. Please only respond with the answer to the question."
     bos_token = '<s>'
-    eos_token = '</s>'
-    full_prompt = f"{bos_token}[INST] <<SYS>>\n{system_prompt}\n<</SYS>>\n\n{prompt.strip()} [/INST]{eos_token}"
+    # Remove eos_token from the end
+    full_prompt = (
+        f"{bos_token}[INST] <<SYS>>\n{system_prompt}\n<</SYS>>\n\n"
+        f"{prompt.strip()} [/INST]"
+    )
 
-    # Set sampling parameters
+    # Set sampling parameters with correct stop tokens
     sampling_params = SamplingParams(
         n=1,
         best_of=1,
         temperature=0.7,
         top_p=0.9,
         max_tokens=max_new_tokens,
-        stop=["</s>"],
+        stop=["</s>", "[/INST]"],  # Include both stop tokens
     )
 
     # Generate the response using vLLM
     outputs = llm_engine.generate([full_prompt], sampling_params)
 
-    # Extract the response
-    response = outputs[0].outputs[0].text.strip().split('\n')[0]
+    # Extract the response and remove leading non-alphanumeric characters
+    raw_response = outputs[0].outputs[0].text.strip()
+    response = re.sub(r'^[^\w]*', '', raw_response)
     return response
 
 def is_correct_answer(model_response, expected_answer):
@@ -87,6 +115,7 @@ def validate_samples(samples, qa_templates, llm_engine, prompt_method, few_shot_
     filtered_samples = []
     total_samples = len(samples)
     total_time = 0.0
+    count = 0
 
     start_time = time.time()
     for idx, sample in enumerate(samples):
@@ -95,6 +124,7 @@ def validate_samples(samples, qa_templates, llm_engine, prompt_method, few_shot_
         subject = sample['subject']
         expected_answer = sample['object']
 
+        # Generate prompts based on the prompt method
         if prompt_method == 'qa':
             prompts = generate_prompt(subject, expected_answer, qa_templates)
         elif prompt_method == 'few_shot':
@@ -105,8 +135,11 @@ def validate_samples(samples, qa_templates, llm_engine, prompt_method, few_shot_
             current_few_shot_examples = [ex for ex in few_shot_examples if ex != sample]
             prompt = generate_few_shot_prompt(subject, expected_answer, current_few_shot_examples, template)
             prompts.append(prompt)
+        elif prompt_method == 'combined':
+            current_few_shot_examples = [ex for ex in few_shot_examples if ex != sample]
+            prompts = generate_few_shot_and_question_prompts(subject, expected_answer, current_few_shot_examples, qa_templates)
         else:
-            raise ValueError("Invalid prompt method. Choose 'qa' or 'few_shot'.")
+            raise ValueError("Invalid prompt method. Choose 'qa', 'few_shot', or 'combined'.")
 
         for prompt in prompts:
             response = generate_response(prompt, llm_engine)
@@ -123,6 +156,7 @@ def validate_samples(samples, qa_templates, llm_engine, prompt_method, few_shot_
                 print(f"Expected Answer: {expected_answer}")
                 print(f"Model Response: {response}")
                 print("Status: Correct\n")
+                count += 1
                 break  # Stop after the first correct answer
             else:
                 print(f"Subject: {subject}")
@@ -140,6 +174,7 @@ def validate_samples(samples, qa_templates, llm_engine, prompt_method, few_shot_
     average_time = total_time / total_samples if total_samples > 0 else 0
     print(f"Validation completed in {end_time - start_time:.2f} seconds.")
     print(f"Average time per sample: {average_time:.2f} seconds.")
+    print(f"Total correct answers: {count}/{total_samples}")
     return filtered_samples
 
 def main(args):
@@ -155,7 +190,7 @@ def main(args):
 
     # Prepare few-shot examples
     few_shot_examples = []
-    if args.prompt_method == 'few_shot':
+    if args.prompt_method in ['few_shot', 'combined']:
         few_shot_examples = samples[:args.num_few_shot_examples]
 
     # Initialize the vLLM engine
@@ -197,7 +232,7 @@ if __name__ == "__main__":
     parser.add_argument('--data_file', type=str, required=True, help='Path to the JSON data file.')
     parser.add_argument('--model_name', type=str, default='meta-llama/Llama-2-7b-chat-hf', help='Name or path of the Llama2 model.')
     parser.add_argument('--output_file', type=str, help='Path to save the filtered data.')
-    parser.add_argument('--prompt_method', type=str, choices=['qa', 'few_shot'], default='qa', help="Prompt method to use: 'qa' or 'few_shot'.")
+    parser.add_argument('--prompt_method', type=str, choices=['qa', 'few_shot', 'combined'], default='qa', help="Prompt method to use: 'qa' or 'few_shot'.")
     parser.add_argument('--num_few_shot_examples', type=int, default=3, help='Number of few-shot examples to include (only used if prompt_method is "few_shot").')
     args = parser.parse_args()
 
