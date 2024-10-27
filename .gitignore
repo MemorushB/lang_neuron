@@ -1,16 +1,29 @@
-old_eacl2024/
-fasttext/
-logs/
+# System files
+.DS_Store
+
+# Jupyter Notebook files
+*.ipynb
 .ipynb_checkpoints/
 scripts/.ipynb_checkpoints/
-scripts/__pycache__/
 selfcond/.ipynb_checkpoints/
-*.ipynb
-main_test_env.sh
-text_*.txt
+
+# Python cache files
+scripts/__pycache__/
+
+# Data files
 *.pkl
-set_appropriate_path_2/
-path_to_save_responses/
 datasets/
-.DS_Store
+fasttext/
 mid_output/
+path_to_save_responses/
+set_appropriate_path_2/
+
+# Logs and text files
+logs/
+text_*.txt
+
+# Shell scripts
+main_test_env.sh
+
+# Old project files
+old_eacl2024/
