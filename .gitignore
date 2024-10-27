@@ -1,5 +1,6 @@
 # System files
 .DS_Store
+.idea/
 
 # Jupyter Notebook files
 *.ipynb
@@ -20,6 +21,7 @@ set_appropriate_path_2/
 
 # Logs and text files
 logs/
+git-patches/
 text_*.txt
 
 # Shell scripts
