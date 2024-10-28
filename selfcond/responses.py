@@ -6,7 +6,6 @@
 import pathlib
 import pickle
 import typing as t
-import logging
 
 import numpy as np
 import torch
@@ -21,8 +20,6 @@ from selfcond.models import (
     LABELS_FIELD,
 )
 
-# Replace print statements with logging
-logging.basicConfig(level=logging.INFO)
 
 def save_batch(batch: t.Dict[str, np.ndarray], batch_index: int, save_path: pathlib.Path) -> None:
     with (save_path / f"{batch_index:05d}.pkl").open("wb") as fp:
@@ -47,7 +44,6 @@ def cache_responses(
         batch_size: The inference batch size.
         save_path: Where to save the responses.
     """
-    assert batch_size == 1, "Batch size should always be 1."
 
     def _concatenate_data(x):
         new_batch = dict()
@@ -66,60 +62,36 @@ def cache_responses(
     )
     for i, batch in tqdm(enumerate(data_loader), desc="Caching inference"):
         input_batch = {k: v for k, v in batch.items() if k in MODEL_INPUT_FIELDS}
-        
+        # Added 2023/10/06
+        # As a premise, batch size should always be 1.
         print("========test========")
         num_effective_token = torch.sum(input_batch["attention_mask"][0])
         num_effective_token = num_effective_token.detach().cpu().item()
         print(num_effective_token)
         print(input_batch["attention_mask"].shape)
         print(input_batch["input_ids"].shape)
-
         input_batch["attention_mask"] = input_batch["attention_mask"][:, :num_effective_token]
         input_batch["input_ids"] = input_batch["input_ids"][:, :num_effective_token]
         print(input_batch["attention_mask"].shape)
         print(input_batch["input_ids"].shape)
         # Until here
-
-        
-        generated_texts = model.generate_output(inputs=input_batch)
-        keywords = batch['keywords']
-        
-        # Only save responses that contain the keyword (correct answer)
-        should_save = [keyword.lower() in text.lower() for text, keyword in zip(generated_texts, keywords)]
-        
-        if not any(should_save):
-            continue
-        
-        # Run inference to get responses
         response_batch = model.run_inference(
             inputs=input_batch, outputs={ri.name for ri in response_infos}
         )
-
-        # Filter the responses based on should_save
-        for key in response_batch.keys():
-            response_batch[key] = response_batch[key][should_save]
-
-        # Filter labels if needed
-        if LABELS_FIELD in batch:
-            response_batch[LABELS_FIELD] = batch[LABELS_FIELD][should_save].detach().cpu().numpy()
-
-        # Apply processing functions to ensure consistent shapes
         for process_fn in process_fn_list:
             response_batch = process_fn(response_batch)
-
-        # Save the filtered and processed batch
+        response_batch[LABELS_FIELD] = batch[LABELS_FIELD].detach().cpu().numpy()
         save_batch(batch=response_batch, batch_index=i, save_path=save_path)
-        
 
 
 def read_responses_from_cached(
     cached_dir: pathlib.Path, concept: str, verbose: bool = False
 ) -> t.Tuple[t.Dict[str, np.ndarray], t.Optional[np.ndarray], t.Set[str]]:
     """
-    Reads model responses stored on disk. The responses are stored pickled, one file per batch,
-    structured as follows:
-    * Responses accessible as a dictionary `{layer_name: responses}`. For example, `responses['layer_1']` is a
-      multidimensional array of floats.
+    Reads model responses stored in disk. The responses are stored pickled, one file per batch,
+    as structure as follows:
+    * Responses accessible as a dictionary `{layer: responses}`. For example `responses['layer_1']` is a
+    multidimensional array of floats.
 
     Args:
         cached_dir: Directory with *.pkl files.
@@ -127,59 +99,40 @@ def read_responses_from_cached(
         verbose: Verbosity flag.
 
     Returns:
-        data: dict of {layer_name: np.ndarray} with the responses of all the batches concatenated and transposed.
-              Each layer response is of shape [units, total_samples].
+        data: dict of {layer_name: np.ndarray} with the responses of all the batches TRANSPOSED. A layer response is of
+        shape [units, sentences]
         labels: np.ndarray with the labels of all the data points.
         response_names: The names of the layers that have produced the responses.
     """
-    # Initialize variables
+    # Read responses from the selected layers
     data: t.Dict[str, np.ndarray] = {}
     labels: t.List[float] = []
     response_names: t.Set[str] = set()
     labels_name = LABELS_FIELD
-
-    # Get all cached files
     all_files = sorted(list(cached_dir.glob("*.pkl")))
     if not all_files:
-        raise RuntimeError(f"No cached response files found in {cached_dir}")
+        raise RuntimeError("No responses found")
 
-    # Data structure to hold responses temporarily
     data_as_lists: t.Dict[str, t.List[np.ndarray]] = {}
-
-    # Read each cached batch
     for file_name in tqdm(all_files, total=len(all_files), desc=f"Loading {concept}"):
         with file_name.open("rb") as fp:
             response_batch = pickle.load(fp)
-
-            # Collect response names from the first batch
             if not response_names:
-                response_names = set(response_batch.keys()) - {labels_name}
-
-            # Process each key in the response batch
-            for key, value in response_batch.items():
-                if key == labels_name:
-                    # Ensure value is a list or array
-                    labels.extend(value if isinstance(value, (list, np.ndarray)) else [value])
-                else:
-                    if key not in data_as_lists:
-                        data_as_lists[key] = []
-                    data_as_lists[key].append(value)
-
-    # Concatenate and transpose the data for each layer
-    for key in data_as_lists.keys():
-        try:
-            # Concatenate along axis 0
-            concatenated = np.concatenate(data_as_lists[key], axis=0)
-            # Transpose to get shape [units, total_samples]
-            data[key] = concatenated.transpose()
-
-            if verbose:
-                logging.info(f"Layer {key}, shape {data[key].shape}")
-        except Exception as e:
-            logging.error(f"Error processing layer {key}: {e}")
+                response_names = set(response_batch.keys()) - set(labels_name)
+            for l_name in response_names:
+                if l_name not in data_as_lists:
+                    data_as_lists[l_name] = []
+                data_as_lists[l_name].append(response_batch[l_name].tolist())
+            if LABELS_FIELD in response_batch:
+                labels.extend(response_batch[LABELS_FIELD])
+    # Re-shaping the data
+    for l_name in data_as_lists.keys():
+        if l_name in ["labels"]:
             continue
+        # Concatenate and transpose to return a tensor of shape [units,sentences].
+        data[l_name] = np.concatenate(data_as_lists[l_name], axis=0).transpose()
+        assert len(data[l_name].shape) == 2, "Wrong dimensionality of responses"
+        if verbose:
+            print(l_name, data[l_name].shape)
 
-    # Convert labels to a numpy array if they exist
-    labels_array = np.array(labels) if labels else None
-
-    return data, labels_array, response_names
+    return data, np.array(labels) if labels else None, response_names

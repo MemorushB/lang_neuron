@@ -64,7 +64,7 @@ class TorchModel:
         input_type: t.Mapping[str, torch.dtype],
         name: str,
         device: str = None,
-        tokenizer=None,  # Add tokenizer parameter
+
     ) -> None:
         """
         Wraps a pytorch module to enable reading intermediate responses.
@@ -75,17 +75,18 @@ class TorchModel:
             name: The model name according to Huggingface Transformers.
             device: A string that indicates where the model should run (cpu, cuda:0, etc...)
         """
-        self.tokenizer = tokenizer  # Store the tokenizer
         self.name = name
-
-        # Set the device
-        if device is not None:
-            self._device = torch.device(device)
-        else:
-            self._device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
-        # Move the model to the specified device
-        self._pytorch_module = module.to(self._device).eval()
+        """
+        device = accelerator.device
+        self._device = device
+        if device is None:
+            self._device = "cuda:0" if torch.cuda.is_available() else "cpu"
+        
+        print(f"Model to {self._device}")
+        """
+        # self._pytorch_module = module.to(self._device).float().eval()
+        # self._pytorch_module = module.float().eval()
+        self._pytorch_module = module.eval()
 
         if set(input_size.keys()) != set(input_type.keys()):
             raise RuntimeError(
@@ -149,39 +150,16 @@ class TorchModel:
         # batch_size of 2 in case of batchnorm
         fixed_shaped_list: t.List[int] = [2]
 
-        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
         x = {
             input_name: torch.rand(tuple(fixed_shaped_list + [*self._input_size[input_name]]))
             .type(self._input_types[input_name])
-            .to(device)
+            .to(torch.device('cuda', 0))
             for input_name in arg_names
         }
 
         # make a forward pass
         with torch.no_grad():  # type: ignore
             self._pytorch_module(**x)
-        
-    def generate_output(self, inputs: t.Mapping[str, torch.Tensor], max_length: int = None) -> t.List[str]:
-        # Move inputs to the correct device
-        torch_inputs = {k: v.to(self._device) for k, v in inputs.items()}
-
-        # Prepare input IDs and attention mask
-        input_ids = torch_inputs['input_ids']
-        attention_mask = torch_inputs.get('attention_mask', None)
-
-        # Generate outputs
-        with torch.no_grad():
-            generated_ids = self._pytorch_module.generate(
-                input_ids=input_ids,
-                attention_mask=attention_mask,
-                max_length=max_length or input_ids.shape[1] + 50,
-                do_sample=False
-            )
-
-        # Decode outputs
-        generated_texts = self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
-        return generated_texts
 
     def get_response_infos(self) -> t.Iterable[ResponseInfo]:
         """
@@ -204,8 +182,10 @@ class TorchModel:
         def forward_hook(module, input, output):
             # Modify the output of the layer.
             if only_last_token:
+                # output[:, -1, units] = values.to(output.device)
                 output[:, -1, units] = values.to(output.device)
             else:
+                #output[:, :, units] = values.to(output.device)
                 output[:, :, units] = values.to(output.device)
             return output
 
@@ -264,8 +244,8 @@ class TorchModel:
         a_key = list(inputs.keys())[0]
         torch_inputs: t.MutableMapping[str, torch.Tensor] = {}
         if isinstance(inputs[a_key][0], torch.Tensor):
-            device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-            torch_inputs = {k: v.to(device) for k, v in inputs.items()}
+            #torch_inputs = {k: v.to(device=self._device) for k, v in inputs.items()}
+            torch_inputs = {k: v.to(torch.device('cuda', 0)) for k, v in inputs.items()}
 
         response_dict: t.Dict[str, t.Any] = {}
 
@@ -329,21 +309,27 @@ class PytorchTransformersModel(TorchModel):
         cache_dir: t.Optional[pathlib.Path],
         seq_len: int,
         device: str = None,
-        tokenizer=None,
+        #clm: str = False,
+        #bit: str = False,
     ) -> None:
-        # Load the model
-        config = AutoConfig.from_pretrained(model_name, cache_dir=cache_dir)
-        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, cache_dir=cache_dir)
+        """
+        Loads a HuggingFace Transformers given its name.
 
-        # Initialize the parent class
+        Args:
+            model_name: The model name
+            cache_dir: Local dir where the model is fetched/saved
+            seq_len: Input sequence length considered.
+        """
+        torch_model = transformers_class_from_name(model_name, cache_dir=cache_dir) #, clm=clm, bit=bit)
+        #torch_model = accelerator.prepare(torch_model)
         super().__init__(
-            module=transformers_class_from_name(model_name, cache_dir),
-            input_size={"input_ids": (seq_len,), "attention_mask": (seq_len,)},
-            input_type={"input_ids": torch.long, "attention_mask": torch.long},
+            module=torch_model,
+            input_size={input_name: (seq_len,) for input_name in MODEL_INPUT_FIELDS},
+            input_type={input_name: torch.long for input_name in MODEL_INPUT_FIELDS},
             name=model_name,
             device=device,
-            tokenizer=tokenizer
         )
+
 
 def transformers_model_name_to_family(model_name: str) -> str:
     """
@@ -403,8 +389,10 @@ def transformers_class_from_name(
 
     """
     try:
-        device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
+        free_in_GB = int(torch.cuda.mem_get_info()[0] / 1024**3)
+        max_memory = f"{free_in_GB-2}GB"
+        n_gpus = torch.cuda.device_count()
+        max_memory = {i: max_memory for i in range(n_gpus)}
         if rand_weights:
             config = AutoConfig.from_pretrained(model_name)
             m = AutoModelForPreTraining.from_config(config)
@@ -412,18 +400,34 @@ def transformers_class_from_name(
             if 'Llama-2' in model_name:
                 m = AutoModelForCausalLM.from_pretrained(model_name,
                                                          trust_remote_code=True,
+                                                         #load_in_8bit=True,
+                                                         #torch_dtype=torch.float16,
+                                                         #offload_folder="offload",
                                                          cache_dir=cache_dir,
                                                          device_map="auto"
-                                                         ).to(device)
+                                                         )
             elif 'xglm' in model_name:
                 m = XGLMForCausalLM.from_pretrained(model_name, 
-                                                    cache_dir=cache_dir
-                                                   ).to(device)
+                                                    #trust_remote_code=True,
+                                                    #load_in_8bit=True,
+                                                    #torch_dtype=torch.float16,
+                                                    #offload_folder="offload",
+                                                    cache_dir=cache_dir, 
+                                                    #device_map="auto",
+                                                    #device_map = 0,
+                                                   ).to("cuda")
             elif 'bloom' in model_name:
                 m = BloomForCausalLM.from_pretrained(model_name, 
-                                                     cache_dir=cache_dir
-                                                    ).to(device)
+                                                     #trust_remote_code=True,
+                                                     #load_in_8bit=True,
+                                                     #torch_dtype=torch.float16,
+                                                     #offload_folder="offload",
+                                                     cache_dir=cache_dir, 
+                                                     #device_map="auto",
+                                                     #device_map = 0,
+                                                    ).to("cuda")
             else:
+                #m = AutoModelForPreTraining.from_pretrained(model_name, cache_dir=cache_dir, device_map="auto")
                 raise ValueError("error! model_name is not properly defined.")
             
             try:
@@ -581,22 +585,22 @@ def concatenate_responses(
 def pool_responses(
     responses: t.Dict[str, np.ndarray],
     response_fields: t.Optional[t.Set[str]],
-    axis: int,
-    pooling_type: str = "mean",
+    axis: t.Tuple[int],
+    pooling_type: str = "max",
 ) -> t.Dict[str, np.ndarray]:
     assert pooling_type in ["mean", "sum", "max", "median", "min"]
     pooler_fn = getattr(np, pooling_type)
     fields = response_fields or responses.keys()
+    #print("fields")
+    #print(fields)
     for field in fields:
-        print(f"Pooling field '{field}', shape {responses[field].shape}, axis {axis}")
-        if responses[field].size == 0:
-            print(f"Field '{field}' is empty. Skipping pooling.")
-            continue
-        if axis >= len(responses[field].shape) or axis < -len(responses[field].shape):
-            print(f"Axis {axis} is out of bounds for array of shape {responses[field].shape}")
-            continue  # Or adjust the axis accordingly
+        #print("====")
+        #print(field)
+        #print(responses[field].shape)
+        #print(responses[field])
+        #responses[field] = pooler_fn(responses[field][:,5:25], axis=axis)
         responses[field] = pooler_fn(responses[field], axis=axis)
-        print(f"After pooling, shape {responses[field].shape}")
+        #responses[field] = pooler_fn(responses[field][:,5:], axis=axis)
     return responses
 
 
@@ -605,5 +609,6 @@ def processors_per_model(model: TorchModel) -> t.List[t.Callable]:
     pool_args: t.List[t.Dict] = [dict(response_fields=None, axis=1, pooling_type="mean")]
     #pool_args: t.List[t.Dict] = [dict(response_fields=None, axis=1, pooling_type="median")]
     #pool_args: t.List[t.Dict] = [dict(response_fields=None, axis=1, pooling_type="max")]
-    process_fns: t.List[t.Callable] = [partial(pool_responses, **args) for args in pool_args]
+    process_fns: t.List[t.Callable] = []
+    process_fns += [partial(pool_responses, **args) for args in pool_args]
     return process_fns
