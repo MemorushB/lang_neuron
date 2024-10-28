@@ -1,0 +1,86 @@
+[
+    {
+        "prompt": "Prompt: Axl Rose is the lead singer of? Answer: Guns N' Roses. Steven Tyler is the lead singer of? Answer: Aerosmith. Anthony Kiedis is the lead singer of? Answer: Red Hot Chili Peppers. Freddie Mercury is the lead singer of? Answer: Queen. Brian Johnson is the lead singer of? Answer: __",
+        "answer": "AC/DC"
+    },
+    {
+        "prompt": "Prompt: Freddie Mercury is the lead singer of? Answer: Queen. Robert Plant is the lead singer of? Answer: Led Zeppelin. Axl Rose is the lead singer of? Answer: Guns N' Roses. Dave Grohl is the lead singer of? Answer: Foo Fighters. Steven Tyler is the lead singer of? Answer: __",
+        "answer": "Aerosmith"
+    },
+    {
+        "prompt": "Prompt: Liam Gallagher is the lead singer of? Answer: Oasis. Ozzy Osbourne is the lead singer of? Answer: Black Sabbath. Steven Tyler is the lead singer of? Answer: Aerosmith. Brian Johnson is the lead singer of? Answer: AC/DC. Chris Martin is the lead singer of? Answer: __",
+        "answer": "Coldplay"
+    },
+    {
+        "prompt": "Prompt: Chris Martin is the lead singer of? Answer: Coldplay. Kurt Cobain is the lead singer of? Answer: Nirvana. Freddie Mercury is the lead singer of? Answer: Queen. Jon Bon Jovi is the lead singer of? Answer: Bon Jovi. Dave Grohl is the lead singer of? Answer: __",
+        "answer": "Foo Fighters"
+    },
+    {
+        "prompt": "Prompt: Serj Tankian is the lead singer of? Answer: System of a Down. Brian Johnson is the lead singer of? Answer: AC/DC. Don Henley is the lead singer of? Answer: The Eagles. Kurt Cobain is the lead singer of? Answer: Nirvana. Axl Rose is the lead singer of? Answer: __",
+        "answer": "Guns N' Roses"
+    },
+    {
+        "prompt": "Prompt: Don Henley is the lead singer of? Answer: The Eagles. Ozzy Osbourne is the lead singer of? Answer: Black Sabbath. Freddie Mercury is the lead singer of? Answer: Queen. Billie Joe Armstrong is the lead singer of? Answer: Green Day. Robert Plant is the lead singer of? Answer: __",
+        "answer": "Led Zeppelin"
+    },
+    {
+        "prompt": "Prompt: Liam Gallagher is the lead singer of? Answer: Oasis. Anthony Kiedis is the lead singer of? Answer: Red Hot Chili Peppers. Brian Johnson is the lead singer of? Answer: AC/DC. Robert Plant is the lead singer of? Answer: Led Zeppelin. James Hetfield is the lead singer of? Answer: __",
+        "answer": "Metallica"
+    },
+    {
+        "prompt": "Prompt: Ozzy Osbourne is the lead singer of? Answer: Black Sabbath. John Lennon is the lead singer of? Answer: The Beatles. Anthony Kiedis is the lead singer of? Answer: Red Hot Chili Peppers. Axl Rose is the lead singer of? Answer: Guns N' Roses. Kurt Cobain is the lead singer of? Answer: __",
+        "answer": "Nirvana"
+    },
+    {
+        "prompt": "Prompt: James Hetfield is the lead singer of? Answer: Metallica. John Lennon is the lead singer of? Answer: The Beatles. Dave Grohl is the lead singer of? Answer: Foo Fighters. Chris Martin is the lead singer of? Answer: Coldplay. Freddie Mercury is the lead singer of? Answer: __",
+        "answer": "Queen"
+    },
+    {
+        "prompt": "Prompt: Bono is the lead singer of? Answer: U2. Dave Grohl is the lead singer of? Answer: Foo Fighters. Jim Morrison is the lead singer of? Answer: The Doors. Don Henley is the lead singer of? Answer: The Eagles. Anthony Kiedis is the lead singer of? Answer: __",
+        "answer": "Red Hot Chili Peppers"
+    },
+    {
+        "prompt": "Prompt: Serj Tankian is the lead singer of? Answer: System of a Down. Freddie Mercury is the lead singer of? Answer: Queen. Steven Tyler is the lead singer of? Answer: Aerosmith. Billie Joe Armstrong is the lead singer of? Answer: Green Day. Mick Jagger is the lead singer of? Answer: __",
+        "answer": "The Rolling Stones"
+    },
+    {
+        "prompt": "Prompt: Don Henley is the lead singer of? Answer: The Eagles. Dave Grohl is the lead singer of? Answer: Foo Fighters. Bono is the lead singer of? Answer: U2. Chris Martin is the lead singer of? Answer: Coldplay. John Lennon is the lead singer of? Answer: __",
+        "answer": "The Beatles"
+    },
+    {
+        "prompt": "Prompt: Don Henley is the lead singer of? Answer: The Eagles. Anthony Kiedis is the lead singer of? Answer: Red Hot Chili Peppers. John Lennon is the lead singer of? Answer: The Beatles. James Hetfield is the lead singer of? Answer: Metallica. Jim Morrison is the lead singer of? Answer: __",
+        "answer": "The Doors"
+    },
+    {
+        "prompt": "Prompt: Chris Martin is the lead singer of? Answer: Coldplay. Steven Tyler is the lead singer of? Answer: Aerosmith. Kurt Cobain is the lead singer of? Answer: Nirvana. Anthony Kiedis is the lead singer of? Answer: Red Hot Chili Peppers. Bono is the lead singer of? Answer: __",
+        "answer": "U2"
+    },
+    {
+        "prompt": "Prompt: Chris Martin is the lead singer of? Answer: Coldplay. Kurt Cobain is the lead singer of? Answer: Nirvana. Dave Grohl is the lead singer of? Answer: Foo Fighters. Jim Morrison is the lead singer of? Answer: The Doors. Ozzy Osbourne is the lead singer of? Answer: __",
+        "answer": "Black Sabbath"
+    },
+    {
+        "prompt": "Prompt: Freddie Mercury is the lead singer of? Answer: Queen. Ozzy Osbourne is the lead singer of? Answer: Black Sabbath. John Lennon is the lead singer of? Answer: The Beatles. Robert Plant is the lead singer of? Answer: Led Zeppelin. Billie Joe Armstrong is the lead singer of? Answer: __",
+        "answer": "Green Day"
+    },
+    {
+        "prompt": "Prompt: John Lennon is the lead singer of? Answer: The Beatles. Serj Tankian is the lead singer of? Answer: System of a Down. James Hetfield is the lead singer of? Answer: Metallica. Freddie Mercury is the lead singer of? Answer: Queen. Eddie Vedder is the lead singer of? Answer: __",
+        "answer": "Pearl Jam"
+    },
+    {
+        "prompt": "Prompt: Chris Martin is the lead singer of? Answer: Coldplay. Robert Plant is the lead singer of? Answer: Led Zeppelin. Don Henley is the lead singer of? Answer: The Eagles. Kurt Cobain is the lead singer of? Answer: Nirvana. Jon Bon Jovi is the lead singer of? Answer: __",
+        "answer": "Bon Jovi"
+    },
+    {
+        "prompt": "Prompt: Robert Plant is the lead singer of? Answer: Led Zeppelin. Ozzy Osbourne is the lead singer of? Answer: Black Sabbath. Jim Morrison is the lead singer of? Answer: The Doors. Freddie Mercury is the lead singer of? Answer: Queen. Don Henley is the lead singer of? Answer: __",
+        "answer": "The Eagles"
+    },
+    {
+        "prompt": "Prompt: Jon Bon Jovi is the lead singer of? Answer: Bon Jovi. Kurt Cobain is the lead singer of? Answer: Nirvana. Mick Jagger is the lead singer of? Answer: The Rolling Stones. Steven Tyler is the lead singer of? Answer: Aerosmith. Liam Gallagher is the lead singer of? Answer: __",
+        "answer": "Oasis"
+    },
+    {
+        "prompt": "Prompt: Kurt Cobain is the lead singer of? Answer: Nirvana. Steven Tyler is the lead singer of? Answer: Aerosmith. Mick Jagger is the lead singer of? Answer: The Rolling Stones. Jim Morrison is the lead singer of? Answer: The Doors. Serj Tankian is the lead singer of? Answer: __",
+        "answer": "System of a Down"
+    }
+]

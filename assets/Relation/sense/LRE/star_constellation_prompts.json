@@ -1,0 +1,1450 @@
+[
+    {
+        "prompt": "Prompt: Chi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Theta Leonis is part of the constellation named? Answer: Leo. Alcor is part of the constellation named? Answer: Ursa Major. Chi Virginis is part of the constellation named? Answer: Virgo. Sirius is part of the constellation named? Answer: __",
+        "answer": "Canis Major"
+    },
+    {
+        "prompt": "Prompt: Omicron Virginis is part of the constellation named? Answer: Virgo. 54 Piscium A is part of the constellation named? Answer: Pisces. Eta Leonis is part of the constellation named? Answer: Leo. 89 Leonis is part of the constellation named? Answer: Leo. Vega is part of the constellation named? Answer: __",
+        "answer": "Lyra"
+    },
+    {
+        "prompt": "Prompt: Mu Andromedae is part of the constellation named? Answer: Andromeda. Eta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Denebola is part of the constellation named? Answer: Leo. 51 Andromedae is part of the constellation named? Answer: Andromeda. Arcturus is part of the constellation named? Answer: __",
+        "answer": "Boötes"
+    },
+    {
+        "prompt": "Prompt: Nu Indi is part of the constellation named? Answer: Indus. Alnair is part of the constellation named? Answer: Grus. Gacrux is part of the constellation named? Answer: Crux. Epsilon Leonis is part of the constellation named? Answer: Leo. Capella is part of the constellation named? Answer: __",
+        "answer": "Auriga"
+    },
+    {
+        "prompt": "Prompt: 61 Virginis is part of the constellation named? Answer: Virgo. Epsilon Virginis is part of the constellation named? Answer: Virgo. V647 Herculis is part of the constellation named? Answer: Hercules. GQ Andromedae is part of the constellation named? Answer: Andromeda. Procyon is part of the constellation named? Answer: __",
+        "answer": "Canis Minor"
+    },
+    {
+        "prompt": "Prompt: Alphecca is part of the constellation named? Answer: Corona Borealis. Epsilon Andromedae is part of the constellation named? Answer: Andromeda. 22 Orionis is part of the constellation named? Answer: Orion. HZ Aquarii is part of the constellation named? Answer: Aquarius. Altair is part of the constellation named? Answer: __",
+        "answer": "Aquila"
+    },
+    {
+        "prompt": "Prompt: EZ Aquarii is part of the constellation named? Answer: Aquarius. Eta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Kappa Geminorum is part of the constellation named? Answer: Gemini. Iota Piscium is part of the constellation named? Answer: Pisces. Aldebaran is part of the constellation named? Answer: __",
+        "answer": "Taurus"
+    },
+    {
+        "prompt": "Prompt: Gamma Herculis is part of the constellation named? Answer: Hercules. Psi2 Cancri is part of the constellation named? Answer: Cancer. Theta Piscium is part of the constellation named? Answer: Pisces. Capella is part of the constellation named? Answer: Auriga. Antares is part of the constellation named? Answer: __",
+        "answer": "Scorpius"
+    },
+    {
+        "prompt": "Prompt: Delta Leonis is part of the constellation named? Answer: Leo. 56 Andromedae is part of the constellation named? Answer: Andromeda. Nu Indi is part of the constellation named? Answer: Indus. Eta Piscium is part of the constellation named? Answer: Pisces. Fomalhaut is part of the constellation named? Answer: __",
+        "answer": "Piscis Austrinus"
+    },
+    {
+        "prompt": "Prompt: Theta Piscium is part of the constellation named? Answer: Pisces. Xi Persei is part of the constellation named? Answer: Perseus. Beta Virginis is part of the constellation named? Answer: Virgo. Omicron Piscium is part of the constellation named? Answer: Pisces. Deneb is part of the constellation named? Answer: __",
+        "answer": "Cygnus"
+    },
+    {
+        "prompt": "Prompt: 89 Leonis is part of the constellation named? Answer: Leo. Epsilon Leonis is part of the constellation named? Answer: Leo. Zeta Virginis is part of the constellation named? Answer: Virgo. Gliese 436 is part of the constellation named? Answer: Leo. Castor is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Nu Virginis is part of the constellation named? Answer: Virgo. EO Psc is part of the constellation named? Answer: Pisces. Beta Aquarii is part of the constellation named? Answer: Aquarius. 112 Piscium is part of the constellation named? Answer: Pisces. Mizar is part of the constellation named? Answer: __",
+        "answer": "Ursa Major"
+    },
+    {
+        "prompt": "Prompt: Theta2 Orionis is part of the constellation named? Answer: Orion. Delta Geminorum is part of the constellation named? Answer: Gemini. 87 Herculis is part of the constellation named? Answer: Hercules. 29 Orionis is part of the constellation named? Answer: Orion. Dubhe is part of the constellation named? Answer: __",
+        "answer": "Ursa Major"
+    },
+    {
+        "prompt": "Prompt: 20 Piscium is part of the constellation named? Answer: Pisces. Iota Orionis is part of the constellation named? Answer: Orion. Milky Way is part of the constellation named? Answer: Cassiopeia. Spica is part of the constellation named? Answer: Virgo. Alcor is part of the constellation named? Answer: __",
+        "answer": "Ursa Major"
+    },
+    {
+        "prompt": "Prompt: Iota Cancri A is part of the constellation named? Answer: Cancer. Kappa Cancri is part of the constellation named? Answer: Cancer. BD+08 4887 is part of the constellation named? Answer: Pegasus. Phi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Alphecca is part of the constellation named? Answer: __",
+        "answer": "Corona Borealis"
+    },
+    {
+        "prompt": "Prompt: Mu Persei is part of the constellation named? Answer: Perseus. FK Aquarii is part of the constellation named? Answer: Aquarius. Theta1 Orionis C is part of the constellation named? Answer: Orion. Chi1 Orionis is part of the constellation named? Answer: Orion. Zubenelgenubi is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: FF Andromedae is part of the constellation named? Answer: Andromeda. HN Pegasi is part of the constellation named? Answer: Pegasus. Nu Piscium is part of the constellation named? Answer: Pisces. Iota Orionis is part of the constellation named? Answer: Orion. Gacrux is part of the constellation named? Answer: __",
+        "answer": "Crux"
+    },
+    {
+        "prompt": "Prompt: Epsilon Virginis is part of the constellation named? Answer: Virgo. 71 Orionis is part of the constellation named? Answer: Orion. Zeta Virginis is part of the constellation named? Answer: Virgo. Theta Piscium is part of the constellation named? Answer: Pisces. Alnair is part of the constellation named? Answer: __",
+        "answer": "Grus"
+    },
+    {
+        "prompt": "Prompt: Omega Herculis is part of the constellation named? Answer: Hercules. 44 Andromedae is part of the constellation named? Answer: Andromeda. Mu Sagittarii is part of the constellation named? Answer: Sagittarius. QSO B1514-24 is part of the constellation named? Answer: Libra. Shaula is part of the constellation named? Answer: __",
+        "answer": "Scorpius"
+    },
+    {
+        "prompt": "Prompt: Xi Piscium is part of the constellation named? Answer: Pisces. MT Pegasi is part of the constellation named? Answer: Pegasus. 48 Persei is part of the constellation named? Answer: Perseus. Delta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Kaus Australis is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: Mu Pegasi is part of the constellation named? Answer: Pegasus. EZ Aquarii is part of the constellation named? Answer: Aquarius. BD+59 2723 is part of the constellation named? Answer: Cassiopeia. Pi Aquarii is part of the constellation named? Answer: Aquarius. Diphda is part of the constellation named? Answer: __",
+        "answer": "Cetus"
+    },
+    {
+        "prompt": "Prompt: Wolf 359 is part of the constellation named? Answer: Leo. Navi is part of the constellation named? Answer: Cassiopeia. 44 Andromedae is part of the constellation named? Answer: Andromeda. 16 Orionis is part of the constellation named? Answer: Orion. Schedar is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Mu Geminorum is part of the constellation named? Answer: Gemini. Omicron Virginis is part of the constellation named? Answer: Virgo. QSO B1514-24 is part of the constellation named? Answer: Libra. Rho Indi is part of the constellation named? Answer: Indus. Mirfak is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Zeta Virginis is part of the constellation named? Answer: Virgo. Gliese 514 is part of the constellation named? Answer: Virgo. Chi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Psi Andromedae is part of the constellation named? Answer: Andromeda. Theta2 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Gliese 876 is part of the constellation named? Answer: Aquarius. Iota Piscium is part of the constellation named? Answer: Pisces. 108 Aquarii is part of the constellation named? Answer: Aquarius. Mu Virginis is part of the constellation named? Answer: Virgo. Chi1 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Mu Leonis is part of the constellation named? Answer: Leo. 59 Virginis is part of the constellation named? Answer: Virgo. Gacrux is part of the constellation named? Answer: Crux. 3C 273 is part of the constellation named? Answer: Virgo. Gliese 570A is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: 110 Herculis is part of the constellation named? Answer: Hercules. 35 Pegasi is part of the constellation named? Answer: Pegasus. Phi2 Orionis is part of the constellation named? Answer: Orion. Epsilon Librae is part of the constellation named? Answer: Libra. Iota Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Alpha Andromedae is part of the constellation named? Answer: Andromeda. 3C 273 is part of the constellation named? Answer: Virgo. Epsilon Librae is part of the constellation named? Answer: Libra. Sigma3 Cancri A is part of the constellation named? Answer: Cancer. Pi3 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Upsilon1 Hydrae is part of the constellation named? Answer: Hydra. 72 Herculis is part of the constellation named? Answer: Hercules. 28 Andromedae is part of the constellation named? Answer: Andromeda. V774 Herculis is part of the constellation named? Answer: Hercules. 23 Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Iota Leonis is part of the constellation named? Answer: Leo. 112 Piscium is part of the constellation named? Answer: Pisces. Eta Leonis is part of the constellation named? Answer: Leo. Iota Virginis is part of the constellation named? Answer: Virgo. Mu Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Epsilon Andromedae is part of the constellation named? Answer: Andromeda. Ross 889 is part of the constellation named? Answer: Hydra. 109 Piscium is part of the constellation named? Answer: Pisces. V453 Andromedae is part of the constellation named? Answer: Andromeda. Theta Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Gliese 251 is part of the constellation named? Answer: Gemini. Upsilon2 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Chi Herculis is part of the constellation named? Answer: Hercules. BD+08 4887 is part of the constellation named? Answer: Pegasus. Theta1 Orionis B is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Iota Piscium is part of the constellation named? Answer: Pisces. Alpha1 Librae is part of the constellation named? Answer: Libra. Iota Hydrae is part of the constellation named? Answer: Hydra. Pi Herculis is part of the constellation named? Answer: Hercules. Gliese 581 is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Alpha Persei is part of the constellation named? Answer: Perseus. Chi1 Orionis is part of the constellation named? Answer: Orion. 50 Persei E is part of the constellation named? Answer: Perseus. 49 Librae is part of the constellation named? Answer: Libra. 83 Leonis A is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Iota Cancri A is part of the constellation named? Answer: Cancer. Delta Leonis is part of the constellation named? Answer: Leo. Theta Aquarii is part of the constellation named? Answer: Aquarius. Nu Indi is part of the constellation named? Answer: Indus. Phi2 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Beta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Gliese 581 is part of the constellation named? Answer: Libra. Theta Virginis is part of the constellation named? Answer: Virgo. 33 Virginis is part of the constellation named? Answer: Virgo. Gliese 205 is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Beta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. YY Geminorum is part of the constellation named? Answer: Gemini. 1 Geminorum is part of the constellation named? Answer: Gemini. Gumala is part of the constellation named? Answer: Sagittarius. Theta1 Orionis C is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: 91 Aquarii is part of the constellation named? Answer: Aquarius. Altair is part of the constellation named? Answer: Aquila. Theta Aquarii is part of the constellation named? Answer: Aquarius. Gliese 436 b is part of the constellation named? Answer: Leo. Wolf 359 is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: BD+59 2723 is part of the constellation named? Answer: Cassiopeia. 87 Herculis is part of the constellation named? Answer: Hercules. Mu Pegasi is part of the constellation named? Answer: Pegasus. 6 Andromedae is part of the constellation named? Answer: Andromeda. Rigel is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Eta Piscium is part of the constellation named? Answer: Pisces. Theta Leonis is part of the constellation named? Answer: Leo. Spica is part of the constellation named? Answer: Virgo. Delta Herculis is part of the constellation named? Answer: Hercules. V520 Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Phi Persei is part of the constellation named? Answer: Perseus. Omega Herculis is part of the constellation named? Answer: Hercules. Vega is part of the constellation named? Answer: Lyra. 109 Piscium is part of the constellation named? Answer: Pisces. Betelgeuse is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Xi Geminorum is part of the constellation named? Answer: Gemini. Theta Librae is part of the constellation named? Answer: Libra. QSO J0738+1742 is part of the constellation named? Answer: Gemini. 35 Leonis is part of the constellation named? Answer: Leo. Iota Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Gamma¹ Andromedae is part of the constellation named? Answer: Andromeda. Eta Pegasi is part of the constellation named? Answer: Pegasus. Chi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. QSO J0738+1742 is part of the constellation named? Answer: Gemini. Algol is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Navi is part of the constellation named? Answer: Cassiopeia. 22 Orionis is part of the constellation named? Answer: Orion. 49 Librae is part of the constellation named? Answer: Libra. V* PX Vir is part of the constellation named? Answer: Virgo. AD Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 88 Leonis is part of the constellation named? Answer: Leo. Upsilon Andromedae is part of the constellation named? Answer: Andromeda. Gliese 433 is part of the constellation named? Answer: Hydra. Sirius is part of the constellation named? Answer: Canis Major. Gamma Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Mu2 Cancri is part of the constellation named? Answer: Cancer. Ross 154 is part of the constellation named? Answer: Sagittarius. * del Gem is part of the constellation named? Answer: Gemini. Deneb is part of the constellation named? Answer: Cygnus. Denebola is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Theta Leonis is part of the constellation named? Answer: Leo. BD+08 4887 is part of the constellation named? Answer: Pegasus. Lambda Pegasi is part of the constellation named? Answer: Pegasus. Sigma Pegasi is part of the constellation named? Answer: Pegasus. NGC 1275 is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Mu Leonis is part of the constellation named? Answer: Leo. Gliese 908 is part of the constellation named? Answer: Pisces. Alpha Andromedae is part of the constellation named? Answer: Andromeda. Betelgeuse is part of the constellation named? Answer: Orion. Alpha Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: AD Leonis is part of the constellation named? Answer: Leo. BD+42 2667 is part of the constellation named? Answer: Hercules. Gliese 205 is part of the constellation named? Answer: Orion. Eta Geminorum is part of the constellation named? Answer: Gemini. Epsilon Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 48 Librae is part of the constellation named? Answer: Libra. 4C 01.28 is part of the constellation named? Answer: Leo. Xi Andromedae is part of the constellation named? Answer: Andromeda. 37 Geminorum is part of the constellation named? Answer: Gemini. Kappa Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: V987 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Regulus is part of the constellation named? Answer: Leo. 112 Piscium is part of the constellation named? Answer: Pisces. 1 Geminorum is part of the constellation named? Answer: Gemini. Gliese 436 is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 5 Andromedae is part of the constellation named? Answer: Andromeda. Nu Indi is part of the constellation named? Answer: Indus. Epsilon Librae is part of the constellation named? Answer: Libra. Upsilon Andromedae is part of the constellation named? Answer: Andromeda. Gamma Leonis A is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Eta Andromedae is part of the constellation named? Answer: Andromeda. Pi1 Orionis is part of the constellation named? Answer: Orion. Van Maanen's star is part of the constellation named? Answer: Pisces. Chi Herculis is part of the constellation named? Answer: Hercules. 71 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Delta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. HZ Aquarii is part of the constellation named? Answer: Aquarius. V* PX Vir is part of the constellation named? Answer: Virgo. Xi Hydrae is part of the constellation named? Answer: Hydra. 89 Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 111 Herculis is part of the constellation named? Answer: Hercules. Zeta Geminorum is part of the constellation named? Answer: Gemini. 11 Librae is part of the constellation named? Answer: Libra. Iota Virginis is part of the constellation named? Answer: Virgo. Omicron Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 107 Piscium is part of the constellation named? Answer: Pisces. Gliese 581 is part of the constellation named? Answer: Libra. Theta Pegasi is part of the constellation named? Answer: Pegasus. Castor is part of the constellation named? Answer: Gemini. 35 Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Psi2 Cancri is part of the constellation named? Answer: Cancer. 91 Aquarii is part of the constellation named? Answer: Aquarius. 59 Virginis is part of the constellation named? Answer: Virgo. Iota Piscium is part of the constellation named? Answer: Pisces. 37 Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Capella is part of the constellation named? Answer: Auriga. Theta1 Orionis C is part of the constellation named? Answer: Orion. Omega Andromedae is part of the constellation named? Answer: Andromeda. Theta Persei is part of the constellation named? Answer: Perseus. 50 Persei E is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: 59 Virginis is part of the constellation named? Answer: Virgo. Phi2 Orionis is part of the constellation named? Answer: Orion. Gacrux is part of the constellation named? Answer: Crux. Kappa Piscium is part of the constellation named? Answer: Pisces. Theta Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Theta1 Orionis C is part of the constellation named? Answer: Orion. Furuhjelm 46 is part of the constellation named? Answer: Hercules. U Sagittarii is part of the constellation named? Answer: Sagittarius. Theta Piscium is part of the constellation named? Answer: Pisces. Gliese 436 b is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: BD+47 612 is part of the constellation named? Answer: Andromeda. BD+42 2667 is part of the constellation named? Answer: Hercules. 51 Pegasi is part of the constellation named? Answer: Pegasus. Upsilon Andromedae is part of the constellation named? Answer: Andromeda. Gliese 204 is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: 12 Persei is part of the constellation named? Answer: Perseus. Ross 248 is part of the constellation named? Answer: Andromeda. Phi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Lambda Hydrae is part of the constellation named? Answer: Hydra. X Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Gamma Piscium is part of the constellation named? Answer: Pisces. Lambda Hydrae is part of the constellation named? Answer: Hydra. Epsilon Indi A is part of the constellation named? Answer: Indus. Alpha2 Librae is part of the constellation named? Answer: Libra. 11 Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Epsilon Leonis is part of the constellation named? Answer: Leo. Kappa Persei is part of the constellation named? Answer: Perseus. Xi Andromedae is part of the constellation named? Answer: Andromeda. Iota Geminorum is part of the constellation named? Answer: Gemini. Gliese 402 is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: MT Pegasi is part of the constellation named? Answer: Pegasus. Nu Indi is part of the constellation named? Answer: Indus. Gliese 349 is part of the constellation named? Answer: Hydra. YY Geminorum is part of the constellation named? Answer: Gemini. 29 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Pi3 Orionis is part of the constellation named? Answer: Orion. Epsilon Aquarii is part of the constellation named? Answer: Aquarius. Kappa Andromedae is part of the constellation named? Answer: Andromeda. Zeta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 48 Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Gliese 436 is part of the constellation named? Answer: Leo. Theta1 Orionis B is part of the constellation named? Answer: Orion. 14 Herculis is part of the constellation named? Answer: Hercules. Theta Pegasi is part of the constellation named? Answer: Pegasus. 4C 01.28 is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 35 Leonis is part of the constellation named? Answer: Leo. Epsilon Pegasi is part of the constellation named? Answer: Pegasus. Mu Persei is part of the constellation named? Answer: Perseus. Alpha2 Librae is part of the constellation named? Answer: Libra. Alnilam is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: 87 Herculis is part of the constellation named? Answer: Hercules. Gamma Herculis is part of the constellation named? Answer: Hercules. Eta Leonis is part of the constellation named? Answer: Leo. Nu Indi is part of the constellation named? Answer: Indus. 12 Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: 74 Orionis is part of the constellation named? Answer: Orion. Theta Piscium is part of the constellation named? Answer: Pisces. Rho Indi is part of the constellation named? Answer: Indus. Epsilon Pegasi is part of the constellation named? Answer: Pegasus. 40 Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Rigel is part of the constellation named? Answer: Orion. Sigma Geminorum is part of the constellation named? Answer: Gemini. V987 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Gliese 436 is part of the constellation named? Answer: Leo. Bellatrix is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Gliese 570A is part of the constellation named? Answer: Libra. 7C 082754.29+242103.00 is part of the constellation named? Answer: Cancer. Upsilon Andromedae is part of the constellation named? Answer: Andromeda. Antares is part of the constellation named? Answer: Scorpius. Alpha1 Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Alpha Persei is part of the constellation named? Answer: Perseus. U Sagittarii is part of the constellation named? Answer: Sagittarius. Zeta Leonis is part of the constellation named? Answer: Leo. Epsilon Indi A is part of the constellation named? Answer: Indus. Eta Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: BD+42 2667 is part of the constellation named? Answer: Hercules. Tau Geminorum is part of the constellation named? Answer: Gemini. 51 Pegasi is part of the constellation named? Answer: Pegasus. 110 Herculis is part of the constellation named? Answer: Hercules. Mintaka is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Theta Persei is part of the constellation named? Answer: Perseus. Regulus is part of the constellation named? Answer: Leo. Zeta Virginis is part of the constellation named? Answer: Virgo. Vega is part of the constellation named? Answer: Lyra. Iota Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 4C 04.42 is part of the constellation named? Answer: Virgo. 112 Piscium is part of the constellation named? Answer: Pisces. Omega Herculis is part of the constellation named? Answer: Hercules. Gliese 880 is part of the constellation named? Answer: Pegasus. Tau Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Nu Indi is part of the constellation named? Answer: Indus. 12 Andromedae is part of the constellation named? Answer: Andromeda. Andromeda is part of the constellation named? Answer: Andromeda. FF Andromedae is part of the constellation named? Answer: Andromeda. 39 Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Nu Herculis is part of the constellation named? Answer: Hercules. Xi Persei is part of the constellation named? Answer: Perseus. Alpha2 Librae is part of the constellation named? Answer: Libra. 53 Virginis is part of the constellation named? Answer: Virgo. Mu Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: 61 Virginis is part of the constellation named? Answer: Virgo. Mu Leonis is part of the constellation named? Answer: Leo. Alpha Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Mu Cassiopeiae is part of the constellation named? Answer: Cassiopeia. V1386 Ori is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Theta1 Orionis B is part of the constellation named? Answer: Orion. Delta Virginis is part of the constellation named? Answer: Virgo. Mu Leonis is part of the constellation named? Answer: Leo. Gliese 570A is part of the constellation named? Answer: Libra. 49 Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: V453 Andromedae is part of the constellation named? Answer: Andromeda. 89 Herculis is part of the constellation named? Answer: Hercules. 30 Geminorum is part of the constellation named? Answer: Gemini. Gliese 433 is part of the constellation named? Answer: Hydra. Xi Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Xi Persei is part of the constellation named? Answer: Perseus. Mu Leonis is part of the constellation named? Answer: Leo. Iota Hydrae is part of the constellation named? Answer: Hydra. Iota Orionis is part of the constellation named? Answer: Orion. Phi Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: 54 Persei is part of the constellation named? Answer: Perseus. Gliese 205 is part of the constellation named? Answer: Orion. Beta Cancri is part of the constellation named? Answer: Cancer. Phi2 Orionis is part of the constellation named? Answer: Orion. Delta Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 75 Cancri is part of the constellation named? Answer: Cancer. Xi Pegasi is part of the constellation named? Answer: Pegasus. 14 Herculis is part of the constellation named? Answer: Hercules. X Persei is part of the constellation named? Answer: Perseus. 88 Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 14 Andromedae is part of the constellation named? Answer: Andromeda. Iota Virginis is part of the constellation named? Answer: Virgo. Alpha Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Beta Cancri is part of the constellation named? Answer: Cancer. QSO B1514-24 is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Diphda is part of the constellation named? Answer: Cetus. BD+38 4955 is part of the constellation named? Answer: Andromeda. Iota Orionis is part of the constellation named? Answer: Orion. Kappa Geminorum is part of the constellation named? Answer: Gemini. Regulus is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 81 Cancri AB is part of the constellation named? Answer: Cancer. Upsilon2 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. GJ 28 is part of the constellation named? Answer: Andromeda. Tau Herculis is part of the constellation named? Answer: Hercules. Zeta Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 3C 273 is part of the constellation named? Answer: Virgo. 15 Pegasi is part of the constellation named? Answer: Pegasus. Gliese 179 is part of the constellation named? Answer: Orion. BD+47 612 is part of the constellation named? Answer: Andromeda. Gliese 555 is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Delta Virginis is part of the constellation named? Answer: Virgo. Sigma Pegasi is part of the constellation named? Answer: Pegasus. 112 Piscium is part of the constellation named? Answer: Pisces. 72 Herculis is part of the constellation named? Answer: Hercules. 16 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Alnilam is part of the constellation named? Answer: Orion. Delta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Zeta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Phi Virginis is part of the constellation named? Answer: Virgo. Delta Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: V774 Herculis is part of the constellation named? Answer: Hercules. 3C 273 is part of the constellation named? Answer: Virgo. Wolf 359 is part of the constellation named? Answer: Leo. Procyon is part of the constellation named? Answer: Canis Minor. Sigma Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: V774 Herculis is part of the constellation named? Answer: Hercules. Gliese 90 is part of the constellation named? Answer: Cassiopeia. Lambda Andromedae is part of the constellation named? Answer: Andromeda. Gamma Leonis A is part of the constellation named? Answer: Leo. 93 Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Wolf 359 is part of the constellation named? Answer: Leo. Ross 889 is part of the constellation named? Answer: Hydra. 51 Pegasi is part of the constellation named? Answer: Pegasus. QSO J0738+1742 is part of the constellation named? Answer: Gemini. Theta Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: 112 Piscium is part of the constellation named? Answer: Pisces. Alnilam is part of the constellation named? Answer: Orion. Omicron Pegasi is part of the constellation named? Answer: Pegasus. Gliese 205 is part of the constellation named? Answer: Orion. Rho Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: Omicron Virginis is part of the constellation named? Answer: Virgo. Xi Piscium is part of the constellation named? Answer: Pisces. Beta Pegasi is part of the constellation named? Answer: Pegasus. Xi Persei is part of the constellation named? Answer: Perseus. 74 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Xi Hydrae is part of the constellation named? Answer: Hydra. rho01 Cnc is part of the constellation named? Answer: Cancer. FK Aquarii is part of the constellation named? Answer: Aquarius. 17 Virginis is part of the constellation named? Answer: Virgo. Ross 47 is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: 6 Persei is part of the constellation named? Answer: Andromeda. Kappa Andromedae is part of the constellation named? Answer: Andromeda. 1 Geminorum is part of the constellation named? Answer: Gemini. Procyon is part of the constellation named? Answer: Canis Minor. 54 Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Omicron Andromedae is part of the constellation named? Answer: Andromeda. 91 Aquarii is part of the constellation named? Answer: Aquarius. Phi Virginis is part of the constellation named? Answer: Virgo. GN Andromedae is part of the constellation named? Answer: Andromeda. Iota1 Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: 89 Leonis is part of the constellation named? Answer: Leo. 12 Persei is part of the constellation named? Answer: Perseus. 112 Piscium is part of the constellation named? Answer: Pisces. Gliese 436 b is part of the constellation named? Answer: Leo. Alpha2 Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Omicron Leonis is part of the constellation named? Answer: Leo. 91 Aquarii is part of the constellation named? Answer: Aquarius. 49 Librae is part of the constellation named? Answer: Libra. BD+17 4708 is part of the constellation named? Answer: Pegasus. Mu Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Gamma Pegasi is part of the constellation named? Answer: Pegasus. Beta Aquarii is part of the constellation named? Answer: Aquarius. 48 Persei is part of the constellation named? Answer: Perseus. 5 Piscium is part of the constellation named? Answer: Pisces. Eta Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Gliese 179 is part of the constellation named? Answer: Orion. BD+10 1857 is part of the constellation named? Answer: Cancer. Buna is part of the constellation named? Answer: Andromeda. 112 Piscium is part of the constellation named? Answer: Pisces. Saiph is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: V647 Herculis is part of the constellation named? Answer: Hercules. * del Gem is part of the constellation named? Answer: Gemini. Gumala is part of the constellation named? Answer: Sagittarius. Iota Persei is part of the constellation named? Answer: Perseus. 22 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Alpha Persei is part of the constellation named? Answer: Perseus. Buna is part of the constellation named? Answer: Andromeda. Nu Indi is part of the constellation named? Answer: Indus. DT Virginis is part of the constellation named? Answer: Virgo. Pi1 Orionis is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Mirfak is part of the constellation named? Answer: Perseus. Vega is part of the constellation named? Answer: Lyra. 1RXS J141146.2-123634 is part of the constellation named? Answer: Virgo. 4C 01.28 is part of the constellation named? Answer: Leo. Tau Leonis is part of the constellation named? Answer: __",
+        "answer": "Leo"
+    },
+    {
+        "prompt": "Prompt: 3 Andromedae is part of the constellation named? Answer: Andromeda. 109 Piscium is part of the constellation named? Answer: Pisces. Delta Leonis is part of the constellation named? Answer: Leo. Sigma Geminorum is part of the constellation named? Answer: Gemini. Gliese 179 is part of the constellation named? Answer: __",
+        "answer": "Orion"
+    },
+    {
+        "prompt": "Prompt: Milky Way is part of the constellation named? Answer: Cassiopeia. Alphard is part of the constellation named? Answer: Hydra. Epsilon Andromedae is part of the constellation named? Answer: Andromeda. Procyon is part of the constellation named? Answer: Canis Minor. 9 Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: 50 Persei E is part of the constellation named? Answer: Perseus. Rigel is part of the constellation named? Answer: Orion. Eta Andromedae is part of the constellation named? Answer: Andromeda. 39 Leonis is part of the constellation named? Answer: Leo. Sigma Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Eta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Shaula is part of the constellation named? Answer: Scorpius. Xi Piscium is part of the constellation named? Answer: Pisces. Upsilon2 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 48 Persei is part of the constellation named? Answer: __",
+        "answer": "Perseus"
+    },
+    {
+        "prompt": "Prompt: Milky Way is part of the constellation named? Answer: Cassiopeia. Tau Persei is part of the constellation named? Answer: Perseus. Iota Geminorum is part of the constellation named? Answer: Gemini. 48 Librae is part of the constellation named? Answer: Libra. Epsilon Librae is part of the constellation named? Answer: __",
+        "answer": "Libra"
+    },
+    {
+        "prompt": "Prompt: Schedar is part of the constellation named? Answer: Cassiopeia. Lambda Pegasi is part of the constellation named? Answer: Pegasus. Mu Sagittarii is part of the constellation named? Answer: Sagittarius. Diphda is part of the constellation named? Answer: Cetus. 51 Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Nu Virginis is part of the constellation named? Answer: Virgo. Sigma Persei is part of the constellation named? Answer: Perseus. BD+59 2723 is part of the constellation named? Answer: Cassiopeia. Epsilon Pegasi is part of the constellation named? Answer: Pegasus. Beta Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Omicron Andromedae is part of the constellation named? Answer: Andromeda. 71 Orionis is part of the constellation named? Answer: Orion. MT Pegasi is part of the constellation named? Answer: Pegasus. Chi Cancri is part of the constellation named? Answer: Cancer. 61 Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Epsilon Indi A is part of the constellation named? Answer: Indus. BD+38 4955 is part of the constellation named? Answer: Andromeda. 49 Librae is part of the constellation named? Answer: Libra. U Sagittarii is part of the constellation named? Answer: Sagittarius. Iota Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: 88 Leonis is part of the constellation named? Answer: Leo. Sigma Orionis is part of the constellation named? Answer: Orion. Beta Herculis is part of the constellation named? Answer: Hercules. Dubhe is part of the constellation named? Answer: Ursa Major. 70 Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: 93 Leonis is part of the constellation named? Answer: Leo. 1RXS J141146.2-123634 is part of the constellation named? Answer: Virgo. Gliese 349 is part of the constellation named? Answer: Hydra. BD+47 612 is part of the constellation named? Answer: Andromeda. 54 Piscium A is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Epsilon Pegasi is part of the constellation named? Answer: Pegasus. Mu Pegasi is part of the constellation named? Answer: Pegasus. Phi Persei is part of the constellation named? Answer: Perseus. EZ Aquarii is part of the constellation named? Answer: Aquarius. 107 Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: 35 Leonis is part of the constellation named? Answer: Leo. 33 Virginis is part of the constellation named? Answer: Virgo. Kaus Australis is part of the constellation named? Answer: Sagittarius. Gamma Hydrae is part of the constellation named? Answer: Hydra. HN Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Iota Piscium is part of the constellation named? Answer: Pisces. 22 Orionis is part of the constellation named? Answer: Orion. Delta Geminorum is part of the constellation named? Answer: Gemini. Wolf 424 is part of the constellation named? Answer: Virgo. 59 Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Lambda Sagittarii is part of the constellation named? Answer: Sagittarius. 107 Piscium is part of the constellation named? Answer: Pisces. 70 Virginis is part of the constellation named? Answer: Virgo. Dubhe is part of the constellation named? Answer: Ursa Major. 85 Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Xi Andromedae is part of the constellation named? Answer: Andromeda. Alpha2 Librae is part of the constellation named? Answer: Libra. Chi Herculis is part of the constellation named? Answer: Hercules. Epsilon Piscium is part of the constellation named? Answer: Pisces. Epsilon Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Theta Piscium is part of the constellation named? Answer: Pisces. Gliese 205 is part of the constellation named? Answer: Orion. Wolf 424 is part of the constellation named? Answer: Virgo. 6 Andromedae is part of the constellation named? Answer: Andromeda. Xi Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Iota Hydrae is part of the constellation named? Answer: Hydra. Chi Herculis is part of the constellation named? Answer: Hercules. 1 Aquarii is part of the constellation named? Answer: Aquarius. 87 Herculis is part of the constellation named? Answer: Hercules. U Sagittarii is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: Kappa Piscium is part of the constellation named? Answer: Pisces. Alphecca is part of the constellation named? Answer: Corona Borealis. Gliese 436 b is part of the constellation named? Answer: Leo. 15 Pegasi is part of the constellation named? Answer: Pegasus. Sigma Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: 93 Leonis is part of the constellation named? Answer: Leo. Beta Andromedae is part of the constellation named? Answer: Andromeda. 112 Piscium is part of the constellation named? Answer: Pisces. Kaus Australis is part of the constellation named? Answer: Sagittarius. Gliese 908 is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: 35 Leonis is part of the constellation named? Answer: Leo. Beta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Delta Herculis is part of the constellation named? Answer: Hercules. EO Psc is part of the constellation named? Answer: Pisces. Gamma Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Delta Virginis is part of the constellation named? Answer: Virgo. Gliese 686 is part of the constellation named? Answer: Hercules. 5 Andromedae is part of the constellation named? Answer: Andromeda. V* LQ Hya is part of the constellation named? Answer: Hydra. Omicron Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Gliese 436 b is part of the constellation named? Answer: Leo. Theta Virginis is part of the constellation named? Answer: Virgo. Phi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Iota1 Librae is part of the constellation named? Answer: Libra. Iota Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Messier 87 is part of the constellation named? Answer: Virgo. Mirfak is part of the constellation named? Answer: Perseus. Gliese 686 is part of the constellation named? Answer: Hercules. Sirius is part of the constellation named? Answer: Canis Major. Epsilon Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: 81 Geminorum is part of the constellation named? Answer: Gemini. Ross 889 is part of the constellation named? Answer: Hydra. BD+10 1857 is part of the constellation named? Answer: Cancer. Delta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Gumala is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: Eta Persei is part of the constellation named? Answer: Perseus. Mu Sagittarii is part of the constellation named? Answer: Sagittarius. Iota Geminorum is part of the constellation named? Answer: Gemini. Gliese 205 is part of the constellation named? Answer: Orion. Ross 128 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Kappa Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Kappa Piscium is part of the constellation named? Answer: Pisces. Pi Andromedae is part of the constellation named? Answer: Andromeda. Delta Virginis is part of the constellation named? Answer: Virgo. Messier 87 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: GN Andromedae is part of the constellation named? Answer: Andromeda. Gliese 402 is part of the constellation named? Answer: Leo. Phi Virginis is part of the constellation named? Answer: Virgo. QSO J0738+1742 is part of the constellation named? Answer: Gemini. Iota Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Upsilon Pegasi is part of the constellation named? Answer: Pegasus. Omicron Andromedae is part of the constellation named? Answer: Andromeda. Eta Herculis is part of the constellation named? Answer: Hercules. 70 Pegasi is part of the constellation named? Answer: Pegasus. 16 Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: 14 Herculis is part of the constellation named? Answer: Hercules. 12 Andromedae is part of the constellation named? Answer: Andromeda. 53 Virginis is part of the constellation named? Answer: Virgo. 91 Aquarii is part of the constellation named? Answer: Aquarius. 15 Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: 48 Librae is part of the constellation named? Answer: Libra. Alpha2 Librae is part of the constellation named? Answer: Libra. Gliese 649 is part of the constellation named? Answer: Hercules. Kappa Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 109 Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Zeta Virginis is part of the constellation named? Answer: Virgo. Mu Andromedae is part of the constellation named? Answer: Andromeda. Delta Librae is part of the constellation named? Answer: Libra. Delta Cancri is part of the constellation named? Answer: Cancer. 112 Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: 14 Andromedae is part of the constellation named? Answer: Andromeda. 17 Virginis is part of the constellation named? Answer: Virgo. 99 Herculis is part of the constellation named? Answer: Hercules. GX Andromedae is part of the constellation named? Answer: Andromeda. Mu Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Sirius is part of the constellation named? Answer: Canis Major. 56 Pegasi is part of the constellation named? Answer: Pegasus. Gliese 880 is part of the constellation named? Answer: Pegasus. Sigma Persei is part of the constellation named? Answer: Perseus. 35 Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Iota Geminorum is part of the constellation named? Answer: Gemini. Alpha Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 5 Andromedae is part of the constellation named? Answer: Andromeda. Sigma3 Cancri A is part of the constellation named? Answer: Cancer. Gliese 514 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: 1 Pegasi is part of the constellation named? Answer: Pegasus. Epsilon Geminorum is part of the constellation named? Answer: Gemini. Sigma Geminorum is part of the constellation named? Answer: Gemini. 75 Cancri is part of the constellation named? Answer: Cancer. BD+17 4708 is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Epsilon Librae is part of the constellation named? Answer: Libra. V* LQ Hya is part of the constellation named? Answer: Hydra. Lambda Hydrae is part of the constellation named? Answer: Hydra. Zeta Leonis is part of the constellation named? Answer: Leo. Chi Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Xi Andromedae is part of the constellation named? Answer: Andromeda. AD Leonis is part of the constellation named? Answer: Leo. Beta Pegasi is part of the constellation named? Answer: Pegasus. Furuhjelm 46 is part of the constellation named? Answer: Hercules. DT Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: GN Andromedae is part of the constellation named? Answer: Andromeda. Buna is part of the constellation named? Answer: Andromeda. BD+38 4955 is part of the constellation named? Answer: Andromeda. Omega Sagittarii is part of the constellation named? Answer: Sagittarius. Theta Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Alpha Persei is part of the constellation named? Answer: Perseus. Epsilon Virginis is part of the constellation named? Answer: Virgo. Epsilon Aquarii is part of the constellation named? Answer: Aquarius. Upsilon Pegasi is part of the constellation named? Answer: Pegasus. Mu Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: 54 Piscium A is part of the constellation named? Answer: Pisces. Saiph is part of the constellation named? Answer: Orion. Tau Persei is part of the constellation named? Answer: Perseus. Dubhe is part of the constellation named? Answer: Ursa Major. Gamma Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Theta2 Orionis is part of the constellation named? Answer: Orion. Gamma Piscium is part of the constellation named? Answer: Pisces. 37 Geminorum is part of the constellation named? Answer: Gemini. 94 Aquarii A is part of the constellation named? Answer: Aquarius. Beta Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Wolf 359 is part of the constellation named? Answer: Leo. 109 Herculis is part of the constellation named? Answer: Hercules. Rho Geminorum is part of the constellation named? Answer: Gemini. QSO B2134+0028 is part of the constellation named? Answer: Aquarius. Gliese 880 is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Delta Andromedae is part of the constellation named? Answer: Andromeda. Mu Persei is part of the constellation named? Answer: Perseus. 12 Andromedae is part of the constellation named? Answer: Andromeda. Gliese 486 is part of the constellation named? Answer: Virgo. 9 Sagittarii is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: Gliese 453 is part of the constellation named? Answer: Hydra. Chi Herculis is part of the constellation named? Answer: Hercules. Gliese 908 is part of the constellation named? Answer: Pisces. Tau Persei is part of the constellation named? Answer: Perseus. Nu Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Sigma3 Cancri A is part of the constellation named? Answer: Cancer. Psi Andromedae is part of the constellation named? Answer: Andromeda. Arcturus is part of the constellation named? Answer: Boötes. Omicron Leonis is part of the constellation named? Answer: Leo. 34 Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Gamma Geminorum is part of the constellation named? Answer: Gemini. 61 Virginis is part of the constellation named? Answer: Virgo. Sigma Orionis is part of the constellation named? Answer: Orion. 12 Andromedae is part of the constellation named? Answer: Andromeda. Spica is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Nu Hydrae is part of the constellation named? Answer: Hydra. V401 Hya is part of the constellation named? Answer: Hydra. Gliese 570A is part of the constellation named? Answer: Libra. Gliese 876 is part of the constellation named? Answer: Aquarius. 53 Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Iota Virginis is part of the constellation named? Answer: Virgo. 11 Librae is part of the constellation named? Answer: Libra. 109 Herculis is part of the constellation named? Answer: Hercules. 12 Persei is part of the constellation named? Answer: Perseus. Eta Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: V401 Hya is part of the constellation named? Answer: Hydra. Omicron Andromedae is part of the constellation named? Answer: Andromeda. Gliese 433 is part of the constellation named? Answer: Hydra. Chi Cancri is part of the constellation named? Answer: Cancer. Phi Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Beta Cancri is part of the constellation named? Answer: Cancer. II Pegasi is part of the constellation named? Answer: Pegasus. Sigma Geminorum is part of the constellation named? Answer: Gemini. 6 Persei is part of the constellation named? Answer: Andromeda. 17 Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: V647 Herculis is part of the constellation named? Answer: Hercules. Alphard is part of the constellation named? Answer: Hydra. GX Andromedae is part of the constellation named? Answer: Andromeda. Iota Herculis is part of the constellation named? Answer: Hercules. 56 Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Phi Persei is part of the constellation named? Answer: Perseus. 37 Geminorum is part of the constellation named? Answer: Gemini. Epsilon Hydrae is part of the constellation named? Answer: Hydra. Iota Pegasi is part of the constellation named? Answer: Pegasus. Lambda Sagittarii is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: Omicron Virginis is part of the constellation named? Answer: Virgo. 3 Andromedae is part of the constellation named? Answer: Andromeda. Chi Virginis is part of the constellation named? Answer: Virgo. 81 Geminorum is part of the constellation named? Answer: Gemini. Lambda Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: BD+42 2667 is part of the constellation named? Answer: Hercules. Gamma¹ Andromedae is part of the constellation named? Answer: Andromeda. U Sagittarii is part of the constellation named? Answer: Sagittarius. BD+17 4708 is part of the constellation named? Answer: Pegasus. Upsilon Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Zeta Hydrae is part of the constellation named? Answer: Hydra. V520 Persei is part of the constellation named? Answer: Perseus. Beta Pegasi is part of the constellation named? Answer: Pegasus. Epsilon Virginis is part of the constellation named? Answer: Virgo. Van Maanen's star is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Gliese 514 is part of the constellation named? Answer: Virgo. Omega Sagittarii is part of the constellation named? Answer: Sagittarius. 7 Piscium is part of the constellation named? Answer: Pisces. Upsilon Andromedae is part of the constellation named? Answer: Andromeda. Delta Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Iota Orionis is part of the constellation named? Answer: Orion. Bellatrix is part of the constellation named? Answer: Orion. Mu Orionis is part of the constellation named? Answer: Orion. 59 Virginis is part of the constellation named? Answer: Virgo. 3C 273 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Gliese 486 is part of the constellation named? Answer: Virgo. Gamma Aquarii is part of the constellation named? Answer: Aquarius. V1386 Ori is part of the constellation named? Answer: Orion. Epsilon Librae is part of the constellation named? Answer: Libra. II Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Gliese 581 is part of the constellation named? Answer: Libra. Rho Geminorum is part of the constellation named? Answer: Gemini. Epsilon Indi A is part of the constellation named? Answer: Indus. Kappa Piscium is part of the constellation named? Answer: Pisces. 7 Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Mu Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Epsilon Geminorum is part of the constellation named? Answer: Gemini. Rho Geminorum is part of the constellation named? Answer: Gemini. Theta1 Orionis B is part of the constellation named? Answer: Orion. 1 Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Gliese 179 is part of the constellation named? Answer: Orion. Gliese 649 is part of the constellation named? Answer: Hercules. 4C 04.42 is part of the constellation named? Answer: Virgo. V453 Andromedae is part of the constellation named? Answer: Andromeda. Ross 154 is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: 12 Andromedae is part of the constellation named? Answer: Andromeda. Castor is part of the constellation named? Answer: Gemini. Delta Andromedae is part of the constellation named? Answer: Andromeda. Zeta Virginis is part of the constellation named? Answer: Virgo. Mu Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: 89 Herculis is part of the constellation named? Answer: Hercules. Capella is part of the constellation named? Answer: Auriga. BD+09 2636 is part of the constellation named? Answer: Virgo. 53 Virginis is part of the constellation named? Answer: Virgo. 70 Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: 4C 04.42 is part of the constellation named? Answer: Virgo. Kappa Geminorum is part of the constellation named? Answer: Gemini. Ross 889 is part of the constellation named? Answer: Hydra. Eta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Epsilon Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: GQ Andromedae is part of the constellation named? Answer: Andromeda. 61 Virginis is part of the constellation named? Answer: Virgo. Nu Herculis is part of the constellation named? Answer: Hercules. Gliese 514 is part of the constellation named? Answer: Virgo. Kappa Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Gliese 686 is part of the constellation named? Answer: Hercules. BD+42 2667 is part of the constellation named? Answer: Hercules. Alphecca is part of the constellation named? Answer: Corona Borealis. 4C 04.42 is part of the constellation named? Answer: Virgo. 1RXS J141146.2-123634 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Omicron Piscium is part of the constellation named? Answer: Pisces. BD+47 612 is part of the constellation named? Answer: Andromeda. 1 Aquarii is part of the constellation named? Answer: Aquarius. 99 Herculis is part of the constellation named? Answer: Hercules. Omega Sagittarii is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: QSO B1514-24 is part of the constellation named? Answer: Libra. YY Geminorum is part of the constellation named? Answer: Gemini. 48 Librae is part of the constellation named? Answer: Libra. Gliese 90 is part of the constellation named? Answer: Cassiopeia. Omicron Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Mu Geminorum is part of the constellation named? Answer: Gemini. Alcor is part of the constellation named? Answer: Ursa Major. Mu Herculis A is part of the constellation named? Answer: Hercules. Gliese 849 is part of the constellation named? Answer: Aquarius. Theta Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Lambda Andromedae is part of the constellation named? Answer: Andromeda. GN Andromedae is part of the constellation named? Answer: Andromeda. Alcor is part of the constellation named? Answer: Ursa Major. Algol is part of the constellation named? Answer: Perseus. Eta Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: 28 Andromedae is part of the constellation named? Answer: Andromeda. Gliese 251 is part of the constellation named? Answer: Gemini. 40 Leonis is part of the constellation named? Answer: Leo. Rho Indi is part of the constellation named? Answer: Indus. 5 Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Rho Leonis is part of the constellation named? Answer: Leo. Gliese 570A is part of the constellation named? Answer: Libra. 16 Virginis is part of the constellation named? Answer: Virgo. Zeta Virginis is part of the constellation named? Answer: Virgo. EO Psc is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Mu Virginis is part of the constellation named? Answer: Virgo. 48 Persei is part of the constellation named? Answer: Perseus. Omega Herculis is part of the constellation named? Answer: Hercules. Omega Sagittarii is part of the constellation named? Answer: Sagittarius. Gamma Virginis A is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Zeta Virginis is part of the constellation named? Answer: Virgo. DT Virginis is part of the constellation named? Answer: Virgo. Gliese 649 is part of the constellation named? Answer: Hercules. Gumala is part of the constellation named? Answer: Sagittarius. Omicron Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Iota Orionis is part of the constellation named? Answer: Orion. Gamma Hydrae is part of the constellation named? Answer: Hydra. Deneb is part of the constellation named? Answer: Cygnus. Upsilon Andromedae is part of the constellation named? Answer: Andromeda. Wolf 424 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Iota Persei is part of the constellation named? Answer: Perseus. Omicron Pegasi is part of the constellation named? Answer: Pegasus. 70 Virginis is part of the constellation named? Answer: Virgo. HZ Aquarii is part of the constellation named? Answer: Aquarius. BD+09 2636 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Gliese 205 is part of the constellation named? Answer: Orion. 7C 082754.29+242103.00 is part of the constellation named? Answer: Cancer. Diphda is part of the constellation named? Answer: Cetus. Zubenelgenubi is part of the constellation named? Answer: Libra. MT Pegasi is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Omicron Virginis is part of the constellation named? Answer: Virgo. 22 Orionis is part of the constellation named? Answer: Orion. Castor is part of the constellation named? Answer: Gemini. Gliese 90 is part of the constellation named? Answer: Cassiopeia. Rho Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: V1386 Ori is part of the constellation named? Answer: Orion. U Sagittarii is part of the constellation named? Answer: Sagittarius. 29 Orionis is part of the constellation named? Answer: Orion. Lambda Hydrae is part of the constellation named? Answer: Hydra. Nu Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: BD+47 612 is part of the constellation named? Answer: Andromeda. Theta Leonis is part of the constellation named? Answer: Leo. Lambda Andromedae is part of the constellation named? Answer: Andromeda. Beta Virginis is part of the constellation named? Answer: Virgo. BD+26 4251 is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Epsilon Geminorum is part of the constellation named? Answer: Gemini. Omicron Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Messier 87 is part of the constellation named? Answer: Virgo. Tau Piscium is part of the constellation named? Answer: Pisces. BD+08 4887 is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Regulus is part of the constellation named? Answer: Leo. 5 Andromedae is part of the constellation named? Answer: Andromeda. Theta Leonis is part of the constellation named? Answer: Leo. 88 Leonis is part of the constellation named? Answer: Leo. Mu Sagittarii is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: Upsilon Pegasi is part of the constellation named? Answer: Pegasus. 35 Leonis is part of the constellation named? Answer: Leo. Alpha Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Alcor is part of the constellation named? Answer: Ursa Major. Tau Sagittarii is part of the constellation named? Answer: __",
+        "answer": "Sagittarius"
+    },
+    {
+        "prompt": "Prompt: Upsilon Pegasi is part of the constellation named? Answer: Pegasus. Delta Andromedae is part of the constellation named? Answer: Andromeda. Mu Andromedae is part of the constellation named? Answer: Andromeda. 4C 06.69 is part of the constellation named? Answer: Pegasus. Tau Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Zeta Herculis is part of the constellation named? Answer: Hercules. Saiph is part of the constellation named? Answer: Orion. Rigel is part of the constellation named? Answer: Orion. Gliese 849 is part of the constellation named? Answer: Aquarius. Xi Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Eta Andromedae is part of the constellation named? Answer: Andromeda. Iota Cancri A is part of the constellation named? Answer: Cancer. Gliese 908 is part of the constellation named? Answer: Pisces. 71 Orionis is part of the constellation named? Answer: Orion. Gliese 536 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: 12 Andromedae is part of the constellation named? Answer: Andromeda. Phi Virginis is part of the constellation named? Answer: Virgo. 108 Aquarii is part of the constellation named? Answer: Aquarius. Gliese 49 is part of the constellation named? Answer: Cassiopeia. V* PX Vir is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: X Persei is part of the constellation named? Answer: Perseus. GJ 28 is part of the constellation named? Answer: Andromeda. Schedar is part of the constellation named? Answer: Cassiopeia. EO Psc is part of the constellation named? Answer: Pisces. 4C 06.69 is part of the constellation named? Answer: __",
+        "answer": "Pegasus"
+    },
+    {
+        "prompt": "Prompt: Eta Geminorum is part of the constellation named? Answer: Gemini. Gliese 251 is part of the constellation named? Answer: Gemini. FF Andromedae is part of the constellation named? Answer: Andromeda. Tau Piscium is part of the constellation named? Answer: Pisces. 20 Piscium is part of the constellation named? Answer: __",
+        "answer": "Pisces"
+    },
+    {
+        "prompt": "Prompt: Gliese 205 is part of the constellation named? Answer: Orion. QSO J0738+1742 is part of the constellation named? Answer: Gemini. Pi Aquarii is part of the constellation named? Answer: Aquarius. Theta Pegasi is part of the constellation named? Answer: Pegasus. Zeta Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Aldebaran is part of the constellation named? Answer: Taurus. Gliese 649 is part of the constellation named? Answer: Hercules. * del Gem is part of the constellation named? Answer: Gemini. Omicron Leonis is part of the constellation named? Answer: Leo. 33 Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: OU Geminorum is part of the constellation named? Answer: Gemini. BD+26 4251 is part of the constellation named? Answer: Pegasus. 44 Andromedae is part of the constellation named? Answer: Andromeda. Delta Geminorum is part of the constellation named? Answer: Gemini. Gliese 486 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: V1386 Ori is part of the constellation named? Answer: Orion. Delta Herculis is part of the constellation named? Answer: Hercules. Sigma Orionis is part of the constellation named? Answer: Orion. Tau Herculis is part of the constellation named? Answer: Hercules. Theta Virginis is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: 7C 082754.29+242103.00 is part of the constellation named? Answer: Cancer. 35 Pegasi is part of the constellation named? Answer: Pegasus. Delta Cancri is part of the constellation named? Answer: Cancer. Ross 889 is part of the constellation named? Answer: Hydra. Wolf 433 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: V377 Geminorum is part of the constellation named? Answer: Gemini. Epsilon Geminorum is part of the constellation named? Answer: Gemini. Gliese 686 is part of the constellation named? Answer: Hercules. Gliese 849 is part of the constellation named? Answer: Aquarius. 4C 04.42 is part of the constellation named? Answer: __",
+        "answer": "Virgo"
+    },
+    {
+        "prompt": "Prompt: Mu Pegasi is part of the constellation named? Answer: Pegasus. 1 Pegasi is part of the constellation named? Answer: Pegasus. Gamma Piscium is part of the constellation named? Answer: Pisces. Gamma Librae is part of the constellation named? Answer: Libra. Pollux is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: DT Virginis is part of the constellation named? Answer: Virgo. Epsilon Hydrae is part of the constellation named? Answer: Hydra. Gliese 908 is part of the constellation named? Answer: Pisces. V401 Hya is part of the constellation named? Answer: Hydra. Mu Herculis A is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: 14 Andromedae is part of the constellation named? Answer: Andromeda. 94 Aquarii A is part of the constellation named? Answer: Aquarius. BD+47 612 is part of the constellation named? Answer: Andromeda. 20 Piscium is part of the constellation named? Answer: Pisces. 72 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Omega Sagittarii is part of the constellation named? Answer: Sagittarius. Alphecca is part of the constellation named? Answer: Corona Borealis. Gliese 453 is part of the constellation named? Answer: Hydra. Ross 154 is part of the constellation named? Answer: Sagittarius. Zeta Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Rho Leonis is part of the constellation named? Answer: Leo. Nu Herculis is part of the constellation named? Answer: Hercules. 48 Persei is part of the constellation named? Answer: Perseus. BD+09 2636 is part of the constellation named? Answer: Virgo. Chi Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Iota Pegasi is part of the constellation named? Answer: Pegasus. Theta Pegasi is part of the constellation named? Answer: Pegasus. Theta Piscium is part of the constellation named? Answer: Pisces. Beta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 110 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: EZ Aquarii is part of the constellation named? Answer: Aquarius. Chi Virginis is part of the constellation named? Answer: Virgo. Andromeda is part of the constellation named? Answer: Andromeda. Altair is part of the constellation named? Answer: Aquila. 14 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: 111 Herculis is part of the constellation named? Answer: Hercules. Iota1 Librae is part of the constellation named? Answer: Libra. AD Leonis is part of the constellation named? Answer: Leo. Sigma Pegasi is part of the constellation named? Answer: Pegasus. 99 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: 99 Herculis is part of the constellation named? Answer: Hercules. * del Gem is part of the constellation named? Answer: Gemini. Andromeda is part of the constellation named? Answer: Andromeda. Sigma Pegasi is part of the constellation named? Answer: Pegasus. Epsilon Indi A is part of the constellation named? Answer: __",
+        "answer": "Indus"
+    },
+    {
+        "prompt": "Prompt: Eta Andromedae is part of the constellation named? Answer: Andromeda. 37 Geminorum is part of the constellation named? Answer: Gemini. Zeta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 39 Geminorum is part of the constellation named? Answer: Gemini. Eta Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Gamma Herculis is part of the constellation named? Answer: Hercules. Fomalhaut is part of the constellation named? Answer: Piscis Austrinus. Alpha Persei is part of the constellation named? Answer: Perseus. 34 Pegasi is part of the constellation named? Answer: Pegasus. Gliese 349 is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Iota Piscium is part of the constellation named? Answer: Pisces. 14 Herculis is part of the constellation named? Answer: Hercules. 96 Aquarii is part of the constellation named? Answer: Aquarius. Gliese 908 is part of the constellation named? Answer: Pisces. Beta Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: 56 Pegasi is part of the constellation named? Answer: Pegasus. GN Andromedae is part of the constellation named? Answer: Andromeda. Beta Andromedae is part of the constellation named? Answer: Andromeda. Tau Sagittarii is part of the constellation named? Answer: Sagittarius. Rho Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Lambda Hydrae is part of the constellation named? Answer: Hydra. 91 Aquarii is part of the constellation named? Answer: Aquarius. Gliese 433 is part of the constellation named? Answer: Hydra. 5 Piscium is part of the constellation named? Answer: Pisces. Xi Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Gamma Geminorum is part of the constellation named? Answer: Gemini. V987 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Epsilon Piscium is part of the constellation named? Answer: Pisces. Wolf 424 is part of the constellation named? Answer: Virgo. Kappa Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: EZ Aquarii is part of the constellation named? Answer: Aquarius. Omega Herculis is part of the constellation named? Answer: Hercules. 35 Pegasi is part of the constellation named? Answer: Pegasus. 56 Pegasi is part of the constellation named? Answer: Pegasus. Gliese 649 is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Epsilon Pegasi is part of the constellation named? Answer: Pegasus. 59 Virginis is part of the constellation named? Answer: Virgo. X Persei is part of the constellation named? Answer: Perseus. Alpha2 Librae is part of the constellation named? Answer: Libra. Nu Indi is part of the constellation named? Answer: __",
+        "answer": "Indus"
+    },
+    {
+        "prompt": "Prompt: Delta Virginis is part of the constellation named? Answer: Virgo. X Persei is part of the constellation named? Answer: Perseus. 87 Herculis is part of the constellation named? Answer: Hercules. Eta Andromedae is part of the constellation named? Answer: Andromeda. Gamma Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: 74 Orionis is part of the constellation named? Answer: Orion. Alpha2 Librae is part of the constellation named? Answer: Libra. 51 Pegasi is part of the constellation named? Answer: Pegasus. V377 Geminorum is part of the constellation named? Answer: Gemini. Alphard is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Chi Virginis is part of the constellation named? Answer: Virgo. Psi2 Cancri is part of the constellation named? Answer: Cancer. Markarian 501 is part of the constellation named? Answer: Hercules. Beta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Gliese 251 is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Mu Piscium is part of the constellation named? Answer: Pisces. Gamma Leonis A is part of the constellation named? Answer: Leo. Mu Persei is part of the constellation named? Answer: Perseus. Spica is part of the constellation named? Answer: Virgo. Iota Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: 107 Piscium is part of the constellation named? Answer: Pisces. Nu Virginis is part of the constellation named? Answer: Virgo. 93 Leonis is part of the constellation named? Answer: Leo. Phi Virginis is part of the constellation named? Answer: Virgo. OU Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Antares is part of the constellation named? Answer: Scorpius. Mu Geminorum is part of the constellation named? Answer: Gemini. 29 Orionis is part of the constellation named? Answer: Orion. BD+17 4708 is part of the constellation named? Answer: Pegasus. Delta Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Theta2 Orionis is part of the constellation named? Answer: Orion. Pi3 Orionis is part of the constellation named? Answer: Orion. 91 Aquarii is part of the constellation named? Answer: Aquarius. Nu Piscium is part of the constellation named? Answer: Pisces. Gliese 686 is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: 56 Andromedae is part of the constellation named? Answer: Andromeda. 29 Orionis is part of the constellation named? Answer: Orion. 3 Andromedae is part of the constellation named? Answer: Andromeda. 39 Geminorum is part of the constellation named? Answer: Gemini. Xi Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: 71 Orionis is part of the constellation named? Answer: Orion. Aldebaran is part of the constellation named? Answer: Taurus. 11 Aquarii is part of the constellation named? Answer: Aquarius. Gamma Pegasi is part of the constellation named? Answer: Pegasus. Zeta Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Gamma Hydrae is part of the constellation named? Answer: Hydra. BD+18 3423 is part of the constellation named? Answer: Hercules. Xi Hydrae is part of the constellation named? Answer: Hydra. Theta Pegasi is part of the constellation named? Answer: Pegasus. Sigma Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: 74 Orionis is part of the constellation named? Answer: Orion. Iota Persei is part of the constellation named? Answer: Perseus. Gumala is part of the constellation named? Answer: Sagittarius. 89 Herculis is part of the constellation named? Answer: Hercules. Theta Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Theta Leonis is part of the constellation named? Answer: Leo. 83 Leonis A is part of the constellation named? Answer: Leo. Chi Herculis is part of the constellation named? Answer: Hercules. 39 Geminorum is part of the constellation named? Answer: Gemini. Iota Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Wolf 359 is part of the constellation named? Answer: Leo. Phi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. QSO B2134+0028 is part of the constellation named? Answer: Aquarius. BD+10 1857 is part of the constellation named? Answer: Cancer. Gamma Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Pi3 Orionis is part of the constellation named? Answer: Orion. Mu Orionis is part of the constellation named? Answer: Orion. 39 Leonis is part of the constellation named? Answer: Leo. Lambda Andromedae is part of the constellation named? Answer: Andromeda. Epsilon Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: 17 Virginis is part of the constellation named? Answer: Virgo. AD Leonis is part of the constellation named? Answer: Leo. Iota Virginis is part of the constellation named? Answer: Virgo. Gliese 204 is part of the constellation named? Answer: Orion. Zeta Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Gliese 876 is part of the constellation named? Answer: Aquarius. Rho Geminorum is part of the constellation named? Answer: Gemini. 5 Andromedae is part of the constellation named? Answer: Andromeda. Beta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Omega Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Kappa Cancri is part of the constellation named? Answer: Cancer. 54 Piscium A is part of the constellation named? Answer: Pisces. Tau Herculis is part of the constellation named? Answer: Hercules. 20 Piscium is part of the constellation named? Answer: Pisces. 109 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Gamma Herculis is part of the constellation named? Answer: Hercules. Zeta Hydrae is part of the constellation named? Answer: Hydra. 53 Virginis is part of the constellation named? Answer: Virgo. Psi2 Cancri is part of the constellation named? Answer: Cancer. V774 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Alphard is part of the constellation named? Answer: Hydra. 56 Pegasi is part of the constellation named? Answer: Pegasus. 14 Andromedae is part of the constellation named? Answer: Andromeda. BD+38 4955 is part of the constellation named? Answer: Andromeda. Delta Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Theta Persei is part of the constellation named? Answer: Perseus. 94 Aquarii A is part of the constellation named? Answer: Aquarius. Gliese 436 is part of the constellation named? Answer: Leo. 9 Persei is part of the constellation named? Answer: Perseus. Rho Indi is part of the constellation named? Answer: __",
+        "answer": "Indus"
+    },
+    {
+        "prompt": "Prompt: Gamma¹ Andromedae is part of the constellation named? Answer: Andromeda. 48 Persei is part of the constellation named? Answer: Perseus. 109 Piscium is part of the constellation named? Answer: Pisces. FF Andromedae is part of the constellation named? Answer: Andromeda. V401 Hya is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Iota Orionis is part of the constellation named? Answer: Orion. Xi Persei is part of the constellation named? Answer: Perseus. U Sagittarii is part of the constellation named? Answer: Sagittarius. 16 Orionis is part of the constellation named? Answer: Orion. Epsilon Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Milky Way is part of the constellation named? Answer: Cassiopeia. Rigel is part of the constellation named? Answer: Orion. Xi Persei is part of the constellation named? Answer: Perseus. Vega is part of the constellation named? Answer: Lyra. YY Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Epsilon Indi A is part of the constellation named? Answer: Indus. Gamma Herculis is part of the constellation named? Answer: Hercules. Psi Andromedae is part of the constellation named? Answer: Andromeda. Beta Cancri is part of the constellation named? Answer: Cancer. Gamma Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: YY Geminorum is part of the constellation named? Answer: Gemini. Nu Piscium is part of the constellation named? Answer: Pisces. Gacrux is part of the constellation named? Answer: Crux. 59 Virginis is part of the constellation named? Answer: Virgo. Phi Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Gliese 880 is part of the constellation named? Answer: Pegasus. Mu Piscium is part of the constellation named? Answer: Pisces. EZ Aquarii is part of the constellation named? Answer: Aquarius. Zeta Geminorum is part of the constellation named? Answer: Gemini. Lambda Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Theta1 Orionis C is part of the constellation named? Answer: Orion. BD+10 1857 is part of the constellation named? Answer: Cancer. 85 Pegasi is part of the constellation named? Answer: Pegasus. 109 Piscium is part of the constellation named? Answer: Pisces. 37 Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Gamma¹ Andromedae is part of the constellation named? Answer: Andromeda. Psi2 Cancri is part of the constellation named? Answer: Cancer. FF Andromedae is part of the constellation named? Answer: Andromeda. Saiph is part of the constellation named? Answer: Orion. 89 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Nu Indi is part of the constellation named? Answer: Indus. Theta Leonis is part of the constellation named? Answer: Leo. rho01 Cnc is part of the constellation named? Answer: Cancer. 54 Piscium A is part of the constellation named? Answer: Pisces. BD+18 3423 is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Pi Aquarii is part of the constellation named? Answer: Aquarius. 39 Leonis is part of the constellation named? Answer: Leo. 112 Piscium is part of the constellation named? Answer: Pisces. Eta Leonis is part of the constellation named? Answer: Leo. Tau Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Theta1 Orionis C is part of the constellation named? Answer: Orion. Theta Persei is part of the constellation named? Answer: Perseus. QSO B1514-24 is part of the constellation named? Answer: Libra. Lambda Sagittarii is part of the constellation named? Answer: Sagittarius. V377 Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Beta Cancri is part of the constellation named? Answer: Cancer. 14 Andromedae is part of the constellation named? Answer: Andromeda. Gliese 880 is part of the constellation named? Answer: Pegasus. Gliese 686 is part of the constellation named? Answer: Hercules. BD+42 2667 is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Gliese 402 is part of the constellation named? Answer: Leo. Epsilon Geminorum is part of the constellation named? Answer: Gemini. Psi Andromedae is part of the constellation named? Answer: Andromeda. 17 Virginis is part of the constellation named? Answer: Virgo. Nu Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Omicron Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 110 Herculis is part of the constellation named? Answer: Hercules. Gliese 514 is part of the constellation named? Answer: Virgo. Xi Geminorum is part of the constellation named? Answer: Gemini. * del Gem is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Upsilon Andromedae is part of the constellation named? Answer: Andromeda. Pi Herculis is part of the constellation named? Answer: Hercules. Gliese 686 is part of the constellation named? Answer: Hercules. Iota Orionis is part of the constellation named? Answer: Orion. 39 Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Mu2 Cancri is part of the constellation named? Answer: Cancer. Diphda is part of the constellation named? Answer: Cetus. Iota Geminorum is part of the constellation named? Answer: Gemini. 1 Pegasi is part of the constellation named? Answer: Pegasus. Pi Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Beta Aquarii is part of the constellation named? Answer: Aquarius. Epsilon Pegasi is part of the constellation named? Answer: Pegasus. Alcor is part of the constellation named? Answer: Ursa Major. NGC 1275 is part of the constellation named? Answer: Perseus. Gliese 453 is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: HN Pegasi is part of the constellation named? Answer: Pegasus. 75 Cancri is part of the constellation named? Answer: Cancer. Delta Andromedae is part of the constellation named? Answer: Andromeda. Zeta Andromedae is part of the constellation named? Answer: Andromeda. Kappa Herculis A is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Castor is part of the constellation named? Answer: Gemini. Epsilon Aquarii is part of the constellation named? Answer: Aquarius. Mu Pegasi is part of the constellation named? Answer: Pegasus. Phi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Upsilon1 Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Diphda is part of the constellation named? Answer: Cetus. Delta Librae is part of the constellation named? Answer: Libra. YY Geminorum is part of the constellation named? Answer: Gemini. Nu Hydrae is part of the constellation named? Answer: Hydra. Xi Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: 7C 082754.29+242103.00 is part of the constellation named? Answer: Cancer. Zeta Hydrae is part of the constellation named? Answer: Hydra. DT Virginis is part of the constellation named? Answer: Virgo. Theta Librae is part of the constellation named? Answer: Libra. 30 Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: V453 Andromedae is part of the constellation named? Answer: Andromeda. Delta Herculis is part of the constellation named? Answer: Hercules. 44 Andromedae is part of the constellation named? Answer: Andromeda. * del Gem is part of the constellation named? Answer: Gemini. V647 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: NGC 1275 is part of the constellation named? Answer: Perseus. YY Geminorum is part of the constellation named? Answer: Gemini. Gamma Virginis A is part of the constellation named? Answer: Virgo. Epsilon Indi A is part of the constellation named? Answer: Indus. QSO J0738+1742 is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Kappa Piscium is part of the constellation named? Answer: Pisces. 7 Piscium is part of the constellation named? Answer: Pisces. Delta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 89 Leonis is part of the constellation named? Answer: Leo. Iota Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Delta Leonis is part of the constellation named? Answer: Leo. 70 Pegasi is part of the constellation named? Answer: Pegasus. Eta Herculis is part of the constellation named? Answer: Hercules. Gamma Aquarii is part of the constellation named? Answer: Aquarius. V* LQ Hya is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Pi Herculis is part of the constellation named? Answer: Hercules. Gliese 880 is part of the constellation named? Answer: Pegasus. GN Andromedae is part of the constellation named? Answer: Andromeda. Chi Herculis is part of the constellation named? Answer: Hercules. Upsilon Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: V987 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Shaula is part of the constellation named? Answer: Scorpius. Zeta Geminorum is part of the constellation named? Answer: Gemini. Denebola is part of the constellation named? Answer: Leo. Furuhjelm 46 is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Delta Virginis is part of the constellation named? Answer: Virgo. Gumala is part of the constellation named? Answer: Sagittarius. 1 Pegasi is part of the constellation named? Answer: Pegasus. Gliese 436 b is part of the constellation named? Answer: Leo. 111 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: 110 Herculis is part of the constellation named? Answer: Hercules. Upsilon Geminorum is part of the constellation named? Answer: Gemini. Sirius is part of the constellation named? Answer: Canis Major. 81 Cancri AB is part of the constellation named? Answer: Cancer. Nu Hydrae is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: Mu Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Delta Geminorum is part of the constellation named? Answer: Gemini. Gliese 349 is part of the constellation named? Answer: Hydra. Pi3 Orionis is part of the constellation named? Answer: Orion. 81 Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: 54 Persei is part of the constellation named? Answer: Perseus. 111 Herculis is part of the constellation named? Answer: Hercules. BD+26 4251 is part of the constellation named? Answer: Pegasus. Gliese 90 is part of the constellation named? Answer: Cassiopeia. Tau Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Kappa Herculis A is part of the constellation named? Answer: Hercules. Gamma¹ Andromedae is part of the constellation named? Answer: Andromeda. Zeta Hydrae is part of the constellation named? Answer: Hydra. Iota Persei is part of the constellation named? Answer: Perseus. Markarian 501 is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Tau Leonis is part of the constellation named? Answer: Leo. 112 Piscium is part of the constellation named? Answer: Pisces. V987 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Alnilam is part of the constellation named? Answer: Orion. V1090 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Gliese 880 is part of the constellation named? Answer: Pegasus. Gliese 686 is part of the constellation named? Answer: Hercules. 56 Andromedae is part of the constellation named? Answer: Andromeda. V377 Geminorum is part of the constellation named? Answer: Gemini. 1 Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: 11 Librae is part of the constellation named? Answer: Libra. Alphecca is part of the constellation named? Answer: Corona Borealis. QSO B2134+0028 is part of the constellation named? Answer: Aquarius. Navi is part of the constellation named? Answer: Cassiopeia. Gliese 433 is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: U Sagittarii is part of the constellation named? Answer: Sagittarius. Phi Persei is part of the constellation named? Answer: Perseus. Upsilon Pegasi is part of the constellation named? Answer: Pegasus. Milky Way is part of the constellation named? Answer: Cassiopeia. Eta Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: Antares is part of the constellation named? Answer: Scorpius. Milky Way is part of the constellation named? Answer: Cassiopeia. 99 Herculis is part of the constellation named? Answer: Hercules. Alpha Persei is part of the constellation named? Answer: Perseus. Mu Geminorum is part of the constellation named? Answer: __",
+        "answer": "Gemini"
+    },
+    {
+        "prompt": "Prompt: 54 Piscium A is part of the constellation named? Answer: Pisces. Theta Leonis is part of the constellation named? Answer: Leo. Delta Geminorum is part of the constellation named? Answer: Gemini. Gliese 204 is part of the constellation named? Answer: Orion. 87 Herculis is part of the constellation named? Answer: __",
+        "answer": "Hercules"
+    },
+    {
+        "prompt": "Prompt: Pi Aquarii is part of the constellation named? Answer: Aquarius. V1386 Ori is part of the constellation named? Answer: Orion. Kappa Herculis A is part of the constellation named? Answer: Hercules. Nu Piscium is part of the constellation named? Answer: Pisces. Ross 889 is part of the constellation named? Answer: __",
+        "answer": "Hydra"
+    },
+    {
+        "prompt": "Prompt: QSO J0738+1742 is part of the constellation named? Answer: Gemini. Gliese 514 is part of the constellation named? Answer: Virgo. Beta Herculis is part of the constellation named? Answer: Hercules. Tau Geminorum is part of the constellation named? Answer: Gemini. Upsilon Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Gamma Hydrae is part of the constellation named? Answer: Hydra. Gliese 908 is part of the constellation named? Answer: Pisces. Omega Herculis is part of the constellation named? Answer: Hercules. Milky Way is part of the constellation named? Answer: Cassiopeia. Mu Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Iota Leonis is part of the constellation named? Answer: Leo. 33 Virginis is part of the constellation named? Answer: Virgo. Iota1 Librae is part of the constellation named? Answer: Libra. Mu2 Cancri is part of the constellation named? Answer: Cancer. rho01 Cnc is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: QSO J0738+1742 is part of the constellation named? Answer: Gemini. 40 Leonis is part of the constellation named? Answer: Leo. Gliese 205 is part of the constellation named? Answer: Orion. Chi Virginis is part of the constellation named? Answer: Virgo. Eta Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Beta Herculis is part of the constellation named? Answer: Hercules. Theta Pegasi is part of the constellation named? Answer: Pegasus. V647 Herculis is part of the constellation named? Answer: Hercules. 112 Piscium is part of the constellation named? Answer: Pisces. GX Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Vega is part of the constellation named? Answer: Lyra. Mu Piscium is part of the constellation named? Answer: Pisces. 53 Virginis is part of the constellation named? Answer: Virgo. Zeta Andromedae is part of the constellation named? Answer: Andromeda. V987 Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Alpha Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Xi Andromedae is part of the constellation named? Answer: Andromeda. Nu Herculis is part of the constellation named? Answer: Hercules. 39 Leonis is part of the constellation named? Answer: Leo. Milky Way is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Theta Hydrae is part of the constellation named? Answer: Hydra. 87 Herculis is part of the constellation named? Answer: Hercules. Tau Geminorum is part of the constellation named? Answer: Gemini. 5 Piscium is part of the constellation named? Answer: Pisces. 91 Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Kappa Piscium is part of the constellation named? Answer: Pisces. V987 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Mu Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 4C 06.69 is part of the constellation named? Answer: Pegasus. Andromeda is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Omega Herculis is part of the constellation named? Answer: Hercules. 7 Piscium is part of the constellation named? Answer: Pisces. 54 Persei is part of the constellation named? Answer: Perseus. 56 Andromedae is part of the constellation named? Answer: Andromeda. Gliese 876 is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: U Sagittarii is part of the constellation named? Answer: Sagittarius. Ross 248 is part of the constellation named? Answer: Andromeda. 33 Virginis is part of the constellation named? Answer: Virgo. 85 Pegasi is part of the constellation named? Answer: Pegasus. Chi Cancri is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: Eta Herculis is part of the constellation named? Answer: Hercules. Mirfak is part of the constellation named? Answer: Perseus. 3C 273 is part of the constellation named? Answer: Virgo. Phi Herculis is part of the constellation named? Answer: Hercules. Epsilon Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Zeta Virginis is part of the constellation named? Answer: Virgo. Gliese 486 is part of the constellation named? Answer: Virgo. GN Andromedae is part of the constellation named? Answer: Andromeda. 7C 082754.29+242103.00 is part of the constellation named? Answer: Cancer. Lambda Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Mu Orionis is part of the constellation named? Answer: Orion. Pi Herculis is part of the constellation named? Answer: Hercules. Shaula is part of the constellation named? Answer: Scorpius. 29 Orionis is part of the constellation named? Answer: Orion. GJ 28 is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Xi Geminorum is part of the constellation named? Answer: Gemini. 51 Andromedae is part of the constellation named? Answer: Andromeda. Epsilon Piscium is part of the constellation named? Answer: Pisces. Gamma Leonis A is part of the constellation named? Answer: Leo. Alpha Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Xi Hydrae is part of the constellation named? Answer: Hydra. Gamma Leonis A is part of the constellation named? Answer: Leo. Markarian 501 is part of the constellation named? Answer: Hercules. Omega Herculis is part of the constellation named? Answer: Hercules. 14 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Antares is part of the constellation named? Answer: Scorpius. Mintaka is part of the constellation named? Answer: Orion. Epsilon Indi A is part of the constellation named? Answer: Indus. Sigma3 Cancri A is part of the constellation named? Answer: Cancer. Ross 248 is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: 49 Librae is part of the constellation named? Answer: Libra. Rigel is part of the constellation named? Answer: Orion. YY Geminorum is part of the constellation named? Answer: Gemini. 109 Piscium is part of the constellation named? Answer: Pisces. 11 Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Omicron Piscium is part of the constellation named? Answer: Pisces. Pi Andromedae is part of the constellation named? Answer: Andromeda. 96 Aquarii is part of the constellation named? Answer: Aquarius. 72 Herculis is part of the constellation named? Answer: Hercules. Delta Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: HZ Aquarii is part of the constellation named? Answer: Aquarius. Iota Orionis is part of the constellation named? Answer: Orion. 70 Pegasi is part of the constellation named? Answer: Pegasus. 75 Cancri is part of the constellation named? Answer: Cancer. Phi Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Eta Geminorum is part of the constellation named? Answer: Gemini. 20 Piscium is part of the constellation named? Answer: Pisces. 3C 273 is part of the constellation named? Answer: Virgo. Gamma¹ Andromedae is part of the constellation named? Answer: Andromeda. Alpha Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: BD+42 2667 is part of the constellation named? Answer: Hercules. Upsilon Andromedae is part of the constellation named? Answer: Andromeda. Shaula is part of the constellation named? Answer: Scorpius. Kappa Cancri is part of the constellation named? Answer: Cancer. Beta Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Gliese 205 is part of the constellation named? Answer: Orion. Epsilon Virginis is part of the constellation named? Answer: Virgo. Omega Andromedae is part of the constellation named? Answer: Andromeda. 108 Aquarii is part of the constellation named? Answer: Aquarius. Upsilon2 Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Gliese 880 is part of the constellation named? Answer: Pegasus. 107 Piscium is part of the constellation named? Answer: Pisces. NGC 1275 is part of the constellation named? Answer: Perseus. OU Geminorum is part of the constellation named? Answer: Gemini. V453 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Gliese 436 is part of the constellation named? Answer: Leo. Buna is part of the constellation named? Answer: Andromeda. FK Aquarii is part of the constellation named? Answer: Aquarius. Gamma Leonis A is part of the constellation named? Answer: Leo. Zeta Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Sigma Geminorum is part of the constellation named? Answer: Gemini. Regulus is part of the constellation named? Answer: Leo. Gamma Aquarii is part of the constellation named? Answer: Aquarius. Eta Pegasi is part of the constellation named? Answer: Pegasus. Psi2 Cancri is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: Alphecca is part of the constellation named? Answer: Corona Borealis. Theta2 Orionis is part of the constellation named? Answer: Orion. Ross 154 is part of the constellation named? Answer: Sagittarius. 23 Librae is part of the constellation named? Answer: Libra. 51 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: 34 Pegasi is part of the constellation named? Answer: Pegasus. Rho Virginis is part of the constellation named? Answer: Virgo. Gliese 536 is part of the constellation named? Answer: Virgo. Gliese 251 is part of the constellation named? Answer: Gemini. Gliese 849 is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Iota Leonis is part of the constellation named? Answer: Leo. Gamma Piscium is part of the constellation named? Answer: Pisces. 1 Geminorum is part of the constellation named? Answer: Gemini. Eta Herculis is part of the constellation named? Answer: Hercules. Beta Cancri is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: Lambda Andromedae is part of the constellation named? Answer: Andromeda. BD+59 2723 is part of the constellation named? Answer: Cassiopeia. Theta Librae is part of the constellation named? Answer: Libra. Gliese 555 is part of the constellation named? Answer: Libra. Beta Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Delta Librae is part of the constellation named? Answer: Libra. Betelgeuse is part of the constellation named? Answer: Orion. 94 Aquarii A is part of the constellation named? Answer: Aquarius. Zeta Virginis is part of the constellation named? Answer: Virgo. Mu2 Cancri is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: BD+38 4955 is part of the constellation named? Answer: Andromeda. BD+59 2723 is part of the constellation named? Answer: Cassiopeia. Sigma Pegasi is part of the constellation named? Answer: Pegasus. Gliese 453 is part of the constellation named? Answer: Hydra. Gliese 49 is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Beta Andromedae is part of the constellation named? Answer: Andromeda. Mintaka is part of the constellation named? Answer: Orion. 59 Virginis is part of the constellation named? Answer: Virgo. Delta Geminorum is part of the constellation named? Answer: Gemini. GQ Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: 3 Andromedae is part of the constellation named? Answer: Andromeda. Ross 128 is part of the constellation named? Answer: Virgo. V774 Herculis is part of the constellation named? Answer: Hercules. Omicron Andromedae is part of the constellation named? Answer: Andromeda. Beta Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Procyon is part of the constellation named? Answer: Canis Minor. V401 Hya is part of the constellation named? Answer: Hydra. Gliese 880 is part of the constellation named? Answer: Pegasus. Mu Andromedae is part of the constellation named? Answer: Andromeda. 5 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: rho01 Cnc is part of the constellation named? Answer: Cancer. Xi Persei is part of the constellation named? Answer: Perseus. Wolf 359 is part of the constellation named? Answer: Leo. Zeta Hydrae is part of the constellation named? Answer: Hydra. Navi is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: 5 Piscium is part of the constellation named? Answer: Pisces. V453 Andromedae is part of the constellation named? Answer: Andromeda. Eta Pegasi is part of the constellation named? Answer: Pegasus. Chi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 94 Aquarii A is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Nu Indi is part of the constellation named? Answer: Indus. Eta Andromedae is part of the constellation named? Answer: Andromeda. Epsilon Pegasi is part of the constellation named? Answer: Pegasus. Omega Herculis is part of the constellation named? Answer: Hercules. 6 Persei is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Phi Virginis is part of the constellation named? Answer: Virgo. Saiph is part of the constellation named? Answer: Orion. 33 Virginis is part of the constellation named? Answer: Virgo. Tau Geminorum is part of the constellation named? Answer: Gemini. Alpha Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Omicron Leonis is part of the constellation named? Answer: Leo. Xi Pegasi is part of the constellation named? Answer: Pegasus. Zeta Virginis is part of the constellation named? Answer: Virgo. 14 Andromedae is part of the constellation named? Answer: Andromeda. Delta Cancri is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: Rho Virginis is part of the constellation named? Answer: Virgo. 11 Aquarii is part of the constellation named? Answer: Aquarius. Spica is part of the constellation named? Answer: Virgo. Omicron Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Kappa Cancri is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: Spica is part of the constellation named? Answer: Virgo. Mizar is part of the constellation named? Answer: Ursa Major. Xi Andromedae is part of the constellation named? Answer: Andromeda. Mu Herculis A is part of the constellation named? Answer: Hercules. BD+38 4955 is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: BD+17 4708 is part of the constellation named? Answer: Pegasus. Procyon is part of the constellation named? Answer: Canis Minor. Lambda Andromedae is part of the constellation named? Answer: Andromeda. BD+10 1857 is part of the constellation named? Answer: Cancer. Gliese 90 is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Gliese 570A is part of the constellation named? Answer: Libra. Beta Aquarii is part of the constellation named? Answer: Aquarius. Gliese 453 is part of the constellation named? Answer: Hydra. Beta Pegasi is part of the constellation named? Answer: Pegasus. Pi Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: HN Pegasi is part of the constellation named? Answer: Pegasus. Beta Aquarii is part of the constellation named? Answer: Aquarius. Wolf 424 is part of the constellation named? Answer: Virgo. 61 Virginis is part of the constellation named? Answer: Virgo. Gamma¹ Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: 44 Andromedae is part of the constellation named? Answer: Andromeda. Iota1 Librae is part of the constellation named? Answer: Libra. Kappa Cancri is part of the constellation named? Answer: Cancer. Epsilon Pegasi is part of the constellation named? Answer: Pegasus. Iota Cancri A is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: 1 Aquarii is part of the constellation named? Answer: Aquarius. Xi Andromedae is part of the constellation named? Answer: Andromeda. Theta Aquarii is part of the constellation named? Answer: Aquarius. Bellatrix is part of the constellation named? Answer: Orion. QSO B2134+0028 is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Gamma¹ Andromedae is part of the constellation named? Answer: Andromeda. Kappa Persei is part of the constellation named? Answer: Perseus. Zeta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Diphda is part of the constellation named? Answer: Cetus. Omega Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Lambda Pegasi is part of the constellation named? Answer: Pegasus. Xi Hydrae is part of the constellation named? Answer: Hydra. Alnair is part of the constellation named? Answer: Grus. Phi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Buna is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: BD+08 4887 is part of the constellation named? Answer: Pegasus. Alnilam is part of the constellation named? Answer: Orion. NGC 1275 is part of the constellation named? Answer: Perseus. Spica is part of the constellation named? Answer: Virgo. 44 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Mu Virginis is part of the constellation named? Answer: Virgo. Beta Herculis is part of the constellation named? Answer: Hercules. Delta Librae is part of the constellation named? Answer: Libra. 22 Orionis is part of the constellation named? Answer: Orion. 3 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Alnilam is part of the constellation named? Answer: Orion. Ross 889 is part of the constellation named? Answer: Hydra. Mu Sagittarii is part of the constellation named? Answer: Sagittarius. 1 Geminorum is part of the constellation named? Answer: Gemini. Chi Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Upsilon1 Hydrae is part of the constellation named? Answer: Hydra. Gliese 514 is part of the constellation named? Answer: Virgo. QSO B1514-24 is part of the constellation named? Answer: Libra. Messier 87 is part of the constellation named? Answer: Virgo. 6 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: BD+18 3423 is part of the constellation named? Answer: Hercules. Spica is part of the constellation named? Answer: Virgo. Omicron Piscium is part of the constellation named? Answer: Pisces. Theta Leonis is part of the constellation named? Answer: Leo. 28 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Epsilon Geminorum is part of the constellation named? Answer: Gemini. Rigel is part of the constellation named? Answer: Orion. Eta Leonis is part of the constellation named? Answer: Leo. 54 Piscium A is part of the constellation named? Answer: Pisces. Zeta Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Mu Andromedae is part of the constellation named? Answer: Andromeda. 75 Cancri is part of the constellation named? Answer: Cancer. 72 Herculis is part of the constellation named? Answer: Hercules. Andromeda is part of the constellation named? Answer: Andromeda. Pi Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Mu Sagittarii is part of the constellation named? Answer: Sagittarius. NGC 1275 is part of the constellation named? Answer: Perseus. Mu Herculis A is part of the constellation named? Answer: Hercules. Antares is part of the constellation named? Answer: Scorpius. HZ Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: 109 Piscium is part of the constellation named? Answer: Pisces. Mu Geminorum is part of the constellation named? Answer: Gemini. Gliese 402 is part of the constellation named? Answer: Leo. Zeta Geminorum is part of the constellation named? Answer: Gemini. 7C 082754.29+242103.00 is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: Tau Sagittarii is part of the constellation named? Answer: Sagittarius. Epsilon Aquarii is part of the constellation named? Answer: Aquarius. 15 Pegasi is part of the constellation named? Answer: Pegasus. Upsilon2 Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Kappa Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Zeta Virginis is part of the constellation named? Answer: Virgo. 44 Andromedae is part of the constellation named? Answer: Andromeda. Xi Piscium is part of the constellation named? Answer: Pisces. 35 Leonis is part of the constellation named? Answer: Leo. Sigma3 Cancri A is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: 75 Cancri is part of the constellation named? Answer: Cancer. 85 Pegasi is part of the constellation named? Answer: Pegasus. Gamma Hydrae is part of the constellation named? Answer: Hydra. Dubhe is part of the constellation named? Answer: Ursa Major. 81 Cancri AB is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: Kappa Cancri is part of the constellation named? Answer: Cancer. Chi Cancri is part of the constellation named? Answer: Cancer. Mu Virginis is part of the constellation named? Answer: Virgo. Navi is part of the constellation named? Answer: Cassiopeia. Xi Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Iota Piscium is part of the constellation named? Answer: Pisces. Zeta Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Gliese 581 is part of the constellation named? Answer: Libra. Buna is part of the constellation named? Answer: Andromeda. FF Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Rho Indi is part of the constellation named? Answer: Indus. Omicron Cassiopeiae is part of the constellation named? Answer: Cassiopeia. Phi Virginis is part of the constellation named? Answer: Virgo. Pi Aquarii is part of the constellation named? Answer: Aquarius. GN Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Epsilon Indi A is part of the constellation named? Answer: Indus. Gliese 436 b is part of the constellation named? Answer: Leo. Alpha1 Librae is part of the constellation named? Answer: Libra. Theta2 Orionis is part of the constellation named? Answer: Orion. Kappa Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Kaus Australis is part of the constellation named? Answer: Sagittarius. 17 Virginis is part of the constellation named? Answer: Virgo. 39 Geminorum is part of the constellation named? Answer: Gemini. Gliese 436 b is part of the constellation named? Answer: Leo. Omicron Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Kappa Persei is part of the constellation named? Answer: Perseus. Epsilon Virginis is part of the constellation named? Answer: Virgo. 87 Herculis is part of the constellation named? Answer: Hercules. 40 Leonis is part of the constellation named? Answer: Leo. BD+47 612 is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Theta Virginis is part of the constellation named? Answer: Virgo. Zeta Geminorum is part of the constellation named? Answer: Gemini. Tau Piscium is part of the constellation named? Answer: Pisces. BD+47 612 is part of the constellation named? Answer: Andromeda. Delta Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: 12 Andromedae is part of the constellation named? Answer: Andromeda. Ross 889 is part of the constellation named? Answer: Hydra. Xi Herculis is part of the constellation named? Answer: Hercules. V453 Andromedae is part of the constellation named? Answer: Andromeda. Epsilon Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: 49 Librae is part of the constellation named? Answer: Libra. Beta Herculis is part of the constellation named? Answer: Hercules. Kappa Andromedae is part of the constellation named? Answer: Andromeda. Gliese 436 is part of the constellation named? Answer: Leo. 75 Cancri is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: Nu Herculis is part of the constellation named? Answer: Hercules. Alpha Aquarii is part of the constellation named? Answer: Aquarius. 99 Herculis is part of the constellation named? Answer: Hercules. Theta Piscium is part of the constellation named? Answer: Pisces. Mu Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Gacrux is part of the constellation named? Answer: Crux. Eta Andromedae is part of the constellation named? Answer: Andromeda. Tau Piscium is part of the constellation named? Answer: Pisces. Beta Virginis is part of the constellation named? Answer: Virgo. 1 Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Sigma Geminorum is part of the constellation named? Answer: Gemini. Epsilon Virginis is part of the constellation named? Answer: Virgo. BD+26 4251 is part of the constellation named? Answer: Pegasus. Gliese 436 is part of the constellation named? Answer: Leo. Theta Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: BD+10 1857 is part of the constellation named? Answer: Cancer. Tau Sagittarii is part of the constellation named? Answer: Sagittarius. Mu Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 28 Andromedae is part of the constellation named? Answer: Andromeda. BD+59 2723 is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: Rho Virginis is part of the constellation named? Answer: Virgo. Theta1 Orionis B is part of the constellation named? Answer: Orion. 72 Herculis is part of the constellation named? Answer: Hercules. Chi Virginis is part of the constellation named? Answer: Virgo. 108 Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Iota1 Librae is part of the constellation named? Answer: Libra. 11 Librae is part of the constellation named? Answer: Libra. Zeta Geminorum is part of the constellation named? Answer: Gemini. NGC 1275 is part of the constellation named? Answer: Perseus. BD+10 1857 is part of the constellation named? Answer: __",
+        "answer": "Cancer"
+    },
+    {
+        "prompt": "Prompt: FF Andromedae is part of the constellation named? Answer: Andromeda. 48 Persei is part of the constellation named? Answer: Perseus. Chi Cassiopeiae is part of the constellation named? Answer: Cassiopeia. 3 Andromedae is part of the constellation named? Answer: Andromeda. Psi Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Beta Cancri is part of the constellation named? Answer: Cancer. Castor is part of the constellation named? Answer: Gemini. Gliese 570A is part of the constellation named? Answer: Libra. Kappa Piscium is part of the constellation named? Answer: Pisces. Eta Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Gliese 908 is part of the constellation named? Answer: Pisces. 29 Orionis is part of the constellation named? Answer: Orion. Lambda Andromedae is part of the constellation named? Answer: Andromeda. Gliese 179 is part of the constellation named? Answer: Orion. 96 Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Gliese 205 is part of the constellation named? Answer: Orion. Milky Way is part of the constellation named? Answer: Cassiopeia. 9 Persei is part of the constellation named? Answer: Perseus. V453 Andromedae is part of the constellation named? Answer: Andromeda. Gamma Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: 51 Pegasi is part of the constellation named? Answer: Pegasus. 85 Pegasi is part of the constellation named? Answer: Pegasus. 70 Pegasi is part of the constellation named? Answer: Pegasus. Tau Persei is part of the constellation named? Answer: Perseus. 12 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: Beta Cancri is part of the constellation named? Answer: Cancer. Vega is part of the constellation named? Answer: Lyra. Chi Virginis is part of the constellation named? Answer: Virgo. Iota Leonis is part of the constellation named? Answer: Leo. 56 Andromedae is part of the constellation named? Answer: __",
+        "answer": "Andromeda"
+    },
+    {
+        "prompt": "Prompt: 4C 01.28 is part of the constellation named? Answer: Leo. Ross 889 is part of the constellation named? Answer: Hydra. Epsilon Pegasi is part of the constellation named? Answer: Pegasus. Delta Librae is part of the constellation named? Answer: Libra. Omicron Cassiopeiae is part of the constellation named? Answer: __",
+        "answer": "Cassiopeia"
+    },
+    {
+        "prompt": "Prompt: 37 Librae is part of the constellation named? Answer: Libra. Xi Andromedae is part of the constellation named? Answer: Andromeda. Alcor is part of the constellation named? Answer: Ursa Major. Alnilam is part of the constellation named? Answer: Orion. EZ Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    },
+    {
+        "prompt": "Prompt: Antares is part of the constellation named? Answer: Scorpius. Rho Virginis is part of the constellation named? Answer: Virgo. Xi Pegasi is part of the constellation named? Answer: Pegasus. Zeta Andromedae is part of the constellation named? Answer: Andromeda. FK Aquarii is part of the constellation named? Answer: __",
+        "answer": "Aquarius"
+    }
+]

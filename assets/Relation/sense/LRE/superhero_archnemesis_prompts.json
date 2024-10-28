@@ -1,0 +1,386 @@
+[
+    {
+        "prompt": "Prompt: The superhero archnemesis of The Tick is? Answer: Chairface Chippendale. The superhero archnemesis of Cyclops is? Answer: Mister Sinister. The superhero archnemesis of The Flash is? Answer: Reverse-Flash. The superhero archnemesis of Scooby-Doo is? Answer: Ghost Clown. The superhero archnemesis of Superman is? Answer: __",
+        "answer": "Lex Luthor"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Black Canary is? Answer: White Canary. The superhero archnemesis of Jessica Jones is? Answer: Kilgrave. The superhero archnemesis of Punisher is? Answer: Jigsaw. The superhero archnemesis of The Wasp is? Answer: Whirlwind. The superhero archnemesis of Batman is? Answer: __",
+        "answer": "The Joker"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Scooby-Doo is? Answer: Ghost Clown. The superhero archnemesis of The Hulk is? Answer: The Abomination. The superhero archnemesis of The Powerpuff Girls is? Answer: Mojo Jojo. The superhero archnemesis of Hellboy is? Answer: Grigori Rasputin. The superhero archnemesis of Wonder Woman is? Answer: __",
+        "answer": "Cheetah"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Spawn is? Answer: Malebolgia. The superhero archnemesis of Dr. Fate is? Answer: Wotan. The superhero archnemesis of Green Lantern is? Answer: Sinestro. The superhero archnemesis of Spider-Man is? Answer: __",
+        "answer": "Green Goblin"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Spider-Man is? Answer: Green Goblin. The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Silver Surfer is? Answer: Galactus. The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of The Flash is? Answer: __",
+        "answer": "Reverse-Flash"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Groot is? Answer: Collector. The superhero archnemesis of Elektra is? Answer: Bullseye. The superhero archnemesis of Spider-Man is? Answer: Green Goblin. The superhero archnemesis of Teenage Mutant Ninja Turtles is? Answer: Shredder. The superhero archnemesis of Green Lantern is? Answer: __",
+        "answer": "Sinestro"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Supergirl is? Answer: Reign. The superhero archnemesis of Usagi Yojimbo is? Answer: Lord Hikiji. The superhero archnemesis of Kick-Ass is? Answer: Red Mist. The superhero archnemesis of Captain Planet is? Answer: Captain Pollution. The superhero archnemesis of Captain America is? Answer: __",
+        "answer": "Red Skull"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hellboy is? Answer: Grigori Rasputin. The superhero archnemesis of Red Hood is? Answer: The Joker. The superhero archnemesis of Punisher is? Answer: Jigsaw. The superhero archnemesis of Vision is? Answer: Ultron. The superhero archnemesis of Iron Man is? Answer: __",
+        "answer": "The Mandarin"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Spawn is? Answer: Malebolgia. The superhero archnemesis of Black Canary is? Answer: White Canary. The superhero archnemesis of Superman is? Answer: Lex Luthor. The superhero archnemesis of Nightwing is? Answer: Deathstroke. The superhero archnemesis of Thor is? Answer: __",
+        "answer": "Loki"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Captain Planet is? Answer: Captain Pollution. The superhero archnemesis of Dr. Fate is? Answer: Wotan. The superhero archnemesis of Blue Beetle is? Answer: Maxwell Lord. The superhero archnemesis of Black Canary is? Answer: White Canary. The superhero archnemesis of Black Panther is? Answer: __",
+        "answer": "Killmonger"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Deadpool is? Answer: T-Ray. The superhero archnemesis of Silver Surfer is? Answer: Galactus. The superhero archnemesis of Blue Beetle is? Answer: Maxwell Lord. The superhero archnemesis of The Hulk is? Answer: The Abomination. The superhero archnemesis of Doctor Strange is? Answer: __",
+        "answer": "Baron Mordo"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Catwoman is? Answer: Black Mask. The superhero archnemesis of Daredevil is? Answer: Kingpin. The superhero archnemesis of Constantine is? Answer: Nergal. The superhero archnemesis of Aquaman is? Answer: __",
+        "answer": "Black Manta"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Zatanna is? Answer: Felix Faust. The superhero archnemesis of Elektra is? Answer: Bullseye. The superhero archnemesis of Hawkman is? Answer: Shadow Thief. The superhero archnemesis of Green Lantern is? Answer: Sinestro. The superhero archnemesis of Hawkeye is? Answer: __",
+        "answer": "Crossfire"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Ben 10 is? Answer: Vilgax. The superhero archnemesis of Power Girl is? Answer: Ultra-Humanite. The superhero archnemesis of Black Bolt is? Answer: Maximus. The superhero archnemesis of Wolverine is? Answer: Sabretooth. The superhero archnemesis of Daredevil is? Answer: __",
+        "answer": "Kingpin"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Catwoman is? Answer: Black Mask. The superhero archnemesis of Doctor Strange is? Answer: Baron Mordo. The superhero archnemesis of Judge Dredd is? Answer: Judge Death. The superhero archnemesis of Human Torch is? Answer: Doctor Doom. The superhero archnemesis of The Hulk is? Answer: __",
+        "answer": "The Abomination"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of John Constantine is? Answer: First of the Fallen. The superhero archnemesis of RoboCop is? Answer: Clarence Boddicker. The superhero archnemesis of Swamp Thing is? Answer: Arcane. The superhero archnemesis of Astro Boy is? Answer: Dr. Tenma. The superhero archnemesis of Cyclops is? Answer: __",
+        "answer": "Mister Sinister"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Beast Boy is? Answer: The Brain. The superhero archnemesis of The Phantom is? Answer: The Python. The superhero archnemesis of Thor is? Answer: Loki. The superhero archnemesis of Green Lantern is? Answer: Sinestro. The superhero archnemesis of Wolverine is? Answer: __",
+        "answer": "Sabretooth"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Xena: Warrior Princess is? Answer: Callisto. The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of Human Torch is? Answer: Doctor Doom. The superhero archnemesis of Doctor Strange is? Answer: Baron Mordo. The superhero archnemesis of Ant-Man is? Answer: __",
+        "answer": "Yellowjacket"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Catwoman is? Answer: Black Mask. The superhero archnemesis of Black Canary is? Answer: White Canary. The superhero archnemesis of The Wasp is? Answer: __",
+        "answer": "Whirlwind"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Power Girl is? Answer: Ultra-Humanite. The superhero archnemesis of The Tick is? Answer: Chairface Chippendale. The superhero archnemesis of Swamp Thing is? Answer: Arcane. The superhero archnemesis of Nightwing is? Answer: Deathstroke. The superhero archnemesis of Captain Marvel is? Answer: __",
+        "answer": "Yon-Rogg"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Robin is? Answer: Two-Face. The superhero archnemesis of Constantine is? Answer: Nergal. The superhero archnemesis of Black Widow is? Answer: Taskmaster. The superhero archnemesis of Hercules is? Answer: Hades. The superhero archnemesis of Deadpool is? Answer: __",
+        "answer": "T-Ray"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Martian Manhunter is? Answer: Despero. The superhero archnemesis of Captain Planet is? Answer: Captain Pollution. The superhero archnemesis of Hellcat is? Answer: Mad Dog. The superhero archnemesis of Blade is? Answer: Deacon Frost. The superhero archnemesis of Nightwing is? Answer: __",
+        "answer": "Deathstroke"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Black Panther is? Answer: Killmonger. The superhero archnemesis of Elektra is? Answer: Bullseye. The superhero archnemesis of The Tick is? Answer: Chairface Chippendale. The superhero archnemesis of Nightwing is? Answer: Deathstroke. The superhero archnemesis of Batgirl is? Answer: __",
+        "answer": "James Gordon Jr."
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Black Bolt is? Answer: Maximus. The superhero archnemesis of Ben 10 is? Answer: Vilgax. The superhero archnemesis of Jessica Jones is? Answer: Kilgrave. The superhero archnemesis of Deadpool is? Answer: T-Ray. The superhero archnemesis of Raven is? Answer: __",
+        "answer": "Trigon"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Mystique is? Answer: Bishop. The superhero archnemesis of Catwoman is? Answer: Black Mask. The superhero archnemesis of Martian Manhunter is? Answer: Despero. The superhero archnemesis of The Tick is? Answer: Chairface Chippendale. The superhero archnemesis of Starfire is? Answer: __",
+        "answer": "Blackfire"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Moon Girl is? Answer: Mel-Varr. The superhero archnemesis of Teenage Mutant Ninja Turtles is? Answer: Shredder. The superhero archnemesis of Punisher is? Answer: Jigsaw. The superhero archnemesis of Hellcat is? Answer: Mad Dog. The superhero archnemesis of Beast Boy is? Answer: __",
+        "answer": "The Brain"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Ms. Marvel is? Answer: Mystique. The superhero archnemesis of Iron Man is? Answer: The Mandarin. The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of The Flash is? Answer: Reverse-Flash. The superhero archnemesis of Supergirl is? Answer: __",
+        "answer": "Reign"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of The Thing is? Answer: Doctor Doom. The superhero archnemesis of Hawkgirl is? Answer: Shadow Thief. The superhero archnemesis of Martian Manhunter is? Answer: Despero. The superhero archnemesis of Thor is? Answer: Loki. The superhero archnemesis of Black Widow is? Answer: __",
+        "answer": "Taskmaster"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Black Widow is? Answer: Taskmaster. The superhero archnemesis of Sailor Moon is? Answer: Queen Beryl. The superhero archnemesis of Usagi Yojimbo is? Answer: Lord Hikiji. The superhero archnemesis of The Thing is? Answer: Doctor Doom. The superhero archnemesis of Silver Surfer is? Answer: __",
+        "answer": "Galactus"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Black Widow is? Answer: Taskmaster. The superhero archnemesis of Kick-Ass is? Answer: Red Mist. The superhero archnemesis of Gamora is? Answer: Thanos. The superhero archnemesis of Moon Knight is? Answer: Bushman. The superhero archnemesis of Punisher is? Answer: __",
+        "answer": "Jigsaw"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Blade is? Answer: Deacon Frost. The superhero archnemesis of Power Girl is? Answer: Ultra-Humanite. The superhero archnemesis of The Wasp is? Answer: Whirlwind. The superhero archnemesis of Hawkman is? Answer: Shadow Thief. The superhero archnemesis of Luke Cage is? Answer: __",
+        "answer": "Diamondback"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Ant-Man is? Answer: Yellowjacket. The superhero archnemesis of Jessica Jones is? Answer: Kilgrave. The superhero archnemesis of Teenage Mutant Ninja Turtles is? Answer: Shredder. The superhero archnemesis of Black Bolt is? Answer: Maximus. The superhero archnemesis of Ghost Rider is? Answer: __",
+        "answer": "Mephisto"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hawkman is? Answer: Shadow Thief. The superhero archnemesis of Goku is? Answer: Frieza. The superhero archnemesis of Dr. Fate is? Answer: Wotan. The superhero archnemesis of Hawkgirl is? Answer: Shadow Thief. The superhero archnemesis of Jessica Jones is? Answer: __",
+        "answer": "Kilgrave"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Swamp Thing is? Answer: Arcane. The superhero archnemesis of Silver Surfer is? Answer: Galactus. The superhero archnemesis of Ant-Man is? Answer: Yellowjacket. The superhero archnemesis of Rocket Raccoon is? Answer: Collector. The superhero archnemesis of Green Arrow is? Answer: __",
+        "answer": "Malcolm Merlyn"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Gamora is? Answer: Thanos. The superhero archnemesis of Aquaman is? Answer: Black Manta. The superhero archnemesis of Captain America is? Answer: Red Skull. The superhero archnemesis of The Hulk is? Answer: The Abomination. The superhero archnemesis of Hawkman is? Answer: __",
+        "answer": "Shadow Thief"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Captain Marvel is? Answer: Yon-Rogg. The superhero archnemesis of John Constantine is? Answer: First of the Fallen. The superhero archnemesis of Deadpool is? Answer: T-Ray. The superhero archnemesis of Hellcat is? Answer: Mad Dog. The superhero archnemesis of Martian Manhunter is? Answer: __",
+        "answer": "Despero"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Dr. Fate is? Answer: Wotan. The superhero archnemesis of Venom is? Answer: Carnage. The superhero archnemesis of Thor is? Answer: Loki. The superhero archnemesis of Rorschach is? Answer: Ozymandias. The superhero archnemesis of Black Canary is? Answer: __",
+        "answer": "White Canary"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Catwoman is? Answer: Black Mask. The superhero archnemesis of Venom is? Answer: Carnage. The superhero archnemesis of Mystique is? Answer: Bishop. The superhero archnemesis of Nick Fury is? Answer: Baron Strucker. The superhero archnemesis of Storm is? Answer: __",
+        "answer": "Shadow King"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Jessica Jones is? Answer: Kilgrave. The superhero archnemesis of Judge Dredd is? Answer: Judge Death. The superhero archnemesis of Batman is? Answer: The Joker. The superhero archnemesis of Hellcat is? Answer: Mad Dog. The superhero archnemesis of Human Torch is? Answer: __",
+        "answer": "Doctor Doom"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Kim Possible is? Answer: Dr. Drakken. The superhero archnemesis of The Hulk is? Answer: The Abomination. The superhero archnemesis of Hellcat is? Answer: Mad Dog. The superhero archnemesis of Black Bolt is? Answer: Maximus. The superhero archnemesis of Mr. Fantastic is? Answer: __",
+        "answer": "Doctor Doom"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hawkman is? Answer: Shadow Thief. The superhero archnemesis of Blade is? Answer: Deacon Frost. The superhero archnemesis of Blue Beetle is? Answer: Maxwell Lord. The superhero archnemesis of The Hulk is? Answer: The Abomination. The superhero archnemesis of Invisible Woman is? Answer: __",
+        "answer": "Doctor Doom"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Storm is? Answer: Shadow King. The superhero archnemesis of Plastic Man is? Answer: Dr. Dome. The superhero archnemesis of Deadpool is? Answer: T-Ray. The superhero archnemesis of Power Girl is? Answer: Ultra-Humanite. The superhero archnemesis of The Thing is? Answer: __",
+        "answer": "Doctor Doom"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Superman is? Answer: Lex Luthor. The superhero archnemesis of Kim Possible is? Answer: Dr. Drakken. The superhero archnemesis of Green Arrow is? Answer: Malcolm Merlyn. The superhero archnemesis of Groot is? Answer: Collector. The superhero archnemesis of Ms. Marvel is? Answer: __",
+        "answer": "Mystique"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Batgirl is? Answer: James Gordon Jr.. The superhero archnemesis of Groot is? Answer: Collector. The superhero archnemesis of Daredevil is? Answer: Kingpin. The superhero archnemesis of John Constantine is? Answer: First of the Fallen. The superhero archnemesis of Shazam is? Answer: __",
+        "answer": "Black Adam"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Human Torch is? Answer: Doctor Doom. The superhero archnemesis of The Tick is? Answer: Chairface Chippendale. The superhero archnemesis of Groot is? Answer: Collector. The superhero archnemesis of Elektra is? Answer: Bullseye. The superhero archnemesis of Blue Beetle is? Answer: __",
+        "answer": "Maxwell Lord"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Beast Boy is? Answer: The Brain. The superhero archnemesis of Captain Marvel is? Answer: Yon-Rogg. The superhero archnemesis of Robin is? Answer: Two-Face. The superhero archnemesis of Deadpool is? Answer: T-Ray. The superhero archnemesis of Zatanna is? Answer: __",
+        "answer": "Felix Faust"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hellboy is? Answer: Grigori Rasputin. The superhero archnemesis of Nick Fury is? Answer: Baron Strucker. The superhero archnemesis of Superman is? Answer: Lex Luthor. The superhero archnemesis of Venom is? Answer: Carnage. The superhero archnemesis of Constantine is? Answer: __",
+        "answer": "Nergal"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of The Thing is? Answer: Doctor Doom. The superhero archnemesis of Magneto is? Answer: Professor X. The superhero archnemesis of Wonder Woman is? Answer: Cheetah. The superhero archnemesis of The Hulk is? Answer: The Abomination. The superhero archnemesis of Swamp Thing is? Answer: __",
+        "answer": "Arcane"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Constantine is? Answer: Nergal. The superhero archnemesis of Mr. Fantastic is? Answer: Doctor Doom. The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of Iron Man is? Answer: The Mandarin. The superhero archnemesis of Robin is? Answer: __",
+        "answer": "Two-Face"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of Sailor Moon is? Answer: Queen Beryl. The superhero archnemesis of Doctor Strange is? Answer: Baron Mordo. The superhero archnemesis of Ben 10 is? Answer: Vilgax. The superhero archnemesis of Catwoman is? Answer: __",
+        "answer": "Black Mask"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Magneto is? Answer: Professor X. The superhero archnemesis of Thor is? Answer: Loki. The superhero archnemesis of Black Bolt is? Answer: Maximus. The superhero archnemesis of Wolverine is? Answer: Sabretooth. The superhero archnemesis of Rorschach is? Answer: __",
+        "answer": "Ozymandias"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Wolverine is? Answer: Sabretooth. The superhero archnemesis of Xena: Warrior Princess is? Answer: Callisto. The superhero archnemesis of Shadowcat is? Answer: White Queen. The superhero archnemesis of Judge Dredd is? Answer: Judge Death. The superhero archnemesis of Moon Knight is? Answer: __",
+        "answer": "Bushman"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Nightwing is? Answer: Deathstroke. The superhero archnemesis of Green Arrow is? Answer: Malcolm Merlyn. The superhero archnemesis of Nick Fury is? Answer: Baron Strucker. The superhero archnemesis of Elektra is? Answer: Bullseye. The superhero archnemesis of Hawkgirl is? Answer: __",
+        "answer": "Shadow Thief"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Dr. Fate is? Answer: Wotan. The superhero archnemesis of Black Widow is? Answer: Taskmaster. The superhero archnemesis of Hellboy is? Answer: Grigori Rasputin. The superhero archnemesis of Ben 10 is? Answer: Vilgax. The superhero archnemesis of She-Hulk is? Answer: __",
+        "answer": "Titania"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Moon Girl is? Answer: Mel-Varr. The superhero archnemesis of Beast Boy is? Answer: The Brain. The superhero archnemesis of Usagi Yojimbo is? Answer: Lord Hikiji. The superhero archnemesis of Mr. Fantastic is? Answer: Doctor Doom. The superhero archnemesis of Red Hood is? Answer: __",
+        "answer": "The Joker"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Moon Knight is? Answer: Bushman. The superhero archnemesis of Hercules is? Answer: Hades. The superhero archnemesis of Kick-Ass is? Answer: Red Mist. The superhero archnemesis of Swamp Thing is? Answer: Arcane. The superhero archnemesis of Dr. Fate is? Answer: __",
+        "answer": "Wotan"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Scarlet Witch is? Answer: Morgan Le Fay. The superhero archnemesis of Star-Lord is? Answer: Ronan the Accuser. The superhero archnemesis of Vision is? Answer: Ultron. The superhero archnemesis of Cyclops is? Answer: Mister Sinister. The superhero archnemesis of Plastic Man is? Answer: __",
+        "answer": "Dr. Dome"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Ghost Rider is? Answer: Mephisto. The superhero archnemesis of Silver Surfer is? Answer: Galactus. The superhero archnemesis of Thor is? Answer: Loki. The superhero archnemesis of Shazam is? Answer: Black Adam. The superhero archnemesis of Scarlet Witch is? Answer: __",
+        "answer": "Morgan Le Fay"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Wonder Woman is? Answer: Cheetah. The superhero archnemesis of Spawn is? Answer: Malebolgia. The superhero archnemesis of Judge Dredd is? Answer: Judge Death. The superhero archnemesis of Punisher is? Answer: Jigsaw. The superhero archnemesis of Vision is? Answer: __",
+        "answer": "Ultron"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Spawn is? Answer: Malebolgia. The superhero archnemesis of Silver Surfer is? Answer: Galactus. The superhero archnemesis of Superman is? Answer: Lex Luthor. The superhero archnemesis of Black Panther is? Answer: Killmonger. The superhero archnemesis of Power Girl is? Answer: __",
+        "answer": "Ultra-Humanite"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of The Phantom is? Answer: The Python. The superhero archnemesis of John Constantine is? Answer: First of the Fallen. The superhero archnemesis of Iron Man is? Answer: The Mandarin. The superhero archnemesis of Punisher is? Answer: Jigsaw. The superhero archnemesis of Mystique is? Answer: __",
+        "answer": "Bishop"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Thor is? Answer: Loki. The superhero archnemesis of The Flash is? Answer: Reverse-Flash. The superhero archnemesis of Ms. Marvel is? Answer: Mystique. The superhero archnemesis of Black Panther is? Answer: Killmonger. The superhero archnemesis of Shadowcat is? Answer: __",
+        "answer": "White Queen"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Rocket Raccoon is? Answer: Collector. The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of Martian Manhunter is? Answer: Despero. The superhero archnemesis of Hercules is? Answer: Hades. The superhero archnemesis of Colossus is? Answer: __",
+        "answer": "Juggernaut"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Colossus is? Answer: Juggernaut. The superhero archnemesis of Black Widow is? Answer: Taskmaster. The superhero archnemesis of Hellboy is? Answer: Grigori Rasputin. The superhero archnemesis of Wolverine is? Answer: Sabretooth. The superhero archnemesis of Magneto is? Answer: __",
+        "answer": "Professor X"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Kim Possible is? Answer: Dr. Drakken. The superhero archnemesis of Astro Boy is? Answer: Dr. Tenma. The superhero archnemesis of Mystique is? Answer: Bishop. The superhero archnemesis of Ghost Rider is? Answer: Mephisto. The superhero archnemesis of Gamora is? Answer: __",
+        "answer": "Thanos"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Mystique is? Answer: Bishop. The superhero archnemesis of Hawkgirl is? Answer: Shadow Thief. The superhero archnemesis of Starfire is? Answer: Blackfire. The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Groot is? Answer: __",
+        "answer": "Collector"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Xena: Warrior Princess is? Answer: Callisto. The superhero archnemesis of Dr. Fate is? Answer: Wotan. The superhero archnemesis of Zatanna is? Answer: Felix Faust. The superhero archnemesis of Rocket Raccoon is? Answer: __",
+        "answer": "Collector"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Red Hood is? Answer: The Joker. The superhero archnemesis of Hawkgirl is? Answer: Shadow Thief. The superhero archnemesis of Power Girl is? Answer: Ultra-Humanite. The superhero archnemesis of Ben 10 is? Answer: Vilgax. The superhero archnemesis of Star-Lord is? Answer: __",
+        "answer": "Ronan the Accuser"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Captain America is? Answer: Red Skull. The superhero archnemesis of The Powerpuff Girls is? Answer: Mojo Jojo. The superhero archnemesis of Kick-Ass is? Answer: Red Mist. The superhero archnemesis of Blade is? Answer: Deacon Frost. The superhero archnemesis of Nick Fury is? Answer: __",
+        "answer": "Baron Strucker"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Iron Man is? Answer: The Mandarin. The superhero archnemesis of Moon Knight is? Answer: Bushman. The superhero archnemesis of Ben 10 is? Answer: Vilgax. The superhero archnemesis of Black Bolt is? Answer: __",
+        "answer": "Maximus"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Shazam is? Answer: Black Adam. The superhero archnemesis of Daredevil is? Answer: Kingpin. The superhero archnemesis of Ghost Rider is? Answer: Mephisto. The superhero archnemesis of Starfire is? Answer: Blackfire. The superhero archnemesis of Hellboy is? Answer: __",
+        "answer": "Grigori Rasputin"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Starfire is? Answer: Blackfire. The superhero archnemesis of Nick Fury is? Answer: Baron Strucker. The superhero archnemesis of Scarlet Witch is? Answer: Morgan Le Fay. The superhero archnemesis of Ant-Man is? Answer: Yellowjacket. The superhero archnemesis of Judge Dredd is? Answer: __",
+        "answer": "Judge Death"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Red Hood is? Answer: The Joker. The superhero archnemesis of Raven is? Answer: Trigon. The superhero archnemesis of Martian Manhunter is? Answer: Despero. The superhero archnemesis of Power Girl is? Answer: Ultra-Humanite. The superhero archnemesis of Teenage Mutant Ninja Turtles is? Answer: __",
+        "answer": "Shredder"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Ghost Rider is? Answer: Mephisto. The superhero archnemesis of Black Panther is? Answer: Killmonger. The superhero archnemesis of Plastic Man is? Answer: Dr. Dome. The superhero archnemesis of Hellboy is? Answer: Grigori Rasputin. The superhero archnemesis of Sailor Moon is? Answer: __",
+        "answer": "Queen Beryl"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Captain America is? Answer: Red Skull. The superhero archnemesis of Kick-Ass is? Answer: Red Mist. The superhero archnemesis of Black Bolt is? Answer: Maximus. The superhero archnemesis of Astro Boy is? Answer: __",
+        "answer": "Dr. Tenma"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Batman is? Answer: The Joker. The superhero archnemesis of Aquaman is? Answer: Black Manta. The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of Nightwing is? Answer: Deathstroke. The superhero archnemesis of Goku is? Answer: __",
+        "answer": "Frieza"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Hawkgirl is? Answer: Shadow Thief. The superhero archnemesis of Colossus is? Answer: Juggernaut. The superhero archnemesis of Shadowcat is? Answer: White Queen. The superhero archnemesis of Black Widow is? Answer: Taskmaster. The superhero archnemesis of Spawn is? Answer: __",
+        "answer": "Malebolgia"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Moon Knight is? Answer: Bushman. The superhero archnemesis of Iron Man is? Answer: The Mandarin. The superhero archnemesis of Nightwing is? Answer: Deathstroke. The superhero archnemesis of Robin is? Answer: Two-Face. The superhero archnemesis of Venom is? Answer: __",
+        "answer": "Carnage"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Superman is? Answer: Lex Luthor. The superhero archnemesis of Catwoman is? Answer: Black Mask. The superhero archnemesis of Green Arrow is? Answer: Malcolm Merlyn. The superhero archnemesis of Vision is? Answer: Ultron. The superhero archnemesis of Elektra is? Answer: __",
+        "answer": "Bullseye"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Black Canary is? Answer: White Canary. The superhero archnemesis of Red Hood is? Answer: The Joker. The superhero archnemesis of Captain Planet is? Answer: Captain Pollution. The superhero archnemesis of Ben 10 is? Answer: Vilgax. The superhero archnemesis of Buffy the Vampire Slayer is? Answer: __",
+        "answer": "The Master"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Judge Dredd is? Answer: Judge Death. The superhero archnemesis of Xena: Warrior Princess is? Answer: Callisto. The superhero archnemesis of Usagi Yojimbo is? Answer: Lord Hikiji. The superhero archnemesis of Colossus is? Answer: Juggernaut. The superhero archnemesis of RoboCop is? Answer: __",
+        "answer": "Clarence Boddicker"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Captain Marvel is? Answer: Yon-Rogg. The superhero archnemesis of Starfire is? Answer: Blackfire. The superhero archnemesis of Storm is? Answer: Shadow King. The superhero archnemesis of Black Widow is? Answer: Taskmaster. The superhero archnemesis of John Constantine is? Answer: __",
+        "answer": "First of the Fallen"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Iron Man is? Answer: The Mandarin. The superhero archnemesis of Astro Boy is? Answer: Dr. Tenma. The superhero archnemesis of Scooby-Doo is? Answer: Ghost Clown. The superhero archnemesis of Black Bolt is? Answer: Maximus. The superhero archnemesis of The Tick is? Answer: __",
+        "answer": "Chairface Chippendale"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Iron Man is? Answer: The Mandarin. The superhero archnemesis of Invisible Woman is? Answer: Doctor Doom. The superhero archnemesis of Captain America is? Answer: Red Skull. The superhero archnemesis of Astro Boy is? Answer: Dr. Tenma. The superhero archnemesis of Blade is? Answer: __",
+        "answer": "Deacon Frost"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Shadowcat is? Answer: White Queen. The superhero archnemesis of Gamora is? Answer: Thanos. The superhero archnemesis of Star-Lord is? Answer: Ronan the Accuser. The superhero archnemesis of Deadpool is? Answer: T-Ray. The superhero archnemesis of Kick-Ass is? Answer: __",
+        "answer": "Red Mist"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Iron Man is? Answer: The Mandarin. The superhero archnemesis of Groot is? Answer: Collector. The superhero archnemesis of Doctor Strange is? Answer: Baron Mordo. The superhero archnemesis of Raven is? Answer: Trigon. The superhero archnemesis of Xena: Warrior Princess is? Answer: __",
+        "answer": "Callisto"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Thor is? Answer: Loki. The superhero archnemesis of Spawn is? Answer: Malebolgia. The superhero archnemesis of The Powerpuff Girls is? Answer: Mojo Jojo. The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of Hercules is? Answer: __",
+        "answer": "Hades"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Moon Knight is? Answer: Bushman. The superhero archnemesis of Cyclops is? Answer: Mister Sinister. The superhero archnemesis of Teenage Mutant Ninja Turtles is? Answer: Shredder. The superhero archnemesis of Ghost Rider is? Answer: Mephisto. The superhero archnemesis of The Powerpuff Girls is? Answer: __",
+        "answer": "Mojo Jojo"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Astro Boy is? Answer: Dr. Tenma. The superhero archnemesis of Spawn is? Answer: Malebolgia. The superhero archnemesis of Green Lantern is? Answer: Sinestro. The superhero archnemesis of Buffy the Vampire Slayer is? Answer: The Master. The superhero archnemesis of Hellcat is? Answer: __",
+        "answer": "Mad Dog"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Doctor Strange is? Answer: Baron Mordo. The superhero archnemesis of She-Hulk is? Answer: Titania. The superhero archnemesis of Kick-Ass is? Answer: Red Mist. The superhero archnemesis of Astro Boy is? Answer: Dr. Tenma. The superhero archnemesis of Moon Girl is? Answer: __",
+        "answer": "Mel-Varr"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Teenage Mutant Ninja Turtles is? Answer: Shredder. The superhero archnemesis of Rocket Raccoon is? Answer: Collector. The superhero archnemesis of Invisible Woman is? Answer: Doctor Doom. The superhero archnemesis of Green Arrow is? Answer: Malcolm Merlyn. The superhero archnemesis of Captain Planet is? Answer: __",
+        "answer": "Captain Pollution"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Supergirl is? Answer: Reign. The superhero archnemesis of Xena: Warrior Princess is? Answer: Callisto. The superhero archnemesis of Usagi Yojimbo is? Answer: Lord Hikiji. The superhero archnemesis of Invisible Woman is? Answer: Doctor Doom. The superhero archnemesis of The Phantom is? Answer: __",
+        "answer": "The Python"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Luke Cage is? Answer: Diamondback. The superhero archnemesis of Green Arrow is? Answer: Malcolm Merlyn. The superhero archnemesis of Rorschach is? Answer: Ozymandias. The superhero archnemesis of Wolverine is? Answer: Sabretooth. The superhero archnemesis of Usagi Yojimbo is? Answer: __",
+        "answer": "Lord Hikiji"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Xena: Warrior Princess is? Answer: Callisto. The superhero archnemesis of The Tick is? Answer: Chairface Chippendale. The superhero archnemesis of Human Torch is? Answer: Doctor Doom. The superhero archnemesis of Vision is? Answer: Ultron. The superhero archnemesis of Kim Possible is? Answer: __",
+        "answer": "Dr. Drakken"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Invisible Woman is? Answer: Doctor Doom. The superhero archnemesis of Black Panther is? Answer: Killmonger. The superhero archnemesis of Batman is? Answer: The Joker. The superhero archnemesis of Vision is? Answer: Ultron. The superhero archnemesis of Ben 10 is? Answer: __",
+        "answer": "Vilgax"
+    },
+    {
+        "prompt": "Prompt: The superhero archnemesis of Buffy the Vampire Slayer is? Answer: The Master. The superhero archnemesis of Teenage Mutant Ninja Turtles is? Answer: Shredder. The superhero archnemesis of Hawkeye is? Answer: Crossfire. The superhero archnemesis of Black Panther is? Answer: Killmonger. The superhero archnemesis of Scooby-Doo is? Answer: __",
+        "answer": "Ghost Clown"
+    }
+]

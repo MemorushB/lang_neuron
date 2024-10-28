@@ -1,0 +1,194 @@
+[
+    {
+        "prompt": "Prompt: The capital city of Saudi Arabia is? Answer: Riyadh. The capital city of Argentina is? Answer: Buenos Aires. The capital city of Canada is? Answer: Ottawa. The capital city of Spain is? Answer: Madrid. The capital city of United States is? Answer: __",
+        "answer": "Washington D.C."
+    },
+    {
+        "prompt": "Prompt: The capital city of Venezuela is? Answer: Caracas. The capital city of Chile is? Answer: Santiago. The capital city of Argentina is? Answer: Buenos Aires. The capital city of Turkey is? Answer: Ankara. The capital city of Canada is? Answer: __",
+        "answer": "Ottawa"
+    },
+    {
+        "prompt": "Prompt: The capital city of Pakistan is? Answer: Islamabad. The capital city of Brazil is? Answer: Bras\\u00edlia. The capital city of Nigeria is? Answer: Abuja. The capital city of China is? Answer: Beijing. The capital city of Mexico is? Answer: __",
+        "answer": "Mexico City"
+    },
+    {
+        "prompt": "Prompt: The capital city of Canada is? Answer: Ottawa. The capital city of United States is? Answer: Washington D.C.. The capital city of Mexico is? Answer: Mexico City. The capital city of Colombia is? Answer: Bogot\\u00e1. The capital city of Brazil is? Answer: __",
+        "answer": "Bras\\u00edlia"
+    },
+    {
+        "prompt": "Prompt: The capital city of Venezuela is? Answer: Caracas. The capital city of India is? Answer: New Delhi. The capital city of Egypt is? Answer: Cairo. The capital city of United States is? Answer: Washington D.C.. The capital city of Argentina is? Answer: __",
+        "answer": "Buenos Aires"
+    },
+    {
+        "prompt": "Prompt: The capital city of Pakistan is? Answer: Islamabad. The capital city of Colombia is? Answer: Bogot\\u00e1. The capital city of Australia is? Answer: Canberra. The capital city of Saudi Arabia is? Answer: Riyadh. The capital city of Chile is? Answer: __",
+        "answer": "Santiago"
+    },
+    {
+        "prompt": "Prompt: The capital city of Australia is? Answer: Canberra. The capital city of Pakistan is? Answer: Islamabad. The capital city of China is? Answer: Beijing. The capital city of Venezuela is? Answer: Caracas. The capital city of Peru is? Answer: __",
+        "answer": "Lima"
+    },
+    {
+        "prompt": "Prompt: The capital city of Japan is? Answer: Tokyo. The capital city of Nigeria is? Answer: Abuja. The capital city of Spain is? Answer: Madrid. The capital city of United States is? Answer: Washington D.C.. The capital city of Colombia is? Answer: __",
+        "answer": "Bogot\\u00e1"
+    },
+    {
+        "prompt": "Prompt: The capital city of Chile is? Answer: Santiago. The capital city of Australia is? Answer: Canberra. The capital city of China is? Answer: Beijing. The capital city of Germany is? Answer: Berlin. The capital city of Venezuela is? Answer: __",
+        "answer": "Caracas"
+    },
+    {
+        "prompt": "Prompt: The capital city of Venezuela is? Answer: Caracas. The capital city of Argentina is? Answer: Buenos Aires. The capital city of Peru is? Answer: Lima. The capital city of Germany is? Answer: Berlin. The capital city of Spain is? Answer: __",
+        "answer": "Madrid"
+    },
+    {
+        "prompt": "Prompt: The capital city of Brazil is? Answer: Bras\\u00edlia. The capital city of Mexico is? Answer: Mexico City. The capital city of Russia is? Answer: Moscow. The capital city of Italy is? Answer: Rome. The capital city of France is? Answer: __",
+        "answer": "Paris"
+    },
+    {
+        "prompt": "Prompt: The capital city of Italy is? Answer: Rome. The capital city of Egypt is? Answer: Cairo. The capital city of Venezuela is? Answer: Caracas. The capital city of Canada is? Answer: Ottawa. The capital city of Germany is? Answer: __",
+        "answer": "Berlin"
+    },
+    {
+        "prompt": "Prompt: The capital city of Japan is? Answer: Tokyo. The capital city of Pakistan is? Answer: Islamabad. The capital city of Brazil is? Answer: Bras\\u00edlia. The capital city of Russia is? Answer: Moscow. The capital city of Italy is? Answer: __",
+        "answer": "Rome"
+    },
+    {
+        "prompt": "Prompt: The capital city of Mexico is? Answer: Mexico City. The capital city of Pakistan is? Answer: Islamabad. The capital city of Spain is? Answer: Madrid. The capital city of Saudi Arabia is? Answer: Riyadh. The capital city of Russia is? Answer: __",
+        "answer": "Moscow"
+    },
+    {
+        "prompt": "Prompt: The capital city of Egypt is? Answer: Cairo. The capital city of Germany is? Answer: Berlin. The capital city of Nigeria is? Answer: Abuja. The capital city of Peru is? Answer: Lima. The capital city of China is? Answer: __",
+        "answer": "Beijing"
+    },
+    {
+        "prompt": "Prompt: The capital city of Australia is? Answer: Canberra. The capital city of Mexico is? Answer: Mexico City. The capital city of Canada is? Answer: Ottawa. The capital city of Turkey is? Answer: Ankara. The capital city of Japan is? Answer: __",
+        "answer": "Tokyo"
+    },
+    {
+        "prompt": "Prompt: The capital city of Colombia is? Answer: Bogot\\u00e1. The capital city of Spain is? Answer: Madrid. The capital city of Mexico is? Answer: Mexico City. The capital city of Brazil is? Answer: Bras\\u00edlia. The capital city of South Korea is? Answer: __",
+        "answer": "Seoul"
+    },
+    {
+        "prompt": "Prompt: The capital city of Italy is? Answer: Rome. The capital city of Venezuela is? Answer: Caracas. The capital city of China is? Answer: Beijing. The capital city of Saudi Arabia is? Answer: Riyadh. The capital city of India is? Answer: __",
+        "answer": "New Delhi"
+    },
+    {
+        "prompt": "Prompt: The capital city of Germany is? Answer: Berlin. The capital city of Chile is? Answer: Santiago. The capital city of Peru is? Answer: Lima. The capital city of Turkey is? Answer: Ankara. The capital city of Pakistan is? Answer: __",
+        "answer": "Islamabad"
+    },
+    {
+        "prompt": "Prompt: The capital city of Venezuela is? Answer: Caracas. The capital city of Australia is? Answer: Canberra. The capital city of Turkey is? Answer: Ankara. The capital city of Saudi Arabia is? Answer: Riyadh. The capital city of Nigeria is? Answer: __",
+        "answer": "Abuja"
+    },
+    {
+        "prompt": "Prompt: The capital city of Mexico is? Answer: Mexico City. The capital city of Nigeria is? Answer: Abuja. The capital city of Saudi Arabia is? Answer: Riyadh. The capital city of Chile is? Answer: Santiago. The capital city of Egypt is? Answer: __",
+        "answer": "Cairo"
+    },
+    {
+        "prompt": "Prompt: The capital city of India is? Answer: New Delhi. The capital city of Colombia is? Answer: Bogot\\u00e1. The capital city of Chile is? Answer: Santiago. The capital city of China is? Answer: Beijing. The capital city of Saudi Arabia is? Answer: __",
+        "answer": "Riyadh"
+    },
+    {
+        "prompt": "Prompt: The capital city of Italy is? Answer: Rome. The capital city of Venezuela is? Answer: Caracas. The capital city of Egypt is? Answer: Cairo. The capital city of Australia is? Answer: Canberra. The capital city of Turkey is? Answer: __",
+        "answer": "Ankara"
+    },
+    {
+        "prompt": "Prompt: The capital city of India is? Answer: New Delhi. The capital city of Colombia is? Answer: Bogot\\u00e1. The capital city of Saudi Arabia is? Answer: Riyadh. The capital city of France is? Answer: Paris. The capital city of Australia is? Answer: __",
+        "answer": "Canberra"
+    },
+    {
+        "prompt": "Prompt: The capital of Saudi Arabia is? Answer: Riyadh. The capital of Argentina is? Answer: Buenos Aires. The capital of Canada is? Answer: Ottawa. The capital of Spain is? Answer: Madrid. The capital of United States is? Answer: __",
+        "answer": "Washington D.C."
+    },
+    {
+        "prompt": "Prompt: The capital of Venezuela is? Answer: Caracas. The capital of Chile is? Answer: Santiago. The capital of Argentina is? Answer: Buenos Aires. The capital of Turkey is? Answer: Ankara. The capital of Canada is? Answer: __",
+        "answer": "Ottawa"
+    },
+    {
+        "prompt": "Prompt: The capital of Pakistan is? Answer: Islamabad. The capital of Brazil is? Answer: Bras\\u00edlia. The capital of Nigeria is? Answer: Abuja. The capital of China is? Answer: Beijing. The capital of Mexico is? Answer: __",
+        "answer": "Mexico City"
+    },
+    {
+        "prompt": "Prompt: The capital of Canada is? Answer: Ottawa. The capital of United States is? Answer: Washington D.C.. The capital of Mexico is? Answer: Mexico City. The capital of Colombia is? Answer: Bogot\\u00e1. The capital of Brazil is? Answer: __",
+        "answer": "Bras\\u00edlia"
+    },
+    {
+        "prompt": "Prompt: The capital of Venezuela is? Answer: Caracas. The capital of India is? Answer: New Delhi. The capital of Egypt is? Answer: Cairo. The capital of United States is? Answer: Washington D.C.. The capital of Argentina is? Answer: __",
+        "answer": "Buenos Aires"
+    },
+    {
+        "prompt": "Prompt: The capital of Pakistan is? Answer: Islamabad. The capital of Colombia is? Answer: Bogot\\u00e1. The capital of Australia is? Answer: Canberra. The capital of Saudi Arabia is? Answer: Riyadh. The capital of Chile is? Answer: __",
+        "answer": "Santiago"
+    },
+    {
+        "prompt": "Prompt: The capital of Australia is? Answer: Canberra. The capital of Pakistan is? Answer: Islamabad. The capital of China is? Answer: Beijing. The capital of Venezuela is? Answer: Caracas. The capital of Peru is? Answer: __",
+        "answer": "Lima"
+    },
+    {
+        "prompt": "Prompt: The capital of Japan is? Answer: Tokyo. The capital of Nigeria is? Answer: Abuja. The capital of Spain is? Answer: Madrid. The capital of United States is? Answer: Washington D.C.. The capital of Colombia is? Answer: __",
+        "answer": "Bogot\\u00e1"
+    },
+    {
+        "prompt": "Prompt: The capital of Chile is? Answer: Santiago. The capital of Australia is? Answer: Canberra. The capital of China is? Answer: Beijing. The capital of Germany is? Answer: Berlin. The capital of Venezuela is? Answer: __",
+        "answer": "Caracas"
+    },
+    {
+        "prompt": "Prompt: The capital of Venezuela is? Answer: Caracas. The capital of Argentina is? Answer: Buenos Aires. The capital of Peru is? Answer: Lima. The capital of Germany is? Answer: Berlin. The capital of Spain is? Answer: __",
+        "answer": "Madrid"
+    },
+    {
+        "prompt": "Prompt: The capital of Brazil is? Answer: Bras\\u00edlia. The capital of Mexico is? Answer: Mexico City. The capital of Russia is? Answer: Moscow. The capital of Italy is? Answer: Rome. The capital of France is? Answer: __",
+        "answer": "Paris"
+    },
+    {
+        "prompt": "Prompt: The capital of Italy is? Answer: Rome. The capital of Egypt is? Answer: Cairo. The capital of Venezuela is? Answer: Caracas. The capital of Canada is? Answer: Ottawa. The capital of Germany is? Answer: __",
+        "answer": "Berlin"
+    },
+    {
+        "prompt": "Prompt: The capital of Japan is? Answer: Tokyo. The capital of Pakistan is? Answer: Islamabad. The capital of Brazil is? Answer: Bras\\u00edlia. The capital of Russia is? Answer: Moscow. The capital of Italy is? Answer: __",
+        "answer": "Rome"
+    },
+    {
+        "prompt": "Prompt: The capital of Mexico is? Answer: Mexico City. The capital of Pakistan is? Answer: Islamabad. The capital of Spain is? Answer: Madrid. The capital of Saudi Arabia is? Answer: Riyadh. The capital of Russia is? Answer: __",
+        "answer": "Moscow"
+    },
+    {
+        "prompt": "Prompt: The capital of Egypt is? Answer: Cairo. The capital of Germany is? Answer: Berlin. The capital of Nigeria is? Answer: Abuja. The capital of Peru is? Answer: Lima. The capital of China is? Answer: __",
+        "answer": "Beijing"
+    },
+    {
+        "prompt": "Prompt: The capital of Australia is? Answer: Canberra. The capital of Mexico is? Answer: Mexico City. The capital of Canada is? Answer: Ottawa. The capital of Turkey is? Answer: Ankara. The capital of Japan is? Answer: __",
+        "answer": "Tokyo"
+    },
+    {
+        "prompt": "Prompt: The capital of Colombia is? Answer: Bogot\\u00e1. The capital of Spain is? Answer: Madrid. The capital of Mexico is? Answer: Mexico City. The capital of Brazil is? Answer: Bras\\u00edlia. The capital of South Korea is? Answer: __",
+        "answer": "Seoul"
+    },
+    {
+        "prompt": "Prompt: The capital of Italy is? Answer: Rome. The capital of Venezuela is? Answer: Caracas. The capital of China is? Answer: Beijing. The capital of Saudi Arabia is? Answer: Riyadh. The capital of India is? Answer: __",
+        "answer": "New Delhi"
+    },
+    {
+        "prompt": "Prompt: The capital of Germany is? Answer: Berlin. The capital of Chile is? Answer: Santiago. The capital of Peru is? Answer: Lima. The capital of Turkey is? Answer: Ankara. The capital of Pakistan is? Answer: __",
+        "answer": "Islamabad"
+    },
+    {
+        "prompt": "Prompt: The capital of Venezuela is? Answer: Caracas. The capital of Australia is? Answer: Canberra. The capital of Turkey is? Answer: Ankara. The capital of Saudi Arabia is? Answer: Riyadh. The capital of Nigeria is? Answer: __",
+        "answer": "Abuja"
+    },
+    {
+        "prompt": "Prompt: The capital of Mexico is? Answer: Mexico City. The capital of Nigeria is? Answer: Abuja. The capital of Saudi Arabia is? Answer: Riyadh. The capital of Chile is? Answer: Santiago. The capital of Egypt is? Answer: __",
+        "answer": "Cairo"
+    },
+    {
+        "prompt": "Prompt: The capital of India is? Answer: New Delhi. The capital of Colombia is? Answer: Bogot\\u00e1. The capital of Chile is? Answer: Santiago. The capital of China is? Answer: Beijing. The capital of Saudi Arabia is? Answer: __",
+        "answer": "Riyadh"
+    },
+    {
+        "prompt": "Prompt: The capital of Italy is? Answer: Rome. The capital of Venezuela is? Answer: Caracas. The capital of Egypt is? Answer: Cairo. The capital of Australia is? Answer: Canberra. The capital of Turkey is? Answer: __",
+        "answer": "Ankara"
+    },
+    {
+        "prompt": "Prompt: The capital of India is? Answer: New Delhi. The capital of Colombia is? Answer: Bogot\\u00e1. The capital of Saudi Arabia is? Answer: Riyadh. The capital of France is? Answer: Paris. The capital of Australia is? Answer: __",
+        "answer": "Canberra"
+    }
+]

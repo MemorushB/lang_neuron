@@ -1,0 +1,730 @@
+[
+    {
+        "prompt": "Prompt: For university, Charles III attended? Answer: Aberystwyth University. For university, Sandra Bullock attended? Answer: East Carolina University. For university, Emma Watson attended? Answer: Brown University. For university, Andy Warhol attended? Answer: Carnegie Mellon University. For university, Michelle Obama attended? Answer: __",
+        "answer": "Princeton University"
+    },
+    {
+        "prompt": "Prompt: For university, Marilyn Monroe attended? Answer: University High School. For university, Barack Obama attended? Answer: University of Chicago Law School. For university, Madonna attended? Answer: University of Michigan School of Music, Theatre & Dance. For university, Winston Churchill attended? Answer: Royal Military Academy Sandhurst. For university, Bill Gates attended? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: For university, Bertrand Russell attended? Answer: University of Cambridge. For university, Franz Liszt attended? Answer: University of Music and Performing Arts Vienna. For university, Conan O'Brien attended? Answer: Harvard University. For university, Franz Kafka attended? Answer: Faculty of Law, German University in Prague. For university, Mark Zuckerberg attended? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: For university, Woody Allen attended? Answer: New York University Tisch School of the Arts. For university, Natalie Portman attended? Answer: Harvard University. For university, Emma Watson attended? Answer: Brown University. For university, Conan O'Brien attended? Answer: Harvard University. For university, Oprah Winfrey attended? Answer: __",
+        "answer": "Tennessee State University"
+    },
+    {
+        "prompt": "Prompt: For university, Britney Spears attended? Answer: University of Nebraska High School. For university, Henry Moore attended? Answer: Leeds Arts University. For university, Max Ernst attended? Answer: University of Bonn. For university, Yukio Mishima attended? Answer: University of Tokyo Graduate School for Law and Politics. For university, Emma Watson attended? Answer: __",
+        "answer": "Brown University"
+    },
+    {
+        "prompt": "Prompt: For university, Oprah Winfrey attended? Answer: Tennessee State University. For university, Olivia Newton-John attended? Answer: University High School. For university, Donald Trump attended? Answer: Fordham University. For university, Rabindranath Tagore attended? Answer: University College London. For university, Natalie Portman attended? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: For university, Carl Linnaeus attended? Answer: University of Harderwijk. For university, Franz Liszt attended? Answer: University of Music and Performing Arts Vienna. For university, Angela Merkel attended? Answer: Leipzig University. For university, Barack Obama attended? Answer: University of Chicago Law School. For university, George W. Bush attended? Answer: __",
+        "answer": "Yale University"
+    },
+    {
+        "prompt": "Prompt: For university, Fyodor Dostoyevsky attended? Answer: Military Engineering-Technical University. For university, Franz Kafka attended? Answer: Faculty of Law, German University in Prague. For university, Andy Warhol attended? Answer: Carnegie Mellon University. For university, Michelle Obama attended? Answer: Princeton University. For university, Hillary Clinton attended? Answer: __",
+        "answer": "Wellesley College"
+    },
+    {
+        "prompt": "Prompt: For university, Vladimir Putin attended? Answer: Faculty of Law, Saint Petersburg State University. For university, Carl Linnaeus attended? Answer: University of Harderwijk. For university, Woody Allen attended? Answer: New York University Tisch School of the Arts. For university, Stephen Hawking attended? Answer: University College, Oxford. For university, Neil Armstrong attended? Answer: __",
+        "answer": "Purdue University"
+    },
+    {
+        "prompt": "Prompt: For university, Andy Warhol attended? Answer: Carnegie Mellon University. For university, Rembrandt attended? Answer: Leiden University. For university, Britney Spears attended? Answer: University of Nebraska High School. For university, Stephen Hawking attended? Answer: University College, Oxford. For university, James Franco attended? Answer: __",
+        "answer": "UCLA"
+    },
+    {
+        "prompt": "Prompt: For university, Winston Churchill attended? Answer: Royal Military Academy Sandhurst. For university, Conan O'Brien attended? Answer: Harvard University. For university, Wassily Kandinsky attended? Answer: Moscow State University, Faculty of Law. For university, Leonardo DiCaprio attended? Answer: UCLA. For university, Cindy Crawford attended? Answer: __",
+        "answer": "Northwestern University"
+    },
+    {
+        "prompt": "Prompt: For university, Martin Luther attended? Answer: University of Erfurt. For university, Alicia Keys attended? Answer: Columbia University. For university, Yukio Mishima attended? Answer: University of Tokyo Graduate School for Law and Politics. For university, Paul Cézanne attended? Answer: Aix-Marseille University. For university, Matt Damon attended? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: For university, Natalie Portman attended? Answer: Harvard University. For university, John F. Kennedy attended? Answer: Princeton University. For university, Lord Byron attended? Answer: University of Cambridge. For university, Tom Hanks attended? Answer: California State University, Sacramento. For university, Conan O'Brien attended? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: For university, Wassily Kandinsky attended? Answer: Moscow State University, Faculty of Law. For university, Cindy Crawford attended? Answer: Northwestern University. For university, Meryl Streep attended? Answer: Yale University. For university, Edgar Allan Poe attended? Answer: University of Virginia. For university, Leonardo DiCaprio attended? Answer: __",
+        "answer": "UCLA"
+    },
+    {
+        "prompt": "Prompt: For university, Honoré de Balzac attended? Answer: University of Paris. For university, August Strindberg attended? Answer: Uppsala University. For university, Gottfried Wilhelm Leibniz attended? Answer: University of Altdorf. For university, Batman attended? Answer: University of Paris. For university, Winston Churchill attended? Answer: __",
+        "answer": "Royal Military Academy Sandhurst"
+    },
+    {
+        "prompt": "Prompt: For university, Shakira attended? Answer: University of California, Los Angeles. For university, Neil Armstrong attended? Answer: Purdue University. For university, Natalie Portman attended? Answer: Harvard University. For university, George Frideric Handel attended? Answer: University of Halle-Wittenberg. For university, Sandra Bullock attended? Answer: __",
+        "answer": "East Carolina University"
+    },
+    {
+        "prompt": "Prompt: For university, Henry Moore attended? Answer: Leeds Arts University. For university, Edgar Allan Poe attended? Answer: University of Virginia. For university, Cindy Crawford attended? Answer: Northwestern University. For university, Conan O'Brien attended? Answer: Harvard University. For university, Tom Hanks attended? Answer: __",
+        "answer": "California State University, Sacramento"
+    },
+    {
+        "prompt": "Prompt: For university, Wassily Kandinsky attended? Answer: Moscow State University, Faculty of Law. For university, Andy Warhol attended? Answer: Carnegie Mellon University. For university, John F. Kennedy attended? Answer: Princeton University. For university, Charles III attended? Answer: Aberystwyth University. For university, Peter Paul Rubens attended? Answer: __",
+        "answer": "Old University of Leuven"
+    },
+    {
+        "prompt": "Prompt: For university, Gottfried Wilhelm Leibniz attended? Answer: University of Altdorf. For university, Vladimir Putin attended? Answer: Faculty of Law, Saint Petersburg State University. For university, Arthur Conan Doyle attended? Answer: University of Edinburgh Medical School. For university, Martin Luther attended? Answer: University of Erfurt. For university, Madonna attended? Answer: __",
+        "answer": "University of Michigan School of Music, Theatre & Dance"
+    },
+    {
+        "prompt": "Prompt: For university, Victor Hugo attended? Answer: University of Paris. For university, Friedrich Schiller attended? Answer: University of Jena. For university, Friedrich Nietzsche attended? Answer: Leipzig University. For university, Carl Linnaeus attended? Answer: University of Harderwijk. For university, Lady Gaga attended? Answer: __",
+        "answer": "New York University Tisch School of the Arts"
+    },
+    {
+        "prompt": "Prompt: For university, Mahatma Gandhi attended? Answer: University College London. For university, Thomas Aquinas attended? Answer: University of Paris. For university, James Franco attended? Answer: UCLA. For university, Yukio Mishima attended? Answer: University of Tokyo Graduate School for Law and Politics. For university, Rembrandt attended? Answer: __",
+        "answer": "Leiden University"
+    },
+    {
+        "prompt": "Prompt: For university, Charles III attended? Answer: Aberystwyth University. For university, Albert Einstein attended? Answer: University of Zurich. For university, Lord Byron attended? Answer: University of Cambridge. For university, Marilyn Monroe attended? Answer: University High School. For university, Vladimir Putin attended? Answer: __",
+        "answer": "Faculty of Law, Saint Petersburg State University"
+    },
+    {
+        "prompt": "Prompt: For university, Rembrandt attended? Answer: Leiden University. For university, René Descartes attended? Answer: Utrecht University. For university, Wassily Kandinsky attended? Answer: Moscow State University, Faculty of Law. For university, Friedrich Nietzsche attended? Answer: Leipzig University. For university, Albert Einstein attended? Answer: __",
+        "answer": "University of Zurich"
+    },
+    {
+        "prompt": "Prompt: For university, Charles III attended? Answer: Aberystwyth University. For university, Albert Camus attended? Answer: Algiers 1 University. For university, Olivia Newton-John attended? Answer: University High School. For university, Barack Obama attended? Answer: University of Chicago Law School. For university, Johann Wolfgang von Goethe attended? Answer: __",
+        "answer": "University of Strasbourg"
+    },
+    {
+        "prompt": "Prompt: For university, Mahatma Gandhi attended? Answer: University College London. For university, Vladimir Lenin attended? Answer: Kazan Imperial University. For university, Hillary Clinton attended? Answer: Wellesley College. For university, Henry Moore attended? Answer: Leeds Arts University. For university, Leo Tolstoy attended? Answer: __",
+        "answer": "Kazan Imperial University"
+    },
+    {
+        "prompt": "Prompt: For university, Emma Watson attended? Answer: Brown University. For university, Bob Dylan attended? Answer: University of Minnesota system. For university, Garry Kasparov attended? Answer: Azerbaijan University of Languages. For university, Friedrich Nietzsche attended? Answer: Leipzig University. For university, Shakira attended? Answer: __",
+        "answer": "University of California, Los Angeles"
+    },
+    {
+        "prompt": "Prompt: For university, Neil Armstrong attended? Answer: Purdue University. For university, Britney Spears attended? Answer: University of Nebraska High School. For university, Sigmund Freud attended? Answer: University of Vienna. For university, Bob Dylan attended? Answer: University of Minnesota system. For university, Donald Trump attended? Answer: __",
+        "answer": "Fordham University"
+    },
+    {
+        "prompt": "Prompt: For university, Britney Spears attended? Answer: University of Nebraska High School. For university, Rabindranath Tagore attended? Answer: University College London. For university, Karl Marx attended? Answer: University of Jena. For university, J. K. Rowling attended? Answer: University of Exeter. For university, Victor Hugo attended? Answer: __",
+        "answer": "University of Paris"
+    },
+    {
+        "prompt": "Prompt: For university, Thomas Aquinas attended? Answer: University of Paris. For university, John F. Kennedy attended? Answer: Princeton University. For university, Madonna attended? Answer: University of Michigan School of Music, Theatre & Dance. For university, Paul Cézanne attended? Answer: Aix-Marseille University. For university, Britney Spears attended? Answer: __",
+        "answer": "University of Nebraska High School"
+    },
+    {
+        "prompt": "Prompt: For university, Peter Paul Rubens attended? Answer: Old University of Leuven. For university, Marilyn Monroe attended? Answer: University High School. For university, Olivia Newton-John attended? Answer: University High School. For university, Lord Byron attended? Answer: University of Cambridge. For university, Barack Obama attended? Answer: __",
+        "answer": "University of Chicago Law School"
+    },
+    {
+        "prompt": "Prompt: For university, Paul Cézanne attended? Answer: Aix-Marseille University. For university, Paul Klee attended? Answer: State University of Music and Performing Arts Stuttgart. For university, Woody Allen attended? Answer: New York University Tisch School of the Arts. For university, Garry Kasparov attended? Answer: Azerbaijan University of Languages. For university, Henry Moore attended? Answer: __",
+        "answer": "Leeds Arts University"
+    },
+    {
+        "prompt": "Prompt: For university, Gottfried Wilhelm Leibniz attended? Answer: University of Altdorf. For university, Britney Spears attended? Answer: University of Nebraska High School. For university, Peter Paul Rubens attended? Answer: Old University of Leuven. For university, J. R. R. Tolkien attended? Answer: University of Oxford. For university, Michelangelo attended? Answer: __",
+        "answer": "University of Florence"
+    },
+    {
+        "prompt": "Prompt: For university, Karl Marx attended? Answer: University of Jena. For university, Matt Damon attended? Answer: Harvard University. For university, George W. Bush attended? Answer: Yale University. For university, Winston Churchill attended? Answer: Royal Military Academy Sandhurst. For university, Marilyn Monroe attended? Answer: __",
+        "answer": "University High School"
+    },
+    {
+        "prompt": "Prompt: For university, Lady Gaga attended? Answer: New York University Tisch School of the Arts. For university, Honoré de Balzac attended? Answer: University of Paris. For university, Rembrandt attended? Answer: Leiden University. For university, Mahatma Gandhi attended? Answer: University College London. For university, Charles Darwin attended? Answer: __",
+        "answer": "University of Edinburgh Medical School"
+    },
+    {
+        "prompt": "Prompt: For university, Woody Allen attended? Answer: New York University Tisch School of the Arts. For university, Alexander von Humboldt attended? Answer: Freiberg University of Mining and Technology. For university, Neil Armstrong attended? Answer: Purdue University. For university, Hans Christian Andersen attended? Answer: University of Copenhagen. For university, Paul Cézanne attended? Answer: __",
+        "answer": "Aix-Marseille University"
+    },
+    {
+        "prompt": "Prompt: For university, Wassily Kandinsky attended? Answer: Moscow State University, Faculty of Law. For university, Alexander von Humboldt attended? Answer: Freiberg University of Mining and Technology. For university, René Descartes attended? Answer: Utrecht University. For university, Frédéric Chopin attended? Answer: Chopin University of Music. For university, Friedrich Nietzsche attended? Answer: __",
+        "answer": "Leipzig University"
+    },
+    {
+        "prompt": "Prompt: For university, Marilyn Monroe attended? Answer: University High School. For university, Meryl Streep attended? Answer: Yale University. For university, Bill Gates attended? Answer: Harvard University. For university, Mahatma Gandhi attended? Answer: University College London. For university, Andy Warhol attended? Answer: __",
+        "answer": "Carnegie Mellon University"
+    },
+    {
+        "prompt": "Prompt: For university, Winston Churchill attended? Answer: Royal Military Academy Sandhurst. For university, Mahatma Gandhi attended? Answer: University College London. For university, Lord Byron attended? Answer: University of Cambridge. For university, Paul Cézanne attended? Answer: Aix-Marseille University. For university, Lewis Carroll attended? Answer: __",
+        "answer": "University of Oxford"
+    },
+    {
+        "prompt": "Prompt: For university, Thomas Aquinas attended? Answer: University of Paris. For university, Stephen Hawking attended? Answer: University College, Oxford. For university, Winston Churchill attended? Answer: Royal Military Academy Sandhurst. For university, Lewis Carroll attended? Answer: University of Oxford. For university, Edgar Allan Poe attended? Answer: __",
+        "answer": "University of Virginia"
+    },
+    {
+        "prompt": "Prompt: For university, John Paul II attended? Answer: Theology faculty of the Jagiellonian University. For university, Rembrandt attended? Answer: Leiden University. For university, John F. Kennedy attended? Answer: Princeton University. For university, Michelle Obama attended? Answer: Princeton University. For university, Angelina Jolie attended? Answer: __",
+        "answer": "New York University"
+    },
+    {
+        "prompt": "Prompt: For university, Charles Darwin attended? Answer: University of Edinburgh Medical School. For university, Max Ernst attended? Answer: University of Bonn. For university, Albert Einstein attended? Answer: University of Zurich. For university, Leonardo DiCaprio attended? Answer: UCLA. For university, David Bowie attended? Answer: __",
+        "answer": "Ravensbourne University London"
+    },
+    {
+        "prompt": "Prompt: For university, Honoré de Balzac attended? Answer: University of Paris. For university, Edgar Allan Poe attended? Answer: University of Virginia. For university, Charles III attended? Answer: Aberystwyth University. For university, Max Ernst attended? Answer: University of Bonn. For university, Bob Dylan attended? Answer: __",
+        "answer": "University of Minnesota system"
+    },
+    {
+        "prompt": "Prompt: For university, Yukio Mishima attended? Answer: University of Tokyo Graduate School for Law and Politics. For university, Shakira attended? Answer: University of California, Los Angeles. For university, Lady Gaga attended? Answer: New York University Tisch School of the Arts. For university, Arthur Conan Doyle attended? Answer: University of Edinburgh Medical School. For university, Vladimir Lenin attended? Answer: __",
+        "answer": "Kazan Imperial University"
+    },
+    {
+        "prompt": "Prompt: For university, Rembrandt attended? Answer: Leiden University. For university, Franz Liszt attended? Answer: University of Music and Performing Arts Vienna. For university, Frédéric Chopin attended? Answer: Chopin University of Music. For university, Michelle Obama attended? Answer: Princeton University. For university, Ursula K. Le Guin attended? Answer: __",
+        "answer": "Columbia University"
+    },
+    {
+        "prompt": "Prompt: For university, Alexander von Humboldt attended? Answer: Freiberg University of Mining and Technology. For university, Bob Dylan attended? Answer: University of Minnesota system. For university, Václav Havel attended? Answer: Czech Technical University in Prague. For university, Mark Zuckerberg attended? Answer: Harvard University. For university, Stephen Hawking attended? Answer: __",
+        "answer": "University College, Oxford"
+    },
+    {
+        "prompt": "Prompt: For university, Winston Churchill attended? Answer: Royal Military Academy Sandhurst. For university, Gottfried Wilhelm Leibniz attended? Answer: University of Altdorf. For university, Angelina Jolie attended? Answer: New York University. For university, Henry Moore attended? Answer: Leeds Arts University. For university, Alicia Keys attended? Answer: __",
+        "answer": "Columbia University"
+    },
+    {
+        "prompt": "Prompt: For university, Hillary Clinton attended? Answer: Wellesley College. For university, Henry Moore attended? Answer: Leeds Arts University. For university, Sigmund Freud attended? Answer: University of Vienna. For university, Cindy Crawford attended? Answer: Northwestern University. For university, Martin Luther attended? Answer: __",
+        "answer": "University of Erfurt"
+    },
+    {
+        "prompt": "Prompt: For university, Cindy Crawford attended? Answer: Northwestern University. For university, Václav Havel attended? Answer: Czech Technical University in Prague. For university, Neil Armstrong attended? Answer: Purdue University. For university, Lord Byron attended? Answer: University of Cambridge. For university, Gottfried Wilhelm Leibniz attended? Answer: __",
+        "answer": "University of Altdorf"
+    },
+    {
+        "prompt": "Prompt: For university, Tom Hanks attended? Answer: California State University, Sacramento. For university, George Frideric Handel attended? Answer: University of Halle-Wittenberg. For university, Benito Mussolini attended? Answer: University of Lausanne. For university, Meryl Streep attended? Answer: Yale University. For university, Arthur Conan Doyle attended? Answer: __",
+        "answer": "University of Edinburgh Medical School"
+    },
+    {
+        "prompt": "Prompt: For university, Vladimir Putin attended? Answer: Faculty of Law, Saint Petersburg State University. For university, Charles Darwin attended? Answer: University of Edinburgh Medical School. For university, Frédéric Chopin attended? Answer: Chopin University of Music. For university, Yukio Mishima attended? Answer: University of Tokyo Graduate School for Law and Politics. For university, Wassily Kandinsky attended? Answer: __",
+        "answer": "Moscow State University, Faculty of Law"
+    },
+    {
+        "prompt": "Prompt: For university, Woody Allen attended? Answer: New York University Tisch School of the Arts. For university, Victor Hugo attended? Answer: University of Paris. For university, Franz Liszt attended? Answer: University of Music and Performing Arts Vienna. For university, Albert Camus attended? Answer: Algiers 1 University. For university, Hans Christian Andersen attended? Answer: __",
+        "answer": "University of Copenhagen"
+    },
+    {
+        "prompt": "Prompt: For university, Shakira attended? Answer: University of California, Los Angeles. For university, Angelina Jolie attended? Answer: New York University. For university, Garry Kasparov attended? Answer: Azerbaijan University of Languages. For university, Friedrich Schiller attended? Answer: University of Jena. For university, J. K. Rowling attended? Answer: __",
+        "answer": "University of Exeter"
+    },
+    {
+        "prompt": "Prompt: For university, Rabindranath Tagore attended? Answer: University College London. For university, Gottfried Wilhelm Leibniz attended? Answer: University of Altdorf. For university, Benedict XVI attended? Answer: Ludwig Maximilian University of Munich. For university, Thomas Mann attended? Answer: Technical University of Munich. For university, Garry Kasparov attended? Answer: __",
+        "answer": "Azerbaijan University of Languages"
+    },
+    {
+        "prompt": "Prompt: For university, Fyodor Dostoyevsky attended? Answer: Military Engineering-Technical University. For university, Sandra Bullock attended? Answer: East Carolina University. For university, Michelangelo attended? Answer: University of Florence. For university, Britney Spears attended? Answer: University of Nebraska High School. For university, Noam Chomsky attended? Answer: __",
+        "answer": "University of Pennsylvania"
+    },
+    {
+        "prompt": "Prompt: For university, Neil Armstrong attended? Answer: Purdue University. For university, Ursula K. Le Guin attended? Answer: Columbia University. For university, Mark Zuckerberg attended? Answer: Harvard University. For university, Franz Kafka attended? Answer: Faculty of Law, German University in Prague. For university, Angela Merkel attended? Answer: __",
+        "answer": "Leipzig University"
+    },
+    {
+        "prompt": "Prompt: For university, Meryl Streep attended? Answer: Yale University. For university, Barack Obama attended? Answer: University of Chicago Law School. For university, Franz Kafka attended? Answer: Faculty of Law, German University in Prague. For university, Britney Spears attended? Answer: University of Nebraska High School. For university, Woody Allen attended? Answer: __",
+        "answer": "New York University Tisch School of the Arts"
+    },
+    {
+        "prompt": "Prompt: For university, Michelle Obama attended? Answer: Princeton University. For university, James Franco attended? Answer: UCLA. For university, Honoré de Balzac attended? Answer: University of Paris. For university, Hillary Clinton attended? Answer: Wellesley College. For university, John Paul II attended? Answer: __",
+        "answer": "Theology faculty of the Jagiellonian University"
+    },
+    {
+        "prompt": "Prompt: For university, Barack Obama attended? Answer: University of Chicago Law School. For university, Neil Armstrong attended? Answer: Purdue University. For university, Emma Watson attended? Answer: Brown University. For university, Vladimir Lenin attended? Answer: Kazan Imperial University. For university, Benedict XVI attended? Answer: __",
+        "answer": "Ludwig Maximilian University of Munich"
+    },
+    {
+        "prompt": "Prompt: For university, James Franco attended? Answer: UCLA. For university, J. R. R. Tolkien attended? Answer: University of Oxford. For university, Henry Moore attended? Answer: Leeds Arts University. For university, Friedrich Nietzsche attended? Answer: Leipzig University. For university, Fyodor Dostoyevsky attended? Answer: __",
+        "answer": "Military Engineering-Technical University"
+    },
+    {
+        "prompt": "Prompt: For university, Friedrich Schiller attended? Answer: University of Jena. For university, Václav Havel attended? Answer: Czech Technical University in Prague. For university, Victor Hugo attended? Answer: University of Paris. For university, Franz Liszt attended? Answer: University of Music and Performing Arts Vienna. For university, John F. Kennedy attended? Answer: __",
+        "answer": "Princeton University"
+    },
+    {
+        "prompt": "Prompt: For university, Tom Hanks attended? Answer: California State University, Sacramento. For university, Batman attended? Answer: University of Paris. For university, Benito Mussolini attended? Answer: University of Lausanne. For university, Michelangelo attended? Answer: University of Florence. For university, René Descartes attended? Answer: __",
+        "answer": "Utrecht University"
+    },
+    {
+        "prompt": "Prompt: For university, René Descartes attended? Answer: Utrecht University. For university, Garry Kasparov attended? Answer: Azerbaijan University of Languages. For university, Leo Tolstoy attended? Answer: Kazan Imperial University. For university, Conan O'Brien attended? Answer: Harvard University. For university, Benito Mussolini attended? Answer: __",
+        "answer": "University of Lausanne"
+    },
+    {
+        "prompt": "Prompt: For university, Conan O'Brien attended? Answer: Harvard University. For university, George Frideric Handel attended? Answer: University of Halle-Wittenberg. For university, Woody Allen attended? Answer: New York University Tisch School of the Arts. For university, Alicia Keys attended? Answer: Columbia University. For university, Richard Wagner attended? Answer: __",
+        "answer": "Leipzig University"
+    },
+    {
+        "prompt": "Prompt: For university, Angela Merkel attended? Answer: Leipzig University. For university, Garry Kasparov attended? Answer: Azerbaijan University of Languages. For university, John F. Kennedy attended? Answer: Princeton University. For university, George W. Bush attended? Answer: Yale University. For university, Václav Havel attended? Answer: __",
+        "answer": "Czech Technical University in Prague"
+    },
+    {
+        "prompt": "Prompt: For university, Bertrand Russell attended? Answer: University of Cambridge. For university, Rabindranath Tagore attended? Answer: University College London. For university, Thomas Aquinas attended? Answer: University of Paris. For university, Conan O'Brien attended? Answer: Harvard University. For university, Karl Marx attended? Answer: __",
+        "answer": "University of Jena"
+    },
+    {
+        "prompt": "Prompt: For university, Hillary Clinton attended? Answer: Wellesley College. For university, J. K. Rowling attended? Answer: University of Exeter. For university, Ursula K. Le Guin attended? Answer: Columbia University. For university, Leonardo DiCaprio attended? Answer: UCLA. For university, Max Ernst attended? Answer: __",
+        "answer": "University of Bonn"
+    },
+    {
+        "prompt": "Prompt: For university, Michelangelo attended? Answer: University of Florence. For university, Leo Tolstoy attended? Answer: Kazan Imperial University. For university, Lord Byron attended? Answer: University of Cambridge. For university, Benedict XVI attended? Answer: Ludwig Maximilian University of Munich. For university, J. R. R. Tolkien attended? Answer: __",
+        "answer": "University of Oxford"
+    },
+    {
+        "prompt": "Prompt: For university, Peter Paul Rubens attended? Answer: Old University of Leuven. For university, Angela Merkel attended? Answer: Leipzig University. For university, Johann Wolfgang von Goethe attended? Answer: University of Strasbourg. For university, Friedrich Nietzsche attended? Answer: Leipzig University. For university, Thomas Mann attended? Answer: __",
+        "answer": "Technical University of Munich"
+    },
+    {
+        "prompt": "Prompt: For university, John F. Kennedy attended? Answer: Princeton University. For university, Michelangelo attended? Answer: University of Florence. For university, James Franco attended? Answer: UCLA. For university, John Paul II attended? Answer: Theology faculty of the Jagiellonian University. For university, Frédéric Chopin attended? Answer: __",
+        "answer": "Chopin University of Music"
+    },
+    {
+        "prompt": "Prompt: For university, Meryl Streep attended? Answer: Yale University. For university, Conan O'Brien attended? Answer: Harvard University. For university, George W. Bush attended? Answer: Yale University. For university, Rabindranath Tagore attended? Answer: University College London. For university, Lord Byron attended? Answer: __",
+        "answer": "University of Cambridge"
+    },
+    {
+        "prompt": "Prompt: For university, Lord Byron attended? Answer: University of Cambridge. For university, Bill Gates attended? Answer: Harvard University. For university, Matt Damon attended? Answer: Harvard University. For university, Henry Moore attended? Answer: Leeds Arts University. For university, Franz Liszt attended? Answer: __",
+        "answer": "University of Music and Performing Arts Vienna"
+    },
+    {
+        "prompt": "Prompt: For university, Vladimir Putin attended? Answer: Faculty of Law, Saint Petersburg State University. For university, Garry Kasparov attended? Answer: Azerbaijan University of Languages. For university, Richard Wagner attended? Answer: Leipzig University. For university, Benito Mussolini attended? Answer: University of Lausanne. For university, Meryl Streep attended? Answer: __",
+        "answer": "Yale University"
+    },
+    {
+        "prompt": "Prompt: For university, Victor Hugo attended? Answer: University of Paris. For university, J. K. Rowling attended? Answer: University of Exeter. For university, Hillary Clinton attended? Answer: Wellesley College. For university, Vladimir Putin attended? Answer: Faculty of Law, Saint Petersburg State University. For university, Olivia Newton-John attended? Answer: __",
+        "answer": "University High School"
+    },
+    {
+        "prompt": "Prompt: For university, Arthur Conan Doyle attended? Answer: University of Edinburgh Medical School. For university, Michelle Obama attended? Answer: Princeton University. For university, Wassily Kandinsky attended? Answer: Moscow State University, Faculty of Law. For university, Charles Darwin attended? Answer: University of Edinburgh Medical School. For university, Sigmund Freud attended? Answer: __",
+        "answer": "University of Vienna"
+    },
+    {
+        "prompt": "Prompt: For university, Fyodor Dostoyevsky attended? Answer: Military Engineering-Technical University. For university, Andy Warhol attended? Answer: Carnegie Mellon University. For university, Angela Merkel attended? Answer: Leipzig University. For university, Carl Linnaeus attended? Answer: University of Harderwijk. For university, Batman attended? Answer: __",
+        "answer": "University of Paris"
+    },
+    {
+        "prompt": "Prompt: For university, Meryl Streep attended? Answer: Yale University. For university, George Frideric Handel attended? Answer: University of Halle-Wittenberg. For university, Richard Wagner attended? Answer: Leipzig University. For university, Lady Gaga attended? Answer: New York University Tisch School of the Arts. For university, Paul Klee attended? Answer: __",
+        "answer": "State University of Music and Performing Arts Stuttgart"
+    },
+    {
+        "prompt": "Prompt: For university, Leo Tolstoy attended? Answer: Kazan Imperial University. For university, Lewis Carroll attended? Answer: University of Oxford. For university, Victor Hugo attended? Answer: University of Paris. For university, Hillary Clinton attended? Answer: Wellesley College. For university, Franz Kafka attended? Answer: __",
+        "answer": "Faculty of Law, German University in Prague"
+    },
+    {
+        "prompt": "Prompt: For university, Batman attended? Answer: University of Paris. For university, Lord Byron attended? Answer: University of Cambridge. For university, Hillary Clinton attended? Answer: Wellesley College. For university, David Bowie attended? Answer: Ravensbourne University London. For university, Alexander von Humboldt attended? Answer: __",
+        "answer": "Freiberg University of Mining and Technology"
+    },
+    {
+        "prompt": "Prompt: For university, Hillary Clinton attended? Answer: Wellesley College. For university, George W. Bush attended? Answer: Yale University. For university, Batman attended? Answer: University of Paris. For university, Benito Mussolini attended? Answer: University of Lausanne. For university, Yukio Mishima attended? Answer: __",
+        "answer": "University of Tokyo Graduate School for Law and Politics"
+    },
+    {
+        "prompt": "Prompt: For university, Karl Marx attended? Answer: University of Jena. For university, Thomas Mann attended? Answer: Technical University of Munich. For university, Rembrandt attended? Answer: Leiden University. For university, Hillary Clinton attended? Answer: Wellesley College. For university, Isaac Newton attended? Answer: __",
+        "answer": "University of Cambridge"
+    },
+    {
+        "prompt": "Prompt: For university, Max Ernst attended? Answer: University of Bonn. For university, Cindy Crawford attended? Answer: Northwestern University. For university, Johann Wolfgang von Goethe attended? Answer: University of Strasbourg. For university, Neil Armstrong attended? Answer: Purdue University. For university, August Strindberg attended? Answer: __",
+        "answer": "Uppsala University"
+    },
+    {
+        "prompt": "Prompt: For university, Franz Kafka attended? Answer: Faculty of Law, German University in Prague. For university, Neil Armstrong attended? Answer: Purdue University. For university, Bertrand Russell attended? Answer: University of Cambridge. For university, Henry Moore attended? Answer: Leeds Arts University. For university, Honoré de Balzac attended? Answer: __",
+        "answer": "University of Paris"
+    },
+    {
+        "prompt": "Prompt: For university, J. K. Rowling attended? Answer: University of Exeter. For university, Sandra Bullock attended? Answer: East Carolina University. For university, Olivia Newton-John attended? Answer: University High School. For university, Michelangelo attended? Answer: University of Florence. For university, Charles III attended? Answer: __",
+        "answer": "Aberystwyth University"
+    },
+    {
+        "prompt": "Prompt: For university, Batman attended? Answer: University of Paris. For university, Franz Kafka attended? Answer: Faculty of Law, German University in Prague. For university, Natalie Portman attended? Answer: Harvard University. For university, Isaac Newton attended? Answer: University of Cambridge. For university, Thomas Aquinas attended? Answer: __",
+        "answer": "University of Paris"
+    },
+    {
+        "prompt": "Prompt: For university, Cindy Crawford attended? Answer: Northwestern University. For university, Noam Chomsky attended? Answer: University of Pennsylvania. For university, George Frideric Handel attended? Answer: University of Halle-Wittenberg. For university, Batman attended? Answer: University of Paris. For university, Rabindranath Tagore attended? Answer: __",
+        "answer": "University College London"
+    },
+    {
+        "prompt": "Prompt: For university, Olivia Newton-John attended? Answer: University High School. For university, J. R. R. Tolkien attended? Answer: University of Oxford. For university, David Bowie attended? Answer: Ravensbourne University London. For university, Charles Darwin attended? Answer: University of Edinburgh Medical School. For university, George Frideric Handel attended? Answer: __",
+        "answer": "University of Halle-Wittenberg"
+    },
+    {
+        "prompt": "Prompt: For university, Donald Trump attended? Answer: Fordham University. For university, George Frideric Handel attended? Answer: University of Halle-Wittenberg. For university, David Bowie attended? Answer: Ravensbourne University London. For university, Henry Moore attended? Answer: Leeds Arts University. For university, Friedrich Schiller attended? Answer: __",
+        "answer": "University of Jena"
+    },
+    {
+        "prompt": "Prompt: For university, Charles Darwin attended? Answer: University of Edinburgh Medical School. For university, Hans Christian Andersen attended? Answer: University of Copenhagen. For university, Tom Hanks attended? Answer: California State University, Sacramento. For university, George Frideric Handel attended? Answer: University of Halle-Wittenberg. For university, Bertrand Russell attended? Answer: __",
+        "answer": "University of Cambridge"
+    },
+    {
+        "prompt": "Prompt: For university, Charles III attended? Answer: Aberystwyth University. For university, Edgar Allan Poe attended? Answer: University of Virginia. For university, Fyodor Dostoyevsky attended? Answer: Military Engineering-Technical University. For university, David Bowie attended? Answer: Ravensbourne University London. For university, Mahatma Gandhi attended? Answer: __",
+        "answer": "University College London"
+    },
+    {
+        "prompt": "Prompt: For university, James Franco attended? Answer: UCLA. For university, Bill Gates attended? Answer: Harvard University. For university, Fyodor Dostoyevsky attended? Answer: Military Engineering-Technical University. For university, Isaac Newton attended? Answer: University of Cambridge. For university, Albert Camus attended? Answer: __",
+        "answer": "Algiers 1 University"
+    },
+    {
+        "prompt": "Prompt: For university, Olivia Newton-John attended? Answer: University High School. For university, Conan O'Brien attended? Answer: Harvard University. For university, James Franco attended? Answer: UCLA. For university, Frédéric Chopin attended? Answer: Chopin University of Music. For university, Carl Linnaeus attended? Answer: __",
+        "answer": "University of Harderwijk"
+    },
+    {
+        "prompt": "Prompt: Charles III went to university at? Answer: Aberystwyth University. Sandra Bullock went to university at? Answer: East Carolina University. Emma Watson went to university at? Answer: Brown University. Andy Warhol went to university at? Answer: Carnegie Mellon University. Michelle Obama went to university at? Answer: __",
+        "answer": "Princeton University"
+    },
+    {
+        "prompt": "Prompt: Marilyn Monroe went to university at? Answer: University High School. Barack Obama went to university at? Answer: University of Chicago Law School. Madonna went to university at? Answer: University of Michigan School of Music, Theatre & Dance. Winston Churchill went to university at? Answer: Royal Military Academy Sandhurst. Bill Gates went to university at? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: Bertrand Russell went to university at? Answer: University of Cambridge. Franz Liszt went to university at? Answer: University of Music and Performing Arts Vienna. Conan O'Brien went to university at? Answer: Harvard University. Franz Kafka went to university at? Answer: Faculty of Law, German University in Prague. Mark Zuckerberg went to university at? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: Woody Allen went to university at? Answer: New York University Tisch School of the Arts. Natalie Portman went to university at? Answer: Harvard University. Emma Watson went to university at? Answer: Brown University. Conan O'Brien went to university at? Answer: Harvard University. Oprah Winfrey went to university at? Answer: __",
+        "answer": "Tennessee State University"
+    },
+    {
+        "prompt": "Prompt: Britney Spears went to university at? Answer: University of Nebraska High School. Henry Moore went to university at? Answer: Leeds Arts University. Max Ernst went to university at? Answer: University of Bonn. Yukio Mishima went to university at? Answer: University of Tokyo Graduate School for Law and Politics. Emma Watson went to university at? Answer: __",
+        "answer": "Brown University"
+    },
+    {
+        "prompt": "Prompt: Oprah Winfrey went to university at? Answer: Tennessee State University. Olivia Newton-John went to university at? Answer: University High School. Donald Trump went to university at? Answer: Fordham University. Rabindranath Tagore went to university at? Answer: University College London. Natalie Portman went to university at? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: Carl Linnaeus went to university at? Answer: University of Harderwijk. Franz Liszt went to university at? Answer: University of Music and Performing Arts Vienna. Angela Merkel went to university at? Answer: Leipzig University. Barack Obama went to university at? Answer: University of Chicago Law School. George W. Bush went to university at? Answer: __",
+        "answer": "Yale University"
+    },
+    {
+        "prompt": "Prompt: Fyodor Dostoyevsky went to university at? Answer: Military Engineering-Technical University. Franz Kafka went to university at? Answer: Faculty of Law, German University in Prague. Andy Warhol went to university at? Answer: Carnegie Mellon University. Michelle Obama went to university at? Answer: Princeton University. Hillary Clinton went to university at? Answer: __",
+        "answer": "Wellesley College"
+    },
+    {
+        "prompt": "Prompt: Vladimir Putin went to university at? Answer: Faculty of Law, Saint Petersburg State University. Carl Linnaeus went to university at? Answer: University of Harderwijk. Woody Allen went to university at? Answer: New York University Tisch School of the Arts. Stephen Hawking went to university at? Answer: University College, Oxford. Neil Armstrong went to university at? Answer: __",
+        "answer": "Purdue University"
+    },
+    {
+        "prompt": "Prompt: Andy Warhol went to university at? Answer: Carnegie Mellon University. Rembrandt went to university at? Answer: Leiden University. Britney Spears went to university at? Answer: University of Nebraska High School. Stephen Hawking went to university at? Answer: University College, Oxford. James Franco went to university at? Answer: __",
+        "answer": "UCLA"
+    },
+    {
+        "prompt": "Prompt: Winston Churchill went to university at? Answer: Royal Military Academy Sandhurst. Conan O'Brien went to university at? Answer: Harvard University. Wassily Kandinsky went to university at? Answer: Moscow State University, Faculty of Law. Leonardo DiCaprio went to university at? Answer: UCLA. Cindy Crawford went to university at? Answer: __",
+        "answer": "Northwestern University"
+    },
+    {
+        "prompt": "Prompt: Martin Luther went to university at? Answer: University of Erfurt. Alicia Keys went to university at? Answer: Columbia University. Yukio Mishima went to university at? Answer: University of Tokyo Graduate School for Law and Politics. Paul Cézanne went to university at? Answer: Aix-Marseille University. Matt Damon went to university at? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: Natalie Portman went to university at? Answer: Harvard University. John F. Kennedy went to university at? Answer: Princeton University. Lord Byron went to university at? Answer: University of Cambridge. Tom Hanks went to university at? Answer: California State University, Sacramento. Conan O'Brien went to university at? Answer: __",
+        "answer": "Harvard University"
+    },
+    {
+        "prompt": "Prompt: Wassily Kandinsky went to university at? Answer: Moscow State University, Faculty of Law. Cindy Crawford went to university at? Answer: Northwestern University. Meryl Streep went to university at? Answer: Yale University. Edgar Allan Poe went to university at? Answer: University of Virginia. Leonardo DiCaprio went to university at? Answer: __",
+        "answer": "UCLA"
+    },
+    {
+        "prompt": "Prompt: Honoré de Balzac went to university at? Answer: University of Paris. August Strindberg went to university at? Answer: Uppsala University. Gottfried Wilhelm Leibniz went to university at? Answer: University of Altdorf. Batman went to university at? Answer: University of Paris. Winston Churchill went to university at? Answer: __",
+        "answer": "Royal Military Academy Sandhurst"
+    },
+    {
+        "prompt": "Prompt: Shakira went to university at? Answer: University of California, Los Angeles. Neil Armstrong went to university at? Answer: Purdue University. Natalie Portman went to university at? Answer: Harvard University. George Frideric Handel went to university at? Answer: University of Halle-Wittenberg. Sandra Bullock went to university at? Answer: __",
+        "answer": "East Carolina University"
+    },
+    {
+        "prompt": "Prompt: Henry Moore went to university at? Answer: Leeds Arts University. Edgar Allan Poe went to university at? Answer: University of Virginia. Cindy Crawford went to university at? Answer: Northwestern University. Conan O'Brien went to university at? Answer: Harvard University. Tom Hanks went to university at? Answer: __",
+        "answer": "California State University, Sacramento"
+    },
+    {
+        "prompt": "Prompt: Wassily Kandinsky went to university at? Answer: Moscow State University, Faculty of Law. Andy Warhol went to university at? Answer: Carnegie Mellon University. John F. Kennedy went to university at? Answer: Princeton University. Charles III went to university at? Answer: Aberystwyth University. Peter Paul Rubens went to university at? Answer: __",
+        "answer": "Old University of Leuven"
+    },
+    {
+        "prompt": "Prompt: Gottfried Wilhelm Leibniz went to university at? Answer: University of Altdorf. Vladimir Putin went to university at? Answer: Faculty of Law, Saint Petersburg State University. Arthur Conan Doyle went to university at? Answer: University of Edinburgh Medical School. Martin Luther went to university at? Answer: University of Erfurt. Madonna went to university at? Answer: __",
+        "answer": "University of Michigan School of Music, Theatre & Dance"
+    },
+    {
+        "prompt": "Prompt: Victor Hugo went to university at? Answer: University of Paris. Friedrich Schiller went to university at? Answer: University of Jena. Friedrich Nietzsche went to university at? Answer: Leipzig University. Carl Linnaeus went to university at? Answer: University of Harderwijk. Lady Gaga went to university at? Answer: __",
+        "answer": "New York University Tisch School of the Arts"
+    },
+    {
+        "prompt": "Prompt: Mahatma Gandhi went to university at? Answer: University College London. Thomas Aquinas went to university at? Answer: University of Paris. James Franco went to university at? Answer: UCLA. Yukio Mishima went to university at? Answer: University of Tokyo Graduate School for Law and Politics. Rembrandt went to university at? Answer: __",
+        "answer": "Leiden University"
+    },
+    {
+        "prompt": "Prompt: Charles III went to university at? Answer: Aberystwyth University. Albert Einstein went to university at? Answer: University of Zurich. Lord Byron went to university at? Answer: University of Cambridge. Marilyn Monroe went to university at? Answer: University High School. Vladimir Putin went to university at? Answer: __",
+        "answer": "Faculty of Law, Saint Petersburg State University"
+    },
+    {
+        "prompt": "Prompt: Rembrandt went to university at? Answer: Leiden University. René Descartes went to university at? Answer: Utrecht University. Wassily Kandinsky went to university at? Answer: Moscow State University, Faculty of Law. Friedrich Nietzsche went to university at? Answer: Leipzig University. Albert Einstein went to university at? Answer: __",
+        "answer": "University of Zurich"
+    },
+    {
+        "prompt": "Prompt: Charles III went to university at? Answer: Aberystwyth University. Albert Camus went to university at? Answer: Algiers 1 University. Olivia Newton-John went to university at? Answer: University High School. Barack Obama went to university at? Answer: University of Chicago Law School. Johann Wolfgang von Goethe went to university at? Answer: __",
+        "answer": "University of Strasbourg"
+    },
+    {
+        "prompt": "Prompt: Mahatma Gandhi went to university at? Answer: University College London. Vladimir Lenin went to university at? Answer: Kazan Imperial University. Hillary Clinton went to university at? Answer: Wellesley College. Henry Moore went to university at? Answer: Leeds Arts University. Leo Tolstoy went to university at? Answer: __",
+        "answer": "Kazan Imperial University"
+    },
+    {
+        "prompt": "Prompt: Emma Watson went to university at? Answer: Brown University. Bob Dylan went to university at? Answer: University of Minnesota system. Garry Kasparov went to university at? Answer: Azerbaijan University of Languages. Friedrich Nietzsche went to university at? Answer: Leipzig University. Shakira went to university at? Answer: __",
+        "answer": "University of California, Los Angeles"
+    },
+    {
+        "prompt": "Prompt: Neil Armstrong went to university at? Answer: Purdue University. Britney Spears went to university at? Answer: University of Nebraska High School. Sigmund Freud went to university at? Answer: University of Vienna. Bob Dylan went to university at? Answer: University of Minnesota system. Donald Trump went to university at? Answer: __",
+        "answer": "Fordham University"
+    },
+    {
+        "prompt": "Prompt: Britney Spears went to university at? Answer: University of Nebraska High School. Rabindranath Tagore went to university at? Answer: University College London. Karl Marx went to university at? Answer: University of Jena. J. K. Rowling went to university at? Answer: University of Exeter. Victor Hugo went to university at? Answer: __",
+        "answer": "University of Paris"
+    },
+    {
+        "prompt": "Prompt: Thomas Aquinas went to university at? Answer: University of Paris. John F. Kennedy went to university at? Answer: Princeton University. Madonna went to university at? Answer: University of Michigan School of Music, Theatre & Dance. Paul Cézanne went to university at? Answer: Aix-Marseille University. Britney Spears went to university at? Answer: __",
+        "answer": "University of Nebraska High School"
+    },
+    {
+        "prompt": "Prompt: Peter Paul Rubens went to university at? Answer: Old University of Leuven. Marilyn Monroe went to university at? Answer: University High School. Olivia Newton-John went to university at? Answer: University High School. Lord Byron went to university at? Answer: University of Cambridge. Barack Obama went to university at? Answer: __",
+        "answer": "University of Chicago Law School"
+    },
+    {
+        "prompt": "Prompt: Paul Cézanne went to university at? Answer: Aix-Marseille University. Paul Klee went to university at? Answer: State University of Music and Performing Arts Stuttgart. Woody Allen went to university at? Answer: New York University Tisch School of the Arts. Garry Kasparov went to university at? Answer: Azerbaijan University of Languages. Henry Moore went to university at? Answer: __",
+        "answer": "Leeds Arts University"
+    },
+    {
+        "prompt": "Prompt: Gottfried Wilhelm Leibniz went to university at? Answer: University of Altdorf. Britney Spears went to university at? Answer: University of Nebraska High School. Peter Paul Rubens went to university at? Answer: Old University of Leuven. J. R. R. Tolkien went to university at? Answer: University of Oxford. Michelangelo went to university at? Answer: __",
+        "answer": "University of Florence"
+    },
+    {
+        "prompt": "Prompt: Karl Marx went to university at? Answer: University of Jena. Matt Damon went to university at? Answer: Harvard University. George W. Bush went to university at? Answer: Yale University. Winston Churchill went to university at? Answer: Royal Military Academy Sandhurst. Marilyn Monroe went to university at? Answer: __",
+        "answer": "University High School"
+    },
+    {
+        "prompt": "Prompt: Lady Gaga went to university at? Answer: New York University Tisch School of the Arts. Honoré de Balzac went to university at? Answer: University of Paris. Rembrandt went to university at? Answer: Leiden University. Mahatma Gandhi went to university at? Answer: University College London. Charles Darwin went to university at? Answer: __",
+        "answer": "University of Edinburgh Medical School"
+    },
+    {
+        "prompt": "Prompt: Woody Allen went to university at? Answer: New York University Tisch School of the Arts. Alexander von Humboldt went to university at? Answer: Freiberg University of Mining and Technology. Neil Armstrong went to university at? Answer: Purdue University. Hans Christian Andersen went to university at? Answer: University of Copenhagen. Paul Cézanne went to university at? Answer: __",
+        "answer": "Aix-Marseille University"
+    },
+    {
+        "prompt": "Prompt: Wassily Kandinsky went to university at? Answer: Moscow State University, Faculty of Law. Alexander von Humboldt went to university at? Answer: Freiberg University of Mining and Technology. René Descartes went to university at? Answer: Utrecht University. Frédéric Chopin went to university at? Answer: Chopin University of Music. Friedrich Nietzsche went to university at? Answer: __",
+        "answer": "Leipzig University"
+    },
+    {
+        "prompt": "Prompt: Marilyn Monroe went to university at? Answer: University High School. Meryl Streep went to university at? Answer: Yale University. Bill Gates went to university at? Answer: Harvard University. Mahatma Gandhi went to university at? Answer: University College London. Andy Warhol went to university at? Answer: __",
+        "answer": "Carnegie Mellon University"
+    },
+    {
+        "prompt": "Prompt: Winston Churchill went to university at? Answer: Royal Military Academy Sandhurst. Mahatma Gandhi went to university at? Answer: University College London. Lord Byron went to university at? Answer: University of Cambridge. Paul Cézanne went to university at? Answer: Aix-Marseille University. Lewis Carroll went to university at? Answer: __",
+        "answer": "University of Oxford"
+    },
+    {
+        "prompt": "Prompt: Thomas Aquinas went to university at? Answer: University of Paris. Stephen Hawking went to university at? Answer: University College, Oxford. Winston Churchill went to university at? Answer: Royal Military Academy Sandhurst. Lewis Carroll went to university at? Answer: University of Oxford. Edgar Allan Poe went to university at? Answer: __",
+        "answer": "University of Virginia"
+    },
+    {
+        "prompt": "Prompt: John Paul II went to university at? Answer: Theology faculty of the Jagiellonian University. Rembrandt went to university at? Answer: Leiden University. John F. Kennedy went to university at? Answer: Princeton University. Michelle Obama went to university at? Answer: Princeton University. Angelina Jolie went to university at? Answer: __",
+        "answer": "New York University"
+    },
+    {
+        "prompt": "Prompt: Charles Darwin went to university at? Answer: University of Edinburgh Medical School. Max Ernst went to university at? Answer: University of Bonn. Albert Einstein went to university at? Answer: University of Zurich. Leonardo DiCaprio went to university at? Answer: UCLA. David Bowie went to university at? Answer: __",
+        "answer": "Ravensbourne University London"
+    },
+    {
+        "prompt": "Prompt: Honoré de Balzac went to university at? Answer: University of Paris. Edgar Allan Poe went to university at? Answer: University of Virginia. Charles III went to university at? Answer: Aberystwyth University. Max Ernst went to university at? Answer: University of Bonn. Bob Dylan went to university at? Answer: __",
+        "answer": "University of Minnesota system"
+    },
+    {
+        "prompt": "Prompt: Yukio Mishima went to university at? Answer: University of Tokyo Graduate School for Law and Politics. Shakira went to university at? Answer: University of California, Los Angeles. Lady Gaga went to university at? Answer: New York University Tisch School of the Arts. Arthur Conan Doyle went to university at? Answer: University of Edinburgh Medical School. Vladimir Lenin went to university at? Answer: __",
+        "answer": "Kazan Imperial University"
+    },
+    {
+        "prompt": "Prompt: Rembrandt went to university at? Answer: Leiden University. Franz Liszt went to university at? Answer: University of Music and Performing Arts Vienna. Frédéric Chopin went to university at? Answer: Chopin University of Music. Michelle Obama went to university at? Answer: Princeton University. Ursula K. Le Guin went to university at? Answer: __",
+        "answer": "Columbia University"
+    },
+    {
+        "prompt": "Prompt: Alexander von Humboldt went to university at? Answer: Freiberg University of Mining and Technology. Bob Dylan went to university at? Answer: University of Minnesota system. Václav Havel went to university at? Answer: Czech Technical University in Prague. Mark Zuckerberg went to university at? Answer: Harvard University. Stephen Hawking went to university at? Answer: __",
+        "answer": "University College, Oxford"
+    },
+    {
+        "prompt": "Prompt: Winston Churchill went to university at? Answer: Royal Military Academy Sandhurst. Gottfried Wilhelm Leibniz went to university at? Answer: University of Altdorf. Angelina Jolie went to university at? Answer: New York University. Henry Moore went to university at? Answer: Leeds Arts University. Alicia Keys went to university at? Answer: __",
+        "answer": "Columbia University"
+    },
+    {
+        "prompt": "Prompt: Hillary Clinton went to university at? Answer: Wellesley College. Henry Moore went to university at? Answer: Leeds Arts University. Sigmund Freud went to university at? Answer: University of Vienna. Cindy Crawford went to university at? Answer: Northwestern University. Martin Luther went to university at? Answer: __",
+        "answer": "University of Erfurt"
+    },
+    {
+        "prompt": "Prompt: Cindy Crawford went to university at? Answer: Northwestern University. Václav Havel went to university at? Answer: Czech Technical University in Prague. Neil Armstrong went to university at? Answer: Purdue University. Lord Byron went to university at? Answer: University of Cambridge. Gottfried Wilhelm Leibniz went to university at? Answer: __",
+        "answer": "University of Altdorf"
+    },
+    {
+        "prompt": "Prompt: Tom Hanks went to university at? Answer: California State University, Sacramento. George Frideric Handel went to university at? Answer: University of Halle-Wittenberg. Benito Mussolini went to university at? Answer: University of Lausanne. Meryl Streep went to university at? Answer: Yale University. Arthur Conan Doyle went to university at? Answer: __",
+        "answer": "University of Edinburgh Medical School"
+    },
+    {
+        "prompt": "Prompt: Vladimir Putin went to university at? Answer: Faculty of Law, Saint Petersburg State University. Charles Darwin went to university at? Answer: University of Edinburgh Medical School. Frédéric Chopin went to university at? Answer: Chopin University of Music. Yukio Mishima went to university at? Answer: University of Tokyo Graduate School for Law and Politics. Wassily Kandinsky went to university at? Answer: __",
+        "answer": "Moscow State University, Faculty of Law"
+    },
+    {
+        "prompt": "Prompt: Woody Allen went to university at? Answer: New York University Tisch School of the Arts. Victor Hugo went to university at? Answer: University of Paris. Franz Liszt went to university at? Answer: University of Music and Performing Arts Vienna. Albert Camus went to university at? Answer: Algiers 1 University. Hans Christian Andersen went to university at? Answer: __",
+        "answer": "University of Copenhagen"
+    },
+    {
+        "prompt": "Prompt: Shakira went to university at? Answer: University of California, Los Angeles. Angelina Jolie went to university at? Answer: New York University. Garry Kasparov went to university at? Answer: Azerbaijan University of Languages. Friedrich Schiller went to university at? Answer: University of Jena. J. K. Rowling went to university at? Answer: __",
+        "answer": "University of Exeter"
+    },
+    {
+        "prompt": "Prompt: Rabindranath Tagore went to university at? Answer: University College London. Gottfried Wilhelm Leibniz went to university at? Answer: University of Altdorf. Benedict XVI went to university at? Answer: Ludwig Maximilian University of Munich. Thomas Mann went to university at? Answer: Technical University of Munich. Garry Kasparov went to university at? Answer: __",
+        "answer": "Azerbaijan University of Languages"
+    },
+    {
+        "prompt": "Prompt: Fyodor Dostoyevsky went to university at? Answer: Military Engineering-Technical University. Sandra Bullock went to university at? Answer: East Carolina University. Michelangelo went to university at? Answer: University of Florence. Britney Spears went to university at? Answer: University of Nebraska High School. Noam Chomsky went to university at? Answer: __",
+        "answer": "University of Pennsylvania"
+    },
+    {
+        "prompt": "Prompt: Neil Armstrong went to university at? Answer: Purdue University. Ursula K. Le Guin went to university at? Answer: Columbia University. Mark Zuckerberg went to university at? Answer: Harvard University. Franz Kafka went to university at? Answer: Faculty of Law, German University in Prague. Angela Merkel went to university at? Answer: __",
+        "answer": "Leipzig University"
+    },
+    {
+        "prompt": "Prompt: Meryl Streep went to university at? Answer: Yale University. Barack Obama went to university at? Answer: University of Chicago Law School. Franz Kafka went to university at? Answer: Faculty of Law, German University in Prague. Britney Spears went to university at? Answer: University of Nebraska High School. Woody Allen went to university at? Answer: __",
+        "answer": "New York University Tisch School of the Arts"
+    },
+    {
+        "prompt": "Prompt: Michelle Obama went to university at? Answer: Princeton University. James Franco went to university at? Answer: UCLA. Honoré de Balzac went to university at? Answer: University of Paris. Hillary Clinton went to university at? Answer: Wellesley College. John Paul II went to university at? Answer: __",
+        "answer": "Theology faculty of the Jagiellonian University"
+    },
+    {
+        "prompt": "Prompt: Barack Obama went to university at? Answer: University of Chicago Law School. Neil Armstrong went to university at? Answer: Purdue University. Emma Watson went to university at? Answer: Brown University. Vladimir Lenin went to university at? Answer: Kazan Imperial University. Benedict XVI went to university at? Answer: __",
+        "answer": "Ludwig Maximilian University of Munich"
+    },
+    {
+        "prompt": "Prompt: James Franco went to university at? Answer: UCLA. J. R. R. Tolkien went to university at? Answer: University of Oxford. Henry Moore went to university at? Answer: Leeds Arts University. Friedrich Nietzsche went to university at? Answer: Leipzig University. Fyodor Dostoyevsky went to university at? Answer: __",
+        "answer": "Military Engineering-Technical University"
+    },
+    {
+        "prompt": "Prompt: Friedrich Schiller went to university at? Answer: University of Jena. Václav Havel went to university at? Answer: Czech Technical University in Prague. Victor Hugo went to university at? Answer: University of Paris. Franz Liszt went to university at? Answer: University of Music and Performing Arts Vienna. John F. Kennedy went to university at? Answer: __",
+        "answer": "Princeton University"
+    },
+    {
+        "prompt": "Prompt: Tom Hanks went to university at? Answer: California State University, Sacramento. Batman went to university at? Answer: University of Paris. Benito Mussolini went to university at? Answer: University of Lausanne. Michelangelo went to university at? Answer: University of Florence. René Descartes went to university at? Answer: __",
+        "answer": "Utrecht University"
+    },
+    {
+        "prompt": "Prompt: René Descartes went to university at? Answer: Utrecht University. Garry Kasparov went to university at? Answer: Azerbaijan University of Languages. Leo Tolstoy went to university at? Answer: Kazan Imperial University. Conan O'Brien went to university at? Answer: Harvard University. Benito Mussolini went to university at? Answer: __",
+        "answer": "University of Lausanne"
+    },
+    {
+        "prompt": "Prompt: Conan O'Brien went to university at? Answer: Harvard University. George Frideric Handel went to university at? Answer: University of Halle-Wittenberg. Woody Allen went to university at? Answer: New York University Tisch School of the Arts. Alicia Keys went to university at? Answer: Columbia University. Richard Wagner went to university at? Answer: __",
+        "answer": "Leipzig University"
+    },
+    {
+        "prompt": "Prompt: Angela Merkel went to university at? Answer: Leipzig University. Garry Kasparov went to university at? Answer: Azerbaijan University of Languages. John F. Kennedy went to university at? Answer: Princeton University. George W. Bush went to university at? Answer: Yale University. Václav Havel went to university at? Answer: __",
+        "answer": "Czech Technical University in Prague"
+    },
+    {
+        "prompt": "Prompt: Bertrand Russell went to university at? Answer: University of Cambridge. Rabindranath Tagore went to university at? Answer: University College London. Thomas Aquinas went to university at? Answer: University of Paris. Conan O'Brien went to university at? Answer: Harvard University. Karl Marx went to university at? Answer: __",
+        "answer": "University of Jena"
+    },
+    {
+        "prompt": "Prompt: Hillary Clinton went to university at? Answer: Wellesley College. J. K. Rowling went to university at? Answer: University of Exeter. Ursula K. Le Guin went to university at? Answer: Columbia University. Leonardo DiCaprio went to university at? Answer: UCLA. Max Ernst went to university at? Answer: __",
+        "answer": "University of Bonn"
+    },
+    {
+        "prompt": "Prompt: Michelangelo went to university at? Answer: University of Florence. Leo Tolstoy went to university at? Answer: Kazan Imperial University. Lord Byron went to university at? Answer: University of Cambridge. Benedict XVI went to university at? Answer: Ludwig Maximilian University of Munich. J. R. R. Tolkien went to university at? Answer: __",
+        "answer": "University of Oxford"
+    },
+    {
+        "prompt": "Prompt: Peter Paul Rubens went to university at? Answer: Old University of Leuven. Angela Merkel went to university at? Answer: Leipzig University. Johann Wolfgang von Goethe went to university at? Answer: University of Strasbourg. Friedrich Nietzsche went to university at? Answer: Leipzig University. Thomas Mann went to university at? Answer: __",
+        "answer": "Technical University of Munich"
+    },
+    {
+        "prompt": "Prompt: John F. Kennedy went to university at? Answer: Princeton University. Michelangelo went to university at? Answer: University of Florence. James Franco went to university at? Answer: UCLA. John Paul II went to university at? Answer: Theology faculty of the Jagiellonian University. Frédéric Chopin went to university at? Answer: __",
+        "answer": "Chopin University of Music"
+    },
+    {
+        "prompt": "Prompt: Meryl Streep went to university at? Answer: Yale University. Conan O'Brien went to university at? Answer: Harvard University. George W. Bush went to university at? Answer: Yale University. Rabindranath Tagore went to university at? Answer: University College London. Lord Byron went to university at? Answer: __",
+        "answer": "University of Cambridge"
+    },
+    {
+        "prompt": "Prompt: Lord Byron went to university at? Answer: University of Cambridge. Bill Gates went to university at? Answer: Harvard University. Matt Damon went to university at? Answer: Harvard University. Henry Moore went to university at? Answer: Leeds Arts University. Franz Liszt went to university at? Answer: __",
+        "answer": "University of Music and Performing Arts Vienna"
+    },
+    {
+        "prompt": "Prompt: Vladimir Putin went to university at? Answer: Faculty of Law, Saint Petersburg State University. Garry Kasparov went to university at? Answer: Azerbaijan University of Languages. Richard Wagner went to university at? Answer: Leipzig University. Benito Mussolini went to university at? Answer: University of Lausanne. Meryl Streep went to university at? Answer: __",
+        "answer": "Yale University"
+    },
+    {
+        "prompt": "Prompt: Victor Hugo went to university at? Answer: University of Paris. J. K. Rowling went to university at? Answer: University of Exeter. Hillary Clinton went to university at? Answer: Wellesley College. Vladimir Putin went to university at? Answer: Faculty of Law, Saint Petersburg State University. Olivia Newton-John went to university at? Answer: __",
+        "answer": "University High School"
+    },
+    {
+        "prompt": "Prompt: Arthur Conan Doyle went to university at? Answer: University of Edinburgh Medical School. Michelle Obama went to university at? Answer: Princeton University. Wassily Kandinsky went to university at? Answer: Moscow State University, Faculty of Law. Charles Darwin went to university at? Answer: University of Edinburgh Medical School. Sigmund Freud went to university at? Answer: __",
+        "answer": "University of Vienna"
+    },
+    {
+        "prompt": "Prompt: Fyodor Dostoyevsky went to university at? Answer: Military Engineering-Technical University. Andy Warhol went to university at? Answer: Carnegie Mellon University. Angela Merkel went to university at? Answer: Leipzig University. Carl Linnaeus went to university at? Answer: University of Harderwijk. Batman went to university at? Answer: __",
+        "answer": "University of Paris"
+    },
+    {
+        "prompt": "Prompt: Meryl Streep went to university at? Answer: Yale University. George Frideric Handel went to university at? Answer: University of Halle-Wittenberg. Richard Wagner went to university at? Answer: Leipzig University. Lady Gaga went to university at? Answer: New York University Tisch School of the Arts. Paul Klee went to university at? Answer: __",
+        "answer": "State University of Music and Performing Arts Stuttgart"
+    },
+    {
+        "prompt": "Prompt: Leo Tolstoy went to university at? Answer: Kazan Imperial University. Lewis Carroll went to university at? Answer: University of Oxford. Victor Hugo went to university at? Answer: University of Paris. Hillary Clinton went to university at? Answer: Wellesley College. Franz Kafka went to university at? Answer: __",
+        "answer": "Faculty of Law, German University in Prague"
+    },
+    {
+        "prompt": "Prompt: Batman went to university at? Answer: University of Paris. Lord Byron went to university at? Answer: University of Cambridge. Hillary Clinton went to university at? Answer: Wellesley College. David Bowie went to university at? Answer: Ravensbourne University London. Alexander von Humboldt went to university at? Answer: __",
+        "answer": "Freiberg University of Mining and Technology"
+    },
+    {
+        "prompt": "Prompt: Hillary Clinton went to university at? Answer: Wellesley College. George W. Bush went to university at? Answer: Yale University. Batman went to university at? Answer: University of Paris. Benito Mussolini went to university at? Answer: University of Lausanne. Yukio Mishima went to university at? Answer: __",
+        "answer": "University of Tokyo Graduate School for Law and Politics"
+    },
+    {
+        "prompt": "Prompt: Karl Marx went to university at? Answer: University of Jena. Thomas Mann went to university at? Answer: Technical University of Munich. Rembrandt went to university at? Answer: Leiden University. Hillary Clinton went to university at? Answer: Wellesley College. Isaac Newton went to university at? Answer: __",
+        "answer": "University of Cambridge"
+    },
+    {
+        "prompt": "Prompt: Max Ernst went to university at? Answer: University of Bonn. Cindy Crawford went to university at? Answer: Northwestern University. Johann Wolfgang von Goethe went to university at? Answer: University of Strasbourg. Neil Armstrong went to university at? Answer: Purdue University. August Strindberg went to university at? Answer: __",
+        "answer": "Uppsala University"
+    },
+    {
+        "prompt": "Prompt: Franz Kafka went to university at? Answer: Faculty of Law, German University in Prague. Neil Armstrong went to university at? Answer: Purdue University. Bertrand Russell went to university at? Answer: University of Cambridge. Henry Moore went to university at? Answer: Leeds Arts University. Honoré de Balzac went to university at? Answer: __",
+        "answer": "University of Paris"
+    },
+    {
+        "prompt": "Prompt: J. K. Rowling went to university at? Answer: University of Exeter. Sandra Bullock went to university at? Answer: East Carolina University. Olivia Newton-John went to university at? Answer: University High School. Michelangelo went to university at? Answer: University of Florence. Charles III went to university at? Answer: __",
+        "answer": "Aberystwyth University"
+    },
+    {
+        "prompt": "Prompt: Batman went to university at? Answer: University of Paris. Franz Kafka went to university at? Answer: Faculty of Law, German University in Prague. Natalie Portman went to university at? Answer: Harvard University. Isaac Newton went to university at? Answer: University of Cambridge. Thomas Aquinas went to university at? Answer: __",
+        "answer": "University of Paris"
+    },
+    {
+        "prompt": "Prompt: Cindy Crawford went to university at? Answer: Northwestern University. Noam Chomsky went to university at? Answer: University of Pennsylvania. George Frideric Handel went to university at? Answer: University of Halle-Wittenberg. Batman went to university at? Answer: University of Paris. Rabindranath Tagore went to university at? Answer: __",
+        "answer": "University College London"
+    },
+    {
+        "prompt": "Prompt: Olivia Newton-John went to university at? Answer: University High School. J. R. R. Tolkien went to university at? Answer: University of Oxford. David Bowie went to university at? Answer: Ravensbourne University London. Charles Darwin went to university at? Answer: University of Edinburgh Medical School. George Frideric Handel went to university at? Answer: __",
+        "answer": "University of Halle-Wittenberg"
+    },
+    {
+        "prompt": "Prompt: Donald Trump went to university at? Answer: Fordham University. George Frideric Handel went to university at? Answer: University of Halle-Wittenberg. David Bowie went to university at? Answer: Ravensbourne University London. Henry Moore went to university at? Answer: Leeds Arts University. Friedrich Schiller went to university at? Answer: __",
+        "answer": "University of Jena"
+    },
+    {
+        "prompt": "Prompt: Charles Darwin went to university at? Answer: University of Edinburgh Medical School. Hans Christian Andersen went to university at? Answer: University of Copenhagen. Tom Hanks went to university at? Answer: California State University, Sacramento. George Frideric Handel went to university at? Answer: University of Halle-Wittenberg. Bertrand Russell went to university at? Answer: __",
+        "answer": "University of Cambridge"
+    },
+    {
+        "prompt": "Prompt: Charles III went to university at? Answer: Aberystwyth University. Edgar Allan Poe went to university at? Answer: University of Virginia. Fyodor Dostoyevsky went to university at? Answer: Military Engineering-Technical University. David Bowie went to university at? Answer: Ravensbourne University London. Mahatma Gandhi went to university at? Answer: __",
+        "answer": "University College London"
+    },
+    {
+        "prompt": "Prompt: James Franco went to university at? Answer: UCLA. Bill Gates went to university at? Answer: Harvard University. Fyodor Dostoyevsky went to university at? Answer: Military Engineering-Technical University. Isaac Newton went to university at? Answer: University of Cambridge. Albert Camus went to university at? Answer: __",
+        "answer": "Algiers 1 University"
+    },
+    {
+        "prompt": "Prompt: Olivia Newton-John went to university at? Answer: University High School. Conan O'Brien went to university at? Answer: Harvard University. James Franco went to university at? Answer: UCLA. Frédéric Chopin went to university at? Answer: Chopin University of Music. Carl Linnaeus went to university at? Answer: __",
+        "answer": "University of Harderwijk"
+    }
+]

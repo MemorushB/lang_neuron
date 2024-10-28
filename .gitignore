@@ -1,6 +1,7 @@
 # System files
 .DS_Store
 .idea/
+.mypy_cache/
 
 # Jupyter Notebook files
 *.ipynb

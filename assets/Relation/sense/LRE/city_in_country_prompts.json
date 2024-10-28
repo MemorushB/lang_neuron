@@ -1,0 +1,218 @@
+[
+    {
+        "prompt": "Prompt: Siem Reap is part of? Answer: Cambodia. São Paulo is part of? Answer: Brazil. Rio de Janeiro is part of? Answer: Brazil. Costa Rica is part of? Answer: San José. New York City is part of? Answer: __",
+        "answer": "United States"
+    },
+    {
+        "prompt": "Prompt: Kuala Lumpur is part of? Answer: Malaysia. Ho Chi Minh City is part of? Answer: Vietnam. Los Angeles is part of? Answer: United States. Costa Rica is part of? Answer: San José. Rio de Janeiro is part of? Answer: __",
+        "answer": "Brazil"
+    },
+    {
+        "prompt": "Prompt: São Paulo is part of? Answer: Brazil. Casablanca is part of? Answer: Morocco. Costa Rica is part of? Answer: San José. Port-au-Prince is part of? Answer: Haiti. Buenos Aires is part of? Answer: __",
+        "answer": "Argentina"
+    },
+    {
+        "prompt": "Prompt: Buenos Aires is part of? Answer: Argentina. Santiago de Chile is part of? Answer: Chile. Hong Kong is part of? Answer: China. Rio de Janeiro is part of? Answer: Brazil. Mexico City is part of? Answer: __",
+        "answer": "Mexico"
+    },
+    {
+        "prompt": "Prompt: New York City is part of? Answer: United States. Buenos Aires is part of? Answer: Argentina. San Francisco is part of? Answer: United States. Ho Chi Minh City is part of? Answer: Vietnam. São Paulo is part of? Answer: __",
+        "answer": "Brazil"
+    },
+    {
+        "prompt": "Prompt: Santo Domingo is part of? Answer: Dominican Republic. Panama City is part of? Answer: Panama. New York City is part of? Answer: United States. Port-au-Prince is part of? Answer: Haiti. Los Angeles is part of? Answer: __",
+        "answer": "United States"
+    },
+    {
+        "prompt": "Prompt: San Francisco is part of? Answer: United States. San Juan is part of? Answer: Puerto Rico. Siem Reap is part of? Answer: Cambodia. Port-au-Prince is part of? Answer: Haiti. Saint Petersburg is part of? Answer: __",
+        "answer": "Russia"
+    },
+    {
+        "prompt": "Prompt: Hong Kong is part of? Answer: China. Ho Chi Minh City is part of? Answer: Vietnam. Tel Aviv is part of? Answer: Israel. Santiago de Chile is part of? Answer: Chile. San Francisco is part of? Answer: __",
+        "answer": "United States"
+    },
+    {
+        "prompt": "Prompt: Kuala Lumpur is part of? Answer: Malaysia. Punta Cana is part of? Answer: Dominican Republic. New York City is part of? Answer: United States. Addis Ababa is part of? Answer: Ethiopia. Ho Chi Minh City is part of? Answer: __",
+        "answer": "Vietnam"
+    },
+    {
+        "prompt": "Prompt: Punta Cana is part of? Answer: Dominican Republic. Los Angeles is part of? Answer: United States. San Juan is part of? Answer: Puerto Rico. Hong Kong is part of? Answer: China. Kuala Lumpur is part of? Answer: __",
+        "answer": "Malaysia"
+    },
+    {
+        "prompt": "Prompt: Cape Town is part of? Answer: South Africa. Ho Chi Minh City is part of? Answer: Vietnam. São Paulo is part of? Answer: Brazil. Saint Petersburg is part of? Answer: Russia. Abu Dhabi is part of? Answer: __",
+        "answer": "United Arab Emirates"
+    },
+    {
+        "prompt": "Prompt: Addis Ababa is part of? Answer: Ethiopia. Abu Dhabi is part of? Answer: United Arab Emirates. Mexico City is part of? Answer: Mexico. Buenos Aires is part of? Answer: Argentina. Cape Town is part of? Answer: __",
+        "answer": "South Africa"
+    },
+    {
+        "prompt": "Prompt: Las Vegas is part of? Answer: United States. Mexico City is part of? Answer: Mexico. Cape Town is part of? Answer: South Africa. Panama City is part of? Answer: Panama. New Delhi is part of? Answer: __",
+        "answer": "India"
+    },
+    {
+        "prompt": "Prompt: Ho Chi Minh City is part of? Answer: Vietnam. Punta Cana is part of? Answer: Dominican Republic. Rio de Janeiro is part of? Answer: Brazil. Costa Rica is part of? Answer: San José. Las Vegas is part of? Answer: __",
+        "answer": "United States"
+    },
+    {
+        "prompt": "Prompt: Tel Aviv is part of? Answer: Israel. Port-au-Prince is part of? Answer: Haiti. Mexico City is part of? Answer: Mexico. New Delhi is part of? Answer: India. Hong Kong is part of? Answer: __",
+        "answer": "China"
+    },
+    {
+        "prompt": "Prompt: Buenos Aires is part of? Answer: Argentina. Port-au-Prince is part of? Answer: Haiti. Kuala Lumpur is part of? Answer: Malaysia. Siem Reap is part of? Answer: Cambodia. Tel Aviv is part of? Answer: __",
+        "answer": "Israel"
+    },
+    {
+        "prompt": "Prompt: Panama City is part of? Answer: Panama. Cape Town is part of? Answer: South Africa. Santiago de Chile is part of? Answer: Chile. Saint Petersburg is part of? Answer: Russia. Johannesburg is part of? Answer: __",
+        "answer": "South Africa"
+    },
+    {
+        "prompt": "Prompt: San Juan is part of? Answer: Puerto Rico. Buenos Aires is part of? Answer: Argentina. Rio de Janeiro is part of? Answer: Brazil. Casablanca is part of? Answer: Morocco. Santo Domingo is part of? Answer: __",
+        "answer": "Dominican Republic"
+    },
+    {
+        "prompt": "Prompt: San Francisco is part of? Answer: United States. Addis Ababa is part of? Answer: Ethiopia. Kuala Lumpur is part of? Answer: Malaysia. Buenos Aires is part of? Answer: Argentina. Port-au-Prince is part of? Answer: __",
+        "answer": "Haiti"
+    },
+    {
+        "prompt": "Prompt: San Francisco is part of? Answer: United States. Mexico City is part of? Answer: Mexico. New Delhi is part of? Answer: India. Ho Chi Minh City is part of? Answer: Vietnam. Santiago de Chile is part of? Answer: __",
+        "answer": "Chile"
+    },
+    {
+        "prompt": "Prompt: Hong Kong is part of? Answer: China. Siem Reap is part of? Answer: Cambodia. Cape Town is part of? Answer: South Africa. Los Angeles is part of? Answer: United States. Panama City is part of? Answer: __",
+        "answer": "Panama"
+    },
+    {
+        "prompt": "Prompt: Cape Town is part of? Answer: South Africa. Saint Petersburg is part of? Answer: Russia. Casablanca is part of? Answer: Morocco. Ho Chi Minh City is part of? Answer: Vietnam. Siem Reap is part of? Answer: __",
+        "answer": "Cambodia"
+    },
+    {
+        "prompt": "Prompt: San Juan is part of? Answer: Puerto Rico. Siem Reap is part of? Answer: Cambodia. Panama City is part of? Answer: Panama. Buenos Aires is part of? Answer: Argentina. Casablanca is part of? Answer: __",
+        "answer": "Morocco"
+    },
+    {
+        "prompt": "Prompt: Santiago de Chile is part of? Answer: Chile. Panama City is part of? Answer: Panama. Los Angeles is part of? Answer: United States. Santo Domingo is part of? Answer: Dominican Republic. San Juan is part of? Answer: __",
+        "answer": "Puerto Rico"
+    },
+    {
+        "prompt": "Prompt: San Juan is part of? Answer: Puerto Rico. San Francisco is part of? Answer: United States. Los Angeles is part of? Answer: United States. Hong Kong is part of? Answer: China. Costa Rica is part of? Answer: __",
+        "answer": "San José"
+    },
+    {
+        "prompt": "Prompt: New Delhi is part of? Answer: India. Ho Chi Minh City is part of? Answer: Vietnam. Panama City is part of? Answer: Panama. Casablanca is part of? Answer: Morocco. Addis Ababa is part of? Answer: __",
+        "answer": "Ethiopia"
+    },
+    {
+        "prompt": "Prompt: Santo Domingo is part of? Answer: Dominican Republic. San Francisco is part of? Answer: United States. Siem Reap is part of? Answer: Cambodia. Abu Dhabi is part of? Answer: United Arab Emirates. Punta Cana is part of? Answer: __",
+        "answer": "Dominican Republic"
+    },
+    {
+        "prompt": "Prompt: Siem Reap is in the country of? Answer: Cambodia. São Paulo is in the country of? Answer: Brazil. Rio de Janeiro is in the country of? Answer: Brazil. Costa Rica is in the country of? Answer: San José. New York City is in the country of? Answer: __",
+        "answer": "United States"
+    },
+    {
+        "prompt": "Prompt: Kuala Lumpur is in the country of? Answer: Malaysia. Ho Chi Minh City is in the country of? Answer: Vietnam. Los Angeles is in the country of? Answer: United States. Costa Rica is in the country of? Answer: San José. Rio de Janeiro is in the country of? Answer: __",
+        "answer": "Brazil"
+    },
+    {
+        "prompt": "Prompt: São Paulo is in the country of? Answer: Brazil. Casablanca is in the country of? Answer: Morocco. Costa Rica is in the country of? Answer: San José. Port-au-Prince is in the country of? Answer: Haiti. Buenos Aires is in the country of? Answer: __",
+        "answer": "Argentina"
+    },
+    {
+        "prompt": "Prompt: Buenos Aires is in the country of? Answer: Argentina. Santiago de Chile is in the country of? Answer: Chile. Hong Kong is in the country of? Answer: China. Rio de Janeiro is in the country of? Answer: Brazil. Mexico City is in the country of? Answer: __",
+        "answer": "Mexico"
+    },
+    {
+        "prompt": "Prompt: New York City is in the country of? Answer: United States. Buenos Aires is in the country of? Answer: Argentina. San Francisco is in the country of? Answer: United States. Ho Chi Minh City is in the country of? Answer: Vietnam. São Paulo is in the country of? Answer: __",
+        "answer": "Brazil"
+    },
+    {
+        "prompt": "Prompt: Santo Domingo is in the country of? Answer: Dominican Republic. Panama City is in the country of? Answer: Panama. New York City is in the country of? Answer: United States. Port-au-Prince is in the country of? Answer: Haiti. Los Angeles is in the country of? Answer: __",
+        "answer": "United States"
+    },
+    {
+        "prompt": "Prompt: San Francisco is in the country of? Answer: United States. San Juan is in the country of? Answer: Puerto Rico. Siem Reap is in the country of? Answer: Cambodia. Port-au-Prince is in the country of? Answer: Haiti. Saint Petersburg is in the country of? Answer: __",
+        "answer": "Russia"
+    },
+    {
+        "prompt": "Prompt: Hong Kong is in the country of? Answer: China. Ho Chi Minh City is in the country of? Answer: Vietnam. Tel Aviv is in the country of? Answer: Israel. Santiago de Chile is in the country of? Answer: Chile. San Francisco is in the country of? Answer: __",
+        "answer": "United States"
+    },
+    {
+        "prompt": "Prompt: Kuala Lumpur is in the country of? Answer: Malaysia. Punta Cana is in the country of? Answer: Dominican Republic. New York City is in the country of? Answer: United States. Addis Ababa is in the country of? Answer: Ethiopia. Ho Chi Minh City is in the country of? Answer: __",
+        "answer": "Vietnam"
+    },
+    {
+        "prompt": "Prompt: Punta Cana is in the country of? Answer: Dominican Republic. Los Angeles is in the country of? Answer: United States. San Juan is in the country of? Answer: Puerto Rico. Hong Kong is in the country of? Answer: China. Kuala Lumpur is in the country of? Answer: __",
+        "answer": "Malaysia"
+    },
+    {
+        "prompt": "Prompt: Cape Town is in the country of? Answer: South Africa. Ho Chi Minh City is in the country of? Answer: Vietnam. São Paulo is in the country of? Answer: Brazil. Saint Petersburg is in the country of? Answer: Russia. Abu Dhabi is in the country of? Answer: __",
+        "answer": "United Arab Emirates"
+    },
+    {
+        "prompt": "Prompt: Addis Ababa is in the country of? Answer: Ethiopia. Abu Dhabi is in the country of? Answer: United Arab Emirates. Mexico City is in the country of? Answer: Mexico. Buenos Aires is in the country of? Answer: Argentina. Cape Town is in the country of? Answer: __",
+        "answer": "South Africa"
+    },
+    {
+        "prompt": "Prompt: Las Vegas is in the country of? Answer: United States. Mexico City is in the country of? Answer: Mexico. Cape Town is in the country of? Answer: South Africa. Panama City is in the country of? Answer: Panama. New Delhi is in the country of? Answer: __",
+        "answer": "India"
+    },
+    {
+        "prompt": "Prompt: Ho Chi Minh City is in the country of? Answer: Vietnam. Punta Cana is in the country of? Answer: Dominican Republic. Rio de Janeiro is in the country of? Answer: Brazil. Costa Rica is in the country of? Answer: San José. Las Vegas is in the country of? Answer: __",
+        "answer": "United States"
+    },
+    {
+        "prompt": "Prompt: Tel Aviv is in the country of? Answer: Israel. Port-au-Prince is in the country of? Answer: Haiti. Mexico City is in the country of? Answer: Mexico. New Delhi is in the country of? Answer: India. Hong Kong is in the country of? Answer: __",
+        "answer": "China"
+    },
+    {
+        "prompt": "Prompt: Buenos Aires is in the country of? Answer: Argentina. Port-au-Prince is in the country of? Answer: Haiti. Kuala Lumpur is in the country of? Answer: Malaysia. Siem Reap is in the country of? Answer: Cambodia. Tel Aviv is in the country of? Answer: __",
+        "answer": "Israel"
+    },
+    {
+        "prompt": "Prompt: Panama City is in the country of? Answer: Panama. Cape Town is in the country of? Answer: South Africa. Santiago de Chile is in the country of? Answer: Chile. Saint Petersburg is in the country of? Answer: Russia. Johannesburg is in the country of? Answer: __",
+        "answer": "South Africa"
+    },
+    {
+        "prompt": "Prompt: San Juan is in the country of? Answer: Puerto Rico. Buenos Aires is in the country of? Answer: Argentina. Rio de Janeiro is in the country of? Answer: Brazil. Casablanca is in the country of? Answer: Morocco. Santo Domingo is in the country of? Answer: __",
+        "answer": "Dominican Republic"
+    },
+    {
+        "prompt": "Prompt: San Francisco is in the country of? Answer: United States. Addis Ababa is in the country of? Answer: Ethiopia. Kuala Lumpur is in the country of? Answer: Malaysia. Buenos Aires is in the country of? Answer: Argentina. Port-au-Prince is in the country of? Answer: __",
+        "answer": "Haiti"
+    },
+    {
+        "prompt": "Prompt: San Francisco is in the country of? Answer: United States. Mexico City is in the country of? Answer: Mexico. New Delhi is in the country of? Answer: India. Ho Chi Minh City is in the country of? Answer: Vietnam. Santiago de Chile is in the country of? Answer: __",
+        "answer": "Chile"
+    },
+    {
+        "prompt": "Prompt: Hong Kong is in the country of? Answer: China. Siem Reap is in the country of? Answer: Cambodia. Cape Town is in the country of? Answer: South Africa. Los Angeles is in the country of? Answer: United States. Panama City is in the country of? Answer: __",
+        "answer": "Panama"
+    },
+    {
+        "prompt": "Prompt: Cape Town is in the country of? Answer: South Africa. Saint Petersburg is in the country of? Answer: Russia. Casablanca is in the country of? Answer: Morocco. Ho Chi Minh City is in the country of? Answer: Vietnam. Siem Reap is in the country of? Answer: __",
+        "answer": "Cambodia"
+    },
+    {
+        "prompt": "Prompt: San Juan is in the country of? Answer: Puerto Rico. Siem Reap is in the country of? Answer: Cambodia. Panama City is in the country of? Answer: Panama. Buenos Aires is in the country of? Answer: Argentina. Casablanca is in the country of? Answer: __",
+        "answer": "Morocco"
+    },
+    {
+        "prompt": "Prompt: Santiago de Chile is in the country of? Answer: Chile. Panama City is in the country of? Answer: Panama. Los Angeles is in the country of? Answer: United States. Santo Domingo is in the country of? Answer: Dominican Republic. San Juan is in the country of? Answer: __",
+        "answer": "Puerto Rico"
+    },
+    {
+        "prompt": "Prompt: San Juan is in the country of? Answer: Puerto Rico. San Francisco is in the country of? Answer: United States. Los Angeles is in the country of? Answer: United States. Hong Kong is in the country of? Answer: China. Costa Rica is in the country of? Answer: __",
+        "answer": "San José"
+    },
+    {
+        "prompt": "Prompt: New Delhi is in the country of? Answer: India. Ho Chi Minh City is in the country of? Answer: Vietnam. Panama City is in the country of? Answer: Panama. Casablanca is in the country of? Answer: Morocco. Addis Ababa is in the country of? Answer: __",
+        "answer": "Ethiopia"
+    },
+    {
+        "prompt": "Prompt: Santo Domingo is in the country of? Answer: Dominican Republic. San Francisco is in the country of? Answer: United States. Siem Reap is in the country of? Answer: Cambodia. Abu Dhabi is in the country of? Answer: United Arab Emirates. Punta Cana is in the country of? Answer: __",
+        "answer": "Dominican Republic"
+    }
+]
