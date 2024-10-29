@@ -10,6 +10,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import argparse
 import logging
 import pathlib
+import json
+import random
 
 from selfcond.data import (
     concept_list_to_df,
@@ -20,6 +22,31 @@ from selfcond.responses import cache_responses
 from selfcond.models import collect_responses_info, PytorchTransformersModel
 
 logging.basicConfig(level=logging.WARNING)
+
+def validate_data(model_name, 
+                  model_cache_dir, 
+                  data_path, 
+                  concept_group, 
+                  concept, 
+                  tokenizer, 
+                  batch_size, 
+                  response_save_path, 
+                  num_per_concept, 
+                  seq_len, 
+                  device, 
+                  verbose=False):
+    result_list = []
+    
+    model_short_name = model_name.rstrip("/").split("/")[-1]
+    local_data_file = data_path / concept_group / f"{concept}.json"
+    if not local_data_file.exists():
+        print(f"Skipping {local_data_file}, file not found.")
+        return
+    
+    
+    
+    
+    return 0
 
 
 def compute_and_save_responses(
@@ -65,7 +92,7 @@ def compute_and_save_responses(
         print(f"Skipping, already computed responses {local_data_file}")
         return
 
-    random_seed = 1234
+    random_seed = 1509
 
     dataset = ConceptDataset(
         json_file=local_data_file,

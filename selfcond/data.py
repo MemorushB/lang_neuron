@@ -168,6 +168,18 @@ class PytorchTransformersTokenizer:
             for k, v in named_data_seq.items():
                 named_data[k].append(v)
         return named_data
+    
+    def tokenize_next_tokens(self, next_tokens: List[str]) -> List[int]:
+        next_token_ids = []
+        for token in next_tokens:
+            # Tokenize the next token and get the first token ID
+            token_id = self._tokenizer.encode(token, add_special_tokens=False)
+            if len(token_id) > 0:
+                next_token_ids.append(token_id[0])
+            else:
+                # Handle cases where tokenization fails
+                next_token_ids.append(self._tokenizer.pad_token_id)
+        return next_token_ids
 
     @property
     def model_name(self) -> str:
@@ -246,7 +258,7 @@ class DatasetForSeqModels(Dataset):
         seq_len: int = 20,
         num_per_concept: int = None,
         random_seed: int = None,
-    ) -> Tuple[List[str], List[int]]:
+    ) -> Tuple[List[str], List[str], List[int]]:
         """TO BE IMPLEMENTED IN CHILD CLASSES"""
         pass
 
@@ -254,12 +266,11 @@ class DatasetForSeqModels(Dataset):
         for k, v in self.data.items():
             assert isinstance(v, list)
             msg = f"Dataset field {k}: List of {type(v[0])}"
-            assert isinstance(v[0], list) or isinstance(v[0], str) or isinstance(v[0], int), type(
-                v[0]
-            )
+            assert isinstance(v[0], list) or isinstance(v[0], str) or isinstance(v[0], int), type(v[0])
             msg += f" of {type(v[0][0])}" if isinstance(v[0], list) else ""
         assert isinstance(self._data["input_ids"][0], list)
         assert isinstance(self._data["input_ids"][0][0], int)
+        assert isinstance(self._data["next_token_id"][0], int)
 
     def _remove_too_long_data(self) -> None:
         remove_idx = []
@@ -327,22 +338,40 @@ class ConceptDataset(DatasetForSeqModels):
     ) -> None:
         print(f"Creating dataset from {json_file}")
         assert str(json_file).endswith(".json")
-        #with json_file.open("r") as fp:
         with json_file.open("r", encoding='utf-8') as fp:
-        #with json_file.open("r", encoding='shift-jis') as fp:
             json_data = json.load(fp)
-        print(json_data["sentences"]["positive"][0])
-        print(json_data["sentences"]["positive"][1])
-        print(json_data["sentences"]["positive"][2])
         self._concept = json_data["concept"]
         self._concept_group = json_data["group"]
-        super().__init__(
+
+        # Load data
+        prompts, next_tokens, self._labels = self._load_data(
             path=json_file,
             seq_len=seq_len,
-            num_per_concept=num_per_concept,
-            tokenizer=tokenizer,
             random_seed=random_seed,
+            num_per_concept=num_per_concept,
         )
+
+        # Preprocess prompts
+        preprocessed_named_data = self._tokenizer.preprocess_dataset(
+            sentence_list=prompts,
+            min_num_tokens=self.seq_len,
+        )
+
+        # Tokenize next tokens to get expected token IDs
+        next_token_ids = self._tokenizer.tokenize_next_tokens(next_tokens)
+
+        # Store data
+        self._model_input_fields = list(preprocessed_named_data.keys())
+        self._data["data"] = prompts
+        self._data["labels"] = self._labels
+        self._data["next_token_id"] = next_token_ids
+        self._data.update(preprocessed_named_data)
+
+        # Remove too long sequences
+        self._remove_too_long_data()
+
+        # Check data integrity
+        self._verify_data_integrity()
         print(f"Done dataset from {json_file}")
 
     def _load_data(
@@ -351,34 +380,34 @@ class ConceptDataset(DatasetForSeqModels):
         seq_len: int = 1000,
         num_per_concept: int = None,
         random_seed: int = None,
-    ) -> Tuple[List[str], List[int]]:
+    ) -> Tuple[List[str], List[str], List[int]]:
         random_state = np.random.RandomState(random_seed)
 
         label_map = {"positive": 1, "negative": 0}
 
-        with path.open("r") as fp:
+        with path.open("r", encoding='utf-8') as fp:
             json_data = json.load(fp)
 
         json_sentences = json_data["sentences"]
-
-        # for TEXT
-        #json_sentences = {d:json_sentences[d][:1] for d in json_sentences}
-        
         unique_labels = sorted(list(json_sentences.keys()))
 
-        # Reduce amount of data to required.
-        sentences: List[str] = []
+        # Prepare lists
+        prompts: List[str] = []
+        next_tokens: List[str] = []
         labels: List[int] = []
+
+        # Iterate over labels and extract prompts and next tokens
         for label in unique_labels:
-            if num_per_concept is not None and num_per_concept < len(json_sentences[label]):
-                idx = random_state.choice(
-                    len(json_sentences[label]), num_per_concept, replace=False
-                )
-            else:
-                idx = np.arange(len(json_sentences[label]))
-            sentences += [json_sentences[label][i] for i in idx]
-            labels += [label_map[label]] * len(idx)
-        return sentences, labels
+            sentences = json_sentences[label]
+            if num_per_concept is not None and num_per_concept < len(sentences):
+                idx = random_state.choice(len(sentences), num_per_concept, replace=False)
+                sentences = [sentences[i] for i in idx]
+            for sentence in sentences:
+                prompts.append(sentence['prompt'])
+                next_tokens.append(sentence['next_token'])
+                labels.append(label_map[label])
+
+        return prompts, next_tokens, labels
 
     @property
     def concept(self) -> str:
