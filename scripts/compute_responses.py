@@ -13,6 +13,8 @@ import pathlib
 import json
 import random
 
+from validate_data import dataset_generator
+
 from selfcond.data import (
     concept_list_to_df,
     PytorchTransformersTokenizer,
@@ -23,30 +25,6 @@ from selfcond.models import collect_responses_info, PytorchTransformersModel
 
 logging.basicConfig(level=logging.WARNING)
 
-def validate_data(model_name, 
-                  model_cache_dir, 
-                  data_path, 
-                  concept_group, 
-                  concept, 
-                  tokenizer, 
-                  batch_size, 
-                  response_save_path, 
-                  num_per_concept, 
-                  seq_len, 
-                  device, 
-                  verbose=False):
-    result_list = []
-    
-    model_short_name = model_name.rstrip("/").split("/")[-1]
-    local_data_file = data_path / concept_group / f"{concept}.json"
-    if not local_data_file.exists():
-        print(f"Skipping {local_data_file}, file not found.")
-        return
-    
-    
-    
-    
-    return 0
 
 
 def compute_and_save_responses(
@@ -81,8 +59,14 @@ def compute_and_save_responses(
         device: Device where to run inference on.
         verbose: Verbosity flag.
     """
+    
     model_short_name = model_name.rstrip("/").split("/")[-1]
     local_data_file = data_path / concept_group / f"{concept}.json"
+    
+    #generate dataset
+    dataset_generator(input_file=f"datasets/{concept}_prompts.json", output_file=f"{data_path}/{concept_group}/{concept}.json", model_name=model_name, folder_path="datasets")
+    
+
     if not local_data_file.exists():
         print(f"Skipping {local_data_file}, file not found.")
         return
@@ -93,6 +77,7 @@ def compute_and_save_responses(
         return
 
     random_seed = 1509
+    
 
     dataset = ConceptDataset(
         json_file=local_data_file,

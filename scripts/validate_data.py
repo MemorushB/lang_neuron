@@ -1,239 +1,150 @@
+import os
 import json
-import torch
+import random
 import argparse
-import time
 import re
-from vllm import LLM, SamplingParams
+from typing import List, Dict, Optional
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
 
-def load_json_data(file_path):
+def load_json_file(file_path: str) -> List[Dict]:
+    """Load a JSON file."""
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     return data
 
-def reformat_prompts(prompt_templates):
-    # Simply strip the templates
-    qa_templates = [template.strip() for template in prompt_templates]
-    return qa_templates
+def extract_samples_from_file(data: List[Dict]) -> List[str]:
+    """Extract samples from the JSON data."""
+    samples = []
+    for item in data:
+        prompt = item.get('prompt')
+        answer = item.get('answer')
+        if prompt and answer:
+            # Remove the 'Prompt: ' prefix if present
+            prompt = re.sub(r'^Prompt:\s*', '', prompt)
+            # Replace '__' with the answer
+            prompt_filled = prompt.replace('__', answer)
+            samples.append(prompt_filled.strip())
+    return samples
 
-def generate_prompt(subject, expected_answer, qa_templates):
-    # Generate QA prompts for each template
-    prompts = []
-    for template in qa_templates:
-        # Build the question using the template and subject
-        # Count the number of '{}' placeholders in the template
-        num_placeholders = template.count('{}')
+def convert_json_to_format(
+    input_file: str,
+    folder_path: str,
+    model_name: str,
+    max_samples: Optional[int] = None
+) -> Dict:
+    """Convert the JSON file to the specified format."""
+    # Load the input JSON file
+    data = load_json_file(input_file)
+    # Extract positive samples
+    positive_samples = extract_samples_from_file(data)
+    # Validate positive samples using the LLM
+    positive_samples = validate_samples_with_llm(positive_samples, model_name)
+    # Number of positive samples
+    num_positive = len(positive_samples)
+    
+    if num_positive == 0:
+        raise ValueError("No positive samples were validated successfully. Please check your data or model.")
 
-        # Format the question with the appropriate number of arguments
-        if num_placeholders == 0:
-            # Template doesn't have placeholders, so assume it is a question itself
-            question = template
-        elif num_placeholders == 1:
-            # Template expects one placeholder, fill with subject
-            question = template.format(subject)
-        elif num_placeholders == 2:
-            # Template expects two placeholders, fill with subject and expected_answer
-            question = template.format(subject, '___')
-        else:
-            raise ValueError(f"Unexpected number of placeholders in template: {template}")
+    # Determine the number of negative samples (4 times the number of positive samples)
+    num_negative = num_positive * 4
+    
+    # Collect negative samples from other JSON files
+    negative_samples = []
+    for filename in os.listdir(folder_path):
+        if filename.endswith('.json') and filename != os.path.basename(input_file):
+            file_path = os.path.join(folder_path, filename)
+            other_data = load_json_file(file_path)
+            negative_samples.extend(extract_samples_from_file(other_data))
+    
+    # Check if there are enough negative samples
+    if len(negative_samples) < num_negative:
+        print(f"Warning: Not enough negative samples available. Requested {num_negative}, but only {len(negative_samples)} available.")
+        num_negative = len(negative_samples)
+    
+    # Use downsampling to get the required number of negative samples
+    negative_samples = random.sample(negative_samples, num_negative)
+    
+    # Create the final dictionary
+    concept_name = os.path.basename(input_file).replace('_prompts.json', '')
+    result = {
+        "concept": concept_name,
+        "group": "sense",
+        "source": "relation",
+        "sentences": {
+            "positive": positive_samples,
+            "negative": negative_samples
+        }
+    }
+    return result
 
-        # Ensure question ends with '?'
-        if not question.endswith('?'):
-            question += '?'
-        # Construct the prompt in the desired format
-        prompt = f"Question: {question} Answer:"
-        prompts.append(prompt)
-    return prompts
-
-def generate_few_shot_prompt(subject, expected_answer, few_shot_examples, template):
-    # Construct a few-shot prompt
-    prompt = ""
-    for idx, example in enumerate(few_shot_examples):
-        example_prompt = f"Example {idx}: {example['subject']} was created by: {example['object']}"
-        print(f"Example Prompt:\n{example_prompt}\n")
-        prompt += f"{example_prompt}\n\n"
-    # Add the actual question
-    actual_prompt = template.format(subject, expected_answer)
-    prompt += f"{actual_prompt}"
-    return prompt
-
-def generate_few_shot_and_question_prompts(subject, expected_answer, few_shot_examples, qa_templates):
-    # Generate question prompts and combine with the few-shot prompt
-    combined_prompts = []
-    for template in qa_templates:
-        # Construct the few-shot prompt
-        few_shot_prompt = ""
-        for idx, example in enumerate(few_shot_examples):
-            example_subject = example['subject']
-            example_object = example['object']
-            # Format the question using the template and the example's subject
-            question = template.format(example_subject)
-            # Ensure the question ends with '?'
-            if not question.endswith('?'):
-                question += '?'
-            # Construct the example prompt
-            example_prompt = f"Example {idx+1}: Question: {question} Answer: {example_object}"
-            few_shot_prompt += f"{example_prompt}\n\n"
-        # Add the actual question
-        actual_prompt = generate_prompt(subject, expected_answer, [template])[0]
-        combined_prompts.append(f"{few_shot_prompt}\n{actual_prompt}")
-        
-    return combined_prompts
-
-def generate_response(prompt, llm_engine, max_new_tokens=50):
-    # Prepare the prompt for Llama 2
-    system_prompt = "You are a helpful assistant to answer the following questions. Please only respond with the answer to the question."
-    bos_token = '<s>'
-    # Remove eos_token from the end
-    full_prompt = (
-        f"{bos_token}[INST] <<SYS>>\n{system_prompt}\n<</SYS>>\n\n"
-        f"{prompt.strip()} [/INST]"
+def validate_samples_with_llm(samples: List[str], model_name: str) -> List[str]:
+    """Validate samples using an LLM and return only the successfully answered samples."""
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # Load the tokenizer and model
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32
     )
+    model.to(device)
+    model.eval()
+    
+    valid_samples = []
+    for sample in samples:
+        # Extract the question and the expected answer
+        match = re.match(r'(.+?) Answer: (.+)', sample)
+        if match:
+            question, expected_answer = match.groups()
+            # Generate the model's response
+            prompt = f"{question.strip()} Answer:"
+            response = generate_response(prompt, model, tokenizer, device)
+            # Check if the response contains the expected answer
+            if is_correct_answer(response, expected_answer):
+                valid_samples.append(sample)
+    return valid_samples
 
-    # Set sampling parameters with correct stop tokens
-    sampling_params = SamplingParams(
-        n=1,
-        best_of=1,
-        temperature=0.7,
-        top_p=0.9,
-        max_tokens=max_new_tokens,
-        stop=["</s>", "[/INST]"],  # Include both stop tokens
-    )
-
-    # Generate the response using vLLM
-    outputs = llm_engine.generate([full_prompt], sampling_params)
-
-    # Extract the response and remove leading non-alphanumeric characters
-    raw_response = outputs[0].outputs[0].text.strip()
-    response = re.sub(r'^[^\w]*', '', raw_response)
+def generate_response(prompt: str, model, tokenizer, device, max_new_tokens=50) -> str:
+    """Generate a response from the model."""
+    input_ids = tokenizer.encode(prompt, return_tensors='pt').to(device)
+    with torch.no_grad():
+        output_ids = model.generate(
+            input_ids=input_ids,
+            max_new_tokens=max_new_tokens,
+            temperature=0.7,
+            top_p=0.9,
+            pad_token_id=tokenizer.eos_token_id,
+            eos_token_id=tokenizer.eos_token_id,
+        )
+    generated_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+    response = generated_text[len(prompt):].strip()
+    # Remove any leading non-alphanumeric characters
+    response = re.sub(r'^[^\w]*', '', response)
     return response
 
-def is_correct_answer(model_response, expected_answer):
-    # Basic comparison (case-insensitive)
+def is_correct_answer(model_response: str, expected_answer: str) -> bool:
+    """Check if the model's response contains the expected answer."""
     return expected_answer.lower() in model_response.lower()
 
-def validate_samples(samples, qa_templates, llm_engine, prompt_method, few_shot_examples):
-    filtered_samples = []
-    total_samples = len(samples)
-    total_time = 0.0
-    count = 0
-
-    start_time = time.time()
-    for idx, sample in enumerate(samples):
-        sample_start_time = time.time()
-
-        subject = sample['subject']
-        expected_answer = sample['object']
-
-        # Generate prompts based on the prompt method
-        if prompt_method == 'qa':
-            prompts = generate_prompt(subject, expected_answer, qa_templates)
-        elif prompt_method == 'few_shot':
-            prompts = []
-            # Use the first template for few-shot prompts
-            template = qa_templates[0]
-            # Exclude the current sample from few_shot_examples
-            current_few_shot_examples = [ex for ex in few_shot_examples if ex != sample]
-            prompt = generate_few_shot_prompt(subject, expected_answer, current_few_shot_examples, template)
-            prompts.append(prompt)
-        elif prompt_method == 'combined':
-            current_few_shot_examples = [ex for ex in few_shot_examples if ex != sample]
-            prompts = generate_few_shot_and_question_prompts(subject, expected_answer, current_few_shot_examples, qa_templates)
-        else:
-            raise ValueError("Invalid prompt method. Choose 'qa', 'few_shot', or 'combined'.")
-
-        for prompt in prompts:
-            response = generate_response(prompt, llm_engine)
-            if is_correct_answer(response, expected_answer):
-                # Save the sample if the answer is correct
-                filtered_samples.append({
-                    'subject': subject,
-                    'object': expected_answer,
-                    'prompt': prompt,
-                    'response': response,
-                })
-                print(f"Subject: {subject}")
-                print(f"Prompt:\n{prompt}")
-                print(f"Expected Answer: {expected_answer}")
-                print(f"Model Response: {response}")
-                print("Status: Correct\n")
-                count += 1
-                break  # Stop after the first correct answer
-            else:
-                print(f"Subject: {subject}")
-                print(f"Prompt:\n{prompt}")
-                print(f"Expected Answer: {expected_answer}")
-                print(f"Model Response: {response}")
-                print("Status: Incorrect\n")
-
-        sample_end_time = time.time()
-        sample_time = sample_end_time - sample_start_time
-        total_time += sample_time
-        print(f"Sample {idx + 1}/{total_samples} processed in {sample_time:.2f} seconds.")
-
-    end_time = time.time()
-    average_time = total_time / total_samples if total_samples > 0 else 0
-    print(f"Validation completed in {end_time - start_time:.2f} seconds.")
-    print(f"Average time per sample: {average_time:.2f} seconds.")
-    print(f"Total correct answers: {count}/{total_samples}")
-    return filtered_samples
-
-def main(args):
-    total_start_time = time.time()
-
-    # Load the data
-    data = load_json_data(args.data_file)
-    samples = data.get('samples', [])
-    prompt_templates = data.get('prompt_templates', []) + data.get('prompt_templates_zs', [])
-
-    # Reformat the prompts into QA form
-    qa_templates = reformat_prompts(prompt_templates)
-
-    # Prepare few-shot examples
-    few_shot_examples = []
-    if args.prompt_method in ['few_shot', 'combined']:
-        few_shot_examples = samples[:args.num_few_shot_examples]
-
-    # Initialize the vLLM engine
-    start_time = time.time()
-    llm_engine = LLM(
-        model=args.model_name, 
-        tokenizer=args.model_name, 
-        trust_remote_code=True,
-        #quantization="aqlm"
-        max_model_len = 1024,
-        gpu_memory_utilization=0.9,
-        )
-    end_time = time.time()
-    print(f"vLLM engine initialized in {end_time - start_time:.2f} seconds.")
-
-    # Validate samples
-    filtered_samples = validate_samples(
-        samples,
-        qa_templates,
-        llm_engine,
-        prompt_method=args.prompt_method,
-        few_shot_examples=few_shot_examples
+def dataset_generator(input_file: str, output_file: str, model_name: str, folder_path: str):
+    """Generate the dataset with the specified format."""
+    # Convert the JSON file to the specified format
+    result = convert_json_to_format(
+        input_file=input_file,
+        folder_path=folder_path,
+        model_name=model_name
     )
-
-    # Save the filtered samples
-    if args.output_file:
-        with open(args.output_file, 'w', encoding='utf-8') as f:
-            json.dump(filtered_samples, f, ensure_ascii=False, indent=4)
-        print(f"Filtered samples saved to {args.output_file}")
-    else:
-        print("Filtered Samples:")
-        print(json.dumps(filtered_samples, ensure_ascii=False, indent=4))
-
-    total_end_time = time.time()
-    print(f"Total execution time: {total_end_time - total_start_time:.2f} seconds.")
+    # Save the result to the output file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, indent=2)
+    print(f"Output saved to {output_file}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Validate data using Llama2 model with vLLM.")
-    parser.add_argument('--data_file', type=str, required=True, help='Path to the JSON data file.')
-    parser.add_argument('--model_name', type=str, default='meta-llama/Llama-2-7b-chat-hf', help='Name or path of the Llama2 model.')
-    parser.add_argument('--output_file', type=str, help='Path to save the filtered data.')
-    parser.add_argument('--prompt_method', type=str, choices=['qa', 'few_shot', 'combined'], default='qa', help="Prompt method to use: 'qa' or 'few_shot'.")
-    parser.add_argument('--num_few_shot_examples', type=int, default=3, help='Number of few-shot examples to include (only used if prompt_method is "few_shot").')
+    parser = argparse.ArgumentParser(description="Convert JSON file to specified format with LLM validation.")
+    parser.add_argument('--input_file', type=str, required=True, help='Path to the input JSON file.')
+    parser.add_argument('--output_file', type=str, required=True, help='Path to save the output JSON file.')
+    parser.add_argument('--model_name', type=str, required=True, help='Name or path of the language model.')
+    parser.add_argument('--folder_path', type=str, default='.', help='Path to the folder containing other JSON files.')
     args = parser.parse_args()
-
-    main(args)
+    
+    dataset_generator(args.input_file, args.output_file, args.model_name, args.folder_path)
