@@ -1,0 +1,194 @@
+[
+    {
+        "prompt": "Prompt: The largest city in Switzerland is? Answer: Zurich. The largest city in India is? Answer: Mumbai. The largest city in China is? Answer: Shanghai. The largest city in France is? Answer: Paris. The largest city in United States is? Answer: __",
+        "answer": "New York City"
+    },
+    {
+        "prompt": "Prompt: The largest city in United Kingdom is? Answer: London. The largest city in Brazil is? Answer: São Paulo. The largest city in India is? Answer: Mumbai. The largest city in Netherlands is? Answer: Amsterdam. The largest city in China is? Answer: __",
+        "answer": "Shanghai"
+    },
+    {
+        "prompt": "Prompt: The largest city in Poland is? Answer: Warsaw. The largest city in Russia is? Answer: Moscow. The largest city in Nigeria is? Answer: Lagos. The largest city in Turkey is? Answer: Istanbul. The largest city in Japan is? Answer: __",
+        "answer": "Tokyo"
+    },
+    {
+        "prompt": "Prompt: The largest city in China is? Answer: Shanghai. The largest city in United States is? Answer: New York City. The largest city in Japan is? Answer: Tokyo. The largest city in Canada is? Answer: Toronto. The largest city in Russia is? Answer: __",
+        "answer": "Moscow"
+    },
+    {
+        "prompt": "Prompt: The largest city in United Kingdom is? Answer: London. The largest city in South Africa is? Answer: Johannesburg. The largest city in New Zealand is? Answer: Auckland. The largest city in United States is? Answer: New York City. The largest city in India is? Answer: __",
+        "answer": "Mumbai"
+    },
+    {
+        "prompt": "Prompt: The largest city in Poland is? Answer: Warsaw. The largest city in Canada is? Answer: Toronto. The largest city in Pakistan is? Answer: Karachi. The largest city in Switzerland is? Answer: Zurich. The largest city in Brazil is? Answer: __",
+        "answer": "São Paulo"
+    },
+    {
+        "prompt": "Prompt: The largest city in Pakistan is? Answer: Karachi. The largest city in Poland is? Answer: Warsaw. The largest city in Turkey is? Answer: Istanbul. The largest city in United Kingdom is? Answer: London. The largest city in Australia is? Answer: __",
+        "answer": "Sydney"
+    },
+    {
+        "prompt": "Prompt: The largest city in Spain is? Answer: Madrid. The largest city in Nigeria is? Answer: Lagos. The largest city in France is? Answer: Paris. The largest city in United States is? Answer: New York City. The largest city in Canada is? Answer: __",
+        "answer": "Toronto"
+    },
+    {
+        "prompt": "Prompt: The largest city in Brazil is? Answer: São Paulo. The largest city in Pakistan is? Answer: Karachi. The largest city in Turkey is? Answer: Istanbul. The largest city in Italy is? Answer: Rome. The largest city in United Kingdom is? Answer: __",
+        "answer": "London"
+    },
+    {
+        "prompt": "Prompt: The largest city in United Kingdom is? Answer: London. The largest city in India is? Answer: Mumbai. The largest city in Australia is? Answer: Sydney. The largest city in Italy is? Answer: Rome. The largest city in France is? Answer: __",
+        "answer": "Paris"
+    },
+    {
+        "prompt": "Prompt: The largest city in Russia is? Answer: Moscow. The largest city in Japan is? Answer: Tokyo. The largest city in South Korea is? Answer: Seoul. The largest city in Mexico is? Answer: Mexico City. The largest city in Germany is? Answer: __",
+        "answer": "Berlin"
+    },
+    {
+        "prompt": "Prompt: The largest city in Mexico is? Answer: Mexico City. The largest city in New Zealand is? Answer: Auckland. The largest city in United Kingdom is? Answer: London. The largest city in China is? Answer: Shanghai. The largest city in Italy is? Answer: __",
+        "answer": "Rome"
+    },
+    {
+        "prompt": "Prompt: The largest city in Spain is? Answer: Madrid. The largest city in Poland is? Answer: Warsaw. The largest city in Russia is? Answer: Moscow. The largest city in South Korea is? Answer: Seoul. The largest city in Mexico is? Answer: __",
+        "answer": "Mexico City"
+    },
+    {
+        "prompt": "Prompt: The largest city in Japan is? Answer: Tokyo. The largest city in Poland is? Answer: Warsaw. The largest city in France is? Answer: Paris. The largest city in Switzerland is? Answer: Zurich. The largest city in South Korea is? Answer: __",
+        "answer": "Seoul"
+    },
+    {
+        "prompt": "Prompt: The largest city in New Zealand is? Answer: Auckland. The largest city in Italy is? Answer: Rome. The largest city in Nigeria is? Answer: Lagos. The largest city in Australia is? Answer: Sydney. The largest city in Turkey is? Answer: __",
+        "answer": "Istanbul"
+    },
+    {
+        "prompt": "Prompt: The largest city in Pakistan is? Answer: Karachi. The largest city in Japan is? Answer: Tokyo. The largest city in China is? Answer: Shanghai. The largest city in Netherlands is? Answer: Amsterdam. The largest city in Spain is? Answer: __",
+        "answer": "Madrid"
+    },
+    {
+        "prompt": "Prompt: The largest city in Canada is? Answer: Toronto. The largest city in France is? Answer: Paris. The largest city in Japan is? Answer: Tokyo. The largest city in Russia is? Answer: Moscow. The largest city in Argentina is? Answer: __",
+        "answer": "Buenos Aires"
+    },
+    {
+        "prompt": "Prompt: The largest city in Mexico is? Answer: Mexico City. The largest city in United Kingdom is? Answer: London. The largest city in Turkey is? Answer: Istanbul. The largest city in Switzerland is? Answer: Zurich. The largest city in South Africa is? Answer: __",
+        "answer": "Johannesburg"
+    },
+    {
+        "prompt": "Prompt: The largest city in Italy is? Answer: Rome. The largest city in Brazil is? Answer: São Paulo. The largest city in Australia is? Answer: Sydney. The largest city in Netherlands is? Answer: Amsterdam. The largest city in Poland is? Answer: __",
+        "answer": "Warsaw"
+    },
+    {
+        "prompt": "Prompt: The largest city in United Kingdom is? Answer: London. The largest city in Pakistan is? Answer: Karachi. The largest city in Netherlands is? Answer: Amsterdam. The largest city in Switzerland is? Answer: Zurich. The largest city in Nigeria is? Answer: __",
+        "answer": "Lagos"
+    },
+    {
+        "prompt": "Prompt: The largest city in Japan is? Answer: Tokyo. The largest city in Nigeria is? Answer: Lagos. The largest city in Switzerland is? Answer: Zurich. The largest city in Brazil is? Answer: São Paulo. The largest city in New Zealand is? Answer: __",
+        "answer": "Auckland"
+    },
+    {
+        "prompt": "Prompt: The largest city in South Africa is? Answer: Johannesburg. The largest city in Canada is? Answer: Toronto. The largest city in Brazil is? Answer: São Paulo. The largest city in Turkey is? Answer: Istanbul. The largest city in Switzerland is? Answer: __",
+        "answer": "Zurich"
+    },
+    {
+        "prompt": "Prompt: The largest city in Mexico is? Answer: Mexico City. The largest city in United Kingdom is? Answer: London. The largest city in New Zealand is? Answer: Auckland. The largest city in Pakistan is? Answer: Karachi. The largest city in Netherlands is? Answer: __",
+        "answer": "Amsterdam"
+    },
+    {
+        "prompt": "Prompt: The largest city in South Africa is? Answer: Johannesburg. The largest city in Canada is? Answer: Toronto. The largest city in Switzerland is? Answer: Zurich. The largest city in Germany is? Answer: Berlin. The largest city in Pakistan is? Answer: __",
+        "answer": "Karachi"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Switzerland is? Answer: Zurich. The biggest city in India is? Answer: Mumbai. The biggest city in China is? Answer: Shanghai. The biggest city in France is? Answer: Paris. The biggest city in United States is? Answer: __",
+        "answer": "New York City"
+    },
+    {
+        "prompt": "Prompt: The biggest city in United Kingdom is? Answer: London. The biggest city in Brazil is? Answer: São Paulo. The biggest city in India is? Answer: Mumbai. The biggest city in Netherlands is? Answer: Amsterdam. The biggest city in China is? Answer: __",
+        "answer": "Shanghai"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Poland is? Answer: Warsaw. The biggest city in Russia is? Answer: Moscow. The biggest city in Nigeria is? Answer: Lagos. The biggest city in Turkey is? Answer: Istanbul. The biggest city in Japan is? Answer: __",
+        "answer": "Tokyo"
+    },
+    {
+        "prompt": "Prompt: The biggest city in China is? Answer: Shanghai. The biggest city in United States is? Answer: New York City. The biggest city in Japan is? Answer: Tokyo. The biggest city in Canada is? Answer: Toronto. The biggest city in Russia is? Answer: __",
+        "answer": "Moscow"
+    },
+    {
+        "prompt": "Prompt: The biggest city in United Kingdom is? Answer: London. The biggest city in South Africa is? Answer: Johannesburg. The biggest city in New Zealand is? Answer: Auckland. The biggest city in United States is? Answer: New York City. The biggest city in India is? Answer: __",
+        "answer": "Mumbai"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Poland is? Answer: Warsaw. The biggest city in Canada is? Answer: Toronto. The biggest city in Pakistan is? Answer: Karachi. The biggest city in Switzerland is? Answer: Zurich. The biggest city in Brazil is? Answer: __",
+        "answer": "São Paulo"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Pakistan is? Answer: Karachi. The biggest city in Poland is? Answer: Warsaw. The biggest city in Turkey is? Answer: Istanbul. The biggest city in United Kingdom is? Answer: London. The biggest city in Australia is? Answer: __",
+        "answer": "Sydney"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Spain is? Answer: Madrid. The biggest city in Nigeria is? Answer: Lagos. The biggest city in France is? Answer: Paris. The biggest city in United States is? Answer: New York City. The biggest city in Canada is? Answer: __",
+        "answer": "Toronto"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Brazil is? Answer: São Paulo. The biggest city in Pakistan is? Answer: Karachi. The biggest city in Turkey is? Answer: Istanbul. The biggest city in Italy is? Answer: Rome. The biggest city in United Kingdom is? Answer: __",
+        "answer": "London"
+    },
+    {
+        "prompt": "Prompt: The biggest city in United Kingdom is? Answer: London. The biggest city in India is? Answer: Mumbai. The biggest city in Australia is? Answer: Sydney. The biggest city in Italy is? Answer: Rome. The biggest city in France is? Answer: __",
+        "answer": "Paris"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Russia is? Answer: Moscow. The biggest city in Japan is? Answer: Tokyo. The biggest city in South Korea is? Answer: Seoul. The biggest city in Mexico is? Answer: Mexico City. The biggest city in Germany is? Answer: __",
+        "answer": "Berlin"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Mexico is? Answer: Mexico City. The biggest city in New Zealand is? Answer: Auckland. The biggest city in United Kingdom is? Answer: London. The biggest city in China is? Answer: Shanghai. The biggest city in Italy is? Answer: __",
+        "answer": "Rome"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Spain is? Answer: Madrid. The biggest city in Poland is? Answer: Warsaw. The biggest city in Russia is? Answer: Moscow. The biggest city in South Korea is? Answer: Seoul. The biggest city in Mexico is? Answer: __",
+        "answer": "Mexico City"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Japan is? Answer: Tokyo. The biggest city in Poland is? Answer: Warsaw. The biggest city in France is? Answer: Paris. The biggest city in Switzerland is? Answer: Zurich. The biggest city in South Korea is? Answer: __",
+        "answer": "Seoul"
+    },
+    {
+        "prompt": "Prompt: The biggest city in New Zealand is? Answer: Auckland. The biggest city in Italy is? Answer: Rome. The biggest city in Nigeria is? Answer: Lagos. The biggest city in Australia is? Answer: Sydney. The biggest city in Turkey is? Answer: __",
+        "answer": "Istanbul"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Pakistan is? Answer: Karachi. The biggest city in Japan is? Answer: Tokyo. The biggest city in China is? Answer: Shanghai. The biggest city in Netherlands is? Answer: Amsterdam. The biggest city in Spain is? Answer: __",
+        "answer": "Madrid"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Canada is? Answer: Toronto. The biggest city in France is? Answer: Paris. The biggest city in Japan is? Answer: Tokyo. The biggest city in Russia is? Answer: Moscow. The biggest city in Argentina is? Answer: __",
+        "answer": "Buenos Aires"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Mexico is? Answer: Mexico City. The biggest city in United Kingdom is? Answer: London. The biggest city in Turkey is? Answer: Istanbul. The biggest city in Switzerland is? Answer: Zurich. The biggest city in South Africa is? Answer: __",
+        "answer": "Johannesburg"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Italy is? Answer: Rome. The biggest city in Brazil is? Answer: São Paulo. The biggest city in Australia is? Answer: Sydney. The biggest city in Netherlands is? Answer: Amsterdam. The biggest city in Poland is? Answer: __",
+        "answer": "Warsaw"
+    },
+    {
+        "prompt": "Prompt: The biggest city in United Kingdom is? Answer: London. The biggest city in Pakistan is? Answer: Karachi. The biggest city in Netherlands is? Answer: Amsterdam. The biggest city in Switzerland is? Answer: Zurich. The biggest city in Nigeria is? Answer: __",
+        "answer": "Lagos"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Japan is? Answer: Tokyo. The biggest city in Nigeria is? Answer: Lagos. The biggest city in Switzerland is? Answer: Zurich. The biggest city in Brazil is? Answer: São Paulo. The biggest city in New Zealand is? Answer: __",
+        "answer": "Auckland"
+    },
+    {
+        "prompt": "Prompt: The biggest city in South Africa is? Answer: Johannesburg. The biggest city in Canada is? Answer: Toronto. The biggest city in Brazil is? Answer: São Paulo. The biggest city in Turkey is? Answer: Istanbul. The biggest city in Switzerland is? Answer: __",
+        "answer": "Zurich"
+    },
+    {
+        "prompt": "Prompt: The biggest city in Mexico is? Answer: Mexico City. The biggest city in United Kingdom is? Answer: London. The biggest city in New Zealand is? Answer: Auckland. The biggest city in Pakistan is? Answer: Karachi. The biggest city in Netherlands is? Answer: __",
+        "answer": "Amsterdam"
+    },
+    {
+        "prompt": "Prompt: The biggest city in South Africa is? Answer: Johannesburg. The biggest city in Canada is? Answer: Toronto. The biggest city in Switzerland is? Answer: Zurich. The biggest city in Germany is? Answer: Berlin. The biggest city in Pakistan is? Answer: __",
+        "answer": "Karachi"
+    }
+]

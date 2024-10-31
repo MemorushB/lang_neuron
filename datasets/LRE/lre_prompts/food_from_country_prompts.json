@@ -1,0 +1,242 @@
+[
+    {
+        "prompt": "Prompt: Pavlova originates from? Answer: New Zealand. Poutine originates from? Answer: Canada. Sushi originates from? Answer: Japan. Ceviche originates from? Answer: Peru. Pizza originates from? Answer: __",
+        "answer": "Italy"
+    },
+    {
+        "prompt": "Prompt: Borscht originates from? Answer: Ukraine. Feijoada originates from? Answer: Brazil. Paella originates from? Answer: Spain. Ceviche originates from? Answer: Peru. Sushi originates from? Answer: __",
+        "answer": "Japan"
+    },
+    {
+        "prompt": "Prompt: Poutine originates from? Answer: Canada. Shawarma originates from? Answer: Middle East. Ceviche originates from? Answer: Peru. Miso Soup originates from? Answer: Japan. Tacos originates from? Answer: __",
+        "answer": "Mexico"
+    },
+    {
+        "prompt": "Prompt: Masala Dosa originates from? Answer: India. Tacos originates from? Answer: Mexico. Rendang originates from? Answer: Indonesia. Pierogi originates from? Answer: Poland. Baguette originates from? Answer: __",
+        "answer": "France"
+    },
+    {
+        "prompt": "Prompt: Sushi originates from? Answer: Japan. Pizza originates from? Answer: Italy. Tacos originates from? Answer: Mexico. Baklava originates from? Answer: Turkey. Poutine originates from? Answer: __",
+        "answer": "Canada"
+    },
+    {
+        "prompt": "Prompt: Feijoada originates from? Answer: Brazil. Gyro originates from? Answer: Greece. Moussaka originates from? Answer: Greece. Pizza originates from? Answer: Italy. Paella originates from? Answer: __",
+        "answer": "Spain"
+    },
+    {
+        "prompt": "Prompt: Masala Dosa originates from? Answer: India. Baklava originates from? Answer: Turkey. Falafel originates from? Answer: Middle East. Pavlova originates from? Answer: New Zealand. Chimichurri originates from? Answer: __",
+        "answer": "Argentina"
+    },
+    {
+        "prompt": "Prompt: Falafel originates from? Answer: Middle East. Masala Dosa originates from? Answer: India. Pierogi originates from? Answer: Poland. Feijoada originates from? Answer: Brazil. Baklava originates from? Answer: __",
+        "answer": "Turkey"
+    },
+    {
+        "prompt": "Prompt: Pho originates from? Answer: Vietnam. Rendang originates from? Answer: Indonesia. Borscht originates from? Answer: Ukraine. Wiener Schnitzel originates from? Answer: Austria. Feijoada originates from? Answer: __",
+        "answer": "Brazil"
+    },
+    {
+        "prompt": "Prompt: Pad Thai originates from? Answer: Thailand. Pizza originates from? Answer: Italy. Biryani originates from? Answer: India. Wiener Schnitzel originates from? Answer: Austria. Borscht originates from? Answer: __",
+        "answer": "Ukraine"
+    },
+    {
+        "prompt": "Prompt: Paella originates from? Answer: Spain. Falafel originates from? Answer: Middle East. Pierogi originates from? Answer: Poland. Dim Sum originates from? Answer: China. Fish and Chips originates from? Answer: __",
+        "answer": "United Kingdom"
+    },
+    {
+        "prompt": "Prompt: Feijoada originates from? Answer: Brazil. Poutine originates from? Answer: Canada. Chimichurri originates from? Answer: Argentina. Biryani originates from? Answer: India. Dim Sum originates from? Answer: __",
+        "answer": "China"
+    },
+    {
+        "prompt": "Prompt: Fish and Chips originates from? Answer: United Kingdom. Baguette originates from? Answer: France. Tacos originates from? Answer: Mexico. Goulash originates from? Answer: Hungary. Kimchi originates from? Answer: __",
+        "answer": "South Korea"
+    },
+    {
+        "prompt": "Prompt: Baguette originates from? Answer: France. Dim Sum originates from? Answer: China. Pad Thai originates from? Answer: Thailand. Moussaka originates from? Answer: Greece. Goulash originates from? Answer: __",
+        "answer": "Hungary"
+    },
+    {
+        "prompt": "Prompt: Feijoada originates from? Answer: Brazil. Wiener Schnitzel originates from? Answer: Austria. Sushi originates from? Answer: Japan. Ceviche originates from? Answer: Peru. Pierogi originates from? Answer: __",
+        "answer": "Poland"
+    },
+    {
+        "prompt": "Prompt: Pierogi originates from? Answer: Poland. Masala Dosa originates from? Answer: India. Baguette originates from? Answer: France. Kimchi originates from? Answer: South Korea. Pho originates from? Answer: __",
+        "answer": "Vietnam"
+    },
+    {
+        "prompt": "Prompt: Tacos originates from? Answer: Mexico. Masala Dosa originates from? Answer: India. Borscht originates from? Answer: Ukraine. Fondue originates from? Answer: Switzerland. Hummus originates from? Answer: __",
+        "answer": "Lebanon"
+    },
+    {
+        "prompt": "Prompt: Pavlova originates from? Answer: New Zealand. Moussaka originates from? Answer: Greece. Miso Soup originates from? Answer: Japan. Pad Thai originates from? Answer: Thailand. Gyro originates from? Answer: __",
+        "answer": "Greece"
+    },
+    {
+        "prompt": "Prompt: Dim Sum originates from? Answer: China. Rendang originates from? Answer: Indonesia. Chimichurri originates from? Answer: Argentina. Falafel originates from? Answer: Middle East. Masala Dosa originates from? Answer: __",
+        "answer": "India"
+    },
+    {
+        "prompt": "Prompt: Tacos originates from? Answer: Mexico. Sushi originates from? Answer: Japan. Shawarma originates from? Answer: Middle East. Baklava originates from? Answer: Turkey. Rendang originates from? Answer: __",
+        "answer": "Indonesia"
+    },
+    {
+        "prompt": "Prompt: Biryani originates from? Answer: India. Borscht originates from? Answer: Ukraine. Tacos originates from? Answer: Mexico. Pad Thai originates from? Answer: Thailand. Moussaka originates from? Answer: __",
+        "answer": "Greece"
+    },
+    {
+        "prompt": "Prompt: Baklava originates from? Answer: Turkey. Pad Thai originates from? Answer: Thailand. Baguette originates from? Answer: France. Kimchi originates from? Answer: South Korea. Pavlova originates from? Answer: __",
+        "answer": "New Zealand"
+    },
+    {
+        "prompt": "Prompt: Feijoada originates from? Answer: Brazil. Pierogi originates from? Answer: Poland. Moussaka originates from? Answer: Greece. Fondue originates from? Answer: Switzerland. Shawarma originates from? Answer: __",
+        "answer": "Middle East"
+    },
+    {
+        "prompt": "Prompt: Dim Sum originates from? Answer: China. Paella originates from? Answer: Spain. Chimichurri originates from? Answer: Argentina. Pavlova originates from? Answer: New Zealand. Falafel originates from? Answer: __",
+        "answer": "Middle East"
+    },
+    {
+        "prompt": "Prompt: Feijoada originates from? Answer: Brazil. Shawarma originates from? Answer: Middle East. Pavlova originates from? Answer: New Zealand. Moussaka originates from? Answer: Greece. Ceviche originates from? Answer: __",
+        "answer": "Peru"
+    },
+    {
+        "prompt": "Prompt: Tacos originates from? Answer: Mexico. Rendang originates from? Answer: Indonesia. Moussaka originates from? Answer: Greece. Paella originates from? Answer: Spain. Biryani originates from? Answer: __",
+        "answer": "India"
+    },
+    {
+        "prompt": "Prompt: Gyro originates from? Answer: Greece. Falafel originates from? Answer: Middle East. Baklava originates from? Answer: Turkey. Paella originates from? Answer: Spain. Wiener Schnitzel originates from? Answer: __",
+        "answer": "Austria"
+    },
+    {
+        "prompt": "Prompt: Pierogi originates from? Answer: Poland. Kimchi originates from? Answer: South Korea. Feijoada originates from? Answer: Brazil. Moussaka originates from? Answer: Greece. Fondue originates from? Answer: __",
+        "answer": "Switzerland"
+    },
+    {
+        "prompt": "Prompt: Shawarma originates from? Answer: Middle East. Gyro originates from? Answer: Greece. Baklava originates from? Answer: Turkey. Pavlova originates from? Answer: New Zealand. Pad Thai originates from? Answer: __",
+        "answer": "Thailand"
+    },
+    {
+        "prompt": "Prompt: Fish and Chips originates from? Answer: United Kingdom. Wiener Schnitzel originates from? Answer: Austria. Ceviche originates from? Answer: Peru. Sushi originates from? Answer: Japan. Miso Soup originates from? Answer: __",
+        "answer": "Japan"
+    },
+    {
+        "prompt": "Prompt: Pavlova is from the country of? Answer: New Zealand. Poutine is from the country of? Answer: Canada. Sushi is from the country of? Answer: Japan. Ceviche is from the country of? Answer: Peru. Pizza is from the country of? Answer: __",
+        "answer": "Italy"
+    },
+    {
+        "prompt": "Prompt: Borscht is from the country of? Answer: Ukraine. Feijoada is from the country of? Answer: Brazil. Paella is from the country of? Answer: Spain. Ceviche is from the country of? Answer: Peru. Sushi is from the country of? Answer: __",
+        "answer": "Japan"
+    },
+    {
+        "prompt": "Prompt: Poutine is from the country of? Answer: Canada. Shawarma is from the country of? Answer: Middle East. Ceviche is from the country of? Answer: Peru. Miso Soup is from the country of? Answer: Japan. Tacos is from the country of? Answer: __",
+        "answer": "Mexico"
+    },
+    {
+        "prompt": "Prompt: Masala Dosa is from the country of? Answer: India. Tacos is from the country of? Answer: Mexico. Rendang is from the country of? Answer: Indonesia. Pierogi is from the country of? Answer: Poland. Baguette is from the country of? Answer: __",
+        "answer": "France"
+    },
+    {
+        "prompt": "Prompt: Sushi is from the country of? Answer: Japan. Pizza is from the country of? Answer: Italy. Tacos is from the country of? Answer: Mexico. Baklava is from the country of? Answer: Turkey. Poutine is from the country of? Answer: __",
+        "answer": "Canada"
+    },
+    {
+        "prompt": "Prompt: Feijoada is from the country of? Answer: Brazil. Gyro is from the country of? Answer: Greece. Moussaka is from the country of? Answer: Greece. Pizza is from the country of? Answer: Italy. Paella is from the country of? Answer: __",
+        "answer": "Spain"
+    },
+    {
+        "prompt": "Prompt: Masala Dosa is from the country of? Answer: India. Baklava is from the country of? Answer: Turkey. Falafel is from the country of? Answer: Middle East. Pavlova is from the country of? Answer: New Zealand. Chimichurri is from the country of? Answer: __",
+        "answer": "Argentina"
+    },
+    {
+        "prompt": "Prompt: Falafel is from the country of? Answer: Middle East. Masala Dosa is from the country of? Answer: India. Pierogi is from the country of? Answer: Poland. Feijoada is from the country of? Answer: Brazil. Baklava is from the country of? Answer: __",
+        "answer": "Turkey"
+    },
+    {
+        "prompt": "Prompt: Pho is from the country of? Answer: Vietnam. Rendang is from the country of? Answer: Indonesia. Borscht is from the country of? Answer: Ukraine. Wiener Schnitzel is from the country of? Answer: Austria. Feijoada is from the country of? Answer: __",
+        "answer": "Brazil"
+    },
+    {
+        "prompt": "Prompt: Pad Thai is from the country of? Answer: Thailand. Pizza is from the country of? Answer: Italy. Biryani is from the country of? Answer: India. Wiener Schnitzel is from the country of? Answer: Austria. Borscht is from the country of? Answer: __",
+        "answer": "Ukraine"
+    },
+    {
+        "prompt": "Prompt: Paella is from the country of? Answer: Spain. Falafel is from the country of? Answer: Middle East. Pierogi is from the country of? Answer: Poland. Dim Sum is from the country of? Answer: China. Fish and Chips is from the country of? Answer: __",
+        "answer": "United Kingdom"
+    },
+    {
+        "prompt": "Prompt: Feijoada is from the country of? Answer: Brazil. Poutine is from the country of? Answer: Canada. Chimichurri is from the country of? Answer: Argentina. Biryani is from the country of? Answer: India. Dim Sum is from the country of? Answer: __",
+        "answer": "China"
+    },
+    {
+        "prompt": "Prompt: Fish and Chips is from the country of? Answer: United Kingdom. Baguette is from the country of? Answer: France. Tacos is from the country of? Answer: Mexico. Goulash is from the country of? Answer: Hungary. Kimchi is from the country of? Answer: __",
+        "answer": "South Korea"
+    },
+    {
+        "prompt": "Prompt: Baguette is from the country of? Answer: France. Dim Sum is from the country of? Answer: China. Pad Thai is from the country of? Answer: Thailand. Moussaka is from the country of? Answer: Greece. Goulash is from the country of? Answer: __",
+        "answer": "Hungary"
+    },
+    {
+        "prompt": "Prompt: Feijoada is from the country of? Answer: Brazil. Wiener Schnitzel is from the country of? Answer: Austria. Sushi is from the country of? Answer: Japan. Ceviche is from the country of? Answer: Peru. Pierogi is from the country of? Answer: __",
+        "answer": "Poland"
+    },
+    {
+        "prompt": "Prompt: Pierogi is from the country of? Answer: Poland. Masala Dosa is from the country of? Answer: India. Baguette is from the country of? Answer: France. Kimchi is from the country of? Answer: South Korea. Pho is from the country of? Answer: __",
+        "answer": "Vietnam"
+    },
+    {
+        "prompt": "Prompt: Tacos is from the country of? Answer: Mexico. Masala Dosa is from the country of? Answer: India. Borscht is from the country of? Answer: Ukraine. Fondue is from the country of? Answer: Switzerland. Hummus is from the country of? Answer: __",
+        "answer": "Lebanon"
+    },
+    {
+        "prompt": "Prompt: Pavlova is from the country of? Answer: New Zealand. Moussaka is from the country of? Answer: Greece. Miso Soup is from the country of? Answer: Japan. Pad Thai is from the country of? Answer: Thailand. Gyro is from the country of? Answer: __",
+        "answer": "Greece"
+    },
+    {
+        "prompt": "Prompt: Dim Sum is from the country of? Answer: China. Rendang is from the country of? Answer: Indonesia. Chimichurri is from the country of? Answer: Argentina. Falafel is from the country of? Answer: Middle East. Masala Dosa is from the country of? Answer: __",
+        "answer": "India"
+    },
+    {
+        "prompt": "Prompt: Tacos is from the country of? Answer: Mexico. Sushi is from the country of? Answer: Japan. Shawarma is from the country of? Answer: Middle East. Baklava is from the country of? Answer: Turkey. Rendang is from the country of? Answer: __",
+        "answer": "Indonesia"
+    },
+    {
+        "prompt": "Prompt: Biryani is from the country of? Answer: India. Borscht is from the country of? Answer: Ukraine. Tacos is from the country of? Answer: Mexico. Pad Thai is from the country of? Answer: Thailand. Moussaka is from the country of? Answer: __",
+        "answer": "Greece"
+    },
+    {
+        "prompt": "Prompt: Baklava is from the country of? Answer: Turkey. Pad Thai is from the country of? Answer: Thailand. Baguette is from the country of? Answer: France. Kimchi is from the country of? Answer: South Korea. Pavlova is from the country of? Answer: __",
+        "answer": "New Zealand"
+    },
+    {
+        "prompt": "Prompt: Feijoada is from the country of? Answer: Brazil. Pierogi is from the country of? Answer: Poland. Moussaka is from the country of? Answer: Greece. Fondue is from the country of? Answer: Switzerland. Shawarma is from the country of? Answer: __",
+        "answer": "Middle East"
+    },
+    {
+        "prompt": "Prompt: Dim Sum is from the country of? Answer: China. Paella is from the country of? Answer: Spain. Chimichurri is from the country of? Answer: Argentina. Pavlova is from the country of? Answer: New Zealand. Falafel is from the country of? Answer: __",
+        "answer": "Middle East"
+    },
+    {
+        "prompt": "Prompt: Feijoada is from the country of? Answer: Brazil. Shawarma is from the country of? Answer: Middle East. Pavlova is from the country of? Answer: New Zealand. Moussaka is from the country of? Answer: Greece. Ceviche is from the country of? Answer: __",
+        "answer": "Peru"
+    },
+    {
+        "prompt": "Prompt: Tacos is from the country of? Answer: Mexico. Rendang is from the country of? Answer: Indonesia. Moussaka is from the country of? Answer: Greece. Paella is from the country of? Answer: Spain. Biryani is from the country of? Answer: __",
+        "answer": "India"
+    },
+    {
+        "prompt": "Prompt: Gyro is from the country of? Answer: Greece. Falafel is from the country of? Answer: Middle East. Baklava is from the country of? Answer: Turkey. Paella is from the country of? Answer: Spain. Wiener Schnitzel is from the country of? Answer: __",
+        "answer": "Austria"
+    },
+    {
+        "prompt": "Prompt: Pierogi is from the country of? Answer: Poland. Kimchi is from the country of? Answer: South Korea. Feijoada is from the country of? Answer: Brazil. Moussaka is from the country of? Answer: Greece. Fondue is from the country of? Answer: __",
+        "answer": "Switzerland"
+    },
+    {
+        "prompt": "Prompt: Shawarma is from the country of? Answer: Middle East. Gyro is from the country of? Answer: Greece. Baklava is from the country of? Answer: Turkey. Pavlova is from the country of? Answer: New Zealand. Pad Thai is from the country of? Answer: __",
+        "answer": "Thailand"
+    },
+    {
+        "prompt": "Prompt: Fish and Chips is from the country of? Answer: United Kingdom. Wiener Schnitzel is from the country of? Answer: Austria. Ceviche is from the country of? Answer: Peru. Sushi is from the country of? Answer: Japan. Miso Soup is from the country of? Answer: __",
+        "answer": "Japan"
+    }
+]

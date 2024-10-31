@@ -14,7 +14,7 @@ scripts/__pycache__/
 
 # Data files
 *.pkl
-datasets/
+datasets/conceptnet/
 fasttext/
 mid_output/
 path_to_save_responses/

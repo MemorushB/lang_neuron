@@ -1,0 +1,178 @@
+[
+    {
+        "prompt": "Prompt: Rhyhorn evolves into a? Answer: Rhydon. Psyduck evolves into a? Answer: Golduck. Squirtle evolves into a? Answer: Wartortle. Spearow evolves into a? Answer: Fearow. Bulbasaur evolves into a? Answer: __",
+        "answer": "Ivysaur"
+    },
+    {
+        "prompt": "Prompt: Pidgey evolves into a? Answer: Pidgeotto. Weedle evolves into a? Answer: Kakuna. Mankey evolves into a? Answer: Primeape. Meowth evolves into a? Answer: Persian. Charmander evolves into a? Answer: __",
+        "answer": "Charmeleon"
+    },
+    {
+        "prompt": "Prompt: Drowzee evolves into a? Answer: Hypno. Diglett evolves into a? Answer: Dugtrio. Exeggcute evolves into a? Answer: Exeggutor. Slowpoke evolves into a? Answer: Slowbro. Squirtle evolves into a? Answer: __",
+        "answer": "Wartortle"
+    },
+    {
+        "prompt": "Prompt: Squirtle evolves into a? Answer: Wartortle. Charmander evolves into a? Answer: Charmeleon. Diglett evolves into a? Answer: Dugtrio. Caterpie evolves into a? Answer: Metapod. Pikachu evolves into a? Answer: __",
+        "answer": "Raichu"
+    },
+    {
+        "prompt": "Prompt: Weedle evolves into a? Answer: Kakuna. Shellder evolves into a? Answer: Cloyster. Cubone evolves into a? Answer: Marowak. Charmander evolves into a? Answer: Charmeleon. Oddish evolves into a? Answer: __",
+        "answer": "Gloom"
+    },
+    {
+        "prompt": "Prompt: Krabby evolves into a? Answer: Kingler. Machop evolves into a? Answer: Machoke. Horsea evolves into a? Answer: Seadra. Drowzee evolves into a? Answer: Hypno. Venonat evolves into a? Answer: __",
+        "answer": "Venomoth"
+    },
+    {
+        "prompt": "Prompt: Ponyta evolves into a? Answer: Rapidash. Weedle evolves into a? Answer: Kakuna. Magnemite evolves into a? Answer: Magneton. Exeggcute evolves into a? Answer: Exeggutor. Diglett evolves into a? Answer: __",
+        "answer": "Dugtrio"
+    },
+    {
+        "prompt": "Prompt: Spearow evolves into a? Answer: Fearow. Bulbasaur evolves into a? Answer: Ivysaur. Poliwag evolves into a? Answer: Poliwhirl. Slowpoke evolves into a? Answer: Slowbro. Meowth evolves into a? Answer: __",
+        "answer": "Persian"
+    },
+    {
+        "prompt": "Prompt: Nidoran♂ evolves into a? Answer: Nidorino. Spearow evolves into a? Answer: Fearow. Growlithe evolves into a? Answer: Arcanine. Caterpie evolves into a? Answer: Metapod. Psyduck evolves into a? Answer: __",
+        "answer": "Golduck"
+    },
+    {
+        "prompt": "Prompt: Nidoran♂ evolves into a? Answer: Nidorino. Diglett evolves into a? Answer: Dugtrio. Venonat evolves into a? Answer: Venomoth. Tentacool evolves into a? Answer: Tentacruel. Mankey evolves into a? Answer: __",
+        "answer": "Primeape"
+    },
+    {
+        "prompt": "Prompt: Diglett evolves into a? Answer: Dugtrio. Zubat evolves into a? Answer: Golbat. Cubone evolves into a? Answer: Marowak. Rattata evolves into a? Answer: Raticate. Growlithe evolves into a? Answer: __",
+        "answer": "Arcanine"
+    },
+    {
+        "prompt": "Prompt: Squirtle evolves into a? Answer: Wartortle. Doduo evolves into a? Answer: Dodrio. Drowzee evolves into a? Answer: Hypno. Meowth evolves into a? Answer: Persian. Poliwag evolves into a? Answer: __",
+        "answer": "Poliwhirl"
+    },
+    {
+        "prompt": "Prompt: Tentacool evolves into a? Answer: Tentacruel. Venonat evolves into a? Answer: Venomoth. Krabby evolves into a? Answer: Kingler. Ekans evolves into a? Answer: Arbok. Abra evolves into a? Answer: __",
+        "answer": "Kadabra"
+    },
+    {
+        "prompt": "Prompt: Rhyhorn evolves into a? Answer: Rhydon. Koffing evolves into a? Answer: Weezing. Bellsprout evolves into a? Answer: Weepinbell. Voltorb evolves into a? Answer: Electrode. Machop evolves into a? Answer: __",
+        "answer": "Machoke"
+    },
+    {
+        "prompt": "Prompt: Abra evolves into a? Answer: Kadabra. Oddish evolves into a? Answer: Gloom. Squirtle evolves into a? Answer: Wartortle. Goldeen evolves into a? Answer: Seaking. Caterpie evolves into a? Answer: __",
+        "answer": "Metapod"
+    },
+    {
+        "prompt": "Prompt: Caterpie evolves into a? Answer: Metapod. Ekans evolves into a? Answer: Arbok. Venonat evolves into a? Answer: Venomoth. Diglett evolves into a? Answer: Dugtrio. Weedle evolves into a? Answer: __",
+        "answer": "Kakuna"
+    },
+    {
+        "prompt": "Prompt: Tentacool evolves into a? Answer: Tentacruel. Spearow evolves into a? Answer: Fearow. Doduo evolves into a? Answer: Dodrio. Rhyhorn evolves into a? Answer: Rhydon. Pidgey evolves into a? Answer: __",
+        "answer": "Pidgeotto"
+    },
+    {
+        "prompt": "Prompt: Bellsprout evolves into a? Answer: Weepinbell. Growlithe evolves into a? Answer: Arcanine. Zubat evolves into a? Answer: Golbat. Machop evolves into a? Answer: Machoke. Rattata evolves into a? Answer: __",
+        "answer": "Raticate"
+    },
+    {
+        "prompt": "Prompt: Goldeen evolves into a? Answer: Seaking. Rattata evolves into a? Answer: Raticate. Horsea evolves into a? Answer: Seadra. Oddish evolves into a? Answer: Gloom. Spearow evolves into a? Answer: __",
+        "answer": "Fearow"
+    },
+    {
+        "prompt": "Prompt: Cubone evolves into a? Answer: Marowak. Rhyhorn evolves into a? Answer: Rhydon. Growlithe evolves into a? Answer: Arcanine. Drowzee evolves into a? Answer: Hypno. Ekans evolves into a? Answer: __",
+        "answer": "Arbok"
+    },
+    {
+        "prompt": "Prompt: Weedle evolves into a? Answer: Kakuna. Growlithe evolves into a? Answer: Arcanine. Doduo evolves into a? Answer: Dodrio. Tentacool evolves into a? Answer: Tentacruel. Sandshrew evolves into a? Answer: __",
+        "answer": "Sandslash"
+    },
+    {
+        "prompt": "Prompt: Rattata evolves into a? Answer: Raticate. Rhyhorn evolves into a? Answer: Rhydon. Krabby evolves into a? Answer: Kingler. Caterpie evolves into a? Answer: Metapod. Nidoran♀ evolves into a? Answer: __",
+        "answer": "Nidorina"
+    },
+    {
+        "prompt": "Prompt: Sandshrew evolves into a? Answer: Sandslash. Pikachu evolves into a? Answer: Raichu. Caterpie evolves into a? Answer: Metapod. Squirtle evolves into a? Answer: Wartortle. Nidoran♂ evolves into a? Answer: __",
+        "answer": "Nidorino"
+    },
+    {
+        "prompt": "Prompt: Sandshrew evolves into a? Answer: Sandslash. Geodude evolves into a? Answer: Graveler. Rattata evolves into a? Answer: Raticate. Oddish evolves into a? Answer: Gloom. Zubat evolves into a? Answer: __",
+        "answer": "Golbat"
+    },
+    {
+        "prompt": "Prompt: Machop evolves into a? Answer: Machoke. Voltorb evolves into a? Answer: Electrode. Sandshrew evolves into a? Answer: Sandslash. Horsea evolves into a? Answer: Seadra. Bellsprout evolves into a? Answer: __",
+        "answer": "Weepinbell"
+    },
+    {
+        "prompt": "Prompt: Grimer evolves into a? Answer: Muk. Geodude evolves into a? Answer: Graveler. Horsea evolves into a? Answer: Seadra. Doduo evolves into a? Answer: Dodrio. Tentacool evolves into a? Answer: __",
+        "answer": "Tentacruel"
+    },
+    {
+        "prompt": "Prompt: Mankey evolves into a? Answer: Primeape. Pidgey evolves into a? Answer: Pidgeotto. Psyduck evolves into a? Answer: Golduck. Weedle evolves into a? Answer: Kakuna. Geodude evolves into a? Answer: __",
+        "answer": "Graveler"
+    },
+    {
+        "prompt": "Prompt: Krabby evolves into a? Answer: Kingler. Drowzee evolves into a? Answer: Hypno. Pidgey evolves into a? Answer: Pidgeotto. Exeggcute evolves into a? Answer: Exeggutor. Ponyta evolves into a? Answer: __",
+        "answer": "Rapidash"
+    },
+    {
+        "prompt": "Prompt: Ponyta evolves into a? Answer: Rapidash. Exeggcute evolves into a? Answer: Exeggutor. Tentacool evolves into a? Answer: Tentacruel. Zubat evolves into a? Answer: Golbat. Slowpoke evolves into a? Answer: __",
+        "answer": "Slowbro"
+    },
+    {
+        "prompt": "Prompt: Caterpie evolves into a? Answer: Metapod. Psyduck evolves into a? Answer: Golduck. Shellder evolves into a? Answer: Cloyster. Grimer evolves into a? Answer: Muk. Magnemite evolves into a? Answer: __",
+        "answer": "Magneton"
+    },
+    {
+        "prompt": "Prompt: Venonat evolves into a? Answer: Venomoth. Pikachu evolves into a? Answer: Raichu. Meowth evolves into a? Answer: Persian. Mankey evolves into a? Answer: Primeape. Doduo evolves into a? Answer: __",
+        "answer": "Dodrio"
+    },
+    {
+        "prompt": "Prompt: Rhyhorn evolves into a? Answer: Rhydon. Growlithe evolves into a? Answer: Arcanine. Ponyta evolves into a? Answer: Rapidash. Cubone evolves into a? Answer: Marowak. Seel evolves into a? Answer: __",
+        "answer": "Dewgong"
+    },
+    {
+        "prompt": "Prompt: Oddish evolves into a? Answer: Gloom. Bellsprout evolves into a? Answer: Weepinbell. Cubone evolves into a? Answer: Marowak. Magnemite evolves into a? Answer: Magneton. Grimer evolves into a? Answer: __",
+        "answer": "Muk"
+    },
+    {
+        "prompt": "Prompt: Gastly evolves into a? Answer: Haunter. Pidgey evolves into a? Answer: Pidgeotto. Krabby evolves into a? Answer: Kingler. Bulbasaur evolves into a? Answer: Ivysaur. Shellder evolves into a? Answer: __",
+        "answer": "Cloyster"
+    },
+    {
+        "prompt": "Prompt: Meowth evolves into a? Answer: Persian. Drowzee evolves into a? Answer: Hypno. Rattata evolves into a? Answer: Raticate. Horsea evolves into a? Answer: Seadra. Gastly evolves into a? Answer: __",
+        "answer": "Haunter"
+    },
+    {
+        "prompt": "Prompt: Nidoran♀ evolves into a? Answer: Nidorina. Meowth evolves into a? Answer: Persian. Spearow evolves into a? Answer: Fearow. Ponyta evolves into a? Answer: Rapidash. Drowzee evolves into a? Answer: __",
+        "answer": "Hypno"
+    },
+    {
+        "prompt": "Prompt: Growlithe evolves into a? Answer: Arcanine. Magnemite evolves into a? Answer: Magneton. Bulbasaur evolves into a? Answer: Ivysaur. Pidgey evolves into a? Answer: Pidgeotto. Krabby evolves into a? Answer: __",
+        "answer": "Kingler"
+    },
+    {
+        "prompt": "Prompt: Grimer evolves into a? Answer: Muk. Poliwag evolves into a? Answer: Poliwhirl. Diglett evolves into a? Answer: Dugtrio. Rhyhorn evolves into a? Answer: Rhydon. Voltorb evolves into a? Answer: __",
+        "answer": "Electrode"
+    },
+    {
+        "prompt": "Prompt: Ekans evolves into a? Answer: Arbok. Rhyhorn evolves into a? Answer: Rhydon. Grimer evolves into a? Answer: Muk. Cubone evolves into a? Answer: Marowak. Exeggcute evolves into a? Answer: __",
+        "answer": "Exeggutor"
+    },
+    {
+        "prompt": "Prompt: Abra evolves into a? Answer: Kadabra. Mankey evolves into a? Answer: Primeape. Zubat evolves into a? Answer: Golbat. Growlithe evolves into a? Answer: Arcanine. Cubone evolves into a? Answer: __",
+        "answer": "Marowak"
+    },
+    {
+        "prompt": "Prompt: Gastly evolves into a? Answer: Haunter. Shellder evolves into a? Answer: Cloyster. Bulbasaur evolves into a? Answer: Ivysaur. Exeggcute evolves into a? Answer: Exeggutor. Koffing evolves into a? Answer: __",
+        "answer": "Weezing"
+    },
+    {
+        "prompt": "Prompt: Sandshrew evolves into a? Answer: Sandslash. Seel evolves into a? Answer: Dewgong. Charmander evolves into a? Answer: Charmeleon. Meowth evolves into a? Answer: Persian. Rhyhorn evolves into a? Answer: __",
+        "answer": "Rhydon"
+    },
+    {
+        "prompt": "Prompt: Zubat evolves into a? Answer: Golbat. Ekans evolves into a? Answer: Arbok. Weedle evolves into a? Answer: Kakuna. Pikachu evolves into a? Answer: Raichu. Horsea evolves into a? Answer: __",
+        "answer": "Seadra"
+    },
+    {
+        "prompt": "Prompt: Weedle evolves into a? Answer: Kakuna. Krabby evolves into a? Answer: Kingler. Venonat evolves into a? Answer: Venomoth. Seel evolves into a? Answer: Dewgong. Goldeen evolves into a? Answer: __",
+        "answer": "Seaking"
+    }
+]
