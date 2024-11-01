@@ -33,15 +33,15 @@ echo ${translation_task}
 echo ${prompt_format_id_for_translation}
 
 # LOGIN CONDA VENV
-source ~/.bash_profile
+source ~/.bashrc
+conda init
 conda activate lang_neuron
 
 # MODULE LOAD
-`module load gcc/8.3.1 gcc/8.5.0 cuda/11.7/11.7.1 cudnn/8.8/8.8.1`
+module load gcc/8.3.1 gcc/8.5.0 cuda/11.7/11.7.1 cudnn/8.8/8.8.1
 
 # Path setting
-export PYTHONPATH="/Users/runsheng/Documents/Master Thesis/lang_neuron/selfcond:$PYTHONPATH"
-model_path="models/"
+model_path="model_path/"
 base_path="mid_output/"
 
 # BOS setting
@@ -55,12 +55,13 @@ if [[ ${model_name} == *"xglm"* ]]; then
 elif [[ ${model_name} == *"bloom"* ]]; then
   model_name2="bigscience/${model_name}"
   prompt="</s>"
-elif [[ ${model_name} == *"Llama-2"* ]]; then
-  model_name2="${model_path}llama2-HF/${model_name}"
+elif [[ ${model_name} == *"llama-2"* ]]; then
+  model_name2="meta-llama/${model_name}-hf"
+  model_name="${model_name}-hf"
   #prompt="<s>"
   prompt=""
 else
-  echo "NG!"
+  echo "model not recognized!"
   exit
 fi
 
