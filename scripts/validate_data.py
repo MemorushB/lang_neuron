@@ -6,6 +6,7 @@ import re
 from typing import List, Dict, Optional
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+import tqdm
 
 def load_json_file(file_path: str) -> List[Dict]:
     """Load a JSON file."""
@@ -49,22 +50,35 @@ def convert_json_to_format(
     # Determine the number of negative samples (4 times the number of positive samples)
     num_negative = num_positive * 4
     
+    # Initialize negative samples list
+    negative_samples: List[str] = []
+    
     # Collect negative samples from other JSON files
-    negative_samples = []
-    for filename in os.listdir(folder_path):
-        if filename.endswith('.json') and filename != os.path.basename(input_file):
-            file_path = os.path.join(folder_path, filename)
-            other_data = load_json_file(file_path)
-            negative_samples.extend(extract_samples_from_file(other_data))
+    while len(negative_samples) < num_negative:
+        for filename in os.listdir(folder_path):
+            if filename.endswith('.json') and filename != os.path.basename(input_file):
+                file_path = os.path.join(folder_path, filename)
+                other_data = load_json_file(file_path)
+                samples = extract_samples_from_file(other_data)
+                
+                if samples:
+                    # Calculate how many more samples we need
+                    samples_needed = num_negative - len(negative_samples)
+                    # Get random samples from this file
+                    selected = random.sample(samples, min(samples_needed, len(samples)))
+                    negative_samples.extend(selected)
+                    
+                if len(negative_samples) >= num_negative:
+                    break
+        
+        # Break if we can't find enough samples after checking all files
+        if len(negative_samples) < num_negative:
+            print(f"Warning: Only got {len(negative_samples)} negative samples out of {num_negative} requested")
+            break
     
-    # Check if there are enough negative samples
-    if len(negative_samples) < num_negative:
-        print(f"Warning: Not enough negative samples available. Requested {num_negative}, but only {len(negative_samples)} available.")
-        num_negative = len(negative_samples)
-    
-    # Use downsampling to get the required number of negative samples
-    negative_samples = random.sample(negative_samples, num_negative)
-    
+    # Trim excess samples if we collected too many
+    if len(negative_samples) > num_negative:
+        negative_samples = random.sample(negative_samples, num_negative)
     # Create the final dictionary
     concept_name = os.path.basename(input_file).replace('_prompts.json', '')
     result = {
@@ -81,6 +95,7 @@ def convert_json_to_format(
 def validate_samples_with_llm(samples: List[str], model_name: str) -> List[str]:
     """Validate samples using an LLM and return only the successfully answered samples."""
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
     # Load the tokenizer and model
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(
@@ -89,9 +104,15 @@ def validate_samples_with_llm(samples: List[str], model_name: str) -> List[str]:
     )
     model.to(device)
     model.eval()
-    
+
+    # Ensure pad_token_id is set
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token_id = tokenizer.eos_token_id
+    if model.config.pad_token_id is None:
+        model.config.pad_token_id = tokenizer.pad_token_id
+
     valid_samples = []
-    for sample in samples:
+    for sample in tqdm.tqdm(samples, desc="Validating samples", unit="sample"):
         # Extract the question and the expected answer
         match = re.match(r'(.+?) Answer: (.+)', sample)
         if match:
@@ -102,29 +123,39 @@ def validate_samples_with_llm(samples: List[str], model_name: str) -> List[str]:
             # Check if the response contains the expected answer
             if is_correct_answer(response, expected_answer):
                 valid_samples.append(sample)
+                
+    # Limit the number of valid samples to 500
+    if len(valid_samples) > 500:
+        valid_samples = random.sample(valid_samples, 500)
     return valid_samples
 
-def generate_response(prompt: str, model, tokenizer, device, max_new_tokens=50) -> str:
+def generate_response(prompt: str, model, tokenizer, device, max_new_tokens=2) -> str:
     """Generate a response from the model."""
-    input_ids = tokenizer.encode(prompt, return_tensors='pt').to(device)
+    # Encode the prompt and get attention mask
+    encoding = tokenizer(prompt, return_tensors='pt').to(device)
+    input_ids = encoding['input_ids']
+    attention_mask = encoding['attention_mask']
+
     with torch.no_grad():
         output_ids = model.generate(
             input_ids=input_ids,
+            attention_mask=attention_mask,     # Pass attention mask
             max_new_tokens=max_new_tokens,
-            temperature=0.7,
-            top_p=0.9,
-            pad_token_id=tokenizer.eos_token_id,
-            eos_token_id=tokenizer.eos_token_id,
+            num_beams=1,                       # Greedy search
+            do_sample=False,                   # Disable sampling for deterministic output
+            pad_token_id=tokenizer.pad_token_id,
+            eos_token_id=tokenizer.eos_token_id
         )
+
+    # Decode and process the generated text
     generated_text = tokenizer.decode(output_ids[0], skip_special_tokens=True)
     response = generated_text[len(prompt):].strip()
-    # Remove any leading non-alphanumeric characters
-    response = re.sub(r'^[^\w]*', '', response)
+    response = re.sub(r'^[^\w]*', '', response)  # Remove leading non-alphanumeric characters
     return response
 
 def is_correct_answer(model_response: str, expected_answer: str) -> bool:
     """Check if the model's response contains the expected answer."""
-    return expected_answer.lower() in model_response.lower()
+    return expected_answer.lower().startswith(model_response.lower())
 
 def dataset_generator(input_file: str, output_file: str, model_name: str, folder_path: str):
     """Generate the dataset with the specified format."""

@@ -59,12 +59,45 @@ def compute_and_save_responses(
         device: Device where to run inference on.
         verbose: Verbosity flag.
     """
-    
+
     model_short_name = model_name.rstrip("/").split("/")[-1]
     local_data_file = data_path / concept_group / f"{concept}.json"
     
-    #generate dataset
-    dataset_generator(input_file=f"datasets/{concept}_prompts.json", output_file=f"{data_path}/{concept_group}/{concept}.json", model_name=model_name, folder_path="datasets")
+    input_file_path = f"datasets/LRE/lre_prompts/{concept}_prompts.json"
+    output_file_path = f"{data_path}/{concept_group}/{concept}.json"
+    
+    if not os.path.exists(input_file_path):
+        print(f"Input file {input_file_path} does not exist")
+        
+
+    if   "llama-2-7b" in model_name:
+        m_name = "meta-llama/Llama-2-7b-hf"
+    elif "llama-2-13b" in model_name:
+        m_name = "meta-llama/Llama-2-13b-hf"
+    elif "llama-2-70b" in model_name:
+        m_name = "meta-llama/Llama-2-70b-hf"
+    elif "xglm-564m" in model_name:
+        m_name = "facebook/xglm-564M"
+    elif "xglm-1.7b" in model_name:
+        m_name = "facebook/xglm-1.7B"
+    elif "xglm-2.9b" in model_name:
+        m_name = "facebook/xglm-2.9B"
+    elif "bloom-560m" in model_name:
+        m_name = "bigscience/bloom-560m"
+    elif "bloom-1.7b" in model_name:
+        m_name = "bigscience/bloomz-1b7"
+    elif "bloom-3b" in model_name:
+        m_name = "bigscience/bloom-3b"
+    else:
+        raise ValueError(f"Model name {model_name} not implemented")
+    
+
+    if os.path.exists(output_file_path):
+        print(f"file {output_file_path} already exists. Skipping generation.\n")
+    else:
+        #generate dataset
+        print(f"Generating dataset for {concept}")
+        dataset_generator(input_file=input_file_path, output_file=output_file_path, model_name=m_name, folder_path="datasets/LRE/lre_prompts")
     
 
     if not local_data_file.exists():
@@ -193,7 +226,7 @@ if __name__ == "__main__":
     )
     #parser.add_argument("--inf-batch-size", type=int, help="Inference batch size", default=2)
     parser.add_argument("--inf-batch-size", type=int, help="Inference batch size. This should always 1. Refer to cache_responses function in response.py", default=1, choices=[1])
-    parser.add_argument("--device", type=str, help="Device to use")
+    parser.add_argument("--device", type=str, default="cuda:0", help="Device to use")
 
     args = parser.parse_args()
 
