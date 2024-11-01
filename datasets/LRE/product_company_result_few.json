@@ -1,0 +1,2312 @@
+[
+    {
+        "subject": "Shahab-2",
+        "object": "Iran",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Infiniti QX was created by: 'Nissan'\n\nShahab-2 was created by:",
+        "response": "Shahab-2 was created by: 'Iran'"
+    },
+    {
+        "subject": "Infiniti QX",
+        "object": "Nissan",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nInfiniti QX was created by:",
+        "response": "Sure, I'd be happy to help! Here's the answer to your question:\n\nInfiniti QX was created by: 'Nissan'"
+    },
+    {
+        "subject": "iPhone 5",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPhone 5 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Wii Balance Board",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWii Balance Board was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Acura TL",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura TL was created by:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Windows Server 2003",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Server 2003 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "DualShock",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDualShock was created by:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Mac Pro",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac Pro was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Game Boy Advance SP",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGame Boy Advance SP was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Shahab-1",
+        "object": "Iran",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nShahab-1 was created by:",
+        "response": "Shahab-1 was created by: 'Iran'"
+    },
+    {
+        "subject": "DC-3",
+        "object": "Douglas",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDC-3 was created by:",
+        "response": "DC-3 was created by: 'Douglas Aircraft Company'"
+    },
+    {
+        "subject": "Kindle Fire",
+        "object": "Amazon",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nKindle Fire was created by:",
+        "response": "Amazon"
+    },
+    {
+        "subject": "Autobianchi Y10",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAutobianchi Y10 was created by:",
+        "response": "Autobianchi Y10 was created by: 'Fiat'"
+    },
+    {
+        "subject": "Mini E",
+        "object": "BMW",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMini E was created by:",
+        "response": "BMW'"
+    },
+    {
+        "subject": "Datsun Sports",
+        "object": "Nissan",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDatsun Sports was created by:",
+        "response": "Datsun Sports was created by: 'Nissan'"
+    },
+    {
+        "subject": "Acura ILX",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura ILX was created by:",
+        "response": "Acura ILX was created by: 'Honda'"
+    },
+    {
+        "subject": "SteadyShot",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSteadyShot was created by:",
+        "response": "Sony"
+    },
+    {
+        "subject": "SNES-CD",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSNES-CD was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nSNES-CD was created by: 'Nintendo'"
+    },
+    {
+        "subject": "Lancia Aprilia",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLancia Aprilia was created by:",
+        "response": "Lancia Aprilia was created by: 'Fiat Chrysler Automobiles (FCA)'"
+    },
+    {
+        "subject": "Windows Live Mail",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Live Mail was created by:",
+        "response": "Windows Live Mail was created by: Microsoft"
+    },
+    {
+        "subject": "Bionz",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nBionz was created by:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Acura ZDX",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura ZDX was created by:",
+        "response": "Acura ZDX was created by: 'Honda'"
+    },
+    {
+        "subject": "Lancia Thema",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLancia Thema was created by:",
+        "response": "Lancia Thema was created by: 'Fiat Chrysler Automobiles (FCA)'"
+    },
+    {
+        "subject": "Acura EL",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura EL was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nAcura EL was created by: 'Honda'"
+    },
+    {
+        "subject": "Acura MDX",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura MDX was created by:",
+        "response": "Acura MDX was created by: 'Honda'"
+    },
+    {
+        "subject": "Toyopet Master",
+        "object": "Toyota",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nToyopet Master was created by:",
+        "response": "Toyopet Master was created by: 'Toyota'"
+    },
+    {
+        "subject": "Xbox",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXbox was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iPhone 4s",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPhone 4s was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Dino",
+        "object": "Ferrari",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDino was created by:",
+        "response": "Ferrari'"
+    },
+    {
+        "subject": "iPod",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPad Mini",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPad Mini was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPod Mini",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod Mini was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Alfa Romeo 6C",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlfa Romeo 6C was created by:",
+        "response": "Alfa Romeo 6C was created by: 'Fiat Chrysler Automobiles'"
+    },
+    {
+        "subject": "Alfa Romeo MiTo",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlfa Romeo MiTo was created by:",
+        "response": "Alfa Romeo MiTo was created by: 'Fiat'"
+    },
+    {
+        "subject": "Color TV-Game",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nColor TV-Game was created by:",
+        "response": "Nintendo'"
+    },
+    {
+        "subject": "Mini Hatch",
+        "object": "BMW",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMini Hatch was created by:",
+        "response": "BMW'"
+    },
+    {
+        "subject": "MessagePad",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMessagePad was created by:",
+        "response": "MessagePad was created by: 'Apple'"
+    },
+    {
+        "subject": "Lancia Musa",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLancia Musa was created by:",
+        "response": "Lancia Musa was created by: 'Fiat'"
+    },
+    {
+        "subject": "Lancia Dedra",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLancia Dedra was created by:",
+        "response": "Lancia Dedra was created by: 'Fiat'"
+    },
+    {
+        "subject": "Acura RDX",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura RDX was created by:",
+        "response": "Sure! The answer to your question is:\n\nAcura RDX was created by: 'Honda'"
+    },
+    {
+        "subject": "iPod shuffle",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod shuffle was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Plymouth Prowler",
+        "object": "Chrysler",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPlymouth Prowler was created by:",
+        "response": "Chrysler"
+    },
+    {
+        "subject": "Infiniti Q50",
+        "object": "Nissan",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInfiniti Q50 was created by:",
+        "response": "Nissan"
+    },
+    {
+        "subject": "Exmor",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nExmor was created by:",
+        "response": "Sony."
+    },
+    {
+        "subject": "Windows 2000",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 2000 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Alfa Romeo Brera",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlfa Romeo Brera was created by:",
+        "response": "Alfa Romeo Brera was created by: 'Fiat Chrysler Automobiles (FCA)'"
+    },
+    {
+        "subject": "Lancia Ypsilon",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLancia Ypsilon was created by:",
+        "response": "Lancia Ypsilon was created by: 'Fiat Chrysler Automobiles'"
+    },
+    {
+        "subject": "Acura Legend",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura Legend was created by:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Lancia Gamma",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLancia Gamma was created by:",
+        "response": "Lancia Gamma was created by: 'Fiat'"
+    },
+    {
+        "subject": "N-Gage QD",
+        "object": "Nokia",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nN-Gage QD was created by:",
+        "response": "Nokia."
+    },
+    {
+        "subject": "iPhone 3GS",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPhone 3GS was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPad",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPad was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Acura CL",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura CL was created by:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Windows Phone 8.1",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Phone 8.1 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "B-47 Stratojet",
+        "object": "Boeing",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nB-47 Stratojet was created by:",
+        "response": "B-47 Stratojet was created by: 'Boeing'"
+    },
+    {
+        "subject": "Alfa Romeo 155",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlfa Romeo 155 was created by:",
+        "response": "Alfa Romeo 155 was created by: 'Fiat Chrysler Automobiles (FCA)'"
+    },
+    {
+        "subject": "iPhone 1",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPhone 1 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "CineAlta",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nCineAlta was created by:",
+        "response": "Sony."
+    },
+    {
+        "subject": "Plymouth Valiant",
+        "object": "Chrysler",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPlymouth Valiant was created by:",
+        "response": "Plymouth Valiant was created by: 'Chrysler'"
+    },
+    {
+        "subject": "Autobianchi A112",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAutobianchi A112 was created by:",
+        "response": "Autobianchi A112 was created by: 'Fiat'"
+    },
+    {
+        "subject": "Chromecast",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nChromecast was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "Chromebook Pixel",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nChromebook Pixel was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "LGA 775",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLGA 775 was created by:",
+        "response": "Sure! Here's the answer to your question:\n\nLGA 775 was created by: 'Intel'"
+    },
+    {
+        "subject": "Scion tC",
+        "object": "Toyota",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nScion tC was created by:",
+        "response": "Toyota"
+    },
+    {
+        "subject": "iPad 4",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPad 4 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Shahab-4",
+        "object": "Iran",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nShahab-4 was created by:",
+        "response": "Iran'"
+    },
+    {
+        "subject": "MacBook Air",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMacBook Air was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nMacBook Air was created by Apple."
+    },
+    {
+        "subject": "Game & Watch",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGame & Watch was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Wii U",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWii U was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Game Boy Advance",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGame Boy Advance was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "DC-9",
+        "object": "Douglas",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDC-9 was created by:",
+        "response": "DC-9 was created by: 'McDonnell Douglas'"
+    },
+    {
+        "subject": "Fateh-110",
+        "object": "Iran",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFateh-110 was created by:",
+        "response": "Iran'"
+    },
+    {
+        "subject": "Windows Vista",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Vista was created by:",
+        "response": "Windows Vista was created by: Microsoft"
+    },
+    {
+        "subject": "Lancia Lybra",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLancia Lybra was created by:",
+        "response": "Lancia Lybra was created by: 'Fiat Chrysler Automobiles (FCA)'"
+    },
+    {
+        "subject": "Nasr-1",
+        "object": "Iran",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nNasr-1 was created by:",
+        "response": "Iran'"
+    },
+    {
+        "subject": "iPhone",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPhone was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Infiniti JX",
+        "object": "Nissan",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInfiniti JX was created by:",
+        "response": "Nissan"
+    },
+    {
+        "subject": "DeltaWing",
+        "object": "Nissan",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDeltaWing was created by:",
+        "response": "DeltaWing was created by: 'Nissan'"
+    },
+    {
+        "subject": "iPod Touch",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod Touch was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Alfa Romeo SZ",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlfa Romeo SZ was created by:",
+        "response": "Alfa Romeo SZ was created by: 'Fiat'"
+    },
+    {
+        "subject": "VTEC",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nVTEC was created by:",
+        "response": "Honda."
+    },
+    {
+        "subject": "Xeon",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXeon was created by:",
+        "response": "Sure, I'd be happy to help! Xeon was created by: 'Intel'"
+    },
+    {
+        "subject": "Windows 7",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 7 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "EA-18G Growler",
+        "object": "Boeing",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nEA-18G Growler was created by:",
+        "response": "EA-18G Growler was created by: 'Boeing'"
+    },
+    {
+        "subject": "Amiibo",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAmiibo was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "MacBook Pro",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMacBook Pro was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Alfa Romeo 75",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlfa Romeo 75 was created by:",
+        "response": "Alfa Romeo 75 was created by: 'Fiat Chrysler Automobiles (FCA)'"
+    },
+    {
+        "subject": "Jeep Wrangler",
+        "object": "Chrysler",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nJeep Wrangler was created by:",
+        "response": "Jeep Wrangler was created by: 'Chrysler'"
+    },
+    {
+        "subject": "Game Boy Micro",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGame Boy Micro was created by:",
+        "response": "Game Boy Micro was created by: 'Nintendo'"
+    },
+    {
+        "subject": "PlayStation Eye",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPlayStation Eye was created by:",
+        "response": "Sony"
+    },
+    {
+        "subject": "iPod Classic",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod Classic was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Zelzal-2",
+        "object": "Iran",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nZelzal-2 was created by:",
+        "response": "Iran'"
+    },
+    {
+        "subject": "Cyber-shot",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nCyber-shot was created by:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Windows Phone 7",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Phone 7 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Family Computer Disk System",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFamily Computer Disk System was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Alfa Romeo 164",
+        "object": "Fiat",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlfa Romeo 164 was created by:",
+        "response": "Alfa Romeo 164 was created by: 'Fiat'"
+    },
+    {
+        "subject": "Windows Phone 8",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Phone 8 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Super Game Boy",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSuper Game Boy was created by:",
+        "response": "Nintendo'"
+    },
+    {
+        "subject": "Acura RL",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura RL was created by:",
+        "response": "Acura RL was created by: 'Honda'"
+    },
+    {
+        "subject": "Acura TSX",
+        "object": "Honda",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAcura TSX was created by:",
+        "response": "Acura TSX was created by: 'Honda'"
+    },
+    {
+        "subject": "Mini Countryman",
+        "object": "BMW",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMini Countryman was created by:",
+        "response": "Mini Countryman was created by: 'BMW'"
+    },
+    {
+        "subject": "Scion xD",
+        "object": "Toyota",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nScion xD was created by:",
+        "response": "Scion xD was created by: 'Toyota'"
+    },
+    {
+        "subject": "iTunes Remote",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niTunes Remote was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "Infiniti Q45",
+        "object": "Nissan",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInfiniti Q45 was created by:",
+        "response": "Nissan"
+    },
+    {
+        "subject": "Windows Embedded CE 6.0",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Embedded CE 6.0 was created by:",
+        "response": "Windows Embedded CE 6.0 was created by Microsoft."
+    },
+    {
+        "subject": "Sandy Bridge",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSandy Bridge was created by:",
+        "response": "Sandy Bridge was created by: Intel"
+    },
+    {
+        "subject": "Tizen",
+        "object": "Samsung",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nTizen was created by:",
+        "response": "Sure! Tizen was created by: 'Samsung'"
+    },
+    {
+        "subject": "VP9",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nVP9 was created by:",
+        "response": "VP9 was created by: Google"
+    },
+    {
+        "subject": "Final Fantasy",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Fantasy was created by:",
+        "response": "Sure, I'd be happy to help! Here is the answer to your question:\n\nFinal Fantasy was created by: 'Square Enix'"
+    },
+    {
+        "subject": "OS X Mavericks",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOS X Mavericks was created by:",
+        "response": "Sure! Here's the answer to your question:\n\nOS X Mavericks was created by Apple Inc."
+    },
+    {
+        "subject": "iBooks Author",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niBooks Author was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows 98",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 98 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Embedded Compact",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Embedded Compact was created by:",
+        "response": "Windows Embedded Compact was created by: Microsoft."
+    },
+    {
+        "subject": "Internet Explorer 5",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInternet Explorer 5 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows XP",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows XP was created by:",
+        "response": "Windows XP was created by: Microsoft"
+    },
+    {
+        "subject": "NTFS",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nNTFS was created by:",
+        "response": "Sure! NTFS was created by: Microsoft"
+    },
+    {
+        "subject": "Windows Driver Frameworks",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Driver Frameworks was created by:",
+        "response": "Windows Driver Frameworks was created by: Microsoft"
+    },
+    {
+        "subject": "Glyph Bitmap Distribution Format",
+        "object": "Adobe",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGlyph Bitmap Distribution Format was created by:",
+        "response": "Adobe'"
+    },
+    {
+        "subject": "Logic Pro",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLogic Pro was created by:",
+        "response": "Logic Pro was created by: Apple"
+    },
+    {
+        "subject": "Windows NT 3.1",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows NT 3.1 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Final Fantasy V",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Fantasy V was created by:",
+        "response": "Final Fantasy V was created by: Square (now Square Enix)"
+    },
+    {
+        "subject": "DirectX",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDirectX was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Disk Utility",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDisk Utility was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Core 2",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nCore 2 was created by:",
+        "response": "Core 2 was created by: 'Intel'"
+    },
+    {
+        "subject": "Internet Explorer",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInternet Explorer was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X Lion",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS X Lion was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "Gmail",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGmail was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is: Google."
+    },
+    {
+        "subject": "Mac OS X Panther",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS X Panther was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Sonic Drift 2",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSonic Drift 2 was created by:",
+        "response": "Sonic Drift 2 was created by: 'Sega'"
+    },
+    {
+        "subject": "Windows Easy Transfer",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Easy Transfer was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Media Video",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Media Video was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Xbox One",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXbox One was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows RT",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows RT was created by:",
+        "response": "Windows RT was created by: Microsoft"
+    },
+    {
+        "subject": "Windows Server 2008",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Server 2008 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Internet Explorer 7",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Internet Explorer 7 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Photo Booth",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPhoto Booth was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "iCloud",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niCloud was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Live Mesh",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Live Mesh was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Android Runtime",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAndroid Runtime was created by:",
+        "response": "Android Runtime was created by: Google"
+    },
+    {
+        "subject": "VoiceOver",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nVoiceOver was created by:",
+        "response": "Sure, I'd be happy to help! VoiceOver was created by Apple."
+    },
+    {
+        "subject": "MiniDisc",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMiniDisc was created by:",
+        "response": "Sony"
+    },
+    {
+        "subject": "QuickTime",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nQuickTime was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Chrome OS",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nChrome OS was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows NT 3.51",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows NT 3.51 was created by:",
+        "response": "Windows NT 3.51 was created by: Microsoft"
+    },
+    {
+        "subject": "Newsstand",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nNewsstand was created by:",
+        "response": "Sure, I'd be happy to help! Newsstand was created by Apple."
+    },
+    {
+        "subject": "Windows 7",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 7 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Visual Basic Script",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nVisual Basic Script was created by:",
+        "response": "Sure, I'd be happy to help! Here's the answer to your question:\n\nVisual Basic Script was created by: 'Microsoft'"
+    },
+    {
+        "subject": "Donkey Kong",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDonkey Kong was created by:",
+        "response": "Donkey Kong was created by: Nintendo"
+    },
+    {
+        "subject": "iPod Nano",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod Nano was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Bing Maps",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nBing Maps was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Virtual PC",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Virtual PC was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "PowerShell",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPowerShell was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Me",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Me was created by:",
+        "response": "Windows Me was created by: Microsoft"
+    },
+    {
+        "subject": "MacApp",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMacApp was created by:",
+        "response": "MacApp was created by Apple Inc."
+    },
+    {
+        "subject": "Windows Live Messenger",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Live Messenger was created by:",
+        "response": "Windows Live Messenger was created by: Microsoft"
+    },
+    {
+        "subject": "WebP Lossless",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWebP Lossless was created by:",
+        "response": "Sure! Here is the answer to your question:\n\nWebP Lossless was created by: Google"
+    },
+    {
+        "subject": "Windows Vista",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Vista was created by:",
+        "response": "Windows Vista was created by: Microsoft"
+    },
+    {
+        "subject": "Windows 8",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 8 was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nWindows 8 was created by Microsoft."
+    },
+    {
+        "subject": "ColorSync",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nColorSync was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Safari",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSafari was created by:",
+        "response": "Safari was created by Apple."
+    },
+    {
+        "subject": "HFS Plus",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nHFS Plus was created by:",
+        "response": "HFS Plus was created by Apple Inc."
+    },
+    {
+        "subject": "The Revenge of Shinobi",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nThe Revenge of Shinobi was created by:",
+        "response": "Sega'"
+    },
+    {
+        "subject": "Event Viewer",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nEvent Viewer was created by:",
+        "response": "Event Viewer was created by: Microsoft"
+    },
+    {
+        "subject": "Wii U system software",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWii U system software was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "MSX BASIC",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMSX BASIC was created by:",
+        "response": "MSX BASIC was created by: 'Microsoft'"
+    },
+    {
+        "subject": "iOS",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niOS was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "QuickTime VR",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nQuickTime VR was created by:",
+        "response": "Sure, I'd be happy to help! QuickTime VR was created by Apple."
+    },
+    {
+        "subject": "Xbox 360",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXbox 360 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Altered Beast",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAltered Beast was created by:",
+        "response": "Altered Beast was created by: 'Sega'"
+    },
+    {
+        "subject": "WebObjects",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWebObjects was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "ActiveSync",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nActiveSync was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "WebM",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWebM was created by:",
+        "response": "WebM was created by: Google"
+    },
+    {
+        "subject": "iOS 5",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niOS 5 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Schema.org",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSchema.org was created by:",
+        "response": "Sure, I'd be happy to help! Here's the answer to your question:\n\nSchema.org was created by: 'Google, Bing, Yahoo, and Yandex'"
+    },
+    {
+        "subject": "SonicStage",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSonicStage was created by:",
+        "response": "SonicStage was created by: 'Sony'"
+    },
+    {
+        "subject": "Internet Explorer 11",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInternet Explorer 11 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows XP Media Center Edition",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows XP Media Center Edition was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Binary Synchronous Communications",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nBinary Synchronous Communications was created by:",
+        "response": "IBM'"
+    },
+    {
+        "subject": "Mac OS 8",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS 8 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Alex Kidd",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlex Kidd was created by:",
+        "response": "Alex Kidd was created by: 'Sega'"
+    },
+    {
+        "subject": "CICS",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nCICS was created by:",
+        "response": "CICS was created by: IBM."
+    },
+    {
+        "subject": "Windows 10",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 10 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iOS 8",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niOS 8 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MobileMe",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMobileMe was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium II",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPentium II was created by:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Time Machine (macOS)",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nTime Machine (macOS) was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Open XML Paper Specification",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOpen XML Paper Specification was created by:",
+        "response": "Microsoft'"
+    },
+    {
+        "subject": "Eternal Champions",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nEternal Champions was created by:",
+        "response": "Sega"
+    },
+    {
+        "subject": "Internet Information Services",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInternet Information Services was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Process Explorer",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nProcess Explorer was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "HyperCard",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nHyperCard was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Phone 8.1",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Phone 8.1 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Wii U",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWii U was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "App Inventor for Android",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nApp Inventor for Android was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "Final Cut Pro",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Cut Pro was created by:",
+        "response": "Sure! Here's the answer to your question:\n\nFinal Cut Pro was created by: 'Apple'"
+    },
+    {
+        "subject": "File Explorer",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFile Explorer was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Macintosh File System",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMacintosh File System was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iLife",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niLife was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\niLife was created by: 'Apple'"
+    },
+    {
+        "subject": "IA-32",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nIA-32 was created by:",
+        "response": "Sure! Here's the answer to your question:\n\nIA-32 was created by: 'Intel'"
+    },
+    {
+        "subject": "Visual Basic .NET",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nVisual Basic .NET was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Zune",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nZune was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows NT",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows NT was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Wii MotionPlus",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWii MotionPlus was created by:",
+        "response": "Nintendo'"
+    },
+    {
+        "subject": "Skype",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSkype was created by:",
+        "response": "Skype was created by: 'Microsoft'"
+    },
+    {
+        "subject": "Tetris DS",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nTetris DS was created by:",
+        "response": "Sure! Tetris DS was created by: 'Nintendo'"
+    },
+    {
+        "subject": "Soundtrack Pro",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSoundtrack Pro was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is: Apple."
+    },
+    {
+        "subject": "IA-64",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nIA-64 was created by:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Windows Phone 8",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Phone 8 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "G Suite",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nG Suite was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "Office Open XML",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOffice Open XML was created by:",
+        "response": "Sure! I'd be happy to help. Here is the answer to your question:\n\nOffice Open XML was created by: Microsoft"
+    },
+    {
+        "subject": "KC-767",
+        "object": "Boeing",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nKC-767 was created by:",
+        "response": "KC-767 was created by: 'Boeing'"
+    },
+    {
+        "subject": "Schema.org",
+        "object": "Yahoo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSchema.org was created by:",
+        "response": "Sure, I'd be happy to help! Here's the answer to your question:\n\nSchema.org was created by: 'Google, Bing, Yahoo, and Yandex'"
+    },
+    {
+        "subject": "Baku Baku Animal",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nBaku Baku Animal was created by:",
+        "response": "Sega'"
+    },
+    {
+        "subject": "Windows Server 2008 R2",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Server 2008 R2 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Internet Explorer 9",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Internet Explorer 9 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS 9",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS 9 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "CarPlay",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nCarPlay was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPod",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium III",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPentium III was created by:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Rational Team Concert",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nRational Team Concert was created by:",
+        "response": "IBM'"
+    },
+    {
+        "subject": "MXML",
+        "object": "Adobe",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMXML was created by:",
+        "response": "MXML was created by: 'Adobe'."
+    },
+    {
+        "subject": "The Legend of Zelda",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nThe Legend of Zelda was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Quick Look",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nQuick Look was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "Windows Mobile 6.5",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Mobile 6.5 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Movie Maker",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Movie Maker was created by:",
+        "response": "Sure! Here's the answer to your question:\n\nWindows Movie Maker was created by: Microsoft"
+    },
+    {
+        "subject": "Interface Builder",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInterface Builder was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "NTLDR",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nNTLDR was created by:",
+        "response": "Microsoft'"
+    },
+    {
+        "subject": "Windows Media Audio",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Media Audio was created by:",
+        "response": "Windows Media Audio was created by Microsoft."
+    },
+    {
+        "subject": "Virtual Hard Disk",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nVirtual Hard Disk was created by:",
+        "response": "Virtual Hard Disk was created by: 'Microsoft'"
+    },
+    {
+        "subject": "iTunes Radio",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niTunes Radio was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Metroid",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMetroid was created by:",
+        "response": "Metroid was created by: Nintendo"
+    },
+    {
+        "subject": "Windows 8.1",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 8.1 was created by:",
+        "response": "Windows 8.1 was created by: Microsoft"
+    },
+    {
+        "subject": "macOS",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nmacOS was created by:",
+        "response": "Sure! Here is the answer to your question:\n\nmacOS was created by: Apple Inc."
+    },
+    {
+        "subject": "Windows Live OneCare",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Live OneCare was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Active Server Pages",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nActive Server Pages was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nActive Server Pages was created by Microsoft."
+    },
+    {
+        "subject": "Xcode",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXcode was created by:",
+        "response": "Xcode was created by Apple."
+    },
+    {
+        "subject": "Windows Mobile",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Mobile was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "Golden Axe",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGolden Axe was created by:",
+        "response": "Sure, I'd be happy to help! The answer to the question \"Golden Axe was created by:\" is:\n\nSega"
+    },
+    {
+        "subject": "XScale",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXScale was created by:",
+        "response": "XScale was created by: 'Intel'"
+    },
+    {
+        "subject": "iOS 6",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niOS 6 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "SPDY",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSPDY was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Internet Explorer 8",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Internet Explorer 8 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Logic Studio",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nLogic Studio was created by:",
+        "response": "Logic Studio was created by: 'Apple'"
+    },
+    {
+        "subject": "iPod shuffle",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod shuffle was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Mixed Reality",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Mixed Reality was created by:",
+        "response": "Sure, I'd be happy to help! Here's the answer to your question:\n\nWindows Mixed Reality was created by: Microsoft"
+    },
+    {
+        "subject": "Final Fantasy Legend III",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Fantasy Legend III was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nFinal Fantasy Legend III was created by: 'Square'"
+    },
+    {
+        "subject": "Windows NT 3.5",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows NT 3.5 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Motion",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMotion was created by:",
+        "response": "Motion was created by: 'Apple'"
+    },
+    {
+        "subject": "Project Ara",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nProject Ara was created by:",
+        "response": "Sure, I'd be happy to help! Here's the answer to your question:\n\nProject Ara was created by: 'Google'"
+    },
+    {
+        "subject": "Android TV",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAndroid TV was created by:",
+        "response": "Sure, I'd be happy to help! Android TV was created by Google."
+    },
+    {
+        "subject": "Robocopy",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nRobocopy was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X Leopard",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS X Leopard was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iMovie",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niMovie was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Yakuza 2",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nYakuza 2 was created by:",
+        "response": "Sega'"
+    },
+    {
+        "subject": "Windows Phone Store",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Phone Store was created by:",
+        "response": "Windows Phone Store was created by: Microsoft"
+    },
+    {
+        "subject": "Pentium",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPentium was created by:",
+        "response": "Intel"
+    },
+    {
+        "subject": "B-47 Stratojet",
+        "object": "Boeing",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nB-47 Stratojet was created by:",
+        "response": "Boeing'"
+    },
+    {
+        "subject": "Virtual Telecommunications Access Method",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nVirtual Telecommunications Access Method was created by:",
+        "response": "Virtual Telecommunications Access Method was created by: 'IBM'"
+    },
+    {
+        "subject": "Windows 95",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 95 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mario Bros.",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMario Bros. was created by:",
+        "response": "Sure! Here's the answer to your question:\n\nMario Bros. was created by: 'Nintendo'"
+    },
+    {
+        "subject": "TSS/360",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nTSS/360 was created by:",
+        "response": "TSS/360 was created by: 'IBM'"
+    },
+    {
+        "subject": "Final Fantasy III",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Fantasy III was created by:",
+        "response": "Sure, I'd be happy to help! Here's the answer to your question:\n\nFinal Fantasy III was created by Square (now Square Enix)."
+    },
+    {
+        "subject": "Front Mission",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFront Mission was created by:",
+        "response": "Square Enix'"
+    },
+    {
+        "subject": "iBeacon",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niBeacon was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Installer",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Installer was created by:",
+        "response": "Windows Installer was created by: Microsoft"
+    },
+    {
+        "subject": "macOS Server",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nmacOS Server was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Hierarchical File System",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nHierarchical File System was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "EA-18G Growler",
+        "object": "Boeing",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nEA-18G Growler was created by:",
+        "response": "EA-18G Growler was created by: 'Boeing'"
+    },
+    {
+        "subject": "Mac OS X Snow Leopard",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS X Snow Leopard was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "Windows NT 4.0",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows NT 4.0 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "REXX",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nREXX was created by:",
+        "response": "REXX was created by: 'IBM'"
+    },
+    {
+        "subject": "Windows Phone",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Phone was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Xenix",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXenix was created by:",
+        "response": "Xenix was created by: 'Microsoft'"
+    },
+    {
+        "subject": "MacsBug",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMacsBug was created by:",
+        "response": "MacsBug was created by: Apple"
+    },
+    {
+        "subject": "Dynamic-link library",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDynamic-link library was created by:",
+        "response": "Microsoft'"
+    },
+    {
+        "subject": "MessagePad",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMessagePad was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nMessagePad was created by: 'Apple'"
+    },
+    {
+        "subject": "Shining Hearts",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nShining Hearts was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nShining Hearts was created by: 'Sega'"
+    },
+    {
+        "subject": "Final Cut Studio",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Cut Studio was created by:",
+        "response": "Final Cut Studio was created by Apple."
+    },
+    {
+        "subject": "Sonic Drift",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSonic Drift was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nSonic Drift was created by: 'Sega'"
+    },
+    {
+        "subject": "Advanced Systems Format",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAdvanced Systems Format was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nAdvanced Systems Format was created by: 'Microsoft'"
+    },
+    {
+        "subject": "OpenSearch",
+        "object": "Amazon",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOpenSearch was created by:",
+        "response": "OpenSearch was created by: 'Amazon'"
+    },
+    {
+        "subject": "Windows Aero",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Aero was created by:",
+        "response": "Windows Aero was created by: Microsoft"
+    },
+    {
+        "subject": "iPod Mini",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod Mini was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Shining Blade",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nShining Blade was created by:",
+        "response": "Sega'"
+    },
+    {
+        "subject": "Mario franchise",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMario franchise was created by:",
+        "response": "Sure! Here is the answer to your question:\n\nMario franchise was created by: 'Nintendo'"
+    },
+    {
+        "subject": "Mac OS X 10.1",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS X 10.1 was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "Windows 2.0",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 2.0 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "application bundle",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\napplication bundle was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "SPSS Modeler",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSPSS Modeler was created by:",
+        "response": "IBM'"
+    },
+    {
+        "subject": "Golden Axe",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGolden Axe was created by:",
+        "response": "Sure! Here's the answer to your question:\n\nGolden Axe was created by: 'Sega'"
+    },
+    {
+        "subject": "YUI Library",
+        "object": "Yahoo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nYUI Library was created by:",
+        "response": "YUI Library was created by: 'Yahoo!'"
+    },
+    {
+        "subject": "Windows Server 2012",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Server 2012 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows 1.0",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 1.0 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "XNU",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXNU was created by:",
+        "response": "XNU was created by Apple Inc."
+    },
+    {
+        "subject": "Windows Media Player",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Media Player was created by:",
+        "response": "Windows Media Player was created by: Microsoft"
+    },
+    {
+        "subject": "iTunes",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niTunes was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "DVD Studio Pro",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nDVD Studio Pro was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium 4",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPentium 4 was created by:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Super Monaco GP",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSuper Monaco GP was created by:",
+        "response": "Super Monaco GP was created by: 'Sega'"
+    },
+    {
+        "subject": "Yakuza",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nYakuza was created by:",
+        "response": "Sure, I'd be happy to help! Yakuza was created by: 'Sega'."
+    },
+    {
+        "subject": "Universal Media Disc",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nUniversal Media Disc was created by:",
+        "response": "Sony'"
+    },
+    {
+        "subject": "Chrono Trigger",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nChrono Trigger was created by:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "Picasa",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPicasa was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows 2000",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 2000 was created by:",
+        "response": "Windows 2000 was created by: Microsoft"
+    },
+    {
+        "subject": "Pentium Pro",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPentium Pro was created by:",
+        "response": "Intel"
+    },
+    {
+        "subject": "NetBurst",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nNetBurst was created by:",
+        "response": "Sure, I'd be happy to help! NetBurst was created by Intel."
+    },
+    {
+        "subject": "QuickDraw",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nQuickDraw was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": ".NET Framework",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\n.NET Framework was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Pilotwings 64",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPilotwings 64 was created by:",
+        "response": "Sure, I'd be happy to help! Pilotwings 64 was created by Nintendo."
+    },
+    {
+        "subject": "Cloud Spanner",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nCloud Spanner was created by:",
+        "response": "Cloud Spanner was created by Google."
+    },
+    {
+        "subject": "Windows Server 2003",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Server 2003 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "OneDrive",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOneDrive was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Chromecast",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nChromecast was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Update",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Update was created by:",
+        "response": "Windows Update was created by: Microsoft"
+    },
+    {
+        "subject": "Internet Explorer 10",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInternet Explorer 10 was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "XDCAM",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXDCAM was created by:",
+        "response": "Sony"
+    },
+    {
+        "subject": "TypeScript",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nTypeScript was created by:",
+        "response": "TypeScript was created by Microsoft."
+    },
+    {
+        "subject": "Virtual Console",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nVirtual Console was created by:",
+        "response": "Nintendo'"
+    },
+    {
+        "subject": "Bing Maps Platform",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nBing Maps Platform was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "GarageBand",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGarageBand was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Mother 3",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMother 3 was created by:",
+        "response": "Mother 3 was created by: 'Nintendo'"
+    },
+    {
+        "subject": "Outlook Express",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOutlook Express was created by:",
+        "response": "Outlook Express was created by Microsoft."
+    },
+    {
+        "subject": "Windows Malicious Software Removal Tool",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Malicious Software Removal Tool was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Front Mission 3",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFront Mission 3 was created by:",
+        "response": "Sure, I'd be happy to help! The creator of Front Mission 3 is:\n\n'Squaresoft'"
+    },
+    {
+        "subject": "Windows Media Encoder",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Media Encoder was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Thunder Blade",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nThunder Blade was created by:",
+        "response": "Thunder Blade was created by 'Sega'."
+    },
+    {
+        "subject": "iWork",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niWork was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPad Mini 3",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPad Mini 3 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Communication Foundation",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Communication Foundation was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Setup Information File",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Setup Information File was created by:",
+        "response": "Microsoft'"
+    },
+    {
+        "subject": "Fantasy Zone",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFantasy Zone was created by:",
+        "response": "Sega'"
+    },
+    {
+        "subject": "Asteroids Deluxe",
+        "object": "Atari",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAsteroids Deluxe was created by:",
+        "response": "Atari."
+    },
+    {
+        "subject": "Fortran",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFortran was created by:",
+        "response": "Fortran was created by: 'IBM'"
+    },
+    {
+        "subject": "iPad 3",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPad 3 was created by:",
+        "response": "Sure, I'd be happy to help! iPad 3 was created by Apple."
+    },
+    {
+        "subject": "Final Fantasy Legend II",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Fantasy Legend II was created by:",
+        "response": "Square Enix'"
+    },
+    {
+        "subject": "Alien Storm",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAlien Storm was created by:",
+        "response": "Sure, I'd be happy to help! Alien Storm was created by 'Sega'."
+    },
+    {
+        "subject": "Newton OS",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nNewton OS was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "Final Cut Pro X",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Cut Pro X was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "WebKit",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWebKit was created by:",
+        "response": "WebKit was created by Apple Inc."
+    },
+    {
+        "subject": "Flicky",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFlicky was created by:",
+        "response": "Flicky was created by: 'Sega'"
+    },
+    {
+        "subject": "Amiibo",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAmiibo was created by:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Android Jelly Bean",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAndroid Jelly Bean was created by:",
+        "response": "Android Jelly Bean was created by: Google"
+    },
+    {
+        "subject": "Windows Embedded Automotive",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Embedded Automotive was created by:",
+        "response": "Windows Embedded Automotive was created by: Microsoft"
+    },
+    {
+        "subject": "OS X Yosemite",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOS X Yosemite was created by:",
+        "response": "OS X Yosemite was created by Apple Inc."
+    },
+    {
+        "subject": "PostScript",
+        "object": "Adobe",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPostScript was created by:",
+        "response": "PostScript was created by: Adobe"
+    },
+    {
+        "subject": "Windows Live Writer",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Live Writer was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X 10.0",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS X 10.0 was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nMac OS X 10.0 was created by Apple Inc."
+    },
+    {
+        "subject": "iPod Touch",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod Touch was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "X11.app",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nX11.app was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "OpenAFS",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOpenAFS was created by:",
+        "response": "OpenAFS was created by: 'IBM'"
+    },
+    {
+        "subject": "GW-BASIC",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nGW-BASIC was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X Tiger",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS X Tiger was created by:",
+        "response": "Apple'"
+    },
+    {
+        "subject": "OS X Mountain Lion",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nOS X Mountain Lion was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Mac OS X 10.2",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMac OS X 10.2 was created by:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nMac OS X 10.2 was created by Apple Inc."
+    },
+    {
+        "subject": "Super Audio CD",
+        "object": "Sony",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSuper Audio CD was created by:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Android Auto",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nAndroid Auto was created by:",
+        "response": "Android Auto was created by Google."
+    },
+    {
+        "subject": "Pentium M",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPentium M was created by:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Windows Messaging",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Messaging was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Genuine Advantage",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Genuine Advantage was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "MSX-DOS",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMSX-DOS was created by:",
+        "response": "MSX-DOS was created by: 'Microsoft'"
+    },
+    {
+        "subject": "iOS 7",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niOS 7 was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Itanium",
+        "object": "Intel",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nItanium was created by:",
+        "response": "Intel"
+    },
+    {
+        "subject": "iChat",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niChat was created by:",
+        "response": "iChat was created by Apple."
+    },
+    {
+        "subject": "Xbox Live",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXbox Live was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "System 7",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSystem 7 was created by:",
+        "response": "System 7 was created by: Apple"
+    },
+    {
+        "subject": "MS-DOS",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nMS-DOS was created by:",
+        "response": "Microsoft."
+    },
+    {
+        "subject": "iPod Classic",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niPod Classic was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Yoshi's Universal Gravitation",
+        "object": "Nintendo",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nYoshi's Universal Gravitation was created by:",
+        "response": "Sure, I'd be happy to help! Yoshi's Universal Gravitation was created by: 'Nintendo'"
+    },
+    {
+        "subject": "Resource Access Control Facility",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nResource Access Control Facility was created by:",
+        "response": "IBM'"
+    },
+    {
+        "subject": "Applesoft BASIC",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nApplesoft BASIC was created by:",
+        "response": "Microsoft'"
+    },
+    {
+        "subject": "Final Fantasy X",
+        "object": "Square",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nFinal Fantasy X was created by:",
+        "response": "Sure, I'd be happy to help! Here's the answer to your question:\n\nFinal Fantasy X was created by Square Enix."
+    },
+    {
+        "subject": "Zaxxon",
+        "object": "Sega",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nZaxxon was created by:",
+        "response": "Sure! Zaxxon was created by: 'Sega'."
+    },
+    {
+        "subject": "TextEdit",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nTextEdit was created by:",
+        "response": "Sure! Here's the answer to your question:\n\nTextEdit was created by Apple."
+    },
+    {
+        "subject": "App Store",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nApp Store was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Report Program Generator",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nReport Program Generator was created by:",
+        "response": "IBM'"
+    },
+    {
+        "subject": "Wear OS",
+        "object": "Google",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWear OS was created by:",
+        "response": "Google"
+    },
+    {
+        "subject": "iDisk",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\niDisk was created by:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Internet Explorer Mobile",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nInternet Explorer Mobile was created by:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows 2.1x",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows 2.1x was created by:",
+        "response": "Windows 2.1x was created by: Microsoft"
+    },
+    {
+        "subject": "Windows Embedded",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWindows Embedded was created by:",
+        "response": "Windows Embedded was created by: Microsoft"
+    },
+    {
+        "subject": "Portable Document Format",
+        "object": "Adobe",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nPortable Document Format was created by:",
+        "response": "Adobe"
+    },
+    {
+        "subject": "XEDIT",
+        "object": "IBM",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nXEDIT was created by:",
+        "response": "XEDIT was created by: 'IBM'"
+    },
+    {
+        "subject": "WinDbg",
+        "object": "Microsoft",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nWinDbg was created by:",
+        "response": "Microsoft'"
+    },
+    {
+        "subject": "Siri",
+        "object": "Apple",
+        "prompt": "Example 0:Platform Controller Hub was created by: 'Intel'\n\nExample 1:Shahab-2 was created by: 'Iran'\n\nExample 2:Infiniti QX was created by: 'Nissan'\n\nSiri was created by:",
+        "response": "Siri was created by Apple."
+    }
+]

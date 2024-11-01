@@ -1,0 +1,32 @@
+[
+    {
+        "subject": "Infiniti QX",
+        "object": "Nissan",
+        "prompt": "Infiniti QX was created by? The answer is:",
+        "response": "Niss"
+    },
+    {
+        "subject": "Acura TL",
+        "object": "Honda",
+        "prompt": "Acura TL was created by? The answer is:",
+        "response": "Honda"
+    },
+    {
+        "subject": "DualShock",
+        "object": "Sony",
+        "prompt": "Which company developed DualShock? The answer is:",
+        "response": "S"
+    },
+    {
+        "subject": "Game Boy Advance SP",
+        "object": "Nintendo",
+        "prompt": "Game Boy Advance SP was created by? The answer is:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Kindle Fire",
+        "object": "Amazon",
+        "prompt": "Kindle Fire is a product of? The answer is:",
+        "response": "Amazon"
+    }
+]

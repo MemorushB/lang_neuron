@@ -1,0 +1,92 @@
+[
+    {
+        "subject": "Platform Controller Hub",
+        "object": "Intel",
+        "prompt": "Shahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nPlatform Controller Hub was created by? The answer is:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Shahab-2",
+        "object": "Iran",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nInfiniti QX was created by? The answer is: Nissan\nShahab-2 was created by? The answer is:",
+        "response": "Iran"
+    },
+    {
+        "subject": "Infiniti QX",
+        "object": "Nissan",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is:",
+        "response": "Niss"
+    },
+    {
+        "subject": "iPhone 5",
+        "object": "Apple",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\niPhone 5 was created by? The answer is:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Wii Balance Board",
+        "object": "Nintendo",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nWii Balance Board was created by? The answer is:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Acura TL",
+        "object": "Honda",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nAcura TL was created by? The answer is:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Windows Server 2003",
+        "object": "Microsoft",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nWindows Server 2003 was created by? The answer is:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "DualShock",
+        "object": "Sony",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nDualShock was created by? The answer is:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Mac Pro",
+        "object": "Apple",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nMac Pro was created by? The answer is:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Game Boy Advance SP",
+        "object": "Nintendo",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nGame Boy Advance SP was created by? The answer is:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Prince R380",
+        "object": "Nissan",
+        "prompt": "Platform Controller Hub is a product of? The answer is: Intel\nShahab-2 is a product of? The answer is: Iran\nInfiniti QX is a product of? The answer is: Nissan\nPrince R380 is a product of? The answer is:",
+        "response": "Niss"
+    },
+    {
+        "subject": "Geo Metro",
+        "object": "Suzuki",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nGeo Metro was created by? The answer is:",
+        "response": "Suzu"
+    },
+    {
+        "subject": "Shahab-1",
+        "object": "Iran",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nShahab-1 was created by? The answer is:",
+        "response": "Iran"
+    },
+    {
+        "subject": "DC-3",
+        "object": "Douglas",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nDC-3 was created by? The answer is:",
+        "response": "Douglas"
+    },
+    {
+        "subject": "Kindle Fire",
+        "object": "Amazon",
+        "prompt": "Platform Controller Hub was created by? The answer is: Intel\nShahab-2 was created by? The answer is: Iran\nInfiniti QX was created by? The answer is: Nissan\nKindle Fire was created by? The answer is:",
+        "response": "Amazon"
+    }
+]

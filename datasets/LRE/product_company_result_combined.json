@@ -1,0 +1,2486 @@
+[
+    {
+        "subject": "Shahab-2",
+        "object": "Iran",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Shahab-2 was created by? Answer:",
+        "response": "Iran"
+    },
+    {
+        "subject": "Infiniti QX",
+        "object": "Nissan",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\n\nQuestion: Which company developed Infiniti QX? It was developed by? Answer:",
+        "response": "Answer: Nissan"
+    },
+    {
+        "subject": "iPhone 5",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPhone 5 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Wii Balance Board",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Wii Balance Board was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Acura TL",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura TL was created by? Answer:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Windows Server 2003",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Server 2003 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "DualShock",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: DualShock was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Mac Pro",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Game Boy Advance SP",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Game Boy Advance SP was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Shahab-1",
+        "object": "Iran",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Shahab-1 is a product of? Answer:",
+        "response": "Iran"
+    },
+    {
+        "subject": "DC-3",
+        "object": "Douglas",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: DC-3 was created by? Answer:",
+        "response": "DC-3 was created by Douglas Aircraft Company."
+    },
+    {
+        "subject": "Kindle Fire",
+        "object": "Amazon",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Kindle Fire was created by? Answer:",
+        "response": "Answer: Amazon"
+    },
+    {
+        "subject": "Autobianchi Y10",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Autobianchi Y10 was created by? Answer:",
+        "response": "Autobianchi Y10 was created by Fiat."
+    },
+    {
+        "subject": "Mini E",
+        "object": "BMW",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mini E was created by? Answer:",
+        "response": "Answer: BMW"
+    },
+    {
+        "subject": "Isetta",
+        "object": "BMW",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Isetta was created by? Answer:",
+        "response": "Answer: BMW"
+    },
+    {
+        "subject": "Datsun Sports",
+        "object": "Nissan",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Datsun Sports was created by? Answer:",
+        "response": "Answer: Nissan"
+    },
+    {
+        "subject": "Acura ILX",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura ILX was created by? Answer:",
+        "response": "Acura ILX was created by Honda."
+    },
+    {
+        "subject": "SteadyShot",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: SteadyShot was created by? Answer:",
+        "response": "Answer: Sony"
+    },
+    {
+        "subject": "SNES-CD",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: SNES-CD was created by? Answer:",
+        "response": "Sure, I'd be happy to help! The answer to the question \"SNES-CD was created by?\" is:\n\nNintendo"
+    },
+    {
+        "subject": "Lancia Aprilia",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Lancia Aprilia? It was developed by? Answer:",
+        "response": "Answer: Fiat Chrysler Automobiles (FCA)"
+    },
+    {
+        "subject": "Windows Live Mail",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Live Mail was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Bionz",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Bionz was created by? Answer:",
+        "response": "Sony."
+    },
+    {
+        "subject": "Acura ZDX",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura ZDX was created by? Answer:",
+        "response": "Acura ZDX was created by Honda."
+    },
+    {
+        "subject": "Lancia Thema",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Lancia Thema? It was developed by? Answer:",
+        "response": "Answer: Fiat Chrysler Automobiles (FCA)"
+    },
+    {
+        "subject": "Acura EL",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura EL was created by? Answer:",
+        "response": "Answer: Honda"
+    },
+    {
+        "subject": "Acura MDX",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura MDX was created by? Answer:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Toyopet Master",
+        "object": "Toyota",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Toyopet Master was created by? Answer:",
+        "response": "Toyopet Master was created by Toyota."
+    },
+    {
+        "subject": "Xbox",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Xbox was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iPhone 4s",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPhone 4s was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Dino",
+        "object": "Ferrari",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Dino was created by? Answer:",
+        "response": "Answer: Ferrari"
+    },
+    {
+        "subject": "iPod",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPad Mini",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPad Mini was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "AGM-69 SRAM",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: AGM-69 SRAM is a product of? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "iPod Mini",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod Mini was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "AMR 35",
+        "object": "Renault",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed AMR 35? It was developed by? Answer:",
+        "response": "Answer: Renault"
+    },
+    {
+        "subject": "TorqueFlite",
+        "object": "Chrysler",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: TorqueFlite is a product of? Answer:",
+        "response": "Answer: Chrysler"
+    },
+    {
+        "subject": "Alfa Romeo MiTo",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Alfa Romeo MiTo was created by? Answer:",
+        "response": "Answer: Fiat"
+    },
+    {
+        "subject": "Color TV-Game",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Color TV-Game was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Mini Hatch",
+        "object": "BMW",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mini Hatch was created by? Answer:",
+        "response": "BMW"
+    },
+    {
+        "subject": "MessagePad",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MessagePad was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Lancia Musa",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Lancia Musa was created by? Answer:",
+        "response": "Lancia Musa was created by Fiat Chrysler Automobiles (FCA)."
+    },
+    {
+        "subject": "F3D Skyknight",
+        "object": "Douglas",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed F3D Skyknight? It was developed by? Answer:",
+        "response": "Answer: McDonnell Douglas"
+    },
+    {
+        "subject": "Dacia Sandero",
+        "object": "Renault",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Dacia Sandero was created by? Answer:",
+        "response": "Answer: Renault"
+    },
+    {
+        "subject": "Lancia Dedra",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Lancia Dedra was created by? Answer:",
+        "response": "Answer: Fiat"
+    },
+    {
+        "subject": "Acura RDX",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura RDX was created by? Answer:",
+        "response": "Acura RDX was created by Honda."
+    },
+    {
+        "subject": "Rolls-Royce Phantom",
+        "object": "BMW",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Rolls-Royce Phantom was created by? Answer:",
+        "response": "Answer: BMW"
+    },
+    {
+        "subject": "iPod shuffle",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod shuffle was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Plymouth Prowler",
+        "object": "Chrysler",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Plymouth Prowler was created by? Answer:",
+        "response": "Answer: Chrysler"
+    },
+    {
+        "subject": "B-17 Flying Fortress",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: B-17 Flying Fortress was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "Infiniti Q50",
+        "object": "Nissan",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Infiniti Q50 was created by? Answer:",
+        "response": "Nissan"
+    },
+    {
+        "subject": "Exmor",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Exmor was created by? Answer:",
+        "response": "Sony."
+    },
+    {
+        "subject": "Windows 2000",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 2000 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Alfa Romeo Brera",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Alfa Romeo Brera was created by? Answer:",
+        "response": "Answer: Fiat"
+    },
+    {
+        "subject": "B-29 Superfortress",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: B-29 Superfortress was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "Lancia Ypsilon",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Lancia Ypsilon? It was developed by? Answer:",
+        "response": "Answer: Fiat Chrysler Automobiles (FCA)"
+    },
+    {
+        "subject": "Acura Legend",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura Legend was created by? Answer:",
+        "response": "Answer: Honda"
+    },
+    {
+        "subject": "Lancia Gamma",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Lancia Gamma was created by? Answer:",
+        "response": "Lancia Gamma was created by Fiat Chrysler Automobiles (FCA)."
+    },
+    {
+        "subject": "N-Gage QD",
+        "object": "Nokia",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: N-Gage QD was created by? Answer:",
+        "response": "Answer: Nokia"
+    },
+    {
+        "subject": "Alpine A106",
+        "object": "Renault",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Alpine A106? It was developed by? Answer:",
+        "response": "Answer: Renault"
+    },
+    {
+        "subject": "iPhone 3GS",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPhone 3GS was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPad",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPad was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Acura CL",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura CL was created by? Answer:",
+        "response": "Acura CL was created by Honda."
+    },
+    {
+        "subject": "Windows Phone 8.1",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Phone 8.1 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "B-47 Stratojet",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: B-47 Stratojet was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "Alfa Romeo 155",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Alfa Romeo 155 is a product of? Answer:",
+        "response": "Fiat"
+    },
+    {
+        "subject": "iPhone 1",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPhone 1 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "CineAlta",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: CineAlta was created by? Answer:",
+        "response": "Answer: Sony"
+    },
+    {
+        "subject": "Plymouth Valiant",
+        "object": "Chrysler",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Plymouth Valiant was created by? Answer:",
+        "response": "Answer: Chrysler"
+    },
+    {
+        "subject": "Autobianchi A112",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Autobianchi A112 was created by? Answer:",
+        "response": "Answer: Fiat"
+    },
+    {
+        "subject": "Chromecast",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Chromecast was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Chromebook Pixel",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Chromebook Pixel was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "LGA 775",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: LGA 775 was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Scion tC",
+        "object": "Toyota",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Scion tC was created by? Answer:",
+        "response": "Toyota"
+    },
+    {
+        "subject": "iPad 4",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPad 4 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Shahab-4",
+        "object": "Iran",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Shahab-4? It was developed by? Answer:",
+        "response": "Answer: Iran"
+    },
+    {
+        "subject": "MacBook Air",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MacBook Air was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Jeep Grand Cherokee",
+        "object": "Chrysler",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Jeep Grand Cherokee is a product of? Answer:",
+        "response": "Fiat Chrysler Automobiles (FCA)"
+    },
+    {
+        "subject": "Game & Watch",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Game & Watch was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Wii U",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Wii U was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Game Boy Advance",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Game Boy Advance was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "DC-9",
+        "object": "Douglas",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: DC-9 was created by? Answer:",
+        "response": "Answer: McDonnell Douglas"
+    },
+    {
+        "subject": "Fateh-110",
+        "object": "Iran",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Fateh-110 was created by? Answer:",
+        "response": "Iran"
+    },
+    {
+        "subject": "Windows Vista",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Vista was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Lancia Lybra",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Lancia Lybra was created by? Answer:",
+        "response": "Lancia Lybra was created by Fiat Chrysler Automobiles (FCA)."
+    },
+    {
+        "subject": "iPhone",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPhone was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Infiniti JX",
+        "object": "Nissan",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Infiniti JX was created by? Answer:",
+        "response": "Nissan"
+    },
+    {
+        "subject": "DeltaWing",
+        "object": "Nissan",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: DeltaWing was created by? Answer:",
+        "response": "Answer: Nissan"
+    },
+    {
+        "subject": "iPod Touch",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod Touch was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Alfa Romeo SZ",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Alfa Romeo SZ was created by? Answer:",
+        "response": "Alfa Romeo SZ was created by Fiat."
+    },
+    {
+        "subject": "VTEC",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: VTEC was created by? Answer:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Xeon",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Xeon was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Windows 7",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 7 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "EA-18G Growler",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: EA-18G Growler was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "Amiibo",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Amiibo was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "MacBook Pro",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MacBook Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Alfa Romeo 75",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Alfa Romeo 75 is a product of? Answer:",
+        "response": "Answer: Fiat"
+    },
+    {
+        "subject": "Jeep Wrangler",
+        "object": "Chrysler",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Jeep Wrangler was created by? Answer:",
+        "response": "Answer: Chrysler"
+    },
+    {
+        "subject": "Game Boy Micro",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Game Boy Micro was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "PlayStation Eye",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: PlayStation Eye was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "iPod Classic",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod Classic was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Zelzal-2",
+        "object": "Iran",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Zelzal-2 was created by? Answer:",
+        "response": "Iran"
+    },
+    {
+        "subject": "Cyber-shot",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Cyber-shot was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Windows Phone 7",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Phone 7 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Family Computer Disk System",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Family Computer Disk System was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Alfa Romeo 164",
+        "object": "Fiat",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Alfa Romeo 164 was created by? Answer:",
+        "response": "Fiat."
+    },
+    {
+        "subject": "Dacia Duster",
+        "object": "Renault",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Dacia Duster was created by? Answer:",
+        "response": "Answer: Renault"
+    },
+    {
+        "subject": "Windows Phone 8",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Phone 8 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Super Game Boy",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Super Game Boy was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Acura RL",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura RL was created by? Answer:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Acura TSX",
+        "object": "Honda",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Acura TSX was created by? Answer:",
+        "response": "Acura TSX was created by Honda."
+    },
+    {
+        "subject": "Mini Countryman",
+        "object": "BMW",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Mini Countryman is a product of? Answer:",
+        "response": "Answer: BMW"
+    },
+    {
+        "subject": "Scion xD",
+        "object": "Toyota",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Scion xD was created by? Answer:",
+        "response": "Toyota"
+    },
+    {
+        "subject": "iTunes Remote",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iTunes Remote was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Infiniti Q45",
+        "object": "Nissan",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Infiniti Q45 was created by? Answer:",
+        "response": "Nissan"
+    },
+    {
+        "subject": "Windows Embedded CE 6.0",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Embedded CE 6.0 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Sandy Bridge",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Sandy Bridge was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Tizen",
+        "object": "Samsung",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Tizen was created by? Answer:",
+        "response": "Answer: Samsung"
+    },
+    {
+        "subject": "VP9",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: VP9 was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "Final Fantasy",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Fantasy was created by? Answer:",
+        "response": "Answer: Square Enix"
+    },
+    {
+        "subject": "OS X Mavericks",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: OS X Mavericks was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iBooks Author",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iBooks Author was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Symbian",
+        "object": "Nokia",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Symbian is a product of? Answer:",
+        "response": "Answer: Nokia"
+    },
+    {
+        "subject": "Windows 98",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 98 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Embedded Compact",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Embedded Compact was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Internet Explorer 5",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Internet Explorer 5 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows XP",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows XP was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "NTFS",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: NTFS was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Windows Driver Frameworks",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Driver Frameworks was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Glyph Bitmap Distribution Format",
+        "object": "Adobe",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Glyph Bitmap Distribution Format was created by? Answer:",
+        "response": "Answer: Adobe"
+    },
+    {
+        "subject": "Logic Pro",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Logic Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows NT 3.1",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows NT 3.1 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Final Fantasy V",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Fantasy V was created by? Answer:",
+        "response": "Final Fantasy V was created by Square (now Square Enix)."
+    },
+    {
+        "subject": "DirectX",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: DirectX was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Disk Utility",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Disk Utility was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Core 2",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Core 2 was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Internet Explorer",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Internet Explorer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X Lion",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS X Lion was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Gmail",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Gmail was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "Mac OS X Panther",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS X Panther was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "ISPF",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: ISPF was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Sonic Drift 2",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Sonic Drift 2 was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Windows Easy Transfer",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Easy Transfer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Media Video",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Media Video was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Xbox One",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Xbox One was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows RT",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows RT was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Windows Server 2008",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Server 2008 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Internet Explorer 7",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Internet Explorer 7 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Photo Booth",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Photo Booth was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iCloud",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iCloud was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Live Mesh",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Live Mesh was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Android Runtime",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Android Runtime was created by? Answer:",
+        "response": "Android Runtime was created by Google."
+    },
+    {
+        "subject": "VoiceOver",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: VoiceOver was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MacPaint",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MacPaint was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "MiniDisc",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MiniDisc was created by? Answer:",
+        "response": "Answer: Sony"
+    },
+    {
+        "subject": "QuickTime",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: QuickTime was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Chrome OS",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Chrome OS was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "Windows NT 3.51",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows NT 3.51 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Newsstand",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Newsstand was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows 7",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 7 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Visual Basic Script",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Visual Basic Script was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Donkey Kong",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Donkey Kong was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "iPod Nano",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod Nano was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Bing Maps",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Bing Maps was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Virtual PC",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Virtual PC was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "PowerShell",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: PowerShell was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Me",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Me was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "PostScript Printer Description",
+        "object": "Adobe",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: PostScript Printer Description was created by? Answer:",
+        "response": "Answer: Adobe"
+    },
+    {
+        "subject": "MacApp",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MacApp was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Windows Live Messenger",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Live Messenger was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "WebP Lossless",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: WebP Lossless was created by? Answer:",
+        "response": "WebP Lossless was created by Google."
+    },
+    {
+        "subject": "Windows Vista",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Vista was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows 8",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 8 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Transaction Processing Facility",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Transaction Processing Facility was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "ColorSync",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: ColorSync was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Safari",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Safari was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "HFS Plus",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: HFS Plus was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "The Revenge of Shinobi",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: The Revenge of Shinobi was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Event Viewer",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Event Viewer was created by? Answer:",
+        "response": "Event Viewer was created by Microsoft."
+    },
+    {
+        "subject": "Wii U system software",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Wii U system software was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "MSX BASIC",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MSX BASIC was created by? Answer:",
+        "response": "MSX BASIC was created by Microsoft."
+    },
+    {
+        "subject": "Clang",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Clang was created by? Answer:",
+        "response": "Clang was created by Apple Inc."
+    },
+    {
+        "subject": "iOS",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iOS was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "QuickTime VR",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: QuickTime VR was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Xbox 360",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Xbox 360 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Altered Beast",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Altered Beast was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "WebObjects",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: WebObjects was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "ActiveSync",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: ActiveSync was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "WebM",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: WebM was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "iOS 5",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iOS 5 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Xsan",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Xsan was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Schema.org",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Schema.org was created by? Answer:",
+        "response": "Answer: Google, Bing, Yahoo, and Yandex"
+    },
+    {
+        "subject": "SonicStage",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: SonicStage was created by? Answer:",
+        "response": "Answer: Sony"
+    },
+    {
+        "subject": "Internet Explorer 11",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Internet Explorer 11 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows XP Media Center Edition",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows XP Media Center Edition was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Binary Synchronous Communications",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Binary Synchronous Communications was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Mac OS 8",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS 8 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Alex Kidd",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Alex Kidd was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "CICS",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: CICS was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Windows 10",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 10 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iOS 8",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iOS 8 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MobileMe",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MobileMe was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium II",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Pentium II was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Time Machine (macOS)",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Time Machine (macOS) was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Open XML Paper Specification",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Open XML Paper Specification was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Eternal Champions",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Eternal Champions was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Internet Information Services",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Internet Information Services was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Process Explorer",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Process Explorer was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "HyperCard",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: HyperCard was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Phone 8.1",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Phone 8.1 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Wii U",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Wii U was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "App Inventor for Android",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: App Inventor for Android was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "Final Cut Pro",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Cut Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "B-52 Stratofortress",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: B-52 Stratofortress is a product of? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "B-17 Flying Fortress",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: B-17 Flying Fortress was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "File Explorer",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: File Explorer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Macintosh File System",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Macintosh File System was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "iLife",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iLife was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "IA-32",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: IA-32 was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Visual Basic .NET",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Visual Basic .NET was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Zune",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Zune was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows NT",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows NT was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Wii MotionPlus",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Wii MotionPlus was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Skype",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Skype was created by? Answer:",
+        "response": "Sure! Skype was created by Microsoft."
+    },
+    {
+        "subject": "Tetris DS",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Tetris DS was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Soundtrack Pro",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Soundtrack Pro was created by? Answer:",
+        "response": "Sure, I'd be happy to help! The answer to the question \"Soundtrack Pro was created by?\" is: Apple."
+    },
+    {
+        "subject": "IA-64",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: IA-64 was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Windows Phone 8",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Phone 8 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "G Suite",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: G Suite was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "MVS",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MVS was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Office Open XML",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Office Open XML was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "KC-767",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: KC-767 was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "Schema.org",
+        "object": "Yahoo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Schema.org was created by? Answer:",
+        "response": "Sure! Schema.org was created by Google, Bing, Yahoo, and Yandex."
+    },
+    {
+        "subject": "Rich Text Format",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Rich Text Format is a product of? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Windows Server 2008 R2",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Server 2008 R2 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Internet Explorer 9",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Internet Explorer 9 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS 9",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS 9 was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "CarPlay",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: CarPlay was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPod",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium III",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Pentium III was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Rational Team Concert",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Rational Team Concert was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "MXML",
+        "object": "Adobe",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: MXML is a product of? Answer:",
+        "response": "Answer: Adobe"
+    },
+    {
+        "subject": "The Legend of Zelda",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: The Legend of Zelda was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Quick Look",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Quick Look was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Mobile 6.5",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Mobile 6.5 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Movie Maker",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Movie Maker was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Interface Builder",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Interface Builder was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "NTLDR",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: NTLDR was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Audio Interchange File Format",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Audio Interchange File Format was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Windows Media Audio",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Media Audio was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Virtual Hard Disk",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Virtual Hard Disk was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "iTunes Radio",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iTunes Radio was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Metroid",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Metroid was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Windows 8.1",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 8.1 was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "macOS",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: macOS was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Live OneCare",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Live OneCare was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Active Server Pages",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Active Server Pages was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Xcode",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Xcode was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Mobile",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Mobile was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Golden Axe",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Golden Axe was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "iOS 6",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iOS 6 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "SPDY",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: SPDY was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "Windows Internet Explorer 8",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Internet Explorer 8 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Logic Studio",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Logic Studio was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "iPod shuffle",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod shuffle was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Mixed Reality",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Mixed Reality was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Final Fantasy Legend III",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Fantasy Legend III was created by? Answer:",
+        "response": "Answer: Square (now Square Enix)"
+    },
+    {
+        "subject": "Windows NT 3.5",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows NT 3.5 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Motion",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Motion? It was developed by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Project Ara",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Project Ara was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "Android TV",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Android TV was created by? Answer:",
+        "response": "Sure! Android TV was created by Google."
+    },
+    {
+        "subject": "Robocopy",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Robocopy was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Mac OS X Leopard",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS X Leopard was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Gran Trak 10",
+        "object": "Atari",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Gran Trak 10? It was developed by? Answer:",
+        "response": "Answer: Atari"
+    },
+    {
+        "subject": "iMovie",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iMovie was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Yakuza 2",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Yakuza 2 was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Windows Phone Store",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Phone Store was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Pentium",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Pentium was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "sRGB",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: sRGB was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "B-47 Stratojet",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: B-47 Stratojet was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "Object REXX",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Object REXX was created by? Answer:",
+        "response": "Object REXX was created by IBM."
+    },
+    {
+        "subject": "Windows 95",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 95 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mario Bros.",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mario Bros. was created by? Answer:",
+        "response": "Sure, I'd be happy to help! The answer to the question \"Mario Bros. was created by?\" is:\n\nNintendo"
+    },
+    {
+        "subject": "TSS/360",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: TSS/360 was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Final Fantasy III",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Fantasy III was created by? Answer:",
+        "response": "Answer: Square (now Square Enix)"
+    },
+    {
+        "subject": "Front Mission",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Front Mission was created by? Answer:",
+        "response": "Answer: Square Enix"
+    },
+    {
+        "subject": "iBeacon",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iBeacon was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Installer",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Installer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "macOS Server",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: macOS Server was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Hierarchical File System",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Hierarchical File System is a product of? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "EA-18G Growler",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: EA-18G Growler was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "Time Sharing Option",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Time Sharing Option was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Mac OS X Snow Leopard",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS X Snow Leopard was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows NT 4.0",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows NT 4.0 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "REXX",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: REXX was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Windows Phone",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Phone was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Xenix",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Xenix was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "B-29 Superfortress",
+        "object": "Boeing",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: B-29 Superfortress was created by? Answer:",
+        "response": "Answer: Boeing"
+    },
+    {
+        "subject": "MacsBug",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MacsBug was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Dynamic-link library",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Dynamic-link library was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "MessagePad",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MessagePad was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Shining Hearts",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Shining Hearts was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Final Cut Studio",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Cut Studio was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Sonic Drift",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Sonic Drift was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Advanced Systems Format",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Advanced Systems Format was created by? Answer:",
+        "response": "Advanced Systems Format was created by Microsoft."
+    },
+    {
+        "subject": "OpenSearch",
+        "object": "Amazon",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: OpenSearch was created by? Answer:",
+        "response": "OpenSearch was created by Amazon."
+    },
+    {
+        "subject": "Windows Aero",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Aero was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iPod Mini",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod Mini was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Mario franchise",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mario franchise was created by? Answer:",
+        "response": "Answer: Nintendo"
+    },
+    {
+        "subject": "Mac OS X 10.1",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS X 10.1 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows 2.0",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 2.0 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "application bundle",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: application bundle was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "SPSS Modeler",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: SPSS Modeler was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Golden Axe",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Golden Axe was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "YUI Library",
+        "object": "Yahoo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: YUI Library was created by? Answer:",
+        "response": "YUI Library was created by Yahoo!"
+    },
+    {
+        "subject": "Windows Server 2012",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Server 2012 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows 1.0",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 1.0 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "XNU",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: XNU was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Media Player",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Media Player was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iTunes",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iTunes was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "DVD Studio Pro",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: DVD Studio Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium 4",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Pentium 4 was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Yakuza",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Yakuza is a product of? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Universal Media Disc",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Universal Media Disc was created by? Answer:",
+        "response": "Answer: Sony"
+    },
+    {
+        "subject": "Chrono Trigger",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Chrono Trigger was created by? Answer:",
+        "response": "Sure! Chrono Trigger was created by Square (now Square Enix)."
+    },
+    {
+        "subject": "Picasa",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Picasa was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "General Transit Feed Specification",
+        "object": "Google",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed General Transit Feed Specification? It was developed by? Answer:",
+        "response": "The company that developed General Transit Feed Specification (GTFS) is Google."
+    },
+    {
+        "subject": "HyperTalk",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: HyperTalk was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Windows 2000",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 2000 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Pentium Pro",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Pentium Pro was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "NetBurst",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: NetBurst is a product of? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "QuickDraw",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: QuickDraw was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": ".NET Framework",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: .NET Framework was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Pilotwings 64",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Pilotwings 64 was created by? Answer:",
+        "response": "Sure, I'd be happy to help! The answer to the question \"Pilotwings 64 was created by?\" is:\n\nNintendo"
+    },
+    {
+        "subject": "Cloud Spanner",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Cloud Spanner was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Server 2003",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Server 2003 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "OneDrive",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: OneDrive was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Chromecast",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Chromecast was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Update",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Update was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Internet Explorer 10",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Internet Explorer 10 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "XDCAM",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: XDCAM was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "CUPS",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: CUPS was created by? Answer:",
+        "response": "CUPS was created by Apple."
+    },
+    {
+        "subject": "Programmed Airline Reservations System",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Programmed Airline Reservations System was created by? Answer:",
+        "response": "Programmed Airline Reservations System was created by IBM."
+    },
+    {
+        "subject": "TypeScript",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: TypeScript was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Virtual Console",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Virtual Console was created by? Answer:",
+        "response": "Sure, I'd be happy to help! The answer to the question \"Virtual Console was created by?\" is:\n\nNintendo"
+    },
+    {
+        "subject": "Cyberdog",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Cyberdog? It was developed by? Answer:",
+        "response": "Sure, I'd be happy to help! The answer to your question is:\n\nCyberdog was developed by Apple."
+    },
+    {
+        "subject": "Bing Maps Platform",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Bing Maps Platform was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "GarageBand",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: GarageBand was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Mother 3",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mother 3 was created by? Answer:",
+        "response": "Sure, I'd be happy to help! The answer to the question \"Mother 3 was created by?\" is:\n\nNintendo"
+    },
+    {
+        "subject": "Outlook Express",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Outlook Express was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Malicious Software Removal Tool",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Malicious Software Removal Tool was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Front Mission 3",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Front Mission 3 was created by? Answer:",
+        "response": "Front Mission 3 was created by Square (now Square Enix)."
+    },
+    {
+        "subject": "Windows Media Encoder",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Media Encoder was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iWork",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iWork was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPad Mini 3",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPad Mini 3 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Communication Foundation",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Communication Foundation was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Setup Information File",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Setup Information File was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Fantasy Zone",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Fantasy Zone was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Asteroids Deluxe",
+        "object": "Atari",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Asteroids Deluxe was created by? Answer:",
+        "response": "Answer: Atari"
+    },
+    {
+        "subject": "Fortran",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Fortran was created by? Answer:",
+        "response": "Sure, I'd be happy to help! Fortran was created by IBM."
+    },
+    {
+        "subject": "iPad 3",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPad 3 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Final Fantasy Legend II",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Fantasy Legend II was created by? Answer:",
+        "response": "Final Fantasy Legend II was created by Square (now Square Enix)."
+    },
+    {
+        "subject": "Alien Storm",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Alien Storm was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "Newton OS",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Newton OS was created by? Answer:",
+        "response": "Answer: Apple"
+    },
+    {
+        "subject": "Final Cut Pro X",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Cut Pro X was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Silvermont",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Silvermont was created by? Answer:",
+        "response": "Sure! The answer to your question is: Intel."
+    },
+    {
+        "subject": "WebKit",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: WebKit was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Flicky",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Flicky was created by? Answer:",
+        "response": "Sure! Flicky was created by Sega."
+    },
+    {
+        "subject": "Amiibo",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Amiibo was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Android Jelly Bean",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Android Jelly Bean was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Embedded Automotive",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Embedded Automotive was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "OS X Yosemite",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: OS X Yosemite was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "PostScript",
+        "object": "Adobe",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: PostScript was created by? Answer:",
+        "response": "Answer: Adobe"
+    },
+    {
+        "subject": "Windows Live Writer",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Live Writer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X 10.0",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS X 10.0 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPod Touch",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod Touch was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "X11.app",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: X11.app was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "OpenAFS",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: OpenAFS was created by? Answer:",
+        "response": "OpenAFS was created by IBM."
+    },
+    {
+        "subject": "GW-BASIC",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: GW-BASIC was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X Tiger",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS X Tiger was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "OS X Mountain Lion",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: OS X Mountain Lion was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Mac OS X 10.2",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Mac OS X 10.2 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Super Audio CD",
+        "object": "Sony",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Super Audio CD was created by? Answer:",
+        "response": "Answer: Sony"
+    },
+    {
+        "subject": "Android Auto",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Android Auto was created by? Answer:",
+        "response": "Android Auto was created by Google."
+    },
+    {
+        "subject": "Pentium M",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Pentium M was created by? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "Windows Messaging",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Messaging was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Genuine Advantage",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Genuine Advantage was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "MSX-DOS",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MSX-DOS was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "iOS 7",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iOS 7 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "FairPlay",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: FairPlay was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Itanium",
+        "object": "Intel",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Itanium is a product of? Answer:",
+        "response": "Answer: Intel"
+    },
+    {
+        "subject": "iChat",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iChat was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Xbox Live",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Xbox Live was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "System 7",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: System 7 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MS-DOS",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: MS-DOS was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iPod Classic",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iPod Classic was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Yoshi's Universal Gravitation",
+        "object": "Nintendo",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Yoshi's Universal Gravitation was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Applesoft BASIC",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Applesoft BASIC was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Final Fantasy X",
+        "object": "Square",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Final Fantasy X was created by? Answer:",
+        "response": "Sure, I'd be happy to help! The answer to the question \"Final Fantasy X was created by?\" is: Square Enix."
+    },
+    {
+        "subject": "Zaxxon",
+        "object": "Sega",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Zaxxon was created by? Answer:",
+        "response": "Answer: Sega"
+    },
+    {
+        "subject": "TextEdit",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: TextEdit was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "App Store",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: App Store was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Blogger",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub is a product of? Answer: Intel\n\nExample 2: Question: Shahab-2 is a product of? Answer: Iran\n\nExample 3: Question: Infiniti QX is a product of? Answer: Nissan\n\n\nQuestion: Blogger is a product of? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "Report Program Generator",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Which company developed Platform Controller Hub? It was developed by? Answer: Intel\n\nExample 2: Question: Which company developed Shahab-2? It was developed by? Answer: Iran\n\nExample 3: Question: Which company developed Infiniti QX? It was developed by? Answer: Nissan\n\n\nQuestion: Which company developed Report Program Generator? It was developed by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Wear OS",
+        "object": "Google",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Wear OS was created by? Answer:",
+        "response": "Answer: Google"
+    },
+    {
+        "subject": "iDisk",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: iDisk was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Statistical Package for the Social Sciences",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Statistical Package for the Social Sciences was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "Internet Explorer Mobile",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Internet Explorer Mobile was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows 2.1x",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows 2.1x was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Embedded",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Windows Embedded was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Portable Document Format",
+        "object": "Adobe",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Portable Document Format was created by? Answer:",
+        "response": "Adobe"
+    },
+    {
+        "subject": "XEDIT",
+        "object": "IBM",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: XEDIT was created by? Answer:",
+        "response": "Answer: IBM"
+    },
+    {
+        "subject": "WinDbg",
+        "object": "Microsoft",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: WinDbg was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Siri",
+        "object": "Apple",
+        "prompt": "Example 1: Question: Platform Controller Hub was created by? Answer: Intel\n\nExample 2: Question: Shahab-2 was created by? Answer: Iran\n\nExample 3: Question: Infiniti QX was created by? Answer: Nissan\n\n\nQuestion: Siri was created by? Answer:",
+        "response": "Apple"
+    }
+]

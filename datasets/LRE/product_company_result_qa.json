@@ -1,0 +1,2558 @@
+[
+    {
+        "subject": "Shahab-2",
+        "object": "Iran",
+        "prompt": "Question: Shahab-2 was created by? Answer:",
+        "response": "Iran."
+    },
+    {
+        "subject": "Infiniti QX",
+        "object": "Nissan",
+        "prompt": "Question: Infiniti QX was created by? Answer:",
+        "response": "Infiniti QX was created by Nissan."
+    },
+    {
+        "subject": "iPhone 5",
+        "object": "Apple",
+        "prompt": "Question: iPhone 5 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Wii Balance Board",
+        "object": "Nintendo",
+        "prompt": "Question: Wii Balance Board was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Acura TL",
+        "object": "Honda",
+        "prompt": "Question: Acura TL was created by? Answer:",
+        "response": "Honda."
+    },
+    {
+        "subject": "Windows Server 2003",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Server 2003 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "DualShock",
+        "object": "Sony",
+        "prompt": "Question: DualShock was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Mac Pro",
+        "object": "Apple",
+        "prompt": "Question: Mac Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Game Boy Advance SP",
+        "object": "Nintendo",
+        "prompt": "Question: Game Boy Advance SP was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Shahab-1",
+        "object": "Iran",
+        "prompt": "Question: Shahab-1 was created by? Answer:",
+        "response": "Iran"
+    },
+    {
+        "subject": "DC-3",
+        "object": "Douglas",
+        "prompt": "Question: DC-3 was created by? Answer:",
+        "response": "Douglas Aircraft Company"
+    },
+    {
+        "subject": "Kindle Fire",
+        "object": "Amazon",
+        "prompt": "Question: Kindle Fire was created by? Answer:",
+        "response": "Amazon"
+    },
+    {
+        "subject": "AGM-86 ALCM",
+        "object": "Boeing",
+        "prompt": "Question: AGM-86 ALCM was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Autobianchi Y10",
+        "object": "Fiat",
+        "prompt": "Question: Autobianchi Y10 was created by? Answer:",
+        "response": "Fiat."
+    },
+    {
+        "subject": "Mini E",
+        "object": "BMW",
+        "prompt": "Question: Mini E was created by? Answer:",
+        "response": "Mini E was created by BMW."
+    },
+    {
+        "subject": "Isetta",
+        "object": "BMW",
+        "prompt": "Question: Isetta was created by? Answer:",
+        "response": "Isetta was created by BMW."
+    },
+    {
+        "subject": "Datsun Sports",
+        "object": "Nissan",
+        "prompt": "Question: Datsun Sports was created by? Answer:",
+        "response": "Nissan Motor Co., Ltd."
+    },
+    {
+        "subject": "Acura ILX",
+        "object": "Honda",
+        "prompt": "Question: Acura ILX was created by? Answer:",
+        "response": "Acura ILX was created by Honda."
+    },
+    {
+        "subject": "SteadyShot",
+        "object": "Sony",
+        "prompt": "Question: Which company developed SteadyShot? It was developed by? Answer:",
+        "response": "SteadyShot was developed by Sony."
+    },
+    {
+        "subject": "SNES-CD",
+        "object": "Nintendo",
+        "prompt": "Question: SNES-CD was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Windows Live Mail",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Live Mail was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Bluesmobile",
+        "object": "Dodge",
+        "prompt": "Question: Which company developed Bluesmobile? It was developed by? Answer:",
+        "response": "Bluesmobile was developed by Dodge."
+    },
+    {
+        "subject": "Bionz",
+        "object": "Sony",
+        "prompt": "Question: Bionz was created by? Answer:",
+        "response": "Sony."
+    },
+    {
+        "subject": "Acura EL",
+        "object": "Honda",
+        "prompt": "Question: Acura EL was created by? Answer:",
+        "response": "Honda."
+    },
+    {
+        "subject": "Acura MDX",
+        "object": "Honda",
+        "prompt": "Question: Acura MDX was created by? Answer:",
+        "response": "Acura MDX was created by Honda."
+    },
+    {
+        "subject": "Toyopet Master",
+        "object": "Toyota",
+        "prompt": "Question: Toyopet Master was created by? Answer:",
+        "response": "Toyopet Master was created by Toyota."
+    },
+    {
+        "subject": "Xbox",
+        "object": "Microsoft",
+        "prompt": "Question: Xbox was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Auto Avio Costruzioni 815",
+        "object": "Ferrari",
+        "prompt": "Question: Auto Avio Costruzioni 815 was created by? Answer:",
+        "response": "Auto Avio Costruzioni 815 was created by Ferrari."
+    },
+    {
+        "subject": "iPhone 4s",
+        "object": "Apple",
+        "prompt": "Question: iPhone 4s was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPod",
+        "object": "Apple",
+        "prompt": "Question: iPod was created by? Answer:",
+        "response": "Apple Inc."
+    },
+    {
+        "subject": "iPad Mini",
+        "object": "Apple",
+        "prompt": "Question: iPad Mini was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "LGM-30 Minuteman",
+        "object": "Boeing",
+        "prompt": "Question: LGM-30 Minuteman was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "iPod Mini",
+        "object": "Apple",
+        "prompt": "Question: iPod Mini was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "AMR 35",
+        "object": "Renault",
+        "prompt": "Question: Which company developed AMR 35? It was developed by? Answer:",
+        "response": "AMR 35 was developed by the French company Renault."
+    },
+    {
+        "subject": "Alfa Romeo MiTo",
+        "object": "Fiat",
+        "prompt": "Question: Alfa Romeo MiTo was created by? Answer:",
+        "response": "Fiat."
+    },
+    {
+        "subject": "MIM-3 Nike-Ajax",
+        "object": "Douglas",
+        "prompt": "Question: Which company developed MIM-3 Nike-Ajax? It was developed by? Answer:",
+        "response": "The MIM-3 Nike-Ajax was developed by the Douglas Aircraft Company."
+    },
+    {
+        "subject": "Color TV-Game",
+        "object": "Nintendo",
+        "prompt": "Question: Color TV-Game was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Mini Hatch",
+        "object": "BMW",
+        "prompt": "Question: Which company developed Mini Hatch? It was developed by? Answer:",
+        "response": "Answer: BMW"
+    },
+    {
+        "subject": "MessagePad",
+        "object": "Apple",
+        "prompt": "Question: MessagePad was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Dacia Sandero",
+        "object": "Renault",
+        "prompt": "Question: Dacia Sandero was created by? Answer:",
+        "response": "Renault"
+    },
+    {
+        "subject": "Lancia Dedra",
+        "object": "Fiat",
+        "prompt": "Question: Lancia Dedra was created by? Answer:",
+        "response": "Fiat"
+    },
+    {
+        "subject": "Acura RDX",
+        "object": "Honda",
+        "prompt": "Question: Which company developed Acura RDX? It was developed by? Answer:",
+        "response": "Acura RDX was developed by Honda Motor Company, Ltd."
+    },
+    {
+        "subject": "iPod shuffle",
+        "object": "Apple",
+        "prompt": "Question: iPod shuffle was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Plymouth Prowler",
+        "object": "Chrysler",
+        "prompt": "Question: Plymouth Prowler was created by? Answer:",
+        "response": "Chrysler"
+    },
+    {
+        "subject": "B-17 Flying Fortress",
+        "object": "Boeing",
+        "prompt": "Question: B-17 Flying Fortress was created by? Answer:",
+        "response": "Boeing."
+    },
+    {
+        "subject": "Infiniti Q50",
+        "object": "Nissan",
+        "prompt": "Question: Infiniti Q50 was created by? Answer:",
+        "response": "Infiniti Q50 was created by Nissan Motor Co., Ltd."
+    },
+    {
+        "subject": "Exmor",
+        "object": "Sony",
+        "prompt": "Question: Exmor was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Windows 2000",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 2000 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "B-29 Superfortress",
+        "object": "Boeing",
+        "prompt": "Question: B-29 Superfortress was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Lancia Ypsilon",
+        "object": "Fiat",
+        "prompt": "Question: Lancia Ypsilon was created by? Answer:",
+        "response": "Fiat Chrysler Automobiles (FCA)"
+    },
+    {
+        "subject": "Acura Legend",
+        "object": "Honda",
+        "prompt": "Question: Acura Legend was created by? Answer:",
+        "response": "Honda."
+    },
+    {
+        "subject": "N-Gage QD",
+        "object": "Nokia",
+        "prompt": "Question: N-Gage QD was created by? Answer:",
+        "response": "N-Gage QD was created by Nokia."
+    },
+    {
+        "subject": "iPhone 3GS",
+        "object": "Apple",
+        "prompt": "Question: iPhone 3GS was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPad",
+        "object": "Apple",
+        "prompt": "Question: iPad was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Acura CL",
+        "object": "Honda",
+        "prompt": "Question: Acura CL was created by? Answer:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Windows Phone 8.1",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Phone 8.1 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "B-47 Stratojet",
+        "object": "Boeing",
+        "prompt": "Question: B-47 Stratojet was created by? Answer:",
+        "response": "Boeing."
+    },
+    {
+        "subject": "C-40 Clipper",
+        "object": "Boeing",
+        "prompt": "Question: C-40 Clipper is a product of? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Alfa Romeo 155",
+        "object": "Fiat",
+        "prompt": "Question: Alfa Romeo 155 was created by? Answer:",
+        "response": "Fiat"
+    },
+    {
+        "subject": "iPhone 1",
+        "object": "Apple",
+        "prompt": "Question: iPhone 1 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "CineAlta",
+        "object": "Sony",
+        "prompt": "Question: CineAlta was created by? Answer:",
+        "response": "Sony."
+    },
+    {
+        "subject": "Plymouth Valiant",
+        "object": "Chrysler",
+        "prompt": "Question: Plymouth Valiant was created by? Answer:",
+        "response": "Chrysler"
+    },
+    {
+        "subject": "Autobianchi A112",
+        "object": "Fiat",
+        "prompt": "Question: Autobianchi A112 was created by? Answer:",
+        "response": "Fiat"
+    },
+    {
+        "subject": "RC-135",
+        "object": "Boeing",
+        "prompt": "Question: RC-135 was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Chromecast",
+        "object": "Google",
+        "prompt": "Question: Chromecast was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Chromebook Pixel",
+        "object": "Google",
+        "prompt": "Question: Chromebook Pixel was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "LGA 775",
+        "object": "Intel",
+        "prompt": "Question: LGA 775 was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Model M keyboard",
+        "object": "IBM",
+        "prompt": "Question: Which company developed Model M keyboard? It was developed by? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "Scion tC",
+        "object": "Toyota",
+        "prompt": "Question: Scion tC was created by? Answer:",
+        "response": "Toyota"
+    },
+    {
+        "subject": "iPad 4",
+        "object": "Apple",
+        "prompt": "Question: iPad 4 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Shahab-4",
+        "object": "Iran",
+        "prompt": "Question: Shahab-4 was created by? Answer:",
+        "response": "Iran"
+    },
+    {
+        "subject": "MacBook Air",
+        "object": "Apple",
+        "prompt": "Question: MacBook Air was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Jeep Grand Cherokee",
+        "object": "Chrysler",
+        "prompt": "Question: Jeep Grand Cherokee was created by? Answer:",
+        "response": "Chrysler."
+    },
+    {
+        "subject": "Game & Watch",
+        "object": "Nintendo",
+        "prompt": "Question: Game & Watch was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Wii U",
+        "object": "Nintendo",
+        "prompt": "Question: Wii U was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Game Boy Advance",
+        "object": "Nintendo",
+        "prompt": "Question: Game Boy Advance was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "DC-9",
+        "object": "Douglas",
+        "prompt": "Question: DC-9 was created by? Answer:",
+        "response": "McDonnell Douglas."
+    },
+    {
+        "subject": "Fateh-110",
+        "object": "Iran",
+        "prompt": "Question: Fateh-110 is a product of? Answer:",
+        "response": "Iran"
+    },
+    {
+        "subject": "Windows Vista",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Vista was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Lancia Lybra",
+        "object": "Fiat",
+        "prompt": "Question: Lancia Lybra was created by? Answer:",
+        "response": "Fiat"
+    },
+    {
+        "subject": "C-135 Stratolifter",
+        "object": "Boeing",
+        "prompt": "Question: C-135 Stratolifter was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Nasr-1",
+        "object": "Iran",
+        "prompt": "Question: Which company developed Nasr-1? It was developed by? Answer:",
+        "response": "The Nasr-1 rocket was developed by the Iranian Space Agency (ISA)."
+    },
+    {
+        "subject": "iPhone",
+        "object": "Apple",
+        "prompt": "Question: iPhone was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Infiniti JX",
+        "object": "Nissan",
+        "prompt": "Question: Infiniti JX was created by? Answer:",
+        "response": "Nissan."
+    },
+    {
+        "subject": "DeltaWing",
+        "object": "Nissan",
+        "prompt": "Question: DeltaWing was created by? Answer:",
+        "response": "DeltaWing was created by GM and Nissan."
+    },
+    {
+        "subject": "iPod Touch",
+        "object": "Apple",
+        "prompt": "Question: iPod Touch was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "VTEC",
+        "object": "Honda",
+        "prompt": "Question: VTEC was created by? Answer:",
+        "response": "Honda"
+    },
+    {
+        "subject": "Xeon",
+        "object": "Intel",
+        "prompt": "Question: Xeon was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Windows 7",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 7 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "EA-18G Growler",
+        "object": "Boeing",
+        "prompt": "Question: EA-18G Growler was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Amiibo",
+        "object": "Nintendo",
+        "prompt": "Question: Amiibo was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "MacBook Pro",
+        "object": "Apple",
+        "prompt": "Question: MacBook Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Jeep Wrangler",
+        "object": "Chrysler",
+        "prompt": "Question: Which company developed Jeep Wrangler? It was developed by? Answer:",
+        "response": "The Jeep Wrangler was developed by the Jeep brand, which is a subsidiary of FCA US LLC (Fiat Chrysler Automobiles)."
+    },
+    {
+        "subject": "Game Boy Micro",
+        "object": "Nintendo",
+        "prompt": "Question: Game Boy Micro was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "PlayStation Eye",
+        "object": "Sony",
+        "prompt": "Question: PlayStation Eye was created by? Answer:",
+        "response": "Sony Computer Entertainment."
+    },
+    {
+        "subject": "iPod Classic",
+        "object": "Apple",
+        "prompt": "Question: iPod Classic was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Zelzal-2",
+        "object": "Iran",
+        "prompt": "Question: Zelzal-2 was created by? Answer:",
+        "response": "Iran"
+    },
+    {
+        "subject": "Cyber-shot",
+        "object": "Sony",
+        "prompt": "Question: Cyber-shot was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Windows Phone 7",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Phone 7 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Family Computer Disk System",
+        "object": "Nintendo",
+        "prompt": "Question: Family Computer Disk System was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Dacia Duster",
+        "object": "Renault",
+        "prompt": "Question: Dacia Duster was created by? Answer:",
+        "response": "Renault"
+    },
+    {
+        "subject": "Windows Phone 8",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Phone 8 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Super Game Boy",
+        "object": "Nintendo",
+        "prompt": "Question: Super Game Boy was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Acura RL",
+        "object": "Honda",
+        "prompt": "Question: Acura RL was created by? Answer:",
+        "response": "Acura RL was created by Honda."
+    },
+    {
+        "subject": "Acura TSX",
+        "object": "Honda",
+        "prompt": "Question: Acura TSX was created by? Answer:",
+        "response": "Acura TSX was created by Honda Motor Co., Ltd."
+    },
+    {
+        "subject": "Mini Countryman",
+        "object": "BMW",
+        "prompt": "Question: Mini Countryman was created by? Answer:",
+        "response": "BMW"
+    },
+    {
+        "subject": "Scion xD",
+        "object": "Toyota",
+        "prompt": "Question: Scion xD was created by? Answer:",
+        "response": "Toyota"
+    },
+    {
+        "subject": "iTunes Remote",
+        "object": "Apple",
+        "prompt": "Question: iTunes Remote was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Infiniti Q45",
+        "object": "Nissan",
+        "prompt": "Question: Infiniti Q45 was created by? Answer:",
+        "response": "Nissan"
+    },
+    {
+        "subject": "Windows Embedded CE 6.0",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Embedded CE 6.0 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Sandy Bridge",
+        "object": "Intel",
+        "prompt": "Question: Sandy Bridge was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Tizen",
+        "object": "Samsung",
+        "prompt": "Question: Tizen was created by? Answer:",
+        "response": "Samsung."
+    },
+    {
+        "subject": "VP9",
+        "object": "Google",
+        "prompt": "Question: VP9 was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Final Fantasy",
+        "object": "Square",
+        "prompt": "Question: Final Fantasy was created by? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "OS X Mavericks",
+        "object": "Apple",
+        "prompt": "Question: OS X Mavericks was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iBooks Author",
+        "object": "Apple",
+        "prompt": "Question: iBooks Author was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Symbian",
+        "object": "Nokia",
+        "prompt": "Question: Symbian was created by? Answer:",
+        "response": "Nokia."
+    },
+    {
+        "subject": "Windows 98",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 98 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Embedded Compact",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Embedded Compact was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Internet Explorer 5",
+        "object": "Microsoft",
+        "prompt": "Question: Internet Explorer 5 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Journaled File System",
+        "object": "IBM",
+        "prompt": "Question: Which company developed Journaled File System? It was developed by? Answer:",
+        "response": "Journaled File System (JFS) was developed by IBM."
+    },
+    {
+        "subject": "Windows XP",
+        "object": "Microsoft",
+        "prompt": "Question: Windows XP was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "NTFS",
+        "object": "Microsoft",
+        "prompt": "Question: NTFS was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Driver Frameworks",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Driver Frameworks was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Glyph Bitmap Distribution Format",
+        "object": "Adobe",
+        "prompt": "Question: Glyph Bitmap Distribution Format was created by? Answer:",
+        "response": "Adobe"
+    },
+    {
+        "subject": "Logic Pro",
+        "object": "Apple",
+        "prompt": "Question: Logic Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows NT 3.1",
+        "object": "Microsoft",
+        "prompt": "Question: Windows NT 3.1 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Final Fantasy V",
+        "object": "Square",
+        "prompt": "Question: Final Fantasy V was created by? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "DirectX",
+        "object": "Microsoft",
+        "prompt": "Question: DirectX was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Disk Utility",
+        "object": "Apple",
+        "prompt": "Question: Disk Utility was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Core 2",
+        "object": "Intel",
+        "prompt": "Question: Core 2 was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Internet Explorer",
+        "object": "Microsoft",
+        "prompt": "Question: Internet Explorer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X Lion",
+        "object": "Apple",
+        "prompt": "Question: Mac OS X Lion was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Gmail",
+        "object": "Google",
+        "prompt": "Question: Gmail is a product of? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Mac OS X Panther",
+        "object": "Apple",
+        "prompt": "Question: Mac OS X Panther was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "ISPF",
+        "object": "IBM",
+        "prompt": "Question: ISPF was created by? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "Sonic Drift 2",
+        "object": "Sega",
+        "prompt": "Question: Sonic Drift 2 was created by? Answer:",
+        "response": "Sega"
+    },
+    {
+        "subject": "Windows Easy Transfer",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Easy Transfer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Media Video",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Media Video was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Xbox One",
+        "object": "Microsoft",
+        "prompt": "Question: Xbox One was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows RT",
+        "object": "Microsoft",
+        "prompt": "Question: Windows RT was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Server 2008",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Server 2008 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Internet Explorer 7",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Internet Explorer 7 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Photo Booth",
+        "object": "Apple",
+        "prompt": "Question: Which company developed Photo Booth? It was developed by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iCloud",
+        "object": "Apple",
+        "prompt": "Question: iCloud was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Live Mesh",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Live Mesh was created by? Answer:",
+        "response": "Microsoft."
+    },
+    {
+        "subject": "Android Runtime",
+        "object": "Google",
+        "prompt": "Question: Android Runtime was created by? Answer:",
+        "response": "Android Runtime was created by Google."
+    },
+    {
+        "subject": "VoiceOver",
+        "object": "Apple",
+        "prompt": "Question: VoiceOver was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MacPaint",
+        "object": "Apple",
+        "prompt": "Question: MacPaint is a product of? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MiniDisc",
+        "object": "Sony",
+        "prompt": "Question: MiniDisc was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "QuickTime",
+        "object": "Apple",
+        "prompt": "Question: QuickTime was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Chrome OS",
+        "object": "Google",
+        "prompt": "Question: Chrome OS was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows NT 3.51",
+        "object": "Microsoft",
+        "prompt": "Question: Windows NT 3.51 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Newsstand",
+        "object": "Apple",
+        "prompt": "Question: Newsstand was created by? Answer:",
+        "response": "Newsstand was created by Apple Inc."
+    },
+    {
+        "subject": "Windows 7",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 7 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Visual Basic Script",
+        "object": "Microsoft",
+        "prompt": "Question: Visual Basic Script is a product of? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Donkey Kong",
+        "object": "Nintendo",
+        "prompt": "Question: Donkey Kong was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "iPod Nano",
+        "object": "Apple",
+        "prompt": "Question: iPod Nano was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Bing Maps",
+        "object": "Microsoft",
+        "prompt": "Question: Bing Maps was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Virtual PC",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Virtual PC was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "PowerShell",
+        "object": "Microsoft",
+        "prompt": "Question: PowerShell was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Me",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Me was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "PostScript Printer Description",
+        "object": "Adobe",
+        "prompt": "Question: PostScript Printer Description was created by? Answer:",
+        "response": "Adobe"
+    },
+    {
+        "subject": "MacApp",
+        "object": "Apple",
+        "prompt": "Question: MacApp was created by? Answer:",
+        "response": "MacApp was created by Apple Inc."
+    },
+    {
+        "subject": "Windows Live Messenger",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Live Messenger was created by? Answer:",
+        "response": "Microsoft."
+    },
+    {
+        "subject": "WebP Lossless",
+        "object": "Google",
+        "prompt": "Question: WebP Lossless was created by? Answer:",
+        "response": "WebP Lossless was created by Google."
+    },
+    {
+        "subject": "Windows Vista",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Vista was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows 8",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 8 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Transaction Processing Facility",
+        "object": "IBM",
+        "prompt": "Question: Transaction Processing Facility was created by? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "ColorSync",
+        "object": "Apple",
+        "prompt": "Question: ColorSync was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Safari",
+        "object": "Apple",
+        "prompt": "Question: Safari was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "HFS Plus",
+        "object": "Apple",
+        "prompt": "Question: HFS Plus was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "The Revenge of Shinobi",
+        "object": "Sega",
+        "prompt": "Question: The Revenge of Shinobi was created by? Answer:",
+        "response": "Sega."
+    },
+    {
+        "subject": "Event Viewer",
+        "object": "Microsoft",
+        "prompt": "Question: Event Viewer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Wii U system software",
+        "object": "Nintendo",
+        "prompt": "Question: Wii U system software was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "MSX BASIC",
+        "object": "Microsoft",
+        "prompt": "Question: MSX BASIC is a product of? Answer:",
+        "response": "MSX BASIC is a product of Microsoft."
+    },
+    {
+        "subject": "Gear VR",
+        "object": "Samsung",
+        "prompt": "Question: Gear VR is a product of? Answer:",
+        "response": "Samsung"
+    },
+    {
+        "subject": "Clang",
+        "object": "Apple",
+        "prompt": "Question: Clang was created by? Answer:",
+        "response": "Clang was created by Apple Inc."
+    },
+    {
+        "subject": "High Level Shader Language",
+        "object": "Microsoft",
+        "prompt": "Question: Which company developed High Level Shader Language? It was developed by? Answer:",
+        "response": "High Level Shader Language (HLSL) was developed by Microsoft."
+    },
+    {
+        "subject": "iOS",
+        "object": "Apple",
+        "prompt": "Question: iOS was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "QuickTime VR",
+        "object": "Apple",
+        "prompt": "Question: QuickTime VR was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Xbox 360",
+        "object": "Microsoft",
+        "prompt": "Question: Xbox 360 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Altered Beast",
+        "object": "Sega",
+        "prompt": "Question: Altered Beast is a product of? Answer:",
+        "response": "Sega."
+    },
+    {
+        "subject": "WebObjects",
+        "object": "Apple",
+        "prompt": "Question: WebObjects was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "ActiveSync",
+        "object": "Microsoft",
+        "prompt": "Question: ActiveSync was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "WebM",
+        "object": "Google",
+        "prompt": "Question: WebM was created by? Answer:",
+        "response": "WebM was created by Google."
+    },
+    {
+        "subject": "iOS 5",
+        "object": "Apple",
+        "prompt": "Question: iOS 5 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Xsan",
+        "object": "Apple",
+        "prompt": "Question: Xsan was created by? Answer:",
+        "response": "Xsan was created by Apple."
+    },
+    {
+        "subject": "Schema.org",
+        "object": "Google",
+        "prompt": "Question: Schema.org was created by? Answer:",
+        "response": "Google, Bing, Yahoo, and Microsoft."
+    },
+    {
+        "subject": "SonicStage",
+        "object": "Sony",
+        "prompt": "Question: SonicStage was created by? Answer:",
+        "response": "SonicStage was created by Sony."
+    },
+    {
+        "subject": "Internet Explorer 11",
+        "object": "Microsoft",
+        "prompt": "Question: Internet Explorer 11 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows XP Media Center Edition",
+        "object": "Microsoft",
+        "prompt": "Question: Windows XP Media Center Edition was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS 8",
+        "object": "Apple",
+        "prompt": "Question: Mac OS 8 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Alex Kidd",
+        "object": "Sega",
+        "prompt": "Question: Alex Kidd was created by? Answer:",
+        "response": "Sega"
+    },
+    {
+        "subject": "CICS",
+        "object": "IBM",
+        "prompt": "Question: CICS was created by? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "Windows 10",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 10 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iOS 8",
+        "object": "Apple",
+        "prompt": "Question: iOS 8 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MobileMe",
+        "object": "Apple",
+        "prompt": "Question: MobileMe was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium II",
+        "object": "Intel",
+        "prompt": "Question: Pentium II was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Time Machine (macOS)",
+        "object": "Apple",
+        "prompt": "Question: Time Machine (macOS) was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Open XML Paper Specification",
+        "object": "Microsoft",
+        "prompt": "Question: Open XML Paper Specification was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Eternal Champions",
+        "object": "Sega",
+        "prompt": "Question: Eternal Champions was created by? Answer:",
+        "response": "Sega."
+    },
+    {
+        "subject": "Internet Information Services",
+        "object": "Microsoft",
+        "prompt": "Question: Internet Information Services was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Process Explorer",
+        "object": "Microsoft",
+        "prompt": "Question: Process Explorer is a product of? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "HyperCard",
+        "object": "Apple",
+        "prompt": "Question: HyperCard is a product of? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Phone 8.1",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Phone 8.1 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Wii U",
+        "object": "Nintendo",
+        "prompt": "Question: Wii U was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "App Inventor for Android",
+        "object": "Google",
+        "prompt": "Question: App Inventor for Android was created by? Answer:",
+        "response": "Google."
+    },
+    {
+        "subject": "Final Cut Pro",
+        "object": "Apple",
+        "prompt": "Question: Final Cut Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "B-52 Stratofortress",
+        "object": "Boeing",
+        "prompt": "Question: B-52 Stratofortress was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "B-17 Flying Fortress",
+        "object": "Boeing",
+        "prompt": "Question: B-17 Flying Fortress was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "File Explorer",
+        "object": "Microsoft",
+        "prompt": "Question: File Explorer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Macintosh File System",
+        "object": "Apple",
+        "prompt": "Question: Macintosh File System is a product of? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iLife",
+        "object": "Apple",
+        "prompt": "Question: iLife was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "IA-32",
+        "object": "Intel",
+        "prompt": "Question: IA-32 was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Visual Basic .NET",
+        "object": "Microsoft",
+        "prompt": "Question: Visual Basic .NET was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Zune",
+        "object": "Microsoft",
+        "prompt": "Question: Zune was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows NT",
+        "object": "Microsoft",
+        "prompt": "Question: Windows NT was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Wii MotionPlus",
+        "object": "Nintendo",
+        "prompt": "Question: Wii MotionPlus was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Skype",
+        "object": "Microsoft",
+        "prompt": "Question: Skype is a product of? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Tetris DS",
+        "object": "Nintendo",
+        "prompt": "Question: Tetris DS is a product of? Answer:",
+        "response": "Sure! Tetris DS is a product of Nintendo."
+    },
+    {
+        "subject": "Soundtrack Pro",
+        "object": "Apple",
+        "prompt": "Question: Soundtrack Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Andrew File System",
+        "object": "IBM",
+        "prompt": "Question: Andrew File System is a product of? Answer:",
+        "response": "Andrew File System (AFS) is a product of IBM."
+    },
+    {
+        "subject": "IA-64",
+        "object": "Intel",
+        "prompt": "Question: IA-64 was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Windows Phone 8",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Phone 8 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "G Suite",
+        "object": "Google",
+        "prompt": "Question: G Suite was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "MVS",
+        "object": "IBM",
+        "prompt": "Question: MVS was created by? Answer:",
+        "response": "MVS was created by IBM."
+    },
+    {
+        "subject": "Office Open XML",
+        "object": "Microsoft",
+        "prompt": "Question: Office Open XML was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "KC-767",
+        "object": "Boeing",
+        "prompt": "Question: KC-767 was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Schema.org",
+        "object": "Yahoo",
+        "prompt": "Question: Schema.org was created by? Answer:",
+        "response": "Google, Bing, Yahoo, and Yandex."
+    },
+    {
+        "subject": "Rich Text Format",
+        "object": "Microsoft",
+        "prompt": "Question: Rich Text Format was created by? Answer:",
+        "response": "Rich Text Format (RTF) was created by:\n\nMicrosoft"
+    },
+    {
+        "subject": "Eclipse",
+        "object": "IBM",
+        "prompt": "Question: Which company developed Eclipse? It was developed by? Answer:",
+        "response": "Eclipse was developed by IBM."
+    },
+    {
+        "subject": "Windows Server 2008 R2",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Server 2008 R2 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Internet Explorer 9",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Internet Explorer 9 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS 9",
+        "object": "Apple",
+        "prompt": "Question: Mac OS 9 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "CarPlay",
+        "object": "Apple",
+        "prompt": "Question: CarPlay was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPod",
+        "object": "Apple",
+        "prompt": "Question: iPod was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium III",
+        "object": "Intel",
+        "prompt": "Question: Pentium III was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Rational Team Concert",
+        "object": "IBM",
+        "prompt": "Question: Rational Team Concert was created by? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "MXML",
+        "object": "Adobe",
+        "prompt": "Question: MXML is a product of? Answer:",
+        "response": "Adobe"
+    },
+    {
+        "subject": "The Legend of Zelda",
+        "object": "Nintendo",
+        "prompt": "Question: The Legend of Zelda is a product of? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Quick Look",
+        "object": "Apple",
+        "prompt": "Question: Quick Look was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Advanced Function Presentation",
+        "object": "IBM",
+        "prompt": "Question: Which company developed Advanced Function Presentation? It was developed by? Answer:",
+        "response": "Advanced Function Presentation (AFP) was developed by IBM."
+    },
+    {
+        "subject": "Windows Mobile 6.5",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Mobile 6.5 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Movie Maker",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Movie Maker was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Interface Builder",
+        "object": "Apple",
+        "prompt": "Question: Interface Builder was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "NTLDR",
+        "object": "Microsoft",
+        "prompt": "Question: NTLDR was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Audio Interchange File Format",
+        "object": "Apple",
+        "prompt": "Question: Audio Interchange File Format was created by? Answer:",
+        "response": "Sure! Audio Interchange File Format (AIFF) was created by Apple Computer."
+    },
+    {
+        "subject": "Windows Media Audio",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Media Audio was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Virtual Hard Disk",
+        "object": "Microsoft",
+        "prompt": "Question: Virtual Hard Disk was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iTunes Radio",
+        "object": "Apple",
+        "prompt": "Question: iTunes Radio was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Metroid",
+        "object": "Nintendo",
+        "prompt": "Question: Metroid was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Windows 8.1",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 8.1 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "macOS",
+        "object": "Apple",
+        "prompt": "Question: macOS was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Live OneCare",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Live OneCare was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Active Server Pages",
+        "object": "Microsoft",
+        "prompt": "Question: Active Server Pages was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Xcode",
+        "object": "Apple",
+        "prompt": "Question: Xcode was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Mobile",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Mobile was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS",
+        "object": "Apple",
+        "prompt": "Question: Mac OS was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Golden Axe",
+        "object": "Sega",
+        "prompt": "Question: Golden Axe is a product of? Answer:",
+        "response": "Sega"
+    },
+    {
+        "subject": "XScale",
+        "object": "Intel",
+        "prompt": "Question: Which company developed XScale? It was developed by? Answer:",
+        "response": "Sure! I'd be happy to help. The answer to your question is:\n\nXScale was developed by Intel."
+    },
+    {
+        "subject": "iOS 6",
+        "object": "Apple",
+        "prompt": "Question: iOS 6 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "SPDY",
+        "object": "Google",
+        "prompt": "Question: SPDY was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Internet Explorer 8",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Internet Explorer 8 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Logic Studio",
+        "object": "Apple",
+        "prompt": "Question: Logic Studio was created by? Answer:",
+        "response": "Logic Studio was created by Apple."
+    },
+    {
+        "subject": "iPod shuffle",
+        "object": "Apple",
+        "prompt": "Question: iPod shuffle was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Mixed Reality",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Mixed Reality was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "High Performance File System",
+        "object": "IBM",
+        "prompt": "Question: Which company developed High Performance File System? It was developed by? Answer:",
+        "response": "High Performance File System (HPFS) was developed by IBM."
+    },
+    {
+        "subject": "Final Fantasy Legend III",
+        "object": "Square",
+        "prompt": "Question: Final Fantasy Legend III is a product of? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "Windows NT 3.5",
+        "object": "Microsoft",
+        "prompt": "Question: Windows NT 3.5 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Motion",
+        "object": "Apple",
+        "prompt": "Question: Which company developed Motion? It was developed by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Project Ara",
+        "object": "Google",
+        "prompt": "Question: Project Ara was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Android TV",
+        "object": "Google",
+        "prompt": "Question: Android TV was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Robocopy",
+        "object": "Microsoft",
+        "prompt": "Question: Robocopy was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X Leopard",
+        "object": "Apple",
+        "prompt": "Question: Mac OS X Leopard was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Gran Trak 10",
+        "object": "Atari",
+        "prompt": "Question: Gran Trak 10 was created by? Answer:",
+        "response": "Atari."
+    },
+    {
+        "subject": "iMovie",
+        "object": "Apple",
+        "prompt": "Question: iMovie was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Squeak",
+        "object": "Apple",
+        "prompt": "Question: Squeak is a product of? Answer:",
+        "response": "Squeak is a product of Apple."
+    },
+    {
+        "subject": "Yakuza 2",
+        "object": "Sega",
+        "prompt": "Question: Yakuza 2 was created by? Answer:",
+        "response": "Sega"
+    },
+    {
+        "subject": "Windows Phone Store",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Phone Store was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Pentium",
+        "object": "Intel",
+        "prompt": "Question: Pentium was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "B-47 Stratojet",
+        "object": "Boeing",
+        "prompt": "Question: B-47 Stratojet was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Virtual Telecommunications Access Method",
+        "object": "IBM",
+        "prompt": "Question: Virtual Telecommunications Access Method was created by? Answer:",
+        "response": "The Virtual Telecommunications Access Method (VTAM) was created by IBM."
+    },
+    {
+        "subject": "Object REXX",
+        "object": "IBM",
+        "prompt": "Question: Object REXX is a product of? Answer:",
+        "response": "Object REXX is a product of IBM."
+    },
+    {
+        "subject": "Windows 95",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 95 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mario Bros.",
+        "object": "Nintendo",
+        "prompt": "Question: Mario Bros. is a product of? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "TSS/360",
+        "object": "IBM",
+        "prompt": "Question: TSS/360 was created by? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "Digital Negative",
+        "object": "Adobe",
+        "prompt": "Question: Digital Negative was created by? Answer:",
+        "response": "Adobe"
+    },
+    {
+        "subject": "Vector Markup Language",
+        "object": "Microsoft",
+        "prompt": "Question: Which company developed Vector Markup Language? It was developed by? Answer:",
+        "response": "Vector Markup Language (VML) was developed by Microsoft."
+    },
+    {
+        "subject": "Final Fantasy III",
+        "object": "Square",
+        "prompt": "Question: Final Fantasy III was created by? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "Front Mission",
+        "object": "Square",
+        "prompt": "Question: Front Mission was created by? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "iBeacon",
+        "object": "Apple",
+        "prompt": "Question: iBeacon was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Installer",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Installer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "macOS Server",
+        "object": "Apple",
+        "prompt": "Question: macOS Server was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Hierarchical File System",
+        "object": "Apple",
+        "prompt": "Question: Which company developed Hierarchical File System? It was developed by? Answer:",
+        "response": "The Hierarchical File System (HFS) was developed by Apple Inc."
+    },
+    {
+        "subject": "EA-18G Growler",
+        "object": "Boeing",
+        "prompt": "Question: EA-18G Growler was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "Time Sharing Option",
+        "object": "IBM",
+        "prompt": "Question: Time Sharing Option is a product of? Answer:",
+        "response": "IBM."
+    },
+    {
+        "subject": "Mac OS X Snow Leopard",
+        "object": "Apple",
+        "prompt": "Question: Mac OS X Snow Leopard was created by? Answer:",
+        "response": "Apple Inc."
+    },
+    {
+        "subject": "Windows NT 4.0",
+        "object": "Microsoft",
+        "prompt": "Question: Windows NT 4.0 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "REXX",
+        "object": "IBM",
+        "prompt": "Question: REXX is a product of? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "Windows Phone",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Phone was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Xenix",
+        "object": "Microsoft",
+        "prompt": "Question: Xenix was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "B-29 Superfortress",
+        "object": "Boeing",
+        "prompt": "Question: B-29 Superfortress was created by? Answer:",
+        "response": "Boeing"
+    },
+    {
+        "subject": "MacsBug",
+        "object": "Apple",
+        "prompt": "Question: MacsBug is a product of? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Dynamic-link library",
+        "object": "Microsoft",
+        "prompt": "Question: Dynamic-link library was created by? Answer:",
+        "response": "Dynamic-link library (DLL) was created by Microsoft in the late 1980s."
+    },
+    {
+        "subject": "MessagePad",
+        "object": "Apple",
+        "prompt": "Question: MessagePad was created by? Answer:",
+        "response": "Steve Jobs and Apple"
+    },
+    {
+        "subject": "Final Cut Studio",
+        "object": "Apple",
+        "prompt": "Question: Final Cut Studio was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Sonic Drift",
+        "object": "Sega",
+        "prompt": "Question: Sonic Drift was created by? Answer:",
+        "response": "Sega."
+    },
+    {
+        "subject": "Advanced Systems Format",
+        "object": "Microsoft",
+        "prompt": "Question: Advanced Systems Format was created by? Answer:",
+        "response": "Advanced Systems Format (ASF) was created by Microsoft."
+    },
+    {
+        "subject": "OpenSearch",
+        "object": "Amazon",
+        "prompt": "Question: OpenSearch was created by? Answer:",
+        "response": "OpenSearch was created by Amazon."
+    },
+    {
+        "subject": "Windows Aero",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Aero was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iPod Mini",
+        "object": "Apple",
+        "prompt": "Question: iPod Mini was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Mario franchise",
+        "object": "Nintendo",
+        "prompt": "Question: Mario franchise is a product of? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Mac OS X 10.1",
+        "object": "Apple",
+        "prompt": "Question: Mac OS X 10.1 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows 2.0",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 2.0 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "application bundle",
+        "object": "Apple",
+        "prompt": "Question: application bundle was created by? Answer:",
+        "response": "Application bundle was created by Apple."
+    },
+    {
+        "subject": "SPSS Modeler",
+        "object": "IBM",
+        "prompt": "Question: SPSS Modeler was created by? Answer:",
+        "response": "SPSS Modeler was created by IBM."
+    },
+    {
+        "subject": "Golden Axe",
+        "object": "Sega",
+        "prompt": "Question: Golden Axe is a product of? Answer:",
+        "response": "Sega"
+    },
+    {
+        "subject": "YUI Library",
+        "object": "Yahoo",
+        "prompt": "Question: YUI Library was created by? Answer:",
+        "response": "YUI Library was created by Yahoo! Inc."
+    },
+    {
+        "subject": "Windows Server 2012",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Server 2012 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows 1.0",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 1.0 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "XNU",
+        "object": "Apple",
+        "prompt": "Question: XNU was created by? Answer:",
+        "response": "XNU was created by Apple Inc."
+    },
+    {
+        "subject": "Windows Media Player",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Media Player was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iTunes",
+        "object": "Apple",
+        "prompt": "Question: iTunes was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "DVD Studio Pro",
+        "object": "Apple",
+        "prompt": "Question: DVD Studio Pro was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Pentium 4",
+        "object": "Intel",
+        "prompt": "Question: Pentium 4 was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Super Monaco GP",
+        "object": "Sega",
+        "prompt": "Question: Which company developed Super Monaco GP? It was developed by? Answer:",
+        "response": "Answer: Sega."
+    },
+    {
+        "subject": "Yakuza",
+        "object": "Sega",
+        "prompt": "Question: Which company developed Yakuza? It was developed by? Answer:",
+        "response": "The company that developed Yakuza is Sega."
+    },
+    {
+        "subject": "Universal Media Disc",
+        "object": "Sony",
+        "prompt": "Question: Which company developed Universal Media Disc? It was developed by? Answer:",
+        "response": "Universal Media Disc was developed by Sony Pictures Home Entertainment."
+    },
+    {
+        "subject": "Chrono Trigger",
+        "object": "Square",
+        "prompt": "Question: Chrono Trigger was created by? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "Picasa",
+        "object": "Google",
+        "prompt": "Question: Picasa is a product of? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "General Transit Feed Specification",
+        "object": "Google",
+        "prompt": "Question: General Transit Feed Specification was created by? Answer:",
+        "response": "The General Transit Feed Specification (GTFS) was created by Google."
+    },
+    {
+        "subject": "HyperTalk",
+        "object": "Apple",
+        "prompt": "Question: Which company developed HyperTalk? It was developed by? Answer:",
+        "response": "HyperTalk was developed by Apple Inc."
+    },
+    {
+        "subject": "Audio Video Interleave, version 1.0",
+        "object": "Microsoft",
+        "prompt": "Question: Audio Video Interleave, version 1.0 was created by? Answer:",
+        "response": "Sure! Audio Video Interleave (AVI) was created by Microsoft."
+    },
+    {
+        "subject": "Windows 2000",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 2000 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Pentium Pro",
+        "object": "Intel",
+        "prompt": "Question: Pentium Pro was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "NetBurst",
+        "object": "Intel",
+        "prompt": "Question: NetBurst was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "QuickDraw",
+        "object": "Apple",
+        "prompt": "Question: QuickDraw was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": ".NET Framework",
+        "object": "Microsoft",
+        "prompt": "Question: .NET Framework was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Pilotwings 64",
+        "object": "Nintendo",
+        "prompt": "Question: Pilotwings 64 was created by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Cloud Spanner",
+        "object": "Google",
+        "prompt": "Question: Cloud Spanner was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Server 2003",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Server 2003 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Test Drive Le Mans",
+        "object": "Atari",
+        "prompt": "Question: Test Drive Le Mans is a product of? Answer:",
+        "response": "Test Drive Le Mans is a product of Atari."
+    },
+    {
+        "subject": "OneDrive",
+        "object": "Microsoft",
+        "prompt": "Question: OneDrive was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Chromecast",
+        "object": "Google",
+        "prompt": "Question: Chromecast was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Update",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Update was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Internet Explorer 10",
+        "object": "Microsoft",
+        "prompt": "Question: Internet Explorer 10 was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "XDCAM",
+        "object": "Sony",
+        "prompt": "Question: XDCAM was created by? Answer:",
+        "response": "Sony."
+    },
+    {
+        "subject": "CUPS",
+        "object": "Apple",
+        "prompt": "Question: CUPS is a product of? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Programmed Airline Reservations System",
+        "object": "IBM",
+        "prompt": "Question: Which company developed Programmed Airline Reservations System? It was developed by? Answer:",
+        "response": "Programmed Airline Reservations System (PARS) was developed by IBM."
+    },
+    {
+        "subject": "TypeScript",
+        "object": "Microsoft",
+        "prompt": "Question: TypeScript was created by? Answer:",
+        "response": "TypeScript was created by Microsoft."
+    },
+    {
+        "subject": "Virtual Console",
+        "object": "Nintendo",
+        "prompt": "Question: Virtual Console was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Bing Maps Platform",
+        "object": "Microsoft",
+        "prompt": "Question: Bing Maps Platform was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "GarageBand",
+        "object": "Apple",
+        "prompt": "Question: GarageBand was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Mother 3",
+        "object": "Nintendo",
+        "prompt": "Question: Mother 3 is a product of? Answer:",
+        "response": "Mother 3 is a product of:\n\nSuper Nintendo Entertainment System (SNES)"
+    },
+    {
+        "subject": "Outlook Express",
+        "object": "Microsoft",
+        "prompt": "Question: Outlook Express was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Malicious Software Removal Tool",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Malicious Software Removal Tool was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Front Mission 3",
+        "object": "Square",
+        "prompt": "Question: Front Mission 3 was created by? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "Windows Media Encoder",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Media Encoder was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "ThinkPad",
+        "object": "IBM",
+        "prompt": "Question: ThinkPad was created by? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "Thunder Blade",
+        "object": "Sega",
+        "prompt": "Question: Thunder Blade was created by? Answer:",
+        "response": "Thunder Blade was created by:\n\nSega"
+    },
+    {
+        "subject": "iWork",
+        "object": "Apple",
+        "prompt": "Question: iWork was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPad Mini 3",
+        "object": "Apple",
+        "prompt": "Question: iPad Mini 3 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Windows Communication Foundation",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Communication Foundation was created by? Answer:",
+        "response": "Windows Communication Foundation (WCF) was created by Microsoft."
+    },
+    {
+        "subject": "Windows Setup Information File",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Setup Information File was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Fantasy Zone",
+        "object": "Sega",
+        "prompt": "Question: Fantasy Zone was created by? Answer:",
+        "response": "Sega."
+    },
+    {
+        "subject": "Asteroids Deluxe",
+        "object": "Atari",
+        "prompt": "Question: Asteroids Deluxe was created by? Answer:",
+        "response": "Atari."
+    },
+    {
+        "subject": "Fortran",
+        "object": "IBM",
+        "prompt": "Question: Fortran is a product of? Answer:",
+        "response": "IBM"
+    },
+    {
+        "subject": "iPad 3",
+        "object": "Apple",
+        "prompt": "Question: iPad 3 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Final Fantasy Legend II",
+        "object": "Square",
+        "prompt": "Question: Final Fantasy Legend II was created by? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "Alien Storm",
+        "object": "Sega",
+        "prompt": "Question: Alien Storm was created by? Answer:",
+        "response": "Sure! The answer to the question \"Alien Storm was created by\" is:\n\nSega."
+    },
+    {
+        "subject": "Newton OS",
+        "object": "Apple",
+        "prompt": "Question: Newton OS was created by? Answer:",
+        "response": "Newton OS was created by Apple Inc."
+    },
+    {
+        "subject": "Final Cut Pro X",
+        "object": "Apple",
+        "prompt": "Question: Final Cut Pro X was created by? Answer:",
+        "response": "Apple."
+    },
+    {
+        "subject": "Silvermont",
+        "object": "Intel",
+        "prompt": "Question: Silvermont was created by? Answer:",
+        "response": "Sure! Silvermont was created by Intel."
+    },
+    {
+        "subject": "WebKit",
+        "object": "Apple",
+        "prompt": "Question: WebKit was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Flicky",
+        "object": "Sega",
+        "prompt": "Question: Flicky is a product of? Answer:",
+        "response": "Flicky is a product of Sega."
+    },
+    {
+        "subject": "Amiibo",
+        "object": "Nintendo",
+        "prompt": "Question: Amiibo was created by? Answer:",
+        "response": "Nintendo."
+    },
+    {
+        "subject": "Android Jelly Bean",
+        "object": "Google",
+        "prompt": "Question: Android Jelly Bean was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Windows Embedded Automotive",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Embedded Automotive was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "OS X Yosemite",
+        "object": "Apple",
+        "prompt": "Question: OS X Yosemite was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "PostScript",
+        "object": "Adobe",
+        "prompt": "Question: PostScript was created by? Answer:",
+        "response": "Adobe"
+    },
+    {
+        "subject": "Windows Live Writer",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Live Writer was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X 10.0",
+        "object": "Apple",
+        "prompt": "Question: Mac OS X 10.0 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "iPod Touch",
+        "object": "Apple",
+        "prompt": "Question: iPod Touch was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "X11.app",
+        "object": "Apple",
+        "prompt": "Question: X11.app was created by? Answer:",
+        "response": "X11.app was created by Apple Inc."
+    },
+    {
+        "subject": "OpenAFS",
+        "object": "IBM",
+        "prompt": "Question: OpenAFS is a product of? Answer:",
+        "response": "OpenAFS is a product of IBM."
+    },
+    {
+        "subject": "GW-BASIC",
+        "object": "Microsoft",
+        "prompt": "Question: GW-BASIC was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Mac OS X Tiger",
+        "object": "Apple",
+        "prompt": "Question: Mac OS X Tiger was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "OS X Mountain Lion",
+        "object": "Apple",
+        "prompt": "Question: OS X Mountain Lion was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Mac OS X 10.2",
+        "object": "Apple",
+        "prompt": "Question: Mac OS X 10.2 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Super Audio CD",
+        "object": "Sony",
+        "prompt": "Question: Super Audio CD was created by? Answer:",
+        "response": "Sony"
+    },
+    {
+        "subject": "Android Auto",
+        "object": "Google",
+        "prompt": "Question: Android Auto was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Pentium M",
+        "object": "Intel",
+        "prompt": "Question: Pentium M was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "Windows Messaging",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Messaging was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Genuine Advantage",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Genuine Advantage was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Dashboard",
+        "object": "Apple",
+        "prompt": "Question: Which company developed Dashboard? It was developed by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MSX-DOS",
+        "object": "Microsoft",
+        "prompt": "Question: MSX-DOS was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iOS 7",
+        "object": "Apple",
+        "prompt": "Question: iOS 7 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "FairPlay",
+        "object": "Apple",
+        "prompt": "Question: FairPlay was created by? Answer:",
+        "response": "Sure! FairPlay was created by Apple."
+    },
+    {
+        "subject": "Itanium",
+        "object": "Intel",
+        "prompt": "Question: Itanium was created by? Answer:",
+        "response": "Intel"
+    },
+    {
+        "subject": "iChat",
+        "object": "Apple",
+        "prompt": "Question: iChat was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Xbox Live",
+        "object": "Microsoft",
+        "prompt": "Question: Xbox Live was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "System 7",
+        "object": "Apple",
+        "prompt": "Question: System 7 was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "MS-DOS",
+        "object": "Microsoft",
+        "prompt": "Question: MS-DOS is a product of? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "iPod Classic",
+        "object": "Apple",
+        "prompt": "Question: iPod Classic was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Yoshi's Universal Gravitation",
+        "object": "Nintendo",
+        "prompt": "Question: Which company developed Yoshi's Universal Gravitation? It was developed by? Answer:",
+        "response": "Nintendo"
+    },
+    {
+        "subject": "Resource Access Control Facility",
+        "object": "IBM",
+        "prompt": "Question: Resource Access Control Facility was created by? Answer:",
+        "response": "IBM."
+    },
+    {
+        "subject": "Applesoft BASIC",
+        "object": "Microsoft",
+        "prompt": "Question: Applesoft BASIC was created by? Answer:",
+        "response": "Answer: Microsoft"
+    },
+    {
+        "subject": "Final Fantasy X",
+        "object": "Square",
+        "prompt": "Question: Final Fantasy X was created by? Answer:",
+        "response": "Square Enix"
+    },
+    {
+        "subject": "Zaxxon",
+        "object": "Sega",
+        "prompt": "Question: Zaxxon is a product of? Answer:",
+        "response": "Sega"
+    },
+    {
+        "subject": "TextEdit",
+        "object": "Apple",
+        "prompt": "Question: TextEdit was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "App Store",
+        "object": "Apple",
+        "prompt": "Question: App Store was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Blogger",
+        "object": "Google",
+        "prompt": "Question: Blogger is a product of? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "Report Program Generator",
+        "object": "IBM",
+        "prompt": "Question: Report Program Generator is a product of? Answer:",
+        "response": "Sure! The answer to the question \"Report Program Generator is a product of?\" is:\n\nIBM"
+    },
+    {
+        "subject": "Zero configuration networking",
+        "object": "Apple",
+        "prompt": "Question: Zero configuration networking is a product of? Answer:",
+        "response": "Zero configuration networking is a product of Apple."
+    },
+    {
+        "subject": "Wear OS",
+        "object": "Google",
+        "prompt": "Question: Wear OS was created by? Answer:",
+        "response": "Google"
+    },
+    {
+        "subject": "iDisk",
+        "object": "Apple",
+        "prompt": "Question: iDisk was created by? Answer:",
+        "response": "Apple"
+    },
+    {
+        "subject": "Statistical Package for the Social Sciences",
+        "object": "IBM",
+        "prompt": "Question: Which company developed Statistical Package for the Social Sciences? It was developed by? Answer:",
+        "response": "Statistical Package for the Social Sciences (SPSS) was developed by IBM."
+    },
+    {
+        "subject": "Internet Explorer Mobile",
+        "object": "Microsoft",
+        "prompt": "Question: Internet Explorer Mobile was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "V8",
+        "object": "Google",
+        "prompt": "Question: V8 was created by? Answer:",
+        "response": "Sure! V8 was created by Google."
+    },
+    {
+        "subject": "Windows 2.1x",
+        "object": "Microsoft",
+        "prompt": "Question: Windows 2.1x was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Windows Embedded",
+        "object": "Microsoft",
+        "prompt": "Question: Windows Embedded was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Portable Document Format",
+        "object": "Adobe",
+        "prompt": "Question: Portable Document Format was created by? Answer:",
+        "response": "Adobe"
+    },
+    {
+        "subject": "XEDIT",
+        "object": "IBM",
+        "prompt": "Question: Which company developed XEDIT? It was developed by? Answer:",
+        "response": "XEDIT was developed by IBM."
+    },
+    {
+        "subject": "WinDbg",
+        "object": "Microsoft",
+        "prompt": "Question: WinDbg was created by? Answer:",
+        "response": "Microsoft"
+    },
+    {
+        "subject": "Siri",
+        "object": "Apple",
+        "prompt": "Question: Siri was created by? Answer:",
+        "response": "Apple"
+    }
+]

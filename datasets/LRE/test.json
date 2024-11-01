@@ -1,0 +1,33 @@
+{
+  "name": "product by company",
+  "prompt_templates": ["{} was created by", "{} is a product of"],
+  "prompt_templates_zs": ["Which company developed {}?"],
+  "properties": {
+    "relation_type": "factual",
+    "domain_name": "product",
+    "range_name": "company",
+    "symmetric": false
+  },
+  "samples": [
+    { "subject": "Platform Controller Hub", "object": "Intel" },
+    { "subject": "Shahab-2", "object": "Iran" },
+    { "subject": "Infiniti QX", "object": "Nissan" },
+    { "subject": "iPhone 5", "object": "Apple" },
+    { "subject": "Wii Balance Board", "object": "Nintendo" },
+    { "subject": "Acura TL", "object": "Honda" },
+    { "subject": "Lancia 037", "object": "Fiat" },
+    { "subject": "Windows Server 2003", "object": "Microsoft" },
+    { "subject": "DualShock", "object": "Sony" },
+    { "subject": "Mac Pro", "object": "Apple" },
+    { "subject": "Game Boy Advance SP", "object": "Nintendo" },
+    { "subject": "Squad 51", "object": "Dodge" },
+    { "subject": "PGM-19 Jupiter", "object": "Chrysler" },
+    { "subject": "Prince R380", "object": "Nissan" },
+    { "subject": "Monomail", "object": "Boeing" },
+    { "subject": "Geo Metro", "object": "Suzuki" },
+    { "subject": "Shahab-1", "object": "Iran" },
+    { "subject": "PowerFlite", "object": "Chrysler" },
+    { "subject": "DC-3", "object": "Douglas" },
+    { "subject": "Kindle Fire", "object": "Amazon" }
+  ]
+}
