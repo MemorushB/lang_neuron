@@ -45,91 +45,43 @@ def cache_responses(
         save_path: Where to save the responses.
     """
 
-    def cache_responses(
-        model: TorchModel,
-        dataset: Dataset,
-        response_infos: t.List[ResponseInfo],
-        batch_size: int,
-        save_path: pathlib.Path,
-    ) -> None:
-        """
-        Caches the responses of a ``model`` as serialized files in ``save_path``.
-        Responses are read from the tensors described in ``response_infos``.
-
-        Args:
-            model: A ``TorchModel`` that allows reading intermediate responses.
-            dataset: The dataset (torch) to be fed to the model.
-            response_infos: A list of response infos.
-            batch_size: The inference batch size.
-            save_path: Where to save the responses.
-        """
-
-        def _concatenate_data(x):
-            new_batch = dict()
-            for key in x[0].keys():
-                if isinstance(x[0][key], str):
-                    new_batch[key] = [x[idx][key] for idx in range(len(x))]
-                else:
-                    new_batch[key] = torch.stack([x[idx][key] for idx in range(len(x))])
-            return new_batch
-
-        save_path.mkdir(parents=True, exist_ok=True)
-        process_fn_list = processors_per_model(model)
-
-        data_loader = DataLoader(
-            dataset, batch_size=batch_size, shuffle=False, collate_fn=_concatenate_data
-        )
-
-        batch_index = 0  # Keep track of the number of batches saved
-
-        for i, batch in tqdm(enumerate(data_loader), desc="Caching inference"):
-            input_batch = {k: v for k, v in batch.items() if k in MODEL_INPUT_FIELDS}
-
-            # Adjust the input to remove padding
-            num_effective_token = torch.sum(input_batch["attention_mask"][0]).item()
-            input_batch["attention_mask"] = input_batch["attention_mask"][:, :num_effective_token]
-            input_batch["input_ids"] = input_batch["input_ids"][:, :num_effective_token]
-
-            # Get the expected next token ID
-            expected_next_token_id = batch['next_token_id'][0]
-
-            # Generate the next token using the model's generate method
-            generation_args = {
-                'max_new_tokens': 1,
-                'do_sample': False,
-                'num_beams': 1,
-                'temperature': 1.0,
-            }
-
-            with torch.no_grad():
-                generated_ids = model.module.generate(
-                    input_ids=input_batch['input_ids'],
-                    attention_mask=input_batch['attention_mask'],
-                    **generation_args
-                )
-
-            # Extract the generated token ID (the last token in the generated sequence)
-            generated_token_id = generated_ids[0, -1].item()
-
-            # Compare the generated token ID with the expected token ID
-            if generated_token_id == expected_next_token_id:
-                # If the tokens match, collect the responses
-                response_batch = model.run_inference(
-                    inputs=input_batch, outputs={ri.name for ri in response_infos}
-                )
-                for process_fn in process_fn_list:
-                    response_batch = process_fn(response_batch)
-
-                # Include labels and other necessary data
-                response_batch[LABELS_FIELD] = batch[LABELS_FIELD]
-                response_batch['next_token_id'] = batch['next_token_id']
-
-                # Save the batch
-                save_batch(batch=response_batch, batch_index=batch_index, save_path=save_path)
-                batch_index += 1  # Increment the batch index for saved batches
+    def _concatenate_data(x):
+        new_batch = dict()
+        for key in x[0].keys():
+            if isinstance(x[0][key], str):
+                new_batch[key] = np.array([x[idx][key] for idx in range(len(x))])
             else:
-                # If the tokens don't match, skip saving responses
-                continue
+                new_batch[key] = torch.tensor([x[idx][key] for idx in range(len(x))])
+        return new_batch
+
+    save_path.mkdir(parents=True, exist_ok=True)
+    process_fn_list = processors_per_model(model)
+
+    data_loader = DataLoader(
+        dataset, batch_size=batch_size, shuffle=False, collate_fn=_concatenate_data
+    )
+    for i, batch in tqdm(enumerate(data_loader), desc="Caching inference"):
+        input_batch = {k: v for k, v in batch.items() if k in MODEL_INPUT_FIELDS}
+        # Added 2023/10/06
+        # As a premise, batch size should always be 1.
+        print("\n========test========")
+        num_effective_token = torch.sum(input_batch["attention_mask"][0])
+        num_effective_token = num_effective_token.detach().cpu().item()
+        print(f"num_effective_token: {num_effective_token: }")
+        print(f"input_batch['attention_mask'].shape: {input_batch['attention_mask'].shape}")
+        print(f"input_batch['input_ids'].shape: {input_batch['input_ids'].shape}")
+        input_batch["attention_mask"] = input_batch["attention_mask"][:, :num_effective_token]
+        input_batch["input_ids"] = input_batch["input_ids"][:, :num_effective_token]
+        print(f"input_batch['attention_mask'].shape: {input_batch['attention_mask'].shape}")
+        print(f"input_batch['input_ids'].shape: {input_batch['input_ids'].shape}\n")
+        # Until here
+        response_batch = model.run_inference(
+            inputs=input_batch, outputs={ri.name for ri in response_infos}
+        )
+        for process_fn in process_fn_list:
+            response_batch = process_fn(response_batch)
+        response_batch[LABELS_FIELD] = batch[LABELS_FIELD].detach().cpu().numpy()
+        save_batch(batch=response_batch, batch_index=i, save_path=save_path)
 
 
 def read_responses_from_cached(

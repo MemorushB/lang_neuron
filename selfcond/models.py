@@ -64,7 +64,7 @@ class TorchModel:
         input_type: t.Mapping[str, torch.dtype],
         name: str,
         device: str = None,
-        cache_dir: t.Optional[pathlib.Path] = None,
+
     ) -> None:
         """
         Wraps a pytorch module to enable reading intermediate responses.
@@ -74,12 +74,19 @@ class TorchModel:
             input_type: A dict with model input names as keys and the expected types as values.
             name: The model name according to Huggingface Transformers.
             device: A string that indicates where the model should run (cpu, cuda:0, etc...)
-            cache_dir: Directory to cache the model.
         """
         self.name = name
-        self.cache_dir = cache_dir
-        self._device = device if device else torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        self._pytorch_module = module.to(self._device).eval()
+        """
+        device = accelerator.device
+        self._device = device
+        if device is None:
+            self._device = "cuda:0" if torch.cuda.is_available() else "cpu"
+        
+        print(f"Model to {self._device}")
+        """
+        # self._pytorch_module = module.to(self._device).float().eval()
+        # self._pytorch_module = module.float().eval()
+        self._pytorch_module = module.eval()
 
         if set(input_size.keys()) != set(input_type.keys()):
             raise RuntimeError(
@@ -289,42 +296,6 @@ class TorchModel:
             h.remove()
 
         return response_dict
-    
-    def generate_text(
-        self,
-        inputs: torch.Tensor,
-        generation_args: t.Optional[dict] = None,
-    ) -> str:
-        """
-        Generates text based on the input prompt using the model's generate method.
-
-        Args:
-            input_text: The input prompt as a string.
-            generation_args: Optional dictionary of generation parameters (e.g., max_length, temperature).
-
-        Returns:
-            The generated text as a string.
-        """
-
-        # Set default generation parameters if not provided
-        if generation_args is None:
-            generation_args = {
-                'max_new_tokens': 1,
-                'temperature': 1.0,
-                'do_sample': True,
-            }
-
-        # Generate text
-        with torch.no_grad():
-            outputs = self._pytorch_module.generate(
-                input_ids=inputs['input_ids'],
-                attention_mask=inputs.get('attention_mask', None),
-                **generation_args
-            )
-
-        # Decode the generated text
-        generated_token = outputs[0]
-        return generated_text
 
 
 class PytorchTransformersModel(TorchModel):
@@ -426,7 +397,7 @@ def transformers_class_from_name(
             config = AutoConfig.from_pretrained(model_name)
             m = AutoModelForPreTraining.from_config(config)
         else:
-            if 'Llama-2' in model_name:
+            if 'llama-2' in model_name.lower():
                 m = AutoModelForCausalLM.from_pretrained(model_name,
                                                          trust_remote_code=True,
                                                          #load_in_8bit=True,
