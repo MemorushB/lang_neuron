@@ -40,7 +40,7 @@ def generate_prompt(subject, expected_answer, qa_templates):
         if not question.endswith('?'):
             question += '?'
         # Construct the prompt in the desired format
-        prompt = f"Question: {question} Answer:"
+        prompt = f"{question} Answer:"
         prompts.append(prompt)
     return prompts
 
@@ -49,8 +49,8 @@ def generate_few_shot_prompt(subject, expected_answer, few_shot_examples, templa
     prompt = ""
     for idx, example in enumerate(few_shot_examples):
         example_prompt = f"Example {idx}: {example['subject']} was created by: {example['object']}"
-        print(f"Example Prompt:\n{example_prompt}\n")
-        prompt += f"{example_prompt}\n\n"
+        print(f"Example Prompt:{example_prompt}")
+        prompt += f"{example_prompt}"
     # Add the actual question
     actual_prompt = template.format(subject, expected_answer)
     prompt += f"{actual_prompt}"
@@ -71,32 +71,34 @@ def generate_few_shot_and_question_prompts(subject, expected_answer, few_shot_ex
             if not question.endswith('?'):
                 question += '?'
             # Construct the example prompt
-            example_prompt = f"Example {idx+1}: Question: {question} Answer: {example_object}"
-            few_shot_prompt += f"{example_prompt}\n\n"
+            example_prompt = f"{question} Answer: {example_object}"
+            few_shot_prompt += f"{example_prompt}\n"
         # Add the actual question
         actual_prompt = generate_prompt(subject, expected_answer, [template])[0]
         combined_prompts.append(f"{few_shot_prompt}\n{actual_prompt}")
         
     return combined_prompts
 
-def generate_response(prompt, llm_engine, max_new_tokens=50):
+def generate_response(prompt, llm_engine, max_new_tokens=2):
     # Prepare the prompt for Llama 2
-    system_prompt = "You are a helpful assistant to answer the following questions. Please only respond with the answer to the question."
-    bos_token = '<s>'
-    # Remove eos_token from the end
-    full_prompt = (
-        f"{bos_token}[INST] <<SYS>>\n{system_prompt}\n<</SYS>>\n\n"
-        f"{prompt.strip()} [/INST]"
-    )
+    # system_prompt = "Here are example questions and answers and then the real question. Please only respond the answer."
+    # bos_token = '<s>'
+    # full_prompt = (
+    #     f"{bos_token}[INST] <<SYS>>\n"
+    #     f"{system_prompt}\n"
+    #     f"<</SYS>>\n\n"
+    #     f"{prompt.strip()} [/INST]"
+    # )
+    full_prompt = prompt.strip()
 
-    # Set sampling parameters with correct stop tokens
+    # Set sampling parameters for generation
     sampling_params = SamplingParams(
         n=1,
-        best_of=1,
-        temperature=0.7,
-        top_p=0.9,
+        temperature=0.0,
+        top_p=1.0,
+        top_k=1,
         max_tokens=max_new_tokens,
-        stop=["</s>", "[/INST]"],  # Include both stop tokens
+        stop=["</s>", "[/INST]"]  # Include both stop tokens
     )
 
     # Generate the response using vLLM
@@ -109,7 +111,7 @@ def generate_response(prompt, llm_engine, max_new_tokens=50):
 
 def is_correct_answer(model_response, expected_answer):
     # Basic comparison (case-insensitive)
-    return expected_answer.lower() in model_response.lower()
+    return expected_answer.lower().startswith(model_response.lower())
 
 def validate_samples(samples, qa_templates, llm_engine, prompt_method, few_shot_examples):
     filtered_samples = []
@@ -230,7 +232,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Validate data using Llama2 model with vLLM.")
     parser.add_argument('--data_file', type=str, required=True, help='Path to the JSON data file.')
-    parser.add_argument('--model_name', type=str, default='meta-llama/Llama-2-7b-chat-hf', help='Name or path of the Llama2 model.')
+    parser.add_argument('--model_name', type=str, default='meta-llama/Llama-2-7b-hf', help='Name or path of the Llama2 model.')
     parser.add_argument('--output_file', type=str, help='Path to save the filtered data.')
     parser.add_argument('--prompt_method', type=str, choices=['qa', 'few_shot', 'combined'], default='qa', help="Prompt method to use: 'qa' or 'few_shot'.")
     parser.add_argument('--num_few_shot_examples', type=int, default=3, help='Number of few-shot examples to include (only used if prompt_method is "few_shot").')
